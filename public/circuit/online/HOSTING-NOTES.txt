@@ -1,0 +1,12 @@
+SlotForge Circuit browser edition
+Based on official release v0.3.26:
+https://github.com/theDutchmanJames/SlotForgeCircuit/releases/tag/v0.3.26
+
+Website adaptation on 2026-11-15:
+- Retained the app, designs and track-packs static directories.
+- Added host-mode.js and a guard in LocalWorkspace.init to select the existing browser mode without probing a local disk service.
+- Added a return link to the Circuit website in the status bar.
+- Retained the original licence and third-party notices.
+
+No local helper, installation scripts, server or user data are hosted.
+Browser and installed workspaces remain separate. Export workspace backups before clearing site data or changing browser origins.

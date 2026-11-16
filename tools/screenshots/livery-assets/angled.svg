@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 480">
+ <path fill="#ffffff" stroke="#283238" stroke-width="4" stroke-linejoin="round" d="M110 352L106 290Q108 262 140 256L300 236L380 172Q400 158 440 157L590 160L690 152L790 200L880 214Q906 222 908 248L912 300L902 366L724 400L700 402Q696 334 640 334Q584 334 580 390L300 370Q296 318 246 318Q196 318 192 358Z"/>
+ <path fill="#344953" stroke="#283238" stroke-width="4" stroke-linejoin="round" d="M592 164L688 156L784 202L654 216Z"/>
+ <path fill="#344953" stroke="#283238" stroke-width="4" stroke-linejoin="round" d="M318 236L388 180Q402 170 434 170L452 170L452 232Z"/>
+ <path fill="#344953" stroke="#283238" stroke-width="4" stroke-linejoin="round" d="M468 170L576 170Q596 172 610 186L640 216L468 230Z"/>
+ <path fill="#fff3ce" stroke="#283238" stroke-width="4" stroke-linejoin="round" d="M732 282L792 274L796 298L736 306Z"/>
+ <path fill="#fff3ce" stroke="#283238" stroke-width="4" stroke-linejoin="round" d="M848 266L900 258L902 282L850 290Z"/>
+ <path fill="#273137" stroke="#283238" stroke-width="4" stroke-linejoin="round" d="M770 320L880 304L878 336L772 352Z"/>
+ <path fill="#273137" d="M722 398L904 364L906 378L724 414ZM300 368L580 388L580 402L300 382Z"/>
+ <path fill="#273137" d="M636 214L664 206L668 222L642 228Z"/>
+ <path fill="#2b3338" stroke="#283238" stroke-width="4" stroke-linejoin="round" d="M98 214L228 204L230 220L102 230Z"/>
+ <path fill="#2b3338" d="M150 228H164L168 248H154Z"/>
+ <path fill="#d84950" stroke="#283238" stroke-width="3" d="M108 268L132 264L130 286L106 290Z"/>
+ <ellipse cx="246" cy="362" rx="46" ry="56" fill="#1d2428"/>
+ <ellipse cx="246" cy="362" rx="30" ry="38" fill="#c5ccd0" stroke="#69787e" stroke-width="5"/>
+ <ellipse cx="640" cy="390" rx="54" ry="64" fill="#1d2428"/>
+ <ellipse cx="640" cy="390" rx="35" ry="44" fill="#c5ccd0" stroke="#69787e" stroke-width="5"/>
+ <ellipse cx="246" cy="362" rx="8" ry="11" fill="#56646a"/>
+ <ellipse cx="640" cy="390" rx="10" ry="13" fill="#56646a"/>
+ <path fill="none" stroke="#283238" stroke-width="2.5" d="M722 266V398M140 260L722 266L908 246M654 218L722 266M784 204L906 240M462 238V346H612"/>
+</svg>

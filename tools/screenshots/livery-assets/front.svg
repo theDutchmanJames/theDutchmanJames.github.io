@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 480">
+ <rect x="122" y="372" width="82" height="60" rx="14" fill="#1d2428"/><rect x="596" y="372" width="82" height="60" rx="14" fill="#1d2428"/>
+ <path fill="#ffffff" stroke="#283238" stroke-width="4" stroke-linejoin="round" d="M112 360L104 292Q108 256 156 246L216 236L268 158Q284 138 320 136L480 136Q516 138 532 158L584 236L644 246Q692 256 696 292L688 360Z"/>
+ <path fill="#344953" stroke="#283238" stroke-width="4" stroke-linejoin="round" d="M282 230L306 166Q314 154 334 154L466 154Q486 154 494 166L518 230Z"/>
+ <path fill="#fff3ce" stroke="#283238" stroke-width="4" stroke-linejoin="round" d="M140 282L232 272L236 300L146 310Z"/>
+ <path fill="#fff3ce" stroke="#283238" stroke-width="4" stroke-linejoin="round" d="M660 282L568 272L564 300L654 310Z"/>
+ <path fill="#273137" stroke="#283238" stroke-width="4" stroke-linejoin="round" d="M292 306H508L494 346H306Z"/>
+ <path fill="#273137" d="M104 356H696L684 380H116Z"/>
+ <path fill="#273137" d="M232 210L184 200L180 222L226 228ZM568 210L616 200L620 222L574 228Z"/>
+ <path fill="none" stroke="#283238" stroke-width="2.5" d="M330 238L360 290M470 238L440 290"/>
+</svg>

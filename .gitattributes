@@ -1,0 +1,7 @@
+# Same line endings on Windows and on the Linux build machines
+* text=auto eol=lf
+*.cmd text eol=crlf
+*.png binary
+*.jpg binary
+*.ico binary
+*.zip binary

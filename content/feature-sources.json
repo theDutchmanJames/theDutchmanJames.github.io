@@ -1,0 +1,43 @@
+{
+  "checkedAt": "2026-11-15",
+  "purpose": "Detailed feature groups and sharing workflows for all six apps, verified against their pinned release documentation",
+  "sources": [
+    {
+      "app": "Circuit",
+      "ref": "v0.3.26",
+      "url": "https://github.com/theDutchmanJames/SlotForgeCircuit/blob/v0.3.26/README.md",
+      "sha": "96dd1e2ac7c23b8fd7f483166ed69696494a9a23"
+    },
+    {
+      "app": "Timing",
+      "ref": "v2.2.4",
+      "url": "https://github.com/theDutchmanJames/SlotForgeTiming/blob/v2.2.4/README.md",
+      "sha": "dd3d59250ec7cfbb7af631e7aaadd7bd8b0871d2"
+    },
+    {
+      "app": "Paddock",
+      "ref": "v1.5.1",
+      "url": "https://github.com/theDutchmanJames/SlotForgePaddock/blob/v1.5.1/README.md",
+      "sha": "45c2aac4fe89dd6533bb2ee162a36812745412a7"
+    },
+    {
+      "app": "Livery",
+      "ref": "v1.3.0",
+      "url": "https://github.com/theDutchmanJames/SlotForgeLivery/blob/v1.3.0/README.md",
+      "sha": "23a7d2e69e828042681fa6ff069aac3dd818fd16"
+    },
+    {
+      "app": "Decals",
+      "ref": "v0.2.20",
+      "url": "https://github.com/theDutchmanJames/SlotForgeDecals/blob/v0.2.20/README.md",
+      "sha": "3c2a01852e5eb126baa776a884aa80a88e80781b"
+    },
+    {
+      "app": "Telemetry",
+      "ref": "v0.13.0",
+      "url": "https://github.com/theDutchmanJames/SlotForgeTelemetry/blob/v0.13.0/README.md",
+      "sha": "0e0c93177e74f823c6c27b366d21a4ebbbbb6552"
+    }
+  ],
+  "featureReviewAt": "2026-11-16"
+}

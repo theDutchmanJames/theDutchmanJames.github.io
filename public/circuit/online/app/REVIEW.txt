@@ -1,0 +1,104 @@
+SLOTFORGE TRACK BUILDER - APPLICATION REVIEW
+30 October 2026 | Source version 0.3.4
+
+Scope
+Editor, geometry/snapping, borders, custom packs, imports/exports, Track Library,
+browser and disk storage, local API, installation and launcher code. This code
+and functional review does not certify the absence of all bugs or exact physical
+fit of published nominal dimensions.
+
+CONFIRMED FAULTS REPAIRED
+
+1. High: stale library windows could overwrite newer saved designs.
+Listing/previewing tracks previously refreshed the revision used for saving even
+when the editor contained older work. The editor now retains the revision it
+opened. Disk updates/deletes and IndexedDB transactions compare that baseline.
+Conflicts preserve the newer version and allow saving a separate copy. The
+baseline survives autosave/reload as private storage metadata. Legacy library
+records remain readable. If a baseline cannot be established safely, reopen the
+saved design or save a new copy. Undo retains the appropriate baseline.
+
+2. High: shutdown could discard work after a failed autosave.
+The queue previously swallowed errors before shutdown checked the result. It
+now tracks pending/failed current and pack saves, drains newly appended writes,
+and refuses to stop after a failed autosave. Closing/reloading warns about
+unsaved changes. Successful retries clear transient errors; conflicts require
+reloading or a portable backup. Queued data is cloned at invocation.
+
+3. Medium: PNG output omitted some road and border artwork.
+PNG, editor and printable diagrams now share a body renderer. Carrera dashes
+and curbs, Scalextric border colours, ScaleAuto grids, slots and reference images
+are retained, with transparent PNG backgrounds. Runtime consumers must update
+core.js and integration.js together.
+
+4. Medium: Copy & adjust changed some imported connectors/slot positions.
+Unknown imported connector families remain selectable. Uneven slot offsets are
+preserved and displayed; changing to uniform spacing is an explicit action.
+Copied 100-character names stay within the limit. The matching-radius helper
+continues to support uniform templates.
+
+5. Medium: interrupted lock creation could permanently block saves.
+Partial write-lock files now recover after a 30-second grace period and an
+identity/content recheck. Fresh locks and locks held by live processes stay.
+Failure creating a lock closes the handle and removes the newly acquired lock.
+
+6. Low: renamed custom packs retained old labels inside their pieces.
+Saving a renamed pack synchronizes its member definitions and editor lookup.
+Previously saved Track Library snapshots remain independent.
+
+7. Low: failed export actions could leave their buttons disabled.
+Actions restore controls after completion/failure so users can retry. Every
+action still resolves and validates its selected track before export.
+
+8. Medium: invalid connector/reflection metadata was silently coerced.
+Explicit malformed connector families and non-boolean reflection flags now fail
+validation. Omitted/undefined optional fields retain legacy defaults. Existing
+units and integration-version validation is retained.
+
+9. Low: workspace import could fail on maximum-length track names.
+Copies needed for an identity collision now reserve space for the imported
+suffix. Import remains atomic and preserves existing tracks.
+
+VERIFICATION
+
+148 automated tests pass, including 15 added during this review.
+All 15 Timing integration fixtures pass with expected invalid-file rejection.
+Six original catalogue validators pass 51 checks; all four additional packs pass
+(62 drawings, 23 road models). All 125 parametric definitions use the shared
+picture body. 57 non-vendor JavaScript files pass syntax checking.
+
+Browser review used isolated workspaces on ports 8188 and 8189:
+- Actual IndexedDB stale-window update rejected; saving a separate copy succeeds
+  and both versions remain in the library.
+- Disk library save, reload and update preserve the opened revision baseline.
+- Custom import/copy/rename retains [20,75,155] mm slot offsets, club:imported
+  connector family, maximum-length name and renamed member pack labels.
+- Select all, 36 borders, undo/redo and two-car preview operate correctly.
+- Actual PDF downloaded/rendered: one portrait A4 page with a readable diagram,
+  lane lengths, counts, footprint and parts list.
+- Actual PNG downloaded: 1600x941 RGBA with a transparent corner and curbs.
+- No captured browser console warnings/errors in the three test tabs.
+
+Storage tests cover concurrent writers, backups, retained malformed files,
+revision conflicts, failed saves, recovery and API authorization boundaries.
+Launcher tests cover Windows handoff/errors, POSIX quoting/newlines/logging,
+runtime manifests, instance reuse and failed browser handoff.
+
+COMPATIBILITY AND LIMITS
+
+Layout envelope remains slotforge.layout version 1. Timing contract remains
+1.0.0-draft.2. The editor baseline is storage metadata, not timing configuration.
+No SlotForge Timing repository changes were made.
+Native macOS/Linux installation and desktop launch need tests on those systems.
+A complete mobile, assistive-technology and browser matrix, fresh manufacturer
+measurements, direct file:// workflow and the separate Timing importer were not
+verified in this review. File:// remains browser storage; use the installed
+helper for disk persistence. Browser autosave is a current draft; named library
+saves now have revision protection. Back up to another disk against device loss.
+SCX and Carrera Hybrid remain reference-only. There is no collision/elevation
+checking, digital branch tracking or multiple-circuit preview. Animation is
+illustrative. Uneven offsets are preserved but cannot yet be edited individually.
+The compact app controller would benefit from later modularization.
+
+Repeat commands: README.md and app/validation.json. Build the complete package
+with app/package-share.py, which verifies every included manifest hash.

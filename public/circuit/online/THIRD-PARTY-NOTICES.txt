@@ -1,0 +1,22 @@
+SlotForge Circuit — bundled PDF dependencies
+
+jsPDF 4.2.1: https://github.com/parallax/jsPDF/tree/v4.2.1
+License: MIT. Full notice: app/vendor/jspdf-LICENSE.txt.
+Distributed file: app/vendor/jspdf.umd.min.js (unmodified official UMD bundle).
+
+Noto Sans Regular and Bold: https://github.com/notofonts/noto-fonts
+License: SIL Open Font License 1.1. Full notice: app/vendor/NotoSans-OFL.txt.
+The unmodified TTF files are encoded in app/vendor/pdf-fonts.js for offline use
+from file:// as well as localhost. No font modifications or name changes.
+
+app/vendor/SOURCES.json records source URLs and SHA-256 hashes.
+These libraries are bundled; users do not need npm or Internet access to export.
+Those dependency licenses remain unchanged. The first-party application uses
+the SlotForge Source-Available License 1.0 in LICENSE. Its no-sales/paid-access
+restriction does not relicense or restrict the third-party components themselves.
+
+Private installer runtime: Node.js v24.22.2
+Official release URLs and SHA-256 hashes: installer/node-runtimes.json.
+Full upstream license notices: installer/NODE-LICENSE.txt, also retained with
+manual private runtime copies. Bootstrap downloads the official archive and
+checks the pinned digest before execution. Node is not installed globally.

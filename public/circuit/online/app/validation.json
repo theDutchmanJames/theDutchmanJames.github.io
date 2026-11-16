@@ -1,0 +1,1303 @@
+{
+  "version": "0.3.26",
+  "date": "2026-11-09",
+  "automated": {
+    "command": "node --test app/*.test.cjs installer/*.test.cjs",
+    "passed": 510,
+    "failed": 0,
+    "scope": [
+      "Closed circuit and per-lane lengths",
+      "Broken and separate circuits",
+      "Connector family and slot spacing",
+      "Reflected and rotated layouts",
+      "Ambiguous duplicate connections",
+      "Custom dimension validation",
+      "Border bounds",
+      "Preview speed planning",
+      "Layout import validation and geometry regeneration",
+      "Continuous guide interpolation",
+      "Rigid group transformations preserve connections",
+      "Marquee intersects road surfaces, excluding empty curve interiors",
+      "New reflected corners retain their handedness when attached",
+      "Asymmetric slot endpoints",
+      "Immutable imported definitions",
+      "Browser shortcut modifiers",
+      "Animation callback cleanup",
+      "World-coordinate route export",
+      "Malformed imports",
+      "All 125 built-in definitions round-trip",
+      "Exact arc interpolation",
+      "500-piece connection chain",
+      "Local server request validation",
+      "Automatic border tiling under reflection and rotation",
+      "Border deduplication, compatible families and layout limit",
+      "Policar and ScaleAuto border tiling",
+      "Left/right/double lane-changer routing and geometry",
+      "Invalid switch spans and lane counts",
+      "Reflected cubic export and import round-trip",
+      "Through-route circuit lengths with lane changers",
+      "Versioned Timing contract: stable design/route identities, independent timing offsets, reverse speed planning, 2/4/8 lanes and transparent picture",
+      "Strict original units and integration-contract metadata validation; both public entry points and explicit-state bypass regression",
+      "Circuit inside/outside border placement on straights, mirrored and reversed pieces, open chains and separate loops",
+      "Named custom pack migration, ownership, selected export, atomic import and library limits",
+      "R1Ã¢â‚¬â€œR8 adjacent curve edge radii and persistent family settings",
+      "All four buildable starting-grid variants retain artwork in regenerated pictures",
+      "Reference picture serialization, transforms, image validation, inventory isolation, missing connectors and stable road route IDs",
+      "Alphabetical catalogue folders, natural radius ordering and descending straight lengths, without modifying catalogue definitions",
+      "Every catalogue item retained in exactly one folder",
+      "Independent design snapshots preserve profile, timing and references; updates preserve IDs and copies create new IDs",
+      "Selected export snapshot isolation, independent totals and inventory, missing/incompatible library rejection, reference and empty exports",
+      "Space guide validation, movement and proportional resizing limits, locked no-ops, layout/library/export persistence, isolation from timing and track metrics",
+      "Direct PDF A4 orientation, immutable selected source, Unicode embedding, paginated parts tables and printable drawing",
+      "Disk persistence across store restarts, atomic backups, stale-write conflicts, process locking, migration deduplication, malformed-file preservation, loopback session and same-origin API validation",
+      "Routed slot-centred anchors, asymmetric verges, profile validation, reflow and immutable edits, exact closed lane lengths, overlap/table checks, material estimates, procedural artwork, PDF and conditional draft.3 round trips",
+      "Flowing cubic normal offsets, adaptive sampled lengths, folds/self-crossings, asymmetric verges, reflected/reversed interpolation, common timing cross-sections, fixed-end bridges, material totals, conditional draft.4 and supplied example round trips; short PDF report pagination",
+      "Routed CAD construction contours, matching surface seam removal, slot/conductor offset widths, arc extrema and shallow bulge precision, SVG physical scale, DXF millimetres and Y-up coordinates, layer isolation, exact gaps, duplicates, mixed-layout exclusion and escaping",
+      "Plugins Browse pack opens Routed Tracks for default and regenerated tabletop profiles",
+      "Verified SQLite migration, per-record transactions, recovery history, metadata pages, cache invalidation, browser-only summary migration and old-helper protection"
+    ]
+  },
+  "browser": {
+    "url": "http://127.0.0.1:8173/app/",
+    "verified": [
+      "Example circuit loads with correct counts and lengths",
+      "Custom dimensions rejected when slots do not fit",
+      "Custom curve creation",
+      "Mirror, rotate, duplicate and undo",
+      "Drag away and snap back to close the circuit",
+      "Two-car preview and tuning presets",
+      "Autosave restored after reload",
+      "White report preview with layout, lane lengths and inventory",
+      "Report Back button restores editor",
+      "No captured browser console errors in final check",
+      "Box-select three pieces without panning",
+      "Group drag away and snap back restores closed circuit",
+      "Group duplicate and delete with undo",
+      "Select all, rotate and mirror preserve circuit closure",
+      "Shift-click adds a fourth piece to a selection",
+      "New corner inherits Mirror action",
+      "Mirror new pieces remains checked after reload",
+      "Title edit enables undo and restores original name",
+      "Rapid start/pause/start preview after callback cleanup",
+      "Printable report after export refactor",
+      "Original 31-piece user layout restored after checks",
+      "Track Packs custom entry opens the custom library",
+      "Shared header returns to builder in the same tab",
+      "Export page exposes report, layout, CSV and custom pack actions",
+      "Add borders preview for 18 mirrored road pieces",
+      "36 borders expand footprint while retaining circuit closure and lane lengths",
+      "Custom lane-changer shape options and switch-position fields",
+      "Double lane-changer live SVG and alternate-route lengths",
+      "Invalid switch endpoint disables creation"
+    ],
+    "screenshot": "custom-lane-changer-preview.png"
+  },
+  "notVerified": [
+    "Native macOS and Linux installation/desktop launch",
+    "Complete mobile, browser and assistive technology matrix",
+    "Direct file:// workflow in this review",
+    "End-to-end import in the separate SlotForge Timing app"
+  ],
+  "limitations": [
+    "Nominal geometry is not physical fit certification",
+    "SCX is reference-only",
+    "No collision or elevation checking",
+    "No digital branching",
+    "Preview uses one closed circuit and a shared tune profile",
+    "Lane-changer preview and circuit totals use straight-through slots; alternate routes are exported but not simulated"
+  ],
+  "packChecks": {
+    "passed": 51,
+    "failed": 0,
+    "packs": 6
+  },
+  "integration": {
+    "contractVersion": "1.0.0-draft.2",
+    "fixturesPassed": 15,
+    "fixturesFailed": 0,
+    "browser": "Isolated localhost:8175: timing line at 37%, reverse direction, label persistence after reload, JSON/PNG actions, no console errors",
+    "samplePng": {
+      "width": 1600,
+      "height": 937,
+      "alpha": true,
+      "bytes": 144731
+    },
+    "results": "../integration/slotforge-timing/TEST-RESULTS-AND-LIMITS.txt",
+    "standaloneTestsPassed": 21,
+    "followUp": "../integration/slotforge-timing/FOLLOW-UP-v0.2.1.txt"
+  },
+  "layerOrder": {
+    "automated": "47 regression tests pass; group order, no-op, save/reopen and stable lane identity checked",
+    "browser": "Isolated localhost:8175: Bring to front, Send to back and Undo verified; no console warnings/errors",
+    "screenshot": "layer-order-preview.png"
+  },
+  "borderFix": {
+    "browser": "Isolated localhost:8175 Carrera oval: 18 outside borders form continuous outer boundary; closure and lane lengths retained; no console warnings/errors",
+    "screenshot": "border-circuit-preview.png"
+  },
+  "editor022": {
+    "browser": "Isolated localhost:8175; original port8173 workspace untouched",
+    "verified": [
+      "Named pack with multiple pieces saved to library and reopened",
+      "R2 computed from R1 and saved in the pack across reload",
+      "Reference catalogue picture placed, rotated, mirrored, resized and restored after reload",
+      "Reference excluded from road totals and reported as Unknown in print inventory",
+      "Transparent PNG export succeeded",
+      "Shared header, Plugins page and pack export selector",
+      "ScaleAuto C/D grid artwork visible on canvas",
+      "No captured browser console errors"
+    ],
+    "screenshots": [
+      "named-packs-preview.png",
+      "curve-family-preview.png",
+      "reference-placement-preview.png",
+      "scaleauto-grid-preview.png"
+    ]
+  },
+  "editor023": {
+    "browser": "Isolated localhost:8175; user port8173 workspace untouched",
+    "verified": [
+      "Corners R1/R2/R3/R4 ordering and longest-first straights",
+      "Search reveals closed folders and clearing search restores expansion state",
+      "Saved reference-containing layout as a named library snapshot",
+      "Saved separate copy; both designs persisted across reload",
+      "Opened original snapshot back in builder",
+      "Updated original name; library still contains two designs and alternative remains unchanged",
+      "Initial save-dialog ID mismatch found and fixed; no further errors in final library flows"
+    ],
+    "screenshots": [
+      "catalogue-folders-preview.png",
+      "design-library-preview.png"
+    ],
+    "notVerified": [
+      "Native file download destination",
+      "Browser storage quota exhaustion",
+      "Delete button end-to-end"
+    ]
+  },
+  "editor024": {
+    "browser": "Isolated localhost:8175; user port8173 workspace untouched",
+    "verified": [
+      "Prominent labelled name field and adjacent library/PDF/SlotForge buttons",
+      "Keyboard name edit appears on current-track PDF report",
+      "Saved-track selector regenerates preview and exports its own name, counts and parts",
+      "Saved report has 0.80 m while current builder remains 1.15 m",
+      "Builder and saved-library SlotForge JSON actions report the correct track name",
+      "Saved-track PNG generation and CSV action",
+      "Report Back returns to the launch section",
+      "Track Library heading and existing snapshots preserved",
+      "Library card Export action preselects the correct saved track",
+      "No captured browser warnings or errors"
+    ],
+    "screenshots": [
+      "export-builder-preview.png",
+      "export-selector-preview.png"
+    ],
+    "notVerified": [
+      "Native print destination and final PDF file",
+      "Downloaded file destination"
+    ]
+  },
+  "editor025": {
+    "browser": "Isolated localhost:8175; user port8173 workspace untouched",
+    "verified": [
+      "Named HTML launcher redirects to app",
+      "Guide added with exact dimensions",
+      "Tinted-area drag moves guide while road geometry stays in place",
+      "Bottom-right resize updates dimensions",
+      "120 percent scale changes 3000 x 1500 to 3600 x 1800 mm",
+      "Locked guide and dimensions survive reload",
+      "Marquee selects four track pieces through locked guide",
+      "Undo restores removed guide including lock and dimensions",
+      "No captured browser warnings or errors",
+      "Windows shortcut target and custom icon path read back correctly"
+    ],
+    "screenshots": [
+      "space-guide-preview.png"
+    ],
+    "notVerified": [
+      "Windows Explorer icon cache appearance",
+      "Native default-browser launch through Windows shortcut",
+      "Shift-drag end to end (proportional maths covered by tests)"
+    ]
+  },
+  "editor026": {
+    "browser": "Isolated localhost:8176; user file:// and port8173 workspaces untouched",
+    "verified": [
+      "Builder Export to PDF opens orientation dialog defaulting to Portrait",
+      "Direct PDF generation reports one page for sample circuit without print dialog",
+      "No browser warnings/errors during PDF generation",
+      "Export page selected saved snapshot PDF sample saved while builder retained Working layout",
+      "Saved snapshot landscape PDF generated with its own title"
+    ],
+    "documentChecks": [
+      "Rendered portrait report inspected: title, pale drawing, lane lengths, inventory and footer on one A4 page",
+      "100-item long-name inventory spans nine pages with repeating headings and readable whole rows",
+      "A4 media boxes verified in portrait and landscape",
+      "Accented title and Omega character extracted correctly with pypdf"
+    ],
+    "notVerified": [
+      "CJK/emoji font coverage; bundled font is Noto Sans Latin/Greek/Cyrillic",
+      "Native download destination"
+    ],
+    "sample": "../output/pdf/SlotForge-track-report-example.pdf"
+  },
+  "editor030": {
+    "browser": "Isolated ports8178/8179 and test installation under workspace/tmp; existing user browser data untouched",
+    "verified": [
+      "Browser footer reports disk storage and autosave reports Saved to disk",
+      "Named track saved to disk Track Library",
+      "Named custom pack and custom piece survive reload and full server restart",
+      "Installed private runtime recognizes the existing disk workspace from a fresh browser origin",
+      "Storage dialog shows exact data path and backup/transfer controls",
+      "Windows installer downloads and verifies official Node v24.22.2",
+      "Windows setup succeeds in a test folder with spaces",
+      "Reinstall preserves workspace.json byte-for-byte",
+      "Native installed Start SlotForge.cmd starts expected local helper; tested with browser opening disabled",
+      "Authenticated quit stops only isolated installed helper",
+      "No captured browser warnings or errors"
+    ],
+    "tests": {
+      "source": 105,
+      "integrationFixtures": 15
+    },
+    "notVerified": [
+      "Native macOS/Linux installers and desktop integration",
+      "Windows automatic desktop shortcut during test (disabled to leave real desktop unchanged)",
+      "Browser transfer file chooser end to end; transfer merge/validation tested at API/store level"
+    ],
+    "screenshot": "../dist/persistent-storage-preview.png",
+    "runtime": "Node.js v24.22.2, private per-user copy"
+  },
+  "additionalTrackPacks": {
+    "date": "2026-10-30",
+    "drawings": 62,
+    "nominalRoadModels": 23,
+    "sourceTestsPassed": 112,
+    "integrationFixturesPassed": 15,
+    "browserChecks": [
+      "All ten packs visible in selector and gallery",
+      "AFX HO / 1:64 label and real 381 mm straight",
+      "GO!!! 1:43 label and 342 mm straight placement",
+      "Fleischmann 1:32 label, 370 mm placement and nominal 90 mm spacing notice",
+      "Hybrid 1:50 reference mode automatically reveals reference items",
+      "Hybrid reference places with no additional slot routes or calculated length",
+      "Hybrid reflection disabled for handed physical artwork"
+    ],
+    "limitations": [
+      "Modern Tomy/AFX only; vintage Aurora connectors excluded",
+      "Fleischmann 90 mm slot spacing is nominal and explicitly labelled",
+      "Hybrid native slotless snapping / driving preview not implemented",
+      "Unmeasured special pieces remain reference-only"
+    ]
+  },
+  "launcherRepair": {
+    "version": "0.3.2",
+    "tests": 9,
+    "windows": [
+      "Existing app healthy; old silent browser handoff reproduced by user report",
+      "Replacement native browser opener exits successfully",
+      "Native hidden VBS startup works in a path with spaces, Unicode and ampersand",
+      "Repeat native startup reuses the same app instance",
+      "Existing installed workspace hash unchanged during repair",
+      "Desktop shortcut repaired to Windows Script Host"
+    ],
+    "crossPlatform": [
+      "macOS/Linux opener commands and failure propagation tested with process doubles",
+      "Linux long-running xdg-open accepted rather than reporting a false timeout",
+      "POSIX log append, runtime checks and shell path quoting verified",
+      "Linux desktop-entry quoting and literal percent fields checked",
+      "Four POSIX runtime filenames and hashes match bootstrap manifest"
+    ],
+    "notVerified": [
+      "Native macOS GUI launch",
+      "Native Linux desktop/GUI launch"
+    ]
+  },
+  "sideSnapping": {
+    "version": "0.3.3",
+    "tests": 12,
+    "browserVerified": [
+      "Real drag nests R1 against matching R2 at the same centre",
+      "Real drag aligns parallel straights and their nearby end seams",
+      "Snap off permits unsnapped free positioning",
+      "Undo restores the previous snapped pose"
+    ],
+    "geometryChecks": [
+      "Compatible connector family only",
+      "Parallel straight edge overlap and start/end seam alignment",
+      "Concentric published inner/outer road radius equality",
+      "Rotated, reversed and reflected poses",
+      "Different segment lengths and angular spans",
+      "Rigid selected groups, including closed circuits with no free ports",
+      "Reference drawings, borders and incompatible radii excluded",
+      "Side adjacency creates no electrical connection or dimensional change"
+    ],
+    "screenshot": "../dist/side-snapping-preview.png"
+  },
+  "review034": {
+    "report": "REVIEW.txt",
+    "newTests": 15,
+    "javascriptSyntaxFiles": 57,
+    "confirmedFixes": [
+      "Opened library revision baseline retained across list/get/autosave/reload; atomic stale update/delete rejection in disk and IndexedDB",
+      "Pending and failed autosave tracking, before-unload warning and shutdown queue drain",
+      "One editor/PNG/PDF piece-body renderer",
+      "Custom copy retains imported connector families, explicit slot positions and maximum-length names",
+      "Graceful recovery from abandoned partial write locks",
+      "Renamed custom packs synchronize member metadata",
+      "Export controls recover after failures",
+      "Explicit malformed connector/reflection metadata rejected",
+      "Maximum-length identity-collision names remain importable"
+    ],
+    "browser": [
+      "Isolated ports 8188/8189, no real user data touched",
+      "Two-window IndexedDB stale save rejected; new-copy recovery retains both records",
+      "Disk library save/reload/update; private source revision survives reload",
+      "Imported 3-slot curve copy and pack rename retain [20,75,155] mm offsets and club:imported family",
+      "Select-all, 36 borders, undo/redo, two-car preview",
+      "Actual PNG downloaded: 1600x941 RGBA, transparent corner",
+      "Actual PDF downloaded and rendered: one portrait A4 page, readable drawing/totals/parts",
+      "No captured console errors or warnings across three test tabs"
+    ],
+    "layoutEnvelope": 1,
+    "integrationContract": "1.0.0-draft.2",
+    "screenshots": [
+      "review-custom-measurements.png",
+      "review-stale-save.png"
+    ]
+  },
+  "referencePlanning": {
+    "version": "0.3.5",
+    "newTests": 7,
+    "layoutEnvelope": 1,
+    "integrationContract": "1.0.0-draft.2",
+    "browserVerified": [
+      "All 11 Hybrid pieces available with Ready to place filter",
+      "Ten-piece Hybrid oval built from catalogue clicks; visual ends align",
+      "Actual drag away exposes four ends; drag back magnetically reconnects",
+      "Planning width validation rejects zero; edit and undo restore original shape",
+      "Library save and reload preserve planning geometry and quantities",
+      "SCX reference placement supports adjustable magnets; two pieces align and undo correctly",
+      "Published SCX 360 mm length prefilled where available",
+      "Actual PDF downloaded and rendered: portrait A4, 1 start straight + 3 standard straights + 6 curves; lengths explicitly unknown",
+      "No captured browser errors or warnings",
+      "Measured AFX straight + approximate banked curve snap together; known total remains explicitly partial"
+    ],
+    "screenshot": "hybrid-planning-preview.png",
+    "limitations": [
+      "Estimates do not certify physical fit",
+      "Only two-ended straight/curve visual planning shapes",
+      "Reference ports are separate from slot connectors and create no lap lengths or car simulation",
+      "Native Timing receiving UI not tested; older readers can retain image placement while ignoring planning hints"
+    ]
+  },
+  "referenceRepairs": {
+    "version": "0.3.6",
+    "newTests": 15,
+    "notes": "FEATURE-NOTES-v0.3.6.txt",
+    "browserVerified": [
+      "Blank imported reference is selectable and editable without an image request",
+      "Held image request cancelled while Apply disabled; response released without a late placement",
+      "Hybrid R1/60 edited to 90 degrees; reshaped artwork and magnets meet the attached straight",
+      "Reload and PDF preview preserve transformed PNG artwork",
+      "No captured browser errors or warnings"
+    ],
+    "screenshot": "reference-repairs-preview.png",
+    "contractUnchanged": true
+  },
+  "themes": {
+    "version": "0.3.7",
+    "notes": "FEATURE-NOTES-v0.3.7.txt",
+    "timingStyleCommit": "3719f61b8918491c58e385b4c19778df68b2c71f",
+    "browserVerified": [
+      "Light and Dark switch changes the builder appearance",
+      "Selected theme survives reload",
+      "Theme retained in Track Pack Library and Carrera gallery",
+      "Custom-piece dialog uses readable light-theme fields and preview"
+    ],
+    "staticVerified": [
+      "All 12 editor/catalogue pages include shared header controls and valid theme assets",
+      "Theme injection is repeatable without duplicates"
+    ],
+    "limitations": [
+      "Visual checks used localhost; direct file navigation was not visually tested",
+      "Native macOS/Linux installation remains untested"
+    ]
+  },
+  "appThemeSettings": {
+    "notes": "APP-THEME.txt",
+    "newTests": 5,
+    "themePresets": 8,
+    "customColorRoles": 6,
+    "browserVerified": [
+      "Every preset selected; Midnight and Ocean visually checked",
+      "Custom begins with the current preset and changes the entire builder",
+      "Custom palette survives reload and gallery navigation",
+      "Copy Ocean into Custom reproduces its six colours",
+      "Low-contrast text produces visible feedback; restoring contrast clears it"
+    ],
+    "layoutEnvelope": 1,
+    "integrationContract": "1.0.0-draft.2",
+    "version": "0.3.8"
+  },
+  "unreleasedFeature": "Routed Tracks - SVG / DXF construction export",
+  "routedTracks": {
+    "status": "unreleased",
+    "notes": "ROUTED-TRACKS.txt",
+    "newTests": 16,
+    "legacyTimingFixturesPassed": 15,
+    "layoutEnvelope": 1,
+    "routedIntegrationContract": "1.0.0-draft.3",
+    "ordinaryIntegrationContract": "1.0.0-draft.2",
+    "browserVerified": [
+      "Routed example closes and live preview runs",
+      "Updating all sections to 3 lanes / 90 mm spacing retains closure and recalculates all lane lengths",
+      "Radius edit updates artwork, reflows connected sections and reports a closing gap; undo restores closure",
+      "New left corner displays slot radii 450 / 540 / 630 mm; adding and undoing works",
+      "Profile, table and slots-only display survive reload and Track Library reopening",
+      "Table dimension edit, drag and lock work",
+      "Routed catalogue reselected on import and reload",
+      "Actual portrait A4 PDF downloaded, rendered and visually reviewed: slot drawing, table, lengths, construction profile, material totals and paginated inventory"
+    ],
+    "screenshots": [
+      "routed-tracks-preview.png",
+      "routed-section-editor-preview.png"
+    ],
+    "limitations": [
+      "Circular corners and straights only; no freeform/compound curves, CNC, or full-size routing templates",
+      "One rectangular table; 2D checks do not validate cars, structures, overpasses or heights",
+      "Material surface area sums design sections before overlap deductions; sections are not physical board stock",
+      "Two cars animate using the existing preview, including layouts with more lanes",
+      "Native Timing importer needs explicit draft.3 support and updated shared runtime; no receiving-app changes made",
+      "Visual testing used isolated localhost storage, not the real installed workspace or file URL"
+    ]
+  },
+  "flowingTracks": {
+    "status": "unreleased",
+    "notes": "ROUTED-TRACKS.txt",
+    "newTests": 17,
+    "handoffTestsPassed": 57,
+    "legacyTimingFixturesPassed": 15,
+    "layoutEnvelope": 1,
+    "flowingIntegrationContract": "1.0.0-draft.4",
+    "circularRoutedContract": "1.0.0-draft.3",
+    "ordinaryIntegrationContract": "1.0.0-draft.2",
+    "browserVerified": [
+      "Load flowing example produces a closed circuit",
+      "Drag a direction handle with tangent locks: geometry and lane lengths update, applying retains circuit closure",
+      "Delete a flowing section and bridge the two selected neighbouring open ends: original sections stay in place and closure is restored",
+      "Apply 3 lanes / 90 mm spacing to all flowing sections: closure and all lane lengths remain valid",
+      "Preferred 600 mm radius produces warnings and red slot segments in the editor",
+      "Saved flowing geometry survives reload and reopening from Track Library",
+      "Timing line at 27 percent follows a normal cross-section of the flowing section",
+      "Browser PDF exporter reports one portrait page after pagination refinement; same export pipeline rendered from saved browser snapshot and visually checked",
+      "Live preview runs on the flowing circuit; no captured browser warnings or errors"
+    ],
+    "screenshots": [
+      "flowing-routed-tracks-preview.png",
+      "flowing-curve-editor-preview.png"
+    ],
+    "limitations": [
+      "One cubic reference per flowing section; join sections for longer compound shapes",
+      "Direction locks provide tangent continuity; curvature may change at joins",
+      "Normal offsets, lengths, radii and collision checks use numerical samples (0.025 mm adaptive drawing/interpolation target), not manufacturing certification",
+      "One rectangular table; irregular boards, CNC and full-size templates remain later milestones",
+      "Timing must explicitly adopt draft.4 and update routed-spline.js with the shared runtime",
+      "UI verification used isolated localhost storage; real installed workspace and native macOS/Linux were not changed"
+    ]
+  },
+  "cadExports": {
+    "status": "unreleased",
+    "notes": "CAD-EXPORTS.txt",
+    "newTests": 19,
+    "legacyTimingFixturesPassed": 15,
+    "browserVerified": [
+      "Modular-only layouts disable the CAD export card with an explanation",
+      "Routed builder displays the SVG / DXF shortcut",
+      "Live layer preview updates path counts, table bounds, conductor boundaries and the 100 mm scale check",
+      "SVG and DXF download handlers display success and path counts",
+      "Deselecting every available geometry layer disables both downloads; reselecting slots restores export",
+      "A saved Workshop CAD layout exports while the current builder is an empty Untitled circuit",
+      "No captured browser warnings or errors"
+    ],
+    "independentVerified": [
+      "ezdxf reads circular and flowing AutoCAD 2000 DXF files with units=4",
+      "Both DXF audits report zero errors and zero repairs",
+      "DXF entity counts match the CAD model (21 circular, 28 flowing with all available layers)",
+      "DXF extents agree with the expected Y-up coordinate convention",
+      "lxml parses both SVG files and physical mm dimensions match their viewBox dimensions"
+    ],
+    "screenshot": "cad-export-preview.png",
+    "runtimeDependenciesAdded": 0,
+    "layoutAndTimingContractsUnchanged": true,
+    "limitations": [
+      "Routed geometry only; mixed modular/reference pieces are excluded explicitly",
+      "Surface overlap and verge steps are retained as separate contours, not boolean-unioned",
+      "No tool compensation, cut depths, machine programs or tiled PDF templates",
+      "Flowing geometry retains the existing 0.025 mm adaptive sampling target; coordinates serialize to six decimals and arc bulges to twelve",
+      "Endpoint join tolerance is 0.00001 mm; larger CAD gaps remain open",
+      "One million input vertices per layer selection",
+      "Independent parser verification does not establish compatibility with every native CAD/CAM application",
+      "UI tests used isolated localhost storage and did not change the installed workspace"
+    ]
+  },
+  "routedReview": {
+    "status": "unreleased",
+    "date": "2026-10-31",
+    "notes": "ROUTED-REVIEW.txt",
+    "sourceTestsPassed": 241,
+    "newRegressionTests": 14,
+    "standaloneHandoffTestsPassed": 59,
+    "legacyTimingFixturesPassed": 15,
+    "browserVerified": [
+      "Exact numeric input remains stable; tangent rotation preserves handle length",
+      "Imported template dimensions survive new-section profile changes",
+      "Matching new catalogue sections combine inventory quantities",
+      "500-piece limit preserves unsaved section name and measurements",
+      "Eight-lane stress layout round-trips compact JSON; full output 13232023 bytes, compact 8269 bytes",
+      "Drag release refreshes diagnostics; undo restores closure and working live preview",
+      "CAD layer dialog previews and downloads DXF; actual 11-entity browser download passes ezdxf audit",
+      "No captured warnings or errors"
+    ],
+    "independentVerified": [
+      "Circular and flowing SVG/DXF size, units, path counts and extents",
+      "DXF audits report no errors or repairs",
+      "Source and handoff archive CRCs, entry points, dependencies and exclusions",
+      "Unpacked handoff runtime tests and compatibility fixtures"
+    ],
+    "performance": {
+      "scenario": "250 joined flowing sections, one local planning-check measurement",
+      "beforeMs": 2851,
+      "afterMs": 247.8,
+      "deferredDuringDrag": true
+    },
+    "screenshot": "routed-review-preview.png",
+    "limitations": [
+      "Planning geometry and 2D checks do not certify construction",
+      "Native CAD/CAM and native macOS/Linux UI were not tested",
+      "SlotForge Timing receiving UI remains outside this repository",
+      "Real installed workspace was not changed"
+    ]
+  },
+  "circuitRename": {
+    "status": "unreleased",
+    "displayName": "SlotForge Circuit",
+    "previousName": "SlotForge Track Builder",
+    "sourceTestsPassed": 242,
+    "legacyTimingFixturesPassed": 15,
+    "compatibility": [
+      "Existing installed folder, browser keys and local-server health identifier retained",
+      "Previous named HTML launcher retained as an alias",
+      "Design identity, revisions, lane routes and timing remain stable when importing earlier producer metadata",
+      "Published repository URLs, historical release notes and older compatibility fixtures retained"
+    ],
+    "browserVerified": [
+      "App title and header show SlotForge Circuit",
+      "Track Pack Library title and header show Circuit branding"
+    ],
+    "screenshot": "circuit-branding-preview.png"
+  },
+  "tabletopRouting": {
+    "status": "unreleased",
+    "date": "2026-10-31",
+    "sourceTestsPassed": 257,
+    "newTests": 15,
+    "sharedRuntimeTestsPassed": 62,
+    "legacyTimingFixturesPassed": 15,
+    "notes": "ROUTED-TRACKS.txt",
+    "integrationSpecification": "../integration/slotforge-timing/EXPORT-SPEC-1.0.0-draft.5.txt",
+    "browserVerified": [
+      "Routing type is available on each new and edited routed section",
+      "Four-lane 100 mm spacing, 150/200 mm clearances: piece-edge fold rejects the piece while identical tabletop slots remain valid",
+      "Invalid feedback clears stale measurements and identifies the limiting edge",
+      "Per-definition mode persists after placing and reloading",
+      "CAD disables individual-piece contours for tabletop-only source; downloaded DXF contains four slot paths and the table rectangle",
+      "Downloaded PDF fits one portrait page and distinguishes continuous table routing from individual boards",
+      "Downloaded JSON retains the per-section type and draft.5 contract; full round trip identical",
+      "Compact closed four-lane tabletop example imports with a table, lane lengths and no planning issues",
+      "No captured browser warnings or errors"
+    ],
+    "independentVerified": [
+      "ezdxf: actual downloaded tabletop DXF has mm units, five entities, no errors or repairs",
+      "pypdf: actual downloaded PDF contains the tabletop profile and board explanation; no false individual-piece board-area estimate",
+      "Poppler: rendered PDF inspected for legible text, fitting drawing and parts list"
+    ],
+    "screenshots": [
+      "tabletop-routing-preview.png",
+      "tabletop-board-preview.png"
+    ],
+    "limitations": [
+      "Table edge checks support the current rectangular table and are advisory",
+      "Geometry remains a numerical 2D planning aid; vehicle clearance, heights and construction need separate checking",
+      "Timing receiving UI must explicitly adopt draft.5; no receiving-repository changes were made",
+      "Existing profiles without a routing type keep individual-piece behaviour",
+      "UI checks used isolated localhost storage; personal installed data was not changed"
+    ]
+  },
+  "routedPackAndConversion": {
+    "status": "unreleased",
+    "date": "2026-10-31",
+    "sourceTestsPassed": 276,
+    "newRegressionTests": 12,
+    "standaloneRuntimeTestsPassed": 68,
+    "legacyTimingFixturesPassed": 15,
+    "notes": "ROUTED-TRACKS.txt",
+    "fixes": [
+      "Save routed sections to named reusable packs, with separate save-only and save-and-place actions",
+      "Retain pack orientation through storage, export/import, catalogue pictures and placement",
+      "Convert circular corners through either control without swapping physical lane clearances or changing the angle",
+      "Read installed disk-backed packs on the Track Pack Library page",
+      "Publish saved sections only after storage succeeds; prevent repeated submits and handle edits during pending saves",
+      "Create additional routed sections inside a saved pack using that pack's profile"
+    ],
+    "browserVerified": [
+      "Four lanes, 90 mm spacing, 600 mm innermost radius, 45 degrees right, 50/200 mm edge clearances: conversion preserves angle, lane order and physical clearances",
+      "Save-only creates a named pack without adding a layout placement; reload retains the pack",
+      "Track Pack Library reads the saved pack from isolated disk storage",
+      "Adding a second section inherits the saved pack profile and supports save-and-place",
+      "Reusing the converted corner preserves its matching icon and physical orientation",
+      "No captured browser warning/error logs"
+    ],
+    "independentVerified": [
+      "Actual browser workspace contains both saved pack members and a reflected corner placement; serialized layouts omit the pack-only orientation hint",
+      "Saved pack export/import retains its preferred orientation"
+    ],
+    "screenshot": "routed-pack-conversion-preview.png",
+    "limits": [
+      "Circular-to-flowing conversion uses a cubic approximation: endpoints and tangents match, while interior curvature and lengths are approximate",
+      "Existing numerical 2D planning and rectangular-table limitations remain",
+      "Browser checks used isolated localhost data; personal installed data and the Timing repository were not changed"
+    ]
+  },
+  "tabletopCodeReview": {
+    "status": "unreleased",
+    "date": "2026-10-31",
+    "notes": "TABLETOP-REVIEW.txt",
+    "sourceTestsPassed": 264,
+    "newRegressionTests": 7,
+    "standaloneRuntimeTestsPassed": 67,
+    "legacyTimingFixturesPassed": 15,
+    "fixes": [
+      "Physical table position/dimensions participate in tabletop design revisions; lock state stays an editor preference",
+      "Integration contracts cover all serialized definitions, including unused tabletop and flowing definitions",
+      "Available-space guides cannot replace physical routing tables",
+      "Tabletop edge guidelines no longer incorrectly constrain conductor footprint dimensions",
+      "Table fit checks include analytic circular extrema under rotation, translation and reflection",
+      "Mixed piece/tabletop CAD joins retain physical piece end caps",
+      "Invalid circular sections clear stale artwork and recover when settings become valid"
+    ],
+    "browserVerified": [
+      "Circular tabletop radius 100 mm previews normally; switching to an invalid individual piece clears its SVG and disables placement; switching back restores it",
+      "An available-space guide produces a missing physical table warning",
+      "No captured browser warning/error logs"
+    ],
+    "independentVerified": [
+      "ezdxf: mixed routing output has a closed four-vertex surface contour, mm units, zero errors and repairs"
+    ],
+    "screenshot": "tabletop-code-review-preview.png",
+    "limits": [
+      "The existing numerical 2D planning and rectangular-table limits remain",
+      "Native CAD/CAM, CNC toolpaths and the Timing receiving UI were not tested",
+      "Real installed personal data was not modified"
+    ]
+  },
+  "cadImportCompatibilityReview": {
+    "date": "2026-10-31",
+    "sourceTests": 281,
+    "cadTests": 25,
+    "findings": [
+      "Original reported drawing: 33 paths, 306 vertices; small files, not excessive geometry.",
+      "Missing standard DXF symbol tables triggered Illustrator memory error.",
+      "Missing layer Normal plot-style references prevented Fusion DXF insertion."
+    ],
+    "changes": [
+      "Complete standard tables, model/paper layouts and plot-style dictionary references.",
+      "Optional compact or fixed-scale SVG, explicit restore percentage and scaled filename; DXF remains 1:1."
+    ],
+    "verification": [
+      "App-generated corrected DXF imported into Autodesk Fusion and Adobe Illustrator 2021.",
+      "ezdxf audit: zero errors and repairs; all original 33 paths and 306 vertices/bulges preserved exactly.",
+      "Full-size and 1:10 SVG retain identical path data/viewBox; compact physical page is 361 x 163.5 mm.",
+      "Isolated browser: compact/fixed scale display, successful downloads, DXF remains 1:1, empty layer selection and recovery.",
+      "Compact 1:10 SVG opened and visually checked in Adobe Illustrator 2021."
+    ],
+    "limits": [
+      "Native imports checked with the reported circular layout; not every CAD application or every possible layout.",
+      "Compact SVG changes physical canvas size, not geometry complexity."
+    ]
+  },
+  "routedLoopClosingReview": {
+    "date": "2026-10-31",
+    "status": "Included in v0.3.11",
+    "sourceTestsPassed": 290,
+    "integrationFixturesPassed": 15,
+    "scope": [
+      "Automatic fill of a single routed closing gap",
+      "Reshape either terminal section with fixed endpoints and preserved lane order",
+      "Mirrored individual-piece and tabletop layouts with asymmetric clearances",
+      "Reject manufactured, disconnected, ambiguous, closed or stale layouts",
+      "Save to pack without changing the layout; failed disk writes do not apply closure",
+      "Fixed endpoint editor with editable tangent handle lengths"
+    ],
+    "browser": [
+      "Isolated disk workspace: fill gap saves a reusable section and closes circuit",
+      "Cancel leaves gap open",
+      "Reshape terminal section closes circuit without adding a section",
+      "Undo and redo restore open and closed states",
+      "Reload retains completed layout; final fixed-end help text inspected"
+    ],
+    "screenshot": "routed-close-loop-preview.png",
+    "limits": [
+      "A single cubic cannot close every gap; invalid folds remain blocked",
+      "Preferred minimum radius is advisory; table fit and other-section overlaps remain planning checks",
+      "Interior sections are not reshaped to close a distant gap; other placements stay fixed"
+    ]
+  },
+  "routedSidebarReview": {
+    "date": "2026-10-31",
+    "status": "Included in v0.3.12",
+    "sourceTestsPassed": 290,
+    "browserChecks": [
+      "Catalogue occupies 324 px of the 556 px sidebar at 1280 x 720",
+      "Opening Routed tools leaves catalogue height unchanged",
+      "Display selection and Fill closing gap work from the menu",
+      "Escape closes the menu without clearing the selected section",
+      "Clicking outside dismisses the menu",
+      "Search and switching between routed and manufactured packs work"
+    ],
+    "screenshot": "routed-sidebar-preview.png"
+  },
+  "routedSqueezeReview": {
+    "date": "2026-10-31",
+    "status": "Included in v0.3.13",
+    "sourceTestsPassed": 303,
+    "integrationFixturesPassed": 15,
+    "newRegressionTests": 13,
+    "browserChecks": [
+      "Circular corner converts with lane order and handedness retained",
+      "100 to 80 mm squeeze, 300 mm transitions and Lane 1 anchor",
+      "Save to pack, reload and use in builder retain settings",
+      "Track Pack Library lists version 3 saved library",
+      "Invalid transition disables Update and displays limit",
+      "Reset and Undo restore the expected geometry",
+      "Disk reload retains the squeezed section",
+      "Sticky preview remains visible beside squeeze controls"
+    ],
+    "screenshot": "routed-squeeze-preview.png",
+    "limits": [
+      "Squeezed circular corners use the existing cubic approximation",
+      "Slot spacing is measured along the reference normal; vehicle clearance is not simulated",
+      "SlotForge Timing needs draft.6 support; no receiving-repository changes made"
+    ],
+    "standaloneHandoffTestsPassed": 85
+  },
+  "routedApexReview": {
+    "date": "2026-10-31",
+    "status": "Included in v0.3.14",
+    "sourceTestsPassed": 309,
+    "integrationFixturesPassed": 15,
+    "newRegressionTests": 6,
+    "browserChecks": [
+      "180-degree four-lane hairpin defaults to Smooth apex for a new squeeze",
+      "Minimum 80 mm spacing at the midpoint, with 100 mm at both ends",
+      "Switching from an invalid legacy transition to Smooth apex hides and disables the transition input",
+      "Saved pack retains Smooth apex after reload",
+      "Existing saved squeeze remains Hold narrow spacing with its original 300 mm transition",
+      "Preview stays visible beside the shape selector"
+    ],
+    "screenshot": "routed-apex-preview.png",
+    "limits": [
+      "Apex is the reference arc-length midpoint of one section, not a detected racing apex across multiple sections",
+      "Smooth-apex exports require draft.7 in Timing; receiving repository was not changed"
+    ],
+    "standaloneHandoffTestsPassed": 91
+  },
+  "freeformReview": {
+    "date": "2026-10-31",
+    "status": "Included in v0.3.15",
+    "sourceTestsPassed": 330,
+    "standaloneHandoffTestsPassed": 111,
+    "integrationFixturesPassed": 15,
+    "newRegressionTests": 21,
+    "browserChecks": [
+      "Created and closed a reference loop from direct canvas clicks",
+      "Generated six lanes with the drawn slot assigned Lane 3",
+      "Reversed numbering while retaining the drawn physical slot",
+      "Inserted a point without changing displayed lengths",
+      "Locked and unlocked an anchor",
+      "Moved two Shift-selected anchors as a group and restored them with Undo",
+      "Saved to the builder, reloaded disk data and reopened editable anchors",
+      "Saved to Track Library and opened the stored design in the FreeForm editor",
+      "Set a timing line and observed both Live Preview cars move on the generated routes",
+      "Generated a one-page PDF and SVG/DXF files with six closed slot paths",
+      "Verified clean browser error logs"
+    ],
+    "screenshot": "freeform-preview.png",
+    "limits": [
+      "One FreeForm circuit per design, on a rectangular tabletop, up to 96 anchors",
+      "Global geometry is sampled with the existing 0.025 mm chord-error target",
+      "Local FreeForm squeeze spans, irregular tables, elevated crossings and automatic section conversion are deferred",
+      "Timing needs draft.8 and freeform.js; no Timing repository changes made"
+    ]
+  },
+  "heightReview": {
+    "status": "Included in v0.3.15",
+    "scope": [
+      "Shared placement start/end surface heights, deck thickness and clearance across all packs",
+      "FreeForm anchor heights and figure-eight bridge clearance",
+      "Height-aware joins, sampled footprint overlaps and border height inheritance",
+      "Strict metadata validation, Undo, disk reload, library and export round trips",
+      "Draft.9 integration extension; existing layout envelope remains version 1"
+    ],
+    "automated": {
+      "sourceTests": 343,
+      "handoffTests": 123,
+      "legacyIntegrationFixtures": 15
+    },
+    "browser": [
+      "Raised a manufactured piece: mismatched join warnings and no closed route",
+      "Raised one figure-eight anchor to 150 mm: valid circuit and Live Preview",
+      "Lowered bridge to 30 mm: rejected clearance; Undo restores valid circuit",
+      "Saved and reloaded figure eight: 150 mm anchor retained",
+      "Anchor selector accesses coincident crossing anchors",
+      "No warning/error console messages during the inspected workflow"
+    ],
+    "screenshot": "app/height-bridge-preview.png",
+    "limits": [
+      "2D plan-view lengths; no ramp length correction or full 3D view",
+      "No ramp engineering, support or car-body clearance validation",
+      "Reference footprints are approximate; bridge geometry in CAD is XY only",
+      "Manual paint order remains independent of heights"
+    ]
+  },
+  "tableShapesAndFreeform": {
+    "status": "Included in v0.3.15",
+    "contract": "1.0.0-draft.10",
+    "regressionTests": 11,
+    "verified": [
+      "Four L cut-out corners, strict dimension validation, resizing and locked movement",
+      "Concave table fit and edge clearance; actual polygon in CAD and JSON",
+      "One-lane defaults with existing lane count preserved",
+      "Straight and curved squeeze, reference lane invariant, numbering reversal and split-domain preservation",
+      "Browser: separate FreeForm page and menu order, one-lane start, four-lane saved/reloaded drawing, 80 mm squeeze, L table, proportional cut-out scaling, draft retained across editor pages and replacement prompt"
+    ],
+    "screenshot": "freeform-shapes-preview.png",
+    "handoffTestsPassed": 134,
+    "legacyFixturesPassed": 15
+  },
+  "review20261101": {
+    "status": "Included in v0.3.15",
+    "baseline": "c1fd163 (v0.3.14) plus all uncommitted FreeForm, height, table-shape and menu work",
+    "report": "REVIEW-2026-11-01.txt",
+    "newRegressionTests": 10,
+    "sourceTestsPassed": 364,
+    "browser": [
+      "Rejected spacing edit preserves Redo and previous model",
+      "Moved/rotated/reflected FreeForm edit and save preserves 37% timing line, design identity and table",
+      "Persisted world slot positions differ by less than 0.000000001 mm in regression layout",
+      "Repeated keyboard nudges retain anchor focus and undo",
+      "No captured browser console warnings or errors"
+    ],
+    "notVerified": [
+      "Native Illustrator/Fusion imports in this review; CAD serializers unchanged",
+      "Native macOS/Linux interaction",
+      "Separate SlotForge Timing importer"
+    ],
+    "handoffTestsPassed": 143,
+    "legacyFixturesPassed": 15,
+    "screenshot": "freeform-review-preview.png"
+  },
+  "release0315": {
+    "date": "2026-11-01",
+    "sourceTestsPassed": 364,
+    "handoffTestsPassed": 143,
+    "integrationFixturesPassed": 15,
+    "browser": [
+      "FreeForm sidebar tabs, native collapsible folders and nested handles in light/dark themes",
+      "Keyboard activation, point locks, heights, Undo/Redo, squeeze validation and visible errors",
+      "L-shaped table settings, save to builder and reopen",
+      "No captured console warnings/errors"
+    ],
+    "limitations": [
+      "No new native macOS/Linux installation audit",
+      "No separate SlotForge Timing importer audit"
+    ]
+  },
+  "fullReview0315": {
+    "date": "2026-11-01",
+    "report": "REVIEW-v0.3.15.txt",
+    "baselineTestsPassed": 364,
+    "sourceTestsPassed": 370,
+    "newRegressionTests": 6,
+    "handoffTestsPassed": 144,
+    "integrationFixturesPassed": 15,
+    "trackPackValidatorScriptsPassed": 7,
+    "browser": [
+      "FreeForm excessive lane count rejected without changing model",
+      "Clean draft refresh and dirty draft preservation after builder changes",
+      "Disk-backed Track Library save and reload",
+      "Direct portrait PDF download; visually inspected after rendering",
+      "No captured browser console warnings/errors"
+    ],
+    "limitations": [
+      "No fresh native macOS/Linux installation",
+      "No fresh Illustrator/Fusion import",
+      "No separate SlotForge Timing importer audit"
+    ]
+  },
+  "release0316": {
+    "date": "2026-11-01",
+    "sourceTestsPassed": 370,
+    "handoffTestsPassed": 144,
+    "integrationFixturesPassed": 15,
+    "review": "REVIEW-v0.3.15.txt"
+  },
+  "release0317": {
+    "date": "2026-11-02",
+    "sourceTestsPassed": 370,
+    "handoffTestsPassed": 144,
+    "integrationFixturesPassed": 15,
+    "iconChecks": [
+      "SVG geometry unchanged; coral red #e5484d and white #ffffff",
+      "PNG 256 x 256 with transparent corners",
+      "Windows ICO sizes 16, 24, 32, 48, 64, 128 and 256 pixels"
+    ]
+  },
+  "release0318": {
+    "date": "2026-11-02",
+    "sourceTestsPassed": 370,
+    "handoffTestsPassed": 144,
+    "integrationFixturesPassed": 15,
+    "iconChecks": [
+      "Approved Curve Studio SVG used unchanged",
+      "All active app and catalogue headers use the shared icon",
+      "PNG 256 x 256 with transparent corners",
+      "Windows ICO sizes 16, 24, 32, 48, 64, 128 and 256 pixels"
+    ]
+  },
+  "release0319": {
+    "date": "2026-11-02",
+    "report": "REVIEW-track-pack-transfers.txt",
+    "sourceTestsPassed": 378,
+    "newRegressionTests": 8,
+    "integrationFixturesPassed": 15,
+    "browser": [
+      "Track and pack JSON import/export round trips",
+      "Saved track selection and cancellation preserve current layout",
+      "Pack management, catalogue navigation and legacy redirects",
+      "Injected disk-save failure, recovery export, retry and reload",
+      "Light/dark visual checks and 360/600/900/1440 px overflow checks",
+      "No captured browser page errors"
+    ],
+    "limitations": [
+      "Isolated Edge on Windows only; no fresh native macOS/Linux audit",
+      "No separate SlotForge Timing application audit"
+    ],
+    "handoffTestsPassed": 144
+  },
+  "release0320": {
+    "date": "2026-11-02",
+    "report": "REVIEW-2026-11-02.txt",
+    "sourceTestsPassed": 428,
+    "handoffTestsPassed": 154,
+    "integrationFixturesPassed": 15,
+    "browser": [
+      "Table editing, split suggestions, stock arrangement and panel/sheet downloads",
+      "Routed and FreeForm Spread, Squeeze, undo and saved reload",
+      "Single/bulk custom-piece deletion and stale-tab protection in browser and disk modes"
+    ],
+    "limitations": [
+      "No fresh native macOS/Linux installation or Illustrator/Fusion import audit",
+      "Timing must explicitly adopt draft.11 boards and draft.12 Spread"
+    ]
+  },
+  "release0321": {
+    "date": "2026-11-02",
+    "sourceTestsPassed": 431,
+    "handoffTestsPassed": 157,
+    "integrationFixturesPassed": 15,
+    "browser": [
+      "Theme-aware branding: five themes, seven screen widths, catalogue and file mode, Storage control retained",
+      "Centred straight Spread, outward circular and flowing corners, mirrored corners and correction of existing spreads",
+      "Saved reload retains chosen anchor; no captured browser page errors"
+    ],
+    "limitations": [
+      "No fresh native macOS/Linux installation or Illustrator/Fusion import audit",
+      "Large spacing changes can still produce reverse curvature in moving lanes; the inner anchor preserves its original path"
+    ]
+  },
+  "routedEdgeOrder20261103": {
+    "report": "ROUTED-EDGE-ORDER.txt",
+    "sourceTestsPassed": 445,
+    "browser": [
+      "Unequal 50/200 mm clearances on a four-lane 90 mm profile",
+      "New flowing preset and straight/circle switching",
+      "Saved reflection, straight preview, aligned margins at addition and reload"
+    ]
+  },
+  "previewCarSize20261103": {
+    "report": "PREVIEW-CAR-SIZE.txt",
+    "sourceTestsPassed": 442,
+    "handoffTestsPassed": 164,
+    "integrationFixturesPassed": 15,
+    "browser": [
+      "Four scale presets and custom width/length in world millimetres",
+      "Live resizing, zoom and driving-preset independence",
+      "Invalid input, undo/redo and saved reload"
+    ]
+  },
+  "foldOverride20261103": {
+    "report": "FOLD-OVERRIDE.txt",
+    "sourceTestsPassed": 439,
+    "handoffTestsPassed": 161,
+    "integrationFixturesPassed": 15,
+    "integrationContract": "1.0.0-draft.13",
+    "browser": [
+      "Fold rejection, explicit override, uncheck restores rejection",
+      "Update, saved reload and save to a named pack",
+      "Unknown lengths, disabled Live Preview and CAD, actual PDF download"
+    ]
+  },
+  "review20261103": {
+    "report": "REVIEW-2026-11-03.txt",
+    "baseline": "c793117 (v0.3.20)",
+    "sourceTestsPassed": 435,
+    "handoffTestsPassed": 157,
+    "integrationFixturesPassed": 15,
+    "fixes": [
+      "Collapsed timing badge warns when its referenced piece has been removed; undo restores Set",
+      "Large SVG pages include enough margin for visible black strokes without changing geometry or scale"
+    ],
+    "browser": [
+      "Inspector actions, timing delete/undo, height warnings, keyboard tabs, CSV and multiple selection",
+      "Straight, circular, mirrored and flowing Spread defaults/correction plus saved reload",
+      "Five themes, seven viewport widths, catalogue and file mode, footer logos and Storage",
+      "Black/fine SVG appearance, page scale, panel/stock ZIPs with identical geometry and DXFs"
+    ],
+    "limitations": [
+      "No fresh Illustrator/Fusion import or native macOS/Linux installation audit"
+    ]
+  },
+  "release0322": {
+    "date": "2026-11-02",
+    "sourceTestsPassed": 431,
+    "handoffTestsPassed": 157,
+    "integrationFixturesPassed": 15,
+    "browser": [
+      "Expandable inspector folders and selected-piece actions",
+      "Borders, position editing and Undo, timing line and direction",
+      "Heights, visible collapsed warning badges, multiple selection",
+      "Keyboard tabs, CSV export, light/dark themes and panel widths",
+      "Routed straight/corner editing and saved reload"
+    ],
+    "limitations": [
+      "No fresh native macOS/Linux installation or Illustrator/Fusion import audit"
+    ]
+  },
+  "release0323": {
+    "date": "2026-11-03",
+    "sourceTestsPassed": 445,
+    "handoffTestsPassed": 167,
+    "integrationFixturesPassed": 15,
+    "browser": [
+      "SVG black/fine appearances, physical scale and panel/stock ZIPs",
+      "Planning-only fold toggle, saved packs, PDF and construction/racing restrictions",
+      "Preview car presets/custom sizing, zoom, undo and saved reload",
+      "Asymmetric routed edge orientation, reflected previews and straight joins",
+      "Inspector actions, timing deletion/undo, themes and single-row navigation"
+    ],
+    "limitations": [
+      "No fresh native macOS/Linux installation or Illustrator/Fusion import audit"
+    ]
+  },
+  "sqliteMigration": {
+    "date": "2026-11-03",
+    "sourceTestsPassed": 458,
+    "integrationFixturesPassed": 15,
+    "browser": [
+      "Disk migration/pagination/search/previews/selected JSON",
+      "Custom pack pagination",
+      "Current and previous workspace downloads",
+      "IndexedDB v1-to-v2 summary migration, save/delete/reload"
+    ],
+    "benchmark": [
+      {
+        "tracks": 100,
+        "importMs": 217,
+        "reopenMs": 53,
+        "pageMs": 3,
+        "pageBytes": 6645,
+        "firstSaveMs": 15,
+        "saveMedianMs": 8,
+        "databaseMiB": 0.6
+      },
+      {
+        "tracks": 1000,
+        "importMs": 1292,
+        "reopenMs": 73,
+        "pageMs": 8,
+        "pageBytes": 6646,
+        "firstSaveMs": 22,
+        "saveMedianMs": 10,
+        "databaseMiB": 5.5
+      },
+      {
+        "tracks": 5000,
+        "importMs": 6136,
+        "reopenMs": 81,
+        "pageMs": 27,
+        "pageBytes": 6646,
+        "firstSaveMs": 17,
+        "saveMedianMs": 10,
+        "databaseMiB": 27.5
+      }
+    ],
+    "limitations": [
+      "Native macOS/Linux execution not tested",
+      "Custom packs remain bounded and loaded together",
+      "Bulk workspace transfers are not streamed"
+    ]
+  },
+  "sqliteReview": {
+    "date": "2026-11-03",
+    "report": "REVIEW-SQLITE-2026-11-03.txt",
+    "sourceTestsPassed": 468,
+    "integrationFixturesPassed": 15,
+    "newRegressionTests": 10,
+    "fixes": [
+      "Summary-only Save dialog baseline",
+      "Legacy browser revision and preview consistency",
+      "Content fingerprints and source-change detection during migration",
+      "Quota-safe deletion and missing size metadata rejection",
+      "Read-only previous-save reconstruction",
+      "Shutdown request rejection and worker cleanup"
+    ],
+    "browser": [
+      "Fresh isolated Edge disk migration, paging, search, previews, track and workspace downloads",
+      "IndexedDB v1 migration including missing top-level revision, thumbnails, save/delete/reload and Update saved design dialog"
+    ],
+    "limitations": [
+      "Personal workspace was not migrated during testing",
+      "Native macOS/Linux execution remains unverified"
+    ]
+  },
+  "release0324": {
+    "date": "2026-11-03",
+    "sourceTestsPassed": 468,
+    "integrationFixturesPassed": 15,
+    "review": "REVIEW-SQLITE-2026-11-03.txt",
+    "limitations": [
+      "Native macOS/Linux execution not tested"
+    ],
+    "handoffTestsPassed": 167
+  },
+  "visibleMigrationStartup": {
+    "date": "2026-11-03",
+    "sourceTestsPassed": 474,
+    "integrationFixturesPassed": 15,
+    "browser": [
+      "Upgrade screen rendered before database creation",
+      "53 tracks, 1 pack and 30 pieces migrated with source JSON unchanged",
+      "Continue opens editor; acknowledged completion stays dismissed on reload",
+      "Malformed JSON blocks editor, retains source and allows Stop local app"
+    ],
+    "limitations": [
+      "Applies to installed JSON workspaces; browser-only saves still need workspace transfer",
+      "Native macOS/Linux execution remains unverified"
+    ]
+  },
+  "release0325": {
+    "date": "2026-11-03",
+    "sourceTestsPassed": 474,
+    "handoffTestsPassed": 167,
+    "integrationFixturesPassed": 15,
+    "review": "REVIEW-SQLITE-2026-11-03.txt",
+    "limitations": [
+      "Native macOS/Linux execution not tested"
+    ]
+  },
+  "installedUpgrade0323To0325": {
+    "date": "2026-11-03",
+    "result": "passed",
+    "report": "UPGRADE-TEST-2026-11-03.txt",
+    "platform": "Windows with automated Edge browser",
+    "source": "Published complete v0.3.23 and v0.3.25 ZIPs, actual Install Windows.cmd",
+    "tracks": 3,
+    "customPacksIncludingDefault": 4,
+    "customPieces": 5,
+    "unchangedBackupFiles": 20,
+    "checks": [
+      "Message visible before SQLite creation",
+      "Entire migrated workspace exactly equals original parsed JSON",
+      "Preserved JSON and backups unchanged after migration and later saves",
+      "All tracks export with original identities, pieces and definitions",
+      "All packs, empty packs and current draft retained",
+      "Editing, saving and full helper relaunch preserve new work without repeated migration"
+    ],
+    "limitations": [
+      "Desktop shortcuts disabled; no fresh runtime download",
+      "Native macOS/Linux not exercised",
+      "Personal workspace untouched"
+    ]
+  },
+  "plasticLaneToolsAndPieceColours": {
+    "date": "2026-11-09",
+    "status": "passed",
+    "automatedTests": 487,
+    "integrationFixtures": 15,
+    "extractedHandoffTests": 177,
+    "browserChecks": [
+      "Colour toggle changes catalogue and canvas without changing serialized definitions or original colours",
+      "Squeeze applies to selected piece only and retains a closed circuit",
+      "Optional save to custom pack, undo/redo and reload",
+      "Custom copy retains lane adjustment settings",
+      "Corner Spread retains road width and inner lane; invalid outside-road spacing is rejected",
+      "Reset spacing, custom editor creation, dark and light theme visual checks"
+    ],
+    "storageChecks": "SQLite save, reopen, library entry and backup preserve adjusted slot geometry; isolated temporary data only",
+    "integrationContract": "1.0.0-draft.14 for adjusted plastic pieces; slotforge.layout envelope remains version 1"
+  },
+  "designToolsReview": {
+    "date": "2026-11-09",
+    "status": "passed",
+    "scope": "Accepted design tools, excluding Construction Templates; existing plastic lane tools and colour toggle retained",
+    "automatedTests": 510,
+    "newToolTests": 23,
+    "integrationFixtures": 15,
+    "extractedHandoffTests": 199,
+    "browserChecks": [
+      "Measurements with optional PDF dimensions, annotation persistence and PDF download",
+      "Reference image import, two-point calibration including revised known distance, reload and FreeForm saving",
+      "Per-design owned inventory and missing-only shopping CSV",
+      "Group, lock/unlock, protected controls and parts-list highlighting",
+      "Gap preview/insertion and anchored replacement preview with Undo",
+      "Routed section conversion with explicit approximation preview",
+      "Continuous stretch squeeze across converted straight/arc joins",
+      "FreeForm ramp subdivision, saved heights and curvature view",
+      "Selected multi-join smoothing preview/apply",
+      "Dark and light theme visual checks; no page errors"
+    ],
+    "reviewFixes": [
+      "Exact timing-mark remapping across ramp subdivisions",
+      "Zero spacing derivatives through existing span joins to avoid offset tangent kinks",
+      "Catalogue candidates filtered for compatibility before search budget; raised ends preserved",
+      "Conflicting catalogue IDs isolated so existing definitions are not overwritten",
+      "Locks enforced across transforms, reflow, reference edits and FreeForm edits",
+      "Printed dimensions included in diagram bounds and readable PDF text",
+      "Asynchronous image decoding and two-point calibration refresh",
+      "Car envelope spatial comparison budget and existing height/headroom rules"
+    ],
+    "storageChecks": "Isolated SQLite save, library reopen and workspace backup preserve measurements, images, owned quantities, groups, locks and continuous spacing; personal data untouched",
+    "exportChecks": "JSON round trips, PDF generation, SVG/DXF regenerated paths and exclusion of tracing images",
+    "integrationContract": "1.0.0-draft.15 for continuous FreeForm envelopes; slotforge.layout stays version 1",
+    "limitations": [
+      "Vehicle envelope and gradient checks are sampled planning aids, not physical simulation",
+      "Existing routed sections use explicit conversion to FreeForm for continuous stretch and multi-join editing",
+      "Owned inventory is per design; reference images are excluded from PDF/CAD",
+      "Gap search is bounded and checks endpoint fit, not collision-free construction",
+      "No native macOS/Linux execution or fresh Fusion/Illustrator checks for this update"
+    ],
+    "release": "Included in v0.3.26; see docs/releases/v0.3.26.md"
+  }
+}

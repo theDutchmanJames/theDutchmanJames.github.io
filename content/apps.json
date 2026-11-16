@@ -1,0 +1,1921 @@
+{
+  "apps": {
+    "Timing": {
+      "category": "RACE MANAGEMENT",
+      "summary": "Lap timing, race management and custom race displays for your analogue slotcar track.",
+      "short": "Run your races, count every lap and build your race display.",
+      "sha": "4e0ba93ea1f2b8660b4ddd7776aad4a899b9a091",
+      "icon": "build/icon.png",
+      "features": [
+        [
+          "Run the whole race night",
+          "Practice, qualifying, heats, championships and team endurance—with optional fuel, tyres, weather and pit strategy."
+        ],
+        [
+          "Build your own race screens",
+          "Create layouts, widgets, leaderboards and charts for your desk, second display or club TV."
+        ],
+        [
+          "Share your race-day creations",
+          "Send another racer your layouts, widgets, audio and image sets, or bundle designs into a Content Pack."
+        ]
+      ],
+      "highlightIcons": [
+        "timer",
+        "screen",
+        "share"
+      ],
+      "highlightLabels": [
+        "RACE & STRATEGY",
+        "YOUR RACE DISPLAY",
+        "MADE TO SHARE"
+      ],
+      "wordmark": {
+        "light": "wordmark-light.svg",
+        "dark": "wordmark-dark.svg"
+      },
+      "light": "2026-11-16/live-race-light.png",
+      "dark": "2026-11-16/live-race-dark.png"
+    },
+    "Paddock": {
+      "category": "COLLECTION & WORKSHOP",
+      "summary": "A home for your slotcar collection, photographs, parts, setups and maintenance.",
+      "short": "Keep your cars, parts and workshop history together.",
+      "sha": "2c987874c69c7b290d2d55dcd376de76574f7b4e",
+      "light": "showroom-light.png",
+      "dark": "showroom-dark.png",
+      "icon": "assets/icon.png",
+      "features": [
+        [
+          "Your collection, in view",
+          "Browse your cars and photographs in a dedicated showroom."
+        ],
+        [
+          "A workshop for every car",
+          "Organise parts, setups and maintenance work."
+        ],
+        [
+          "Share a car’s story",
+          "Send selected cars with photographs and optional setups. Another collector can review and add them to Paddock."
+        ]
+      ],
+      "highlightIcons": [
+        "car",
+        "tools",
+        "share"
+      ],
+      "highlightLabels": [
+        "YOUR SHOWROOM",
+        "YOUR WORKSHOP",
+        "CARS TO EXCHANGE"
+      ],
+      "wordmark": {
+        "light": "wordmark-light.svg",
+        "dark": "wordmark-dark.svg"
+      }
+    },
+    "Circuit": {
+      "category": "TRACK DESIGN",
+      "summary": "Design it. Build it. Race it. Plan your next circuit before building it for real.",
+      "short": "Design your track, plan your space and export your layout.",
+      "sha": "e3676c084d08c35e17873122e8afc5b539280934",
+      "icon": "app/icon.svg",
+      "features": [
+        [
+          "Design your circuit",
+          "Arrange branded track pieces or create routed and FreeForm layouts."
+        ],
+        [
+          "Plan the build",
+          "Check your space, compare lane lengths and count the pieces you need."
+        ],
+        [
+          "Pass the layout around",
+          "Export an editable track or a reusable piece pack, then let another Circuit user build on your idea."
+        ]
+      ],
+      "highlightIcons": [
+        "track",
+        "measure",
+        "share"
+      ],
+      "highlightLabels": [
+        "TRACK DESIGN",
+        "BUILD PLANNING",
+        "EDITABLE LAYOUTS"
+      ],
+      "wordmark": {
+        "light": "wordmark-light.svg",
+        "dark": "wordmark-dark.svg"
+      },
+      "light": "2026-11-16/track-builder-light.png",
+      "dark": "2026-11-16/track-builder-dark.png"
+    },
+    "Telemetry": {
+      "category": "SETUP & ANALYSIS",
+      "summary": "Explore gearing, motors, tyres and weight, compare setups and analyse recorded lap times.",
+      "short": "Explore your setup and understand your lap performance.",
+      "sha": "306d11cbfce63fbe6f29c5b2900db18cbcedee07",
+      "icon": "assets/icon.png",
+      "features": [
+        [
+          "Explore your setup",
+          "Work through gearing, motor, tyre and weight calculations."
+        ],
+        [
+          "Read the laps",
+          "Compare recorded runs and follow changes in pace and consistency alongside the captured setups."
+        ],
+        [
+          "Share what you discovered",
+          "Export a comparison report that friends can read in their browser, with statistics, observations and setup differences."
+        ]
+      ],
+      "highlightIcons": [
+        "gauge",
+        "chart",
+        "share"
+      ],
+      "highlightLabels": [
+        "SETUP EXPLORATION",
+        "LAP ANALYSIS",
+        "REPORTS TO SHARE"
+      ],
+      "wordmark": {
+        "light": "wordmark-light.svg",
+        "dark": "wordmark-dark.svg"
+      },
+      "light": "2026-11-16/workbench-light.png",
+      "dark": "2026-11-16/workbench-dark.png"
+    },
+    "Livery": {
+      "category": "PAINT & DESIGN",
+      "summary": "Plan paint schemes, stripes, race numbers and decals on editable 2D car templates.",
+      "short": "Create the look of your next build with editable car templates.",
+      "sha": "92dfbcf0ae7ec05b7b159a1801bd4c91042e754b",
+      "light": "2026-11-16/studio-light.png",
+      "dark": "2026-11-16/studio-dark.png",
+      "icon": "assets/icon.png",
+      "features": [
+        [
+          "Start with a template",
+          "Work on editable 2D car templates."
+        ],
+        [
+          "Make it your own",
+          "Explore colours, stripes, race numbers and decals."
+        ],
+        [
+          "Give your design a next chapter",
+          "Share templates, liveries or a complete editable project. A friend imports a copy and takes it in a new direction."
+        ]
+      ],
+      "highlightIcons": [
+        "car",
+        "palette",
+        "share"
+      ],
+      "highlightLabels": [
+        "YOUR TEMPLATE",
+        "YOUR COLOURS",
+        "EDITABLE PROJECTS"
+      ],
+      "wordmark": {
+        "light": "wordmark-light.svg",
+        "dark": "wordmark-dark.svg"
+      }
+    },
+    "Decals": {
+      "category": "ARTWORK & PRINT",
+      "summary": "Size and arrange your artwork into decal sheets, then export a PDF for printing.",
+      "short": "Turn your artwork into carefully arranged printable decal sheets.",
+      "sha": "37b86469521930d0a6a6358ae001c3e0ae38e9dd",
+      "light": "2026-11-16/sheet-editor-light.png",
+      "dark": "2026-11-16/sheet-editor-dark.png",
+      "icon": "assets/icon.png",
+      "features": [
+        [
+          "Bring your artwork",
+          "Organise artwork for your slotcar projects."
+        ],
+        [
+          "From sheet to model",
+          "Size and arrange your artwork, check a sizing proof and export a PDF ready for printing at actual size."
+        ],
+        [
+          "Make it. Share it.",
+          "Exchange editable sheets and saved decal packs so another builder can resize, rearrange and make them their own."
+        ]
+      ],
+      "highlightIcons": [
+        "layers",
+        "print",
+        "share"
+      ],
+      "highlightLabels": [
+        "YOUR ARTWORK",
+        "READY TO PRINT",
+        "EDITABLE SHEETS"
+      ],
+      "wordmark": {
+        "light": "wordmark-light.svg",
+        "dark": "wordmark-dark.svg"
+      }
+    }
+  },
+  "galleries": {
+    "Paddock": [
+      {
+        "label": "Showroom",
+        "source": "provided",
+        "capturedAt": "2026-11-15",
+        "light": "2026-11-15/showroom-light.png",
+        "dark": "2026-11-15/showroom-dark.png"
+      },
+      {
+        "label": "Car collection",
+        "source": "provided",
+        "capturedAt": "2026-11-15",
+        "light": "2026-11-15/car-collection-light.png",
+        "dark": "2026-11-15/car-collection-dark.png"
+      },
+      {
+        "label": "Parts catalogue",
+        "source": "provided",
+        "capturedAt": "2026-11-15",
+        "light": "2026-11-15/parts-categories-light.png",
+        "dark": "2026-11-15/parts-categories-dark.png"
+      },
+      {
+        "label": "Wheels & tyres",
+        "source": "provided",
+        "capturedAt": "2026-11-15",
+        "light": "2026-11-15/wheels-tyres-light.png",
+        "dark": "2026-11-15/wheels-tyres-dark.png"
+      },
+      {
+        "label": "Shopping lists",
+        "source": "provided",
+        "capturedAt": "2026-11-15",
+        "light": "2026-11-15/shopping-lists-light.png",
+        "dark": "2026-11-15/shopping-lists-dark.png"
+      },
+      {
+        "label": "Build from Scratch",
+        "source": "provided",
+        "capturedAt": "2026-11-15",
+        "light": "2026-11-15/build-from-scratch-light.png",
+        "dark": "2026-11-15/build-from-scratch-dark.png"
+      },
+      {
+        "label": "Workshop",
+        "source": "provided",
+        "capturedAt": "2026-11-15",
+        "light": "2026-11-15/workshop-light.png",
+        "dark": "2026-11-15/workshop-dark.png"
+      },
+      {
+        "label": "Workshop job",
+        "source": "provided",
+        "capturedAt": "2026-11-15",
+        "light": "2026-11-15/workshop-job-light.png",
+        "dark": "2026-11-15/workshop-job-dark.png"
+      },
+      {
+        "label": "Import & export",
+        "source": "provided",
+        "capturedAt": "2026-11-15",
+        "light": "2026-11-15/import-export-light.png",
+        "dark": "2026-11-15/import-export-dark.png"
+      },
+      {
+        "label": "Appearance",
+        "source": "provided",
+        "capturedAt": "2026-11-15",
+        "light": "2026-11-15/appearance-light.png",
+        "dark": "2026-11-15/appearance-dark.png"
+      }
+    ],
+    "Circuit": [
+      {
+        "label": "Track builder",
+        "source": "provided",
+        "capturedAt": "2026-11-16",
+        "light": "2026-11-16/track-builder-light.png",
+        "dark": "2026-11-16/track-builder-dark.png"
+      },
+      {
+        "label": "Live Preview",
+        "source": "provided",
+        "capturedAt": "2026-11-16",
+        "light": "2026-11-16/live-preview-light.png",
+        "dark": "2026-11-16/live-preview-dark.png"
+      },
+      {
+        "label": "Routed track",
+        "source": "provided",
+        "capturedAt": "2026-11-16",
+        "light": "2026-11-16/routed-track-light.png",
+        "dark": "2026-11-16/routed-track-dark.png"
+      },
+      {
+        "label": "FreeForm",
+        "source": "provided",
+        "capturedAt": "2026-11-16",
+        "light": "2026-11-16/freeform-light.png",
+        "dark": "2026-11-16/freeform-dark.png"
+      },
+      {
+        "label": "Measure & check",
+        "source": "provided",
+        "capturedAt": "2026-11-16",
+        "light": "2026-11-16/measure-check-light.png",
+        "dark": "2026-11-16/measure-check-dark.png"
+      },
+      {
+        "label": "Table Designer",
+        "source": "provided",
+        "capturedAt": "2026-11-16",
+        "light": "2026-11-16/table-designer-light.png",
+        "dark": "2026-11-16/table-designer-dark.png"
+      },
+      {
+        "label": "Owned pieces & shopping",
+        "source": "provided",
+        "capturedAt": "2026-11-16",
+        "light": "2026-11-16/stock-list-light.png",
+        "dark": "2026-11-16/stock-list-dark.png"
+      },
+      {
+        "label": "Track packs",
+        "source": "provided",
+        "capturedAt": "2026-11-16",
+        "light": "2026-11-16/track-packs-light.png",
+        "dark": "2026-11-16/track-packs-dark.png"
+      },
+      {
+        "label": "Import & export",
+        "source": "provided",
+        "capturedAt": "2026-11-16",
+        "light": "2026-11-16/export-light.png",
+        "dark": "2026-11-16/export-dark.png"
+      }
+    ],
+    "Timing": [
+      {
+        "label": "Live race",
+        "source": "provided",
+        "capturedAt": "2026-11-16",
+        "light": "2026-11-16/live-race-light.png",
+        "dark": "2026-11-16/live-race-dark.png"
+      },
+      {
+        "label": "Race setup",
+        "source": "provided",
+        "capturedAt": "2026-11-16",
+        "light": "2026-11-16/race-setup-light.png",
+        "dark": "2026-11-16/race-setup-dark.png"
+      },
+      {
+        "label": "Results",
+        "source": "provided",
+        "capturedAt": "2026-11-16",
+        "light": "2026-11-16/results-light.png",
+        "dark": "2026-11-16/results-dark.png"
+      },
+      {
+        "label": "Fuel",
+        "source": "provided",
+        "capturedAt": "2026-11-16",
+        "light": "2026-11-16/fuel-light.png",
+        "dark": "2026-11-16/fuel-dark.png"
+      },
+      {
+        "label": "Tyre wear",
+        "source": "provided",
+        "capturedAt": "2026-11-16",
+        "light": "2026-11-16/tyre-wear-light.png",
+        "dark": "2026-11-16/tyre-wear-dark.png"
+      },
+      {
+        "label": "Weather",
+        "source": "provided",
+        "capturedAt": "2026-11-16",
+        "light": "2026-11-16/weather-light.png",
+        "dark": "2026-11-16/weather-dark.png"
+      },
+      {
+        "label": "Widget Builder",
+        "source": "provided",
+        "capturedAt": "2026-11-16",
+        "light": "2026-11-16/widget-builder-light.png",
+        "dark": "2026-11-16/widget-builder-dark.png"
+      },
+      {
+        "label": "Audio calls",
+        "source": "provided",
+        "capturedAt": "2026-11-16",
+        "light": "2026-11-16/audio-calls-light.png",
+        "dark": "2026-11-16/audio-calls-dark.png"
+      },
+      {
+        "label": "Race Director",
+        "source": "provided",
+        "capturedAt": "2026-11-16",
+        "light": "2026-11-16/race-director-light.png",
+        "dark": "2026-11-16/race-director-dark.png"
+      },
+      {
+        "label": "Help",
+        "source": "provided",
+        "capturedAt": "2026-11-16",
+        "light": "2026-11-16/help-light.png",
+        "dark": "2026-11-16/help-dark.png"
+      }
+    ],
+    "Telemetry": [
+      {
+        "label": "Workbench",
+        "source": "provided",
+        "capturedAt": "2026-11-16",
+        "light": "2026-11-16/workbench-light.png",
+        "dark": "2026-11-16/workbench-dark.png"
+      },
+      {
+        "label": "Setup analysis",
+        "source": "provided",
+        "capturedAt": "2026-11-16",
+        "light": "2026-11-16/setup-analysis-light.png",
+        "dark": "2026-11-16/setup-analysis-dark.png"
+      },
+      {
+        "label": "Compare setups",
+        "source": "provided",
+        "capturedAt": "2026-11-16",
+        "light": "2026-11-16/compare-setups-light.png",
+        "dark": "2026-11-16/compare-setups-dark.png"
+      },
+      {
+        "label": "Setup library",
+        "source": "provided",
+        "capturedAt": "2026-11-16",
+        "light": "2026-11-16/library-light.png",
+        "dark": "2026-11-16/library-dark.png"
+      },
+      {
+        "label": "Lap analysis",
+        "source": "provided",
+        "capturedAt": "2026-11-16",
+        "light": "2026-11-16/lap-analysis-light.png",
+        "dark": "2026-11-16/lap-analysis-dark.png"
+      },
+      {
+        "label": "Progress",
+        "source": "provided",
+        "capturedAt": "2026-11-16",
+        "light": "2026-11-16/progress-light.png",
+        "dark": "2026-11-16/progress-dark.png"
+      },
+      {
+        "label": "Driver Feedback",
+        "source": "provided",
+        "capturedAt": "2026-11-16",
+        "light": "2026-11-16/driver-feedback-light.png",
+        "dark": "2026-11-16/driver-feedback-dark.png"
+      },
+      {
+        "label": "Ballast planner",
+        "source": "provided",
+        "capturedAt": "2026-11-16",
+        "light": "2026-11-16/balance-light.png",
+        "dark": "2026-11-16/balance-dark.png"
+      },
+      {
+        "label": "Tyre wear & clearance",
+        "source": "provided",
+        "capturedAt": "2026-11-16",
+        "light": "2026-11-16/clearance-light.png",
+        "dark": "2026-11-16/clearance-dark.png"
+      }
+    ],
+    "Livery": [
+      {
+        "label": "Design studio",
+        "source": "provided",
+        "capturedAt": "2026-11-16",
+        "light": "2026-11-16/studio-light.png",
+        "dark": "2026-11-16/studio-dark.png"
+      },
+      {
+        "label": "Decals & race numbers",
+        "source": "provided",
+        "capturedAt": "2026-11-16",
+        "light": "2026-11-16/decals-light.png",
+        "dark": "2026-11-16/decals-dark.png"
+      },
+      {
+        "label": "Gradients & stripes",
+        "source": "provided",
+        "capturedAt": "2026-11-16",
+        "light": "2026-11-16/gradients-light.png",
+        "dark": "2026-11-16/gradients-dark.png"
+      },
+      {
+        "label": "Template preparation",
+        "source": "provided",
+        "capturedAt": "2026-11-16",
+        "light": "2026-11-16/prepare-light.png",
+        "dark": "2026-11-16/prepare-dark.png"
+      },
+      {
+        "label": "User Library",
+        "source": "provided",
+        "capturedAt": "2026-11-16",
+        "light": "2026-11-16/library-light.png",
+        "dark": "2026-11-16/library-dark.png"
+      },
+      {
+        "label": "Workshop notes",
+        "source": "provided",
+        "capturedAt": "2026-11-16",
+        "light": "2026-11-16/workshop-light.png",
+        "dark": "2026-11-16/workshop-dark.png"
+      },
+      {
+        "label": "Transparent PNG",
+        "source": "provided",
+        "capturedAt": "2026-11-16",
+        "light": "2026-11-16/export-light.png",
+        "dark": "2026-11-16/export-dark.png"
+      },
+      {
+        "label": "Welcome",
+        "source": "provided",
+        "capturedAt": "2026-11-16",
+        "light": "2026-11-16/welcome-light.png",
+        "dark": "2026-11-16/welcome-dark.png"
+      }
+    ],
+    "Decals": [
+      {
+        "label": "Sheet editor",
+        "source": "provided",
+        "capturedAt": "2026-11-16",
+        "light": "2026-11-16/sheet-editor-light.png",
+        "dark": "2026-11-16/sheet-editor-dark.png"
+      },
+      {
+        "label": "Racing graphics",
+        "source": "provided",
+        "capturedAt": "2026-11-16",
+        "light": "2026-11-16/racing-graphics-light.png",
+        "dark": "2026-11-16/racing-graphics-dark.png"
+      },
+      {
+        "label": "Car preview",
+        "source": "provided",
+        "capturedAt": "2026-11-16",
+        "light": "2026-11-16/car-preview-light.png",
+        "dark": "2026-11-16/car-preview-dark.png"
+      },
+      {
+        "label": "Vector tracing",
+        "source": "provided",
+        "capturedAt": "2026-11-16",
+        "light": "2026-11-16/vector-tracing-light.png",
+        "dark": "2026-11-16/vector-tracing-dark.png"
+      },
+      {
+        "label": "Slice & export",
+        "source": "provided",
+        "capturedAt": "2026-11-16",
+        "light": "2026-11-16/slice-export-light.png",
+        "dark": "2026-11-16/slice-export-dark.png"
+      },
+      {
+        "label": "Decal library",
+        "source": "provided",
+        "capturedAt": "2026-11-16",
+        "light": "2026-11-16/decal-library-light.png",
+        "dark": "2026-11-16/decal-library-dark.png"
+      },
+      {
+        "label": "Scale conversion",
+        "source": "provided",
+        "capturedAt": "2026-11-16",
+        "light": "2026-11-16/scale-conversion-light.png",
+        "dark": "2026-11-16/scale-conversion-dark.png"
+      }
+    ]
+  },
+  "featureGroups": {
+    "Paddock": [
+      [
+        "A collection worth showing",
+        [
+          [
+            "Virtual showroom",
+            "Put your favourite cars, cover photographs and real racing history on display, with a fixed favourite or an automatically changing selection."
+          ],
+          [
+            "Collection presentations",
+            "Create ordered groups and run a presentation with selected labels, shuffled cars, photographs or racing history."
+          ],
+          [
+            "Detailed car profiles",
+            "Keep manufacturer, model, scale, race number and class alongside condition, location, packaging, ownership and valuation."
+          ],
+          [
+            "Photographs and documents",
+            "Build a gallery for each car, attach documents and choose photograph focal points while keeping the originals."
+          ],
+          [
+            "Wishlist and acquisitions",
+            "Keep future purchases separate, then move a car into your collection with its information, photographs and history intact."
+          ],
+          [
+            "Side-by-side comparisons",
+            "Compare car specifications, gearing and custom fields, with optional recorded configurations to put measured pace in context."
+          ]
+        ]
+      ],
+      [
+        "Organise it your way",
+        [
+          [
+            "Gallery and table views",
+            "Browse photographs or a detailed table, then search, filter and sort your collection to find the cars you need."
+          ],
+          [
+            "Custom fields and saved views",
+            "Add text, choice, number, date, checkbox or notes fields. Choose columns and save useful views for later."
+          ],
+          [
+            "Reusable library values",
+            "Reuse manufacturers, classes and other library entries, and merge duplicate values to keep your collection consistent."
+          ],
+          [
+            "Real racing history",
+            "Record the full-size car’s team, drivers, event, year and results, with sources and reference photographs separate from your model photos."
+          ],
+          [
+            "Reviewed car research",
+            "Export an exact-product template for your own AI, then review sourced factory specifications before importing them. Your modifications stay separate."
+          ],
+          [
+            "Collection and car reports",
+            "Export car cards, setup sheets, scrutineering and inventory reports as PDFs, with purchase information included only when you choose."
+          ]
+        ]
+      ],
+      [
+        "Parts, stock and shopping",
+        [
+          [
+            "Stock and catalogue",
+            "Keep owned parts separate from catalogue references, with quantities, individual items, specifications, compatibility and photographs."
+          ],
+          [
+            "Know where every part is",
+            "Track storage locations and whether parts are available, fitted to a car or held in an assembly."
+          ],
+          [
+            "Named shopping lists",
+            "Collect stock parts and free-text purchases, change quantities, move items between lists and optionally add completed purchases to stock."
+          ],
+          [
+            "Purchases and suppliers",
+            "Keep purchase orders, receipts, corrections and supplier history, with estimates tracked in their own currencies."
+          ],
+          [
+            "Manufacturer catalogue imports",
+            "Combine researched catalogue files into one review, resolve duplicates and add references without increasing your owned stock."
+          ],
+          [
+            "Part pictures and useful links",
+            "Review researched image suggestions before replacing selected pictures, and keep manufacturer or supplier links close to parts and shopping lists."
+          ]
+        ]
+      ],
+      [
+        "Build, rebuild and prepare",
+        [
+          [
+            "Build from Scratch",
+            "Choose stock or catalogue components on an exploded car diagram, including bodywork, electronics, magnets and ballast."
+          ],
+          [
+            "Draft builds and missing parts",
+            "Save unfinished plans without consuming stock, review what is missing and send requirements to a shopping list."
+          ],
+          [
+            "Reusable assemblies",
+            "Build reusable component groups, then install, remove, transfer or replace them while keeping their history."
+          ],
+          [
+            "Rebuild with a history",
+            "Reuse suitable parts, return unused parts to stock and link a rebuilt car to its archived predecessor."
+          ],
+          [
+            "Setup snapshots and comparisons",
+            "Save factory and current setups, inspect differences and review substitutions or stock transfers before applying changes."
+          ],
+          [
+            "Gearing and motor calculations",
+            "Explore ratio, axle RPM, rollout and theoretical speed, with supported torque, driving-force and ideal motor-power calculations."
+          ]
+        ]
+      ],
+      [
+        "Your everyday workshop",
+        [
+          [
+            "Workshop jobs",
+            "Plan maintenance, upgrades, rebuilds, chassis, tyre, motor or bodywork jobs with priorities and due dates."
+          ],
+          [
+            "Checklists and progress",
+            "Break work into steps, add instructions and before/after photographs, then pause, resume, complete or cancel the job."
+          ],
+          [
+            "Work waiting for parts",
+            "Link required purchases to the shopping list so unfinished jobs retain the parts they still need."
+          ],
+          [
+            "Maintenance records and reminders",
+            "Record work already carried out and set the next service date to create an upcoming maintenance reminder."
+          ],
+          [
+            "Workshop supplies",
+            "Organise tools, oils, adhesives and consumables with locations, remaining quantities and low-stock information."
+          ],
+          [
+            "Manuals and part guides",
+            "Keep PDFs, exploded views and reference images in a searchable workshop library or attach them to a particular car."
+          ]
+        ]
+      ],
+      [
+        "Track tests and race history",
+        [
+          [
+            "Manual track tests",
+            "Record test results with the track, lane, driver, voltage, direction and magnet conditions, plus the car configuration used."
+          ],
+          [
+            "Results from Timing",
+            "Receive finalised Timing results with the race-time configuration, including supported corrections and withdrawn results."
+          ],
+          [
+            "Pace and consistency",
+            "Compare average or median pace, consistency and the best five- or ten-lap runs alongside setup differences and test conditions."
+          ],
+          [
+            "Lane records",
+            "Review measured lap history and lane records while keeping manually entered tests separate from recorded timing results."
+          ],
+          [
+            "Connected car information",
+            "Make supported car configurations available to Timing, and let Telemetry read recorded results for further analysis."
+          ],
+          [
+            "Local shared libraries",
+            "Use the supported same-computer Paddock and Timing library workflow under one operating-system account, with car information and history retained."
+          ]
+        ]
+      ],
+      [
+        "Share cars and keep your collection safe",
+        [
+          [
+            "Share individual cars",
+            "Export selected cars with their main photograph and optional extra photos or setups. Private purchase details and workshop information stay out of public car exports."
+          ],
+          [
+            "Review incoming cars",
+            "Import shared car files and choose which information to accept, including the supported Timing car format."
+          ],
+          [
+            "Paddock Portal",
+            "Scan a QR code on a phone or tablet on the same network to add a car or upload photographs to an existing one."
+          ],
+          [
+            "Dealership Mode",
+            "Share an official collection between trusted home or club computers, with review for important changes while the host stays running."
+          ],
+          [
+            "Merge duplicate cars",
+            "Choose the fields, photographs, setups and history to retain, and keep retired records archived rather than silently losing their past."
+          ],
+          [
+            "Complete backups",
+            "Back up and restore the complete collection for recovery or moving computers, including private data that is excluded from shared car files."
+          ]
+        ]
+      ]
+    ],
+    "Circuit": [
+      [
+        "Build with the pieces you own",
+        [
+          [
+            "Ten manufacturer packs",
+            "Browse Carrera, Scalextric, Policar, ScaleAuto, Ninco, SCX, AFX, Carrera GO!!!, Carrera Hybrid and Fleischmann packs. Exact and reference-only coverage varies by piece."
+          ],
+          [
+            "Magnetic connections",
+            "Snap track ends together, align parallel straights and nest matching curves for layouts with more than two lanes."
+          ],
+          [
+            "Arrange and experiment",
+            "Rotate, mirror, duplicate and select multiple pieces, with Undo/Redo while you try different layouts."
+          ],
+          [
+            "Borders and overlaps",
+            "Add matching borders and adjust the drawing order where roads cross or overlap."
+          ],
+          [
+            "Colour by piece",
+            "Give straight lengths and curve radii distinct catalogue and canvas colours, then return to the normal track artwork whenever you like."
+          ],
+          [
+            "Custom pieces and packs",
+            "Define straights, curves, borders and lane changers with your own road width, slot spacing, lane count and connector family."
+          ],
+          [
+            "Matching radius families",
+            "Create nested R1, R2, R3 and larger curves, with a preview of how the road radii and lane spacing fit together."
+          ]
+        ]
+      ],
+      [
+        "Measure, check and finish the layout",
+        [
+          [
+            "Footprint and lane lengths",
+            "Check open ends, piece counts, the footprint including borders and nominal lane lengths where the geometry supports them."
+          ],
+          [
+            "Distances, angles and references",
+            "Measure the plan or trace a calibrated reference image. Save measurements with the design and include selected dimensions in its PDF report."
+          ],
+          [
+            "Stock and shopping lists",
+            "Compare required pieces with the quantities you own, then export a shopping CSV for what is missing."
+          ],
+          [
+            "Gap assistant",
+            "Search combinations of up to four catalogue pieces, preview a possible connection and add it to the layout."
+          ],
+          [
+            "Groups, locks and replacements",
+            "Move grouped pieces together, lock finished sections and preview compatible replacements anchored at either end."
+          ],
+          [
+            "Curvature and car clearance",
+            "Colour tight slot radii and inspect approximate car-overhang envelopes using car dimensions and an optional drift allowance."
+          ],
+          [
+            "Plastic lane squeeze and spread",
+            "Adjust spacing smoothly inside supported straights or corners while retaining normal end connections, then save a reusable custom variant."
+          ]
+        ]
+      ],
+      [
+        "Design your own routed track",
+        [
+          [
+            "Sections or continuous tabletop",
+            "Design individual wooden pieces with their own outlines, or route a continuous layout within the table boundary."
+          ],
+          [
+            "Slot, braid and board dimensions",
+            "Set lane spacing, slot width and depth, board thickness, edge clearances and braid or tape dimensions."
+          ],
+          [
+            "Straights, circles and flowing curves",
+            "Combine straight sections, circular corners and Bézier bends with draggable handles, direction locks and exact coordinates."
+          ],
+          [
+            "Close the loop",
+            "Preview Fill closing gap, Bridge selected ends or Reshape to close, then adjust the connection or undo it."
+          ],
+          [
+            "Routed squeeze and spread",
+            "Bring lanes together or move them apart through a bend or straight, with smooth transitions back to normal spacing."
+          ],
+          [
+            "Materials and geometry checks",
+            "Inspect slot or conductor folds, overlaps and tight radii, with estimated slot and conductor lengths for supported geometry."
+          ]
+        ]
+      ],
+      [
+        "Draw freely with FreeForm",
+        [
+          [
+            "Draw one lane, generate the others",
+            "Shape a continuous slot with Bézier curves, choose which lane it represents and generate the surrounding lanes at your chosen spacing."
+          ],
+          [
+            "Precise point editing",
+            "Insert points without changing the curve, move several anchors together, lock finished points and adjust curve handles."
+          ],
+          [
+            "Spacing across a stretch",
+            "Squeeze or spread lanes across several curves, choosing where the change peaks and how gradually it returns to normal."
+          ],
+          [
+            "Ramps and bridge heights",
+            "Distribute ramp heights across a stretch or set point heights and headroom for an upper passage."
+          ],
+          [
+            "Smooth joins and convert layouts",
+            "Preview smoother joins with anchors held in place, or convert a supported routed-section layout into an editable FreeForm approximation."
+          ],
+          [
+            "Save and keep refining",
+            "Save unfinished drawings, send completed designs to the builder and return to their editable points from the Track Library."
+          ]
+        ]
+      ],
+      [
+        "Plan the table and construction",
+        [
+          [
+            "Available-space guides",
+            "Plan around a rectangular or L-shaped table, with cut-outs, dimensions and a locked position while arranging the circuit."
+          ],
+          [
+            "Table Designer",
+            "Arrange boards with dimensions, snapping, duplication, 90-degree rotation and locks, then inspect the combined surface and gaps."
+          ],
+          [
+            "Panel splits and transport sizes",
+            "Preview horizontal or vertical board splits and review seams against stock-sheet or transport constraints."
+          ],
+          [
+            "Stock-sheet planning",
+            "Arrange panels with margins, gaps and optional 90-degree rotation to estimate the sheets needed for a supported flat routed design."
+          ],
+          [
+            "Heights and headroom",
+            "Inspect deck thickness, bridge clearance and joined endpoint heights as part of the track plan."
+          ],
+          [
+            "Panel construction exports",
+            "Export numbered panel outlines and trimmed slots or braids in SVG/DXF packages, with an assembly PDF showing panel positions."
+          ]
+        ]
+      ],
+      [
+        "Preview, export and share",
+        [
+          [
+            "Live Preview",
+            "Watch two cars follow supported closed circuits, with illustrative acceleration, braking, cornering and drift settings."
+          ],
+          [
+            "Car dimensions and tune profiles",
+            "Choose a car-size preset or enter dimensions, then save a motion profile for the design."
+          ],
+          [
+            "Send a circuit to Timing",
+            "Export supported lane routes, artwork, timing-line information and tuning for Timing’s Live Track display."
+          ],
+          [
+            "Share editable tracks and packs",
+            "Exchange track or custom-pack JSON files so another user can open a design or add your reusable pieces."
+          ],
+          [
+            "PDF, PNG and parts lists",
+            "Export a layout report, a picture with optional transparency, or a CSV parts list for planning the physical build."
+          ],
+          [
+            "SVG and DXF geometry",
+            "Export supported construction paths, including full-size millimetre DXF and SVG scale options, for further work in CAD/CAM."
+          ]
+        ]
+      ],
+      [
+        "Keep your designs ready",
+        [
+          [
+            "Track Library",
+            "Save named circuits, search your designs and reopen tracks or reusable custom packs for the next project."
+          ],
+          [
+            "Browser or installed workspace",
+            "Try Circuit online with storage in your browser, or use the installed launcher’s disk workspace."
+          ],
+          [
+            "Portable workspace backups",
+            "Export a workspace backup to move designs between computers or browser workspaces and protect them before clearing local data."
+          ]
+        ]
+      ]
+    ],
+    "Timing": [
+      [
+        "Every kind of race night",
+        [
+          [
+            "Practice & qualifying",
+            "Get familiar with the track, set a benchmark and prepare the grid before the race."
+          ],
+          [
+            "Time, lap & distance races",
+            "Choose the finish rule, start-light sequence and first-lap behaviour for your event."
+          ],
+          [
+            "Heats & lane rotations",
+            "Create reusable rotation plans, move drivers or teams through lanes and combine the results."
+          ],
+          [
+            "Championships & points",
+            "Link rounds with rosters, points tables, bonuses, dropped results, teams and tie-breaks."
+          ],
+          [
+            "Endurance & driver swaps",
+            "Run teams with swap windows, minimum driving requirements, stint records and swap penalties."
+          ],
+          [
+            "Multi-Class racing & Time Tokens",
+            "Keep overall and class classifications, or give each lane a timed-use allowance with expiry warnings."
+          ]
+        ]
+      ],
+      [
+        "Strategy that changes the race",
+        [
+          [
+            "Fuel & refuelling",
+            "Set tank sizes, consumption, refuelling speeds and the consequences of an empty tank."
+          ],
+          [
+            "Tyre compounds & wear",
+            "Choose compounds, lifespan, weather suitability, available sets, warnings and mandatory stops."
+          ],
+          [
+            "Tyre temperature & warm-up",
+            "Simulate cold, working and hot tyres with compound-specific heating, cooling and wear effects."
+          ],
+          [
+            "Weather & track conditions",
+            "Plan changing conditions, tyre suitability, wrong-tyre penalties and supported race effects."
+          ],
+          [
+            "Push & Save",
+            "Make faster laps consume more fuel or tyres, and slower laps conserve them using your chosen pace rules."
+          ],
+          [
+            "Damage & failures",
+            "Configure supported damage events, their effects and the repairs or retirement required by your rules."
+          ]
+        ]
+      ],
+      [
+        "Race control & the pit lane",
+        [
+          [
+            "Penalties & escalation",
+            "Create points tiers, named penalties, time additions, lap adjustments, forced stops and disqualification rules."
+          ],
+          [
+            "Safety car & yellow flags",
+            "Set target pace, speeding penalties, pit-time changes and optional random flags with conditions."
+          ],
+          [
+            "Balance of Power",
+            "Balance cars through fuel consumption, refuelling speed and optional tank capacity. Requires a Fuel System."
+          ],
+          [
+            "Resource allocations",
+            "Limit tyre sets, repair credits and replacement supplies across a race, event or championship."
+          ],
+          [
+            "Service Stops",
+            "Combine fuel, tyre and repair work sequentially or in parallel, with timed or manual release."
+          ],
+          [
+            "Director review & final results",
+            "Manage track calls and red-flag restarts, then review laps, disqualifications and the classification before saving."
+          ]
+        ]
+      ],
+      [
+        "Design every screen",
+        [
+          [
+            "Freeform Race Screens",
+            "Move, resize and layer widgets in separate layouts for the main screen and a second display."
+          ],
+          [
+            "Widget Builder",
+            "Create reusable displays from values, labels, images, gauges, bars and conditional indicators."
+          ],
+          [
+            "All-in-One widgets",
+            "Bring essential driver, timing or race information together without arranging every value separately."
+          ],
+          [
+            "Leaderboard Editor",
+            "Choose values, row widths, labels, colours and overall or supported class views for live and finished races."
+          ],
+          [
+            "Chart Editor",
+            "Design lap trends, driver comparisons, delta trends, box plots, histograms, position histories and heatmaps."
+          ],
+          [
+            "Visual race feedback",
+            "Use state colours, lap flashes, record highlights, lane accents and horizontal, vertical or segmented resource bars."
+          ]
+        ]
+      ],
+      [
+        "Sound, identity & race history",
+        [
+          [
+            "Spoken race commentary",
+            "Build messages with supported driver names, lap times, positions, gaps and Race System status."
+          ],
+          [
+            "Custom Audio Sets",
+            "Combine recordings, effects and ambience with playback conditions, repeat limits and voice/mix options."
+          ],
+          [
+            "Image Sets & club branding",
+            "Use your own avatars, lights, tyres and weather artwork, then add a logo, header images and colours."
+          ],
+          [
+            "Victory Spotlight & podiums",
+            "Celebrate results with podium cards, driver facts, comparison charts or a saved leaderboard design."
+          ],
+          [
+            "Personal bests & track records",
+            "Keep records linked to drivers, cars and tracks. Red-flag-interrupted laps are excluded from records."
+          ],
+          [
+            "Car mileage & service history",
+            "Review laps, distance, sessions, wins, fastest laps, last use and mileage or laps since servicing."
+          ]
+        ]
+      ],
+      [
+        "Connect the track & the club",
+        [
+          [
+            "Second displays & local viewing",
+            "Show live timing on a monitor or TV, or let devices on the same local network follow along in a browser."
+          ],
+          [
+            "Remote Race Director",
+            "Use password-protected director access for supported race controls, warnings and recent-event information."
+          ],
+          [
+            "Circuit layouts in Live Track",
+            "Import supported Circuit lane routes and artwork. Car movement is estimated from lap timing, not continuous position sensing."
+          ],
+          [
+            "Paddock cars & result delivery",
+            "Connect to a Paddock Dealership, race cached car configurations and queue finalised results for delivery back."
+          ],
+          [
+            "Timing hardware interfaces",
+            "Use supported Trackmate or Arduino interfaces and documented alternatives. DS-200/300 and Windows Parallel Port support have hardware-verification limits; see the guide."
+          ],
+          [
+            "Virtual Rivals & hardware-free trials",
+            "Replay saved lap sequences as opponents, or explore with keyboard/manual controls and simulated inputs."
+          ]
+        ]
+      ],
+      [
+        "Share, extend & keep your work",
+        [
+          [
+            "Share layouts, widgets & sets",
+            "Export individual creations and related items. Other users import copies without exchanging their entire database."
+          ],
+          [
+            "Create & exchange Content Packs",
+            "Bundle supported screens, widgets, charts, leaderboards, image/audio sets, themes and Race System presets without writing code."
+          ],
+          [
+            "Transfer setups & race data",
+            "Export drivers, cars, tracks, teams, Race Systems, championships, leaderboard/chart designs and saved sessions."
+          ],
+          [
+            "Complete backups",
+            "Move or recover an installation with its database, artwork, sounds, settings and race history. Restoring replaces the current database."
+          ],
+          [
+            "Code plugins",
+            "Extend Timing with separately installed drivers, widgets, pages, tools and race rules. Run plugins only from authors you trust."
+          ],
+          [
+            "Help & calculations explained",
+            "Explore grouped help, setup explanations, previews and worked examples of the rules behind the racing."
+          ]
+        ]
+      ]
+    ],
+    "Telemetry": [
+      [
+        "Start with how the car feels",
+        [
+          [
+            "Guided Driver Feedback",
+            "Work through handling symptoms such as sliding, tipping, hopping or inconsistent braking, with optional measurements and targeted follow-up questions."
+          ],
+          [
+            "Suggested checks and tests",
+            "Explore possible causes, ballast, gearing or magnetic options, with trade-offs and a practical test to try next."
+          ],
+          [
+            "Record what helped",
+            "Mark checks as looking OK, a problem or uncertain, then record whether a test improved, preserved or worsened the behaviour of that setup."
+          ],
+          [
+            "Chassis geometry",
+            "Measure the guide-to-rear-axle triangle and inspect a scale drawing, angles and geometry ratios."
+          ],
+          [
+            "Guided weighing",
+            "Use supported axle, guide-and-rear or individual-rear-wheel weighing methods, with repeated readings and total-mass checks."
+          ],
+          [
+            "Static balance and ballast",
+            "Explore load distribution and centre of gravity, then plan added, removed or moved ballast separately from your measured setup."
+          ]
+        ]
+      ],
+      [
+        "Gearing, tyres and motor performance",
+        [
+          [
+            "Live workbench",
+            "Enter the measurements you have and see gear ratio, axle RPM, rollout, theoretical speed and supported torque or power results update."
+          ],
+          [
+            "Motor torque and power curves",
+            "Explore ideal brushed-DC curves and move a shared operating-point slider when matching-voltage motor ratings and stall torque are available."
+          ],
+          [
+            "Gear finder",
+            "Search pinion and driven-gear ranges for rollout targets or tyre-size compensation, with candidate combinations to check for physical fit."
+          ],
+          [
+            "Tyre preparation and life",
+            "Explore diameter, clearance, left/right wear and remaining tyre life using your own measured wear rate."
+          ],
+          [
+            "Magnetic pull measurements",
+            "Record repeated pull readings, inspect their mean and range and compare static magnetic load with optional class limits."
+          ],
+          [
+            "Measured clearance curves",
+            "Interpolate between measured magnetic-pull and clearance points, and explore the effect of tyre wear within that measured range."
+          ]
+        ]
+      ],
+      [
+        "Test one change at a time",
+        [
+          [
+            "Visual ballast planning",
+            "Click or drag ballast positions on a schematic, try target rear loads and keep the plan separate from a measured baseline."
+          ],
+          [
+            "A-B-A comparisons",
+            "Return to a baseline after a change to inspect drift, using frozen setup snapshots to keep each test’s configuration clear."
+          ],
+          [
+            "Electrical losses",
+            "Use loaded DC measurements to explore voltage drop, resistance and power loss through the electrical path."
+          ],
+          [
+            "Motor test records",
+            "Record force and lever-arm measurements to calculate torque, power and supported efficiency estimates."
+          ],
+          [
+            "Race strategy calculations",
+            "Explore race duration, incidents, pit-stop costs and the laps needed to recover lost time."
+          ],
+          [
+            "Class limits and margins",
+            "Compare supported setup measurements with limits and see how much margin remains."
+          ],
+          [
+            "Compound gears and rotating mass",
+            "Explore compound ratios, spur-gear geometry and the equivalent inertia of rotating components."
+          ],
+          [
+            "Coast-down and measurement bounds",
+            "Analyse measured speed/time traces, distance and deceleration, or inspect how measurement ranges affect supported calculations."
+          ]
+        ]
+      ],
+      [
+        "Learn from recorded laps",
+        [
+          [
+            "Type or paste lap times",
+            "Bring times from a timer, spreadsheet or notebook in supported seconds or minute-and-second formats, then review the imported laps."
+          ],
+          [
+            "Read results from Paddock",
+            "Connect to a Paddock host to read finalised Timing results, including supported corrections and withdrawals, and analyse imported runs offline."
+          ],
+          [
+            "Pace and consistency",
+            "Inspect best eligible laps, median pace and interquartile spread, with rolling pace to reveal changes through a run."
+          ],
+          [
+            "Stints and uninterrupted runs",
+            "Compare opening and closing pace and best continuous five-lap sequences, with gaps and excluded laps breaking the sequence."
+          ],
+          [
+            "Pit and invalid lap review",
+            "Keep excluded laps visible in the record while leaving genuine slow laps in the analysis unless you mark them otherwise."
+          ],
+          [
+            "Compare lap progression",
+            "Overlay runs and review pace differences alongside driver, track, lane and condition compatibility."
+          ],
+          [
+            "Progress and local records",
+            "Follow median pace, best laps and consistency over time, with the recorded setup changes and eligible local records for context."
+          ]
+        ]
+      ],
+      [
+        "Save, compare and share your work",
+        [
+          [
+            "Setup Library",
+            "Name, search, sort and annotate saved configurations, then load, rename or save a copy for a new experiment."
+          ],
+          [
+            "Setup comparisons",
+            "See absolute and percentage differences between saved setups, with neutral trade-offs rather than treating every increase as an improvement."
+          ],
+          [
+            "Share a setup",
+            "Export an individual setup for another user to open, or transfer a setup library through its import/export workflow."
+          ],
+          [
+            "Portable comparison reports",
+            "Export a self-contained HTML comparison that another person can open, read and print without your database."
+          ],
+          [
+            "Drafts and separate backups",
+            "Keep your working draft automatically and use the separate setup and lap-data backup workflows to protect saved work."
+          ],
+          [
+            "Calculations explained",
+            "Read formula examples and assumptions, and keep useful results pinned while collapsing inputs you are not changing."
+          ]
+        ]
+      ]
+    ],
+    "Livery": [
+      [
+        "Turn a car view into a template",
+        [
+          [
+            "Vector and photograph imports",
+            "Prepare SVG, EPS or supported vector PDF artwork, choosing a PDF page, or use PNG, JPEG and WebP photographs for manual tracing."
+          ],
+          [
+            "Six independent car views",
+            "Build front, top, left, right, rear and angled views as separate parts of a project, each with its own prepared artwork."
+          ],
+          [
+            "Paintable areas and labels",
+            "Select enclosed areas or box-select several, then label bodywork, windows, lights, wheels, tyres, trim, interior and chassis."
+          ],
+          [
+            "Recover small and enclosed areas",
+            "Bring back filtered small shapes or enclosed white areas, and trace missing regions by hand before painting."
+          ],
+          [
+            "Protect the reference details",
+            "Keep selected artwork as reference only, or use preparation roles to distinguish bodywork, protected details and hidden elements."
+          ],
+          [
+            "Reusable car templates",
+            "Save prepared views in your library and return to template preparation when the design needs another paintable area."
+          ]
+        ]
+      ],
+      [
+        "Paint a scheme with character",
+        [
+          [
+            "Whole panels or individual areas",
+            "Apply a colour to an entire labelled part of the car or work on individual regions for more detailed schemes."
+          ],
+          [
+            "Multi-stop gradients",
+            "Blend two to eight colour stops and adjust their positions, direction and strength."
+          ],
+          [
+            "Finish previews",
+            "Explore matte, satin and gloss appearances with metallic or pearl options, and toggle the finish preview while checking the artwork."
+          ],
+          [
+            "Paint references and notes",
+            "Keep the chosen paint references and workshop notes alongside the visual design."
+          ],
+          [
+            "Shapes and Bézier curves",
+            "Create rectangles, ellipses and freeform colour blocks, then refine their anchors and handles."
+          ],
+          [
+            "Lines, pinstripes and racing stripes",
+            "Draw open lines with controlled thickness and end caps, or use single, double and triple stripes with adjustable colours, widths and gaps."
+          ]
+        ]
+      ],
+      [
+        "Decals, lettering and race numbers",
+        [
+          [
+            "Import your artwork",
+            "Place graphics with transparency, including supported SVG, EPS and PDF artwork, then resize and rotate them on the car view."
+          ],
+          [
+            "Bring designs from Decals",
+            "Open .sfdecal packs or .sfsheet files, select individual decals or groups and add them to your library or place them on a view."
+          ],
+          [
+            "Separate artwork from a sheet",
+            "Select crop regions from an SVG or PDF sheet, remove a plain white background where suitable and reuse the chosen graphics."
+          ],
+          [
+            "Text and race numbers",
+            "Create lettering and numbers with your chosen typeface, colour and position."
+          ],
+          [
+            "Custom fonts",
+            "Load TTF, OTF, WOFF or WOFF2 fonts for the project without installing them into the operating system."
+          ]
+        ]
+      ],
+      [
+        "Fit and organise the design",
+        [
+          [
+            "Perspective fitting",
+            "Use skew, compression and pinch presets or fine adjustments to fit artwork to an angled 2D car view."
+          ],
+          [
+            "Layers and editable groups",
+            "Reorder layers, select several objects and group them while retaining access to the individual children."
+          ],
+          [
+            "Controlled resizing",
+            "Scale groups proportionally with handles, exact fields or percentages, including fitted artwork and stripe gaps."
+          ],
+          [
+            "Copy appearance",
+            "Reuse an object’s appearance on other elements to keep the design consistent."
+          ],
+          [
+            "Canvas tools",
+            "Pan and zoom, use the grid and snapping, and experiment with Undo/Redo while positioning details."
+          ]
+        ]
+      ],
+      [
+        "Reuse, exchange and take it to the workshop",
+        [
+          [
+            "Searchable User Library",
+            "Search, sort and rename templates, liveries, images, fonts and artwork in one place."
+          ],
+          [
+            "Reusable artwork groups",
+            "Save useful combinations to the library and bring them into another project without rebuilding them."
+          ],
+          [
+            "Try a livery on another car",
+            "Reuse a saved design on a different template, then adjust placement to suit the new body shape."
+          ],
+          [
+            "Share editable .sfpaint packages",
+            "Export selected library items or a complete project with its template and artwork. Recipients import independent copies."
+          ],
+          [
+            "Workshop PDF",
+            "Export car views, paint references and notes as a practical visual guide for preparing the model."
+          ],
+          [
+            "Transparent PNG export",
+            "Export a chosen view at 1,000–4,000 pixels with an optional finish preview and transparent background."
+          ],
+          [
+            "Local projects and backups",
+            "Keep projects in a local library and export separate backups or selected packages for moving and protecting your designs."
+          ]
+        ]
+      ]
+    ],
+    "Decals": [
+      [
+        "Prepare the artwork you want",
+        [
+          [
+            "Image and vector imports",
+            "Bring PNG, JPEG, WebP, SVG, EPS and PDF artwork, with page selection for multi-page PDFs and supported vector detail retained."
+          ],
+          [
+            "Crop and clean backgrounds",
+            "Crop images, remove simple edge-connected backgrounds and trim transparent edges, with the original available to restore."
+          ],
+          [
+            "Flat-colour vector tracing",
+            "Trace suitable logos into vectors, compare the result with the original and adjust colour, detail and transparency."
+          ],
+          [
+            "Recolour or remove traced shapes",
+            "Refine a trace by changing colours or removing shapes, then keep it as a separate copy or replace the current artwork."
+          ],
+          [
+            "Vector artwork cleanup",
+            "Select and remove unwanted paths, such as a white background, while retaining white details you have not selected."
+          ],
+          [
+            "Silhouettes and cut-outs",
+            "Build an adjustable outer silhouette with internal cut-outs while keeping the source artwork available."
+          ]
+        ]
+      ],
+      [
+        "Create your own racing graphics",
+        [
+          [
+            "Editable text and curved lettering",
+            "Set lettering, fonts and spacing, or bend text along an arc for badges and curved designs."
+          ],
+          [
+            "Custom fonts",
+            "Use imported fonts in your artwork and retain supported font data when sharing editable sheets and decal packs."
+          ],
+          [
+            "Shapes and number plates",
+            "Draw precisely sized shapes, stars, arrows, shields and roundels, including oval or rectangular number plates."
+          ],
+          [
+            "Racing stripes",
+            "Build one to twelve stripes with adjustable widths, gaps and alternating colours as an editable group."
+          ],
+          [
+            "Checkerboards",
+            "Choose rows, columns and cell dimensions for a checkerboard that stays editable."
+          ],
+          [
+            "Editable paths and curves",
+            "Draw freehand or place precise points, then adjust Bézier handles, corners and inserted or deleted points later."
+          ],
+          [
+            "Merge, cut and overlap",
+            "Combine supported native filled shapes with union, subtraction, intersection or exclusion, including holes and curves."
+          ]
+        ]
+      ],
+      [
+        "Get the printed size right",
+        [
+          [
+            "Exact dimensions in millimetres",
+            "Set the printed width and height with linked proportions or independent dimensions."
+          ],
+          [
+            "Convert between model scales",
+            "Resize from known original dimensions and scales, applying the change to a selection or complete artwork."
+          ],
+          [
+            "Side and top car previews",
+            "Try decals at physical size on a car reference, using actual car dimensions or an uploaded image."
+          ],
+          [
+            "Separate placement from printing",
+            "Experiment with positions on the car preview while keeping the print-sheet arrangement separate; size changes remain connected."
+          ],
+          [
+            "Plain-paper sizing proofs",
+            "Export a proof with labelled 100 mm and 50 mm bars and print at Actual size / 100% to check the result on the model."
+          ]
+        ]
+      ],
+      [
+        "Build a practical decal sheet",
+        [
+          [
+            "Paper sizes and multiple pages",
+            "Use A4, A5 or 4 × 6-inch photo paper in portrait or landscape, retaining artwork dimensions across pages."
+          ],
+          [
+            "Selection, groups and layers",
+            "Select multiple decals, group or lock elements, control their order and use Undo/Redo while arranging the sheet."
+          ],
+          [
+            "Repeat, align and distribute",
+            "Create rows and columns with chosen gaps, line up selected decals and move artwork between pages."
+          ],
+          [
+            "Auto-arrange without resizing",
+            "Pack decals inside the chosen margins and add pages as needed while preserving their physical sizes."
+          ],
+          [
+            "Rulers, margins and print checks",
+            "Inspect placement, cut gaps, margin problems, low-resolution artwork and white-ink settings before export."
+          ]
+        ]
+      ],
+      [
+        "Slice, export and prepare to print",
+        [
+          [
+            "Slice part of a sheet",
+            "Select an exact millimetre rectangle, clip the artwork or include whole intersecting decals, and keep the original sheet unchanged."
+          ],
+          [
+            "Save a slice as reusable artwork",
+            "Add a selected region to the decal library as a group, retaining supported fonts and white-ink settings."
+          ],
+          [
+            "Print an area or export a crop",
+            "Print a selected area in its original paper position or export a cropped PDF without rescaling the artwork."
+          ],
+          [
+            "PDF and SVG output",
+            "Export PDFs at the intended physical page dimensions, preserve supported vectors and export individual artwork as SVG."
+          ],
+          [
+            "White-ink separation",
+            "Prepare a named white separation with per-decal backing or white-only options for a compatible print workflow. Physical printer validation is still pending."
+          ]
+        ]
+      ],
+      [
+        "Share designs and build your library",
+        [
+          [
+            "Decal and sheet libraries",
+            "Organise reusable artwork and finished sheets with names, tags, search, sorting and grid or list views."
+          ],
+          [
+            "Independent working copies",
+            "Edit artwork on a sheet without changing its saved library master, so a reusable design stays ready for other projects."
+          ],
+          [
+            "Share .sfdecal packs",
+            "Bundle reusable decals for another user to import, with supported artwork and font data included."
+          ],
+          [
+            "Share .sfsheet projects",
+            "Exchange selected sheets or pages with their paper settings, physical dimensions and artwork for further editing."
+          ],
+          [
+            "Use your artwork in Livery",
+            "Import shared Decals packs or sheets into Livery to try individual graphics on a car design before preparing the model."
+          ]
+        ]
+      ],
+      [
+        "Keep your work recoverable",
+        [
+          [
+            "Working-sheet autosave",
+            "Keep current work automatically and explicitly save sheets to the library when you want to retain them there."
+          ],
+          [
+            "Version history",
+            "Preview an earlier saved version and recover it as a separate copy without overwriting the current design."
+          ],
+          [
+            "Complete database backups",
+            "Export a .sfdb backup containing saved sheets, artwork, fonts, history and settings for recovery or moving computers."
+          ]
+        ]
+      ]
+    ]
+  },
+  "appDetails": {
+    "Paddock": {
+      "title": "Your collection. Your workshop.",
+      "first": "Add your first car, attach a photograph and open Showroom.",
+      "storage": "Your collection lives locally in your user profile, separately from the app. Use complete backups to move it; copying the executable does not copy your collection."
+    },
+    "Circuit": {
+      "title": "From an idea to a circuit.",
+      "first": "Choose a track pack, Routed Wood or FreeForm Drawing and start a layout.",
+      "storage": "The installed launcher keeps a disk workspace. The online version saves in your browser. Export workspace backups to move or protect your designs.",
+      "featureNote": "Dimensions and clearances are planning aids. Live Preview illustrates motion rather than predicting lap times. Construction exports still need your own CAD/CAM and cutter setup."
+    },
+    "Timing": {
+      "title": "Make race day your own.",
+      "first": "Add drivers, cars and a track, then choose a race setup. Use a supported simulation option to explore without hardware.",
+      "storage": "Keep the app’s saved race data and settings backed up using its documented export and backup workflows. Share individual layouts and sets without exchanging the entire database.",
+      "featureNote": "Race Systems are simulations; available combinations depend on the session format. Physical power and light control depend on the connected interface and relays."
+    },
+    "Telemetry": {
+      "title": "Understand your next change.",
+      "first": "Enter the pinion, driven gear and rear tyre diameter. Save a setup, make one change and compare.",
+      "storage": "Your draft, saved setups and lap libraries are stored on this computer. Setups and lap data have separate backup workflows; follow the guide for both.",
+      "featureNote": "Telemetry analyses measurements and recorded laps; it does not perform live lap timing. Calculations and handling suggestions depend on the measurements and assumptions you provide."
+    },
+    "Livery": {
+      "title": "Give your car its own identity.",
+      "first": "Add a car view, import artwork, label its paintable areas and try a base colour.",
+      "storage": "Projects and library items are stored locally in SQLite. Export separate backups; larger collections can be shared or backed up in selected packages.",
+      "featureNote": "Livery is a 2D design tool. Finish previews and workshop PDFs are visual guides, not calibrated paint matches or automatic 3D wrapping."
+    },
+    "Decals": {
+      "title": "From artwork to decal sheet.",
+      "first": "Choose a paper size, import artwork, set its printed dimensions and make a plain-paper sizing proof.",
+      "storage": "Sheets, artwork, fonts and history are stored separately from the app in your Documents workspace. Use Backup & Recovery for complete backups."
+    }
+  },
+  "showcase": [
+    {
+      "app": "Timing",
+      "title": "Race night, your rules.",
+      "text": "From a few practice laps to a club championship: run your races, shape the strategy and build your own timing screens."
+    },
+    {
+      "app": "Paddock",
+      "title": "A home for every car.",
+      "text": "Bring your collection to life with photographs, track every workshop change, and share selected cars with fellow collectors."
+    },
+    {
+      "app": "Circuit",
+      "title": "Your next track starts here.",
+      "text": "Try a new layout, plan the space and share an editable circuit. Download Circuit or start designing in your browser."
+    },
+    {
+      "app": "Decals",
+      "title": "Small details. Your signature.",
+      "text": "Arrange artwork at the sizes your model needs, print a decal sheet, and send editable designs to another builder."
+    },
+    {
+      "app": "Livery",
+      "title": "Make the grid your own.",
+      "text": "Explore colours, stripes and race numbers on editable car templates. Share your project and let a friend create their own version."
+    },
+    {
+      "app": "Telemetry",
+      "title": "Find the story in your laps.",
+      "text": "Explore setups, compare recorded runs and share a readable report of what changed on the track."
+    }
+  ],
+  "sharing": {
+    "Timing": {
+      "title": "Your race-day ideas can travel.",
+      "text": "Share your race screens, widgets, sounds and artwork with another racer or club.",
+      "formats": [
+        "Layouts & widgets",
+        "Audio & Image Sets",
+        "Content Packs"
+      ],
+      "steps": [
+        [
+          "Choose your creations",
+          "In App Settings → Import and Export, select designs and any related items they need."
+        ],
+        [
+          "Export and send",
+          "Export individual designs or create a Content Pack, then send the file to another Timing user."
+        ],
+        [
+          "Make it their own",
+          "Individual imports add copies. Content Packs can add editable copies to the normal editors."
+        ]
+      ],
+      "note": "Use individual exports for sharing designs. A complete backup is for moving or restoring an installation and includes its database and settings."
+    },
+    "Paddock": {
+      "title": "A great car deserves to be shared.",
+      "text": "Give another collector a head start with car profiles, photographs and your chosen setups.",
+      "formats": [
+        "Paddock car .json",
+        "Photographs",
+        "Optional setups"
+      ],
+      "steps": [
+        [
+          "Choose the cars",
+          "Open Import & Export → Choose cars, or use More → Export this car on a profile."
+        ],
+        [
+          "Send a car file",
+          "Export selected public car details and the main photo, with optional extra photos and setup snapshots."
+        ],
+        [
+          "Review and add",
+          "The recipient reviews incoming cars and chooses the fields to accept into their own collection."
+        ]
+      ],
+      "note": "Selected-car files leave out private ownership details, private notes and workshop records. Dealership Mode is separate: it shares a full collection between trusted computers on a local network."
+    },
+    "Livery": {
+      "title": "Your design. Their next inspiration.",
+      "text": "Share templates, liveries or complete projects for another builder to make their own.",
+      "formats": [
+        ".sfpaint packages",
+        "Templates & liveries",
+        "Complete projects"
+      ],
+      "steps": [
+        [
+          "Choose what travels",
+          "Open Import & Export → Export a package and select the library items or projects to include."
+        ],
+        [
+          "Send the package",
+          "Share the .sfpaint file. Projects carry their car template and embedded artwork."
+        ],
+        [
+          "Keep creating",
+          "The recipient chooses Import a package. Independent copies are added to their Livery library."
+        ]
+      ],
+      "note": "Share artwork and fonts you have permission to redistribute. Packages can include the original embedded files."
+    },
+    "Decals": {
+      "title": "Build a collection together.",
+      "text": "Trade individual decals or complete sheets that friends can edit for their own models.",
+      "formats": [
+        ".sfsheet sheets",
+        ".sfdecal packs",
+        "PDF for printing"
+      ],
+      "steps": [
+        [
+          "Pick a sheet or pack",
+          "Export selected sheets or pages from Sheet Library, or choose saved decals in Import & Export."
+        ],
+        [
+          "Send the editable file",
+          "Use .sfsheet for sheets with artwork, fonts and sizes, or .sfdecal for a pack of reusable decals."
+        ],
+        [
+          "Import and personalise",
+          "The recipient imports the file into Decals and works with their own copies. A PDF is available for printing or viewing."
+        ]
+      ],
+      "note": "Sharing works by sending files; no online account is needed. Use artwork and fonts you can redistribute. Decals and Livery each use their own editable package formats."
+    },
+    "Circuit": {
+      "title": "Let someone else take the next corner.",
+      "text": "Exchange editable layouts and track pieces, or share a PDF plan for the build.",
+      "formats": [
+        ".slotforge.json tracks",
+        "Track pack JSON",
+        "PDF plans"
+      ],
+      "steps": [
+        [
+          "Choose your design",
+          "In Import & Export, select the current track, a saved Track Library entry or a track pack."
+        ],
+        [
+          "Export and send",
+          "Export track JSON for a complete editable design, or pack JSON for reusable piece definitions."
+        ],
+        [
+          "Open and keep",
+          "The recipient imports the track and saves it to their library. Pack imports add reusable pieces to My packs."
+        ]
+      ],
+      "note": "Track JSON includes its piece definitions. Importing a track offers the chance to export the current drawing before replacing it."
+    },
+    "Telemetry": {
+      "title": "Bring the results to the conversation.",
+      "text": "Share the lap statistics, setup differences and context behind your comparison in a portable report.",
+      "formats": [
+        "Self-contained HTML",
+        "Browser viewing",
+        "Printable reports"
+      ],
+      "steps": [
+        [
+          "Choose the comparison",
+          "Open Compare runs or Progress and select the runs you want to discuss."
+        ],
+        [
+          "Export a report",
+          "Choose Export comparison report and send the saved HTML file."
+        ],
+        [
+          "Read it anywhere",
+          "The recipient opens the report in a browser to read or print it, without needing Telemetry."
+        ]
+      ],
+      "note": "Reports capture a snapshot of the comparison. Later corrections in Telemetry do not update an already exported report."
+    }
+  }
+}
