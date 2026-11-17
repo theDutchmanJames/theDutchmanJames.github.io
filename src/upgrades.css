@@ -129,5 +129,6 @@
 #site .sf-community h2{margin:0 0 8px;font-size:clamp(21px,2.2vw,26px)}
 #site .sf-community p{margin:0 0 14px}
 #site .sf-community-links{display:flex;flex-wrap:wrap;gap:8px}
-#site .sf-community-links a{padding:6px 14px;border:1px solid var(--sf-line);border-radius:999px;background:var(--sf-panel);color:var(--sf-ink);font-size:13px;font-weight:600;text-decoration:none}
+#site .sf-community-links a{display:inline-flex;align-items:center;gap:8px;padding:6px 14px 6px 7px;border:1px solid var(--sf-line);border-radius:999px;background:var(--sf-panel);color:var(--sf-ink);font-size:13px;font-weight:600;text-decoration:none}
 #site .sf-community-links a:hover{border-color:var(--sf-accent);color:var(--sf-accent)}
+#site .sf-community-links img{border-radius:5px;flex:none}

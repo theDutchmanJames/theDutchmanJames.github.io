@@ -12,7 +12,7 @@ for(const file of pages){
  const ids=[...text.matchAll(/\bid="([^"]+)"/g)].map(m=>m[1]);assert.equal(new Set(ids).size,ids.length,`Duplicate ids in ${file}`);
  for(const [,value] of text.matchAll(/(?:href|src)="([^"]+)"/g)){
   if(/^(?:https?:|data:|mailto:)/.test(value))continue;
-  const decoded=value.replaceAll('&amp;','&');const [relative,anchor]=decoded.split('#');
+  const decoded=value.replaceAll('&amp;','&');const [withQuery,anchor]=decoded.split('#');const relative=withQuery.split('?')[0];
   let destination=path.resolve(path.dirname(path.join(dist,file)),relative||'.');
   if(!relative)destination=path.join(dist,file);
   const stat=await fs.stat(destination).catch(()=>null);assert(stat,`${file}: missing ${value}`);
