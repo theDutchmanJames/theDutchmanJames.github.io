@@ -63,7 +63,6 @@ function homepage(){
  return shell({title:'SlotForge — Free apps for your slotcar hobby',description:'Six free apps for slotcar racers and builders: lap timing and race management, track design, collections, setup analysis, liveries and decals.',content});
 }
 function classifyAsset(name,file){
- if(name==='Circuit')return /-complete\.zip$/i.test(file)?'all':null;
  if(/\.exe$/i.test(file))return 'Windows';
  if(/(?:mac|universal).*\.(?:dmg|zip)$/i.test(file))return 'macOS';
  if(/\.(?:deb|AppImage)$/i.test(file))return 'Linux';
@@ -75,9 +74,8 @@ function assetLabel(file){
  return `${type}${architecture?' · '+architecture:''}`;
 }
 function installHelp(name,os){
- if(name==='Circuit')return `Extract the entire complete ZIP. ${os==='Windows'?'Run Install Windows.cmd.':os==='macOS'?'Open Install macOS.command.':'Run the included Install Linux.sh script.'} First setup downloads a local runtime. Afterwards, use the installed launcher to work offline.`;
- if(os==='Windows')return ['Paddock','Timing'].includes(name)?'Choose the installer for regular use, or save the portable executable in a permanent folder and open it.':'Save the portable executable in a permanent folder and double-click it. No installation wizard is needed.';
- if(os==='macOS')return `Choose the build matching your Mac, open the DMG and drag the app to Applications.${name==='Decals'?' Requires macOS 15 or newer. The current release contains an Intel build only.':''}`;
+ if(os==='Windows')return 'Choose the installer for regular use, or the portable app to run it without installing. Keep the portable app in a permanent folder.';
+ if(os==='macOS')return `Choose the build matching your Mac, open the DMG and drag the app to Applications.${name==='Decals'?' Requires macOS 15 or newer.':''}`;
  return 'Choose a package matching your processor. Open the DEB with your package installer, or allow the AppImage to execute before opening it.';
 }
 // SlotForge builds are new and not code-signed, so the operating system may warn on first launch.
@@ -100,7 +98,7 @@ function raceSystemsSection(){
 }
 // Free Paddock parts catalogues. Links and sizes come from the verified release data (releases.json).
 function partsListsSection(){
- const assets=releases.apps.Paddock.assets,n=v=>v.toLocaleString('en-GB');
+ const assets=releases.apps.Paddock.partsLists??releases.apps.Paddock.assets,n=v=>v.toLocaleString('en-GB');
  const cards=partsLists.catalogues.map(c=>{const a=assets.find(x=>x.name===c.file);if(!a)throw Error('Parts list not in Paddock release data: '+c.file);
   return `<article class="parts-card"><div class="parts-card-head"><h3>${esc(c.brand)}</h3><span>${esc(partsLists.edition)}</span></div><p class="parts-total"><strong>${n(c.parts+c.supplies)}</strong> entries</p><ul><li><strong>${n(c.parts)}</strong> parts</li><li><strong>${n(c.supplies)}</strong> workshop supplies</li></ul><a class="sf-action sf-primary" href="${esc(a.url)}">Download ${esc(c.brand)} list ↓</a><small>ZIP · ${Math.max(1,Math.round(a.size/1024))} KB · JSON files by category</small></article>`;}).join('');
  const total=partsLists.catalogues.reduce((t,c)=>t+c.parts+c.supplies,0);

@@ -1006,7 +1006,7 @@
           ],
           [
             "Browser or installed workspace",
-            "Try Circuit online with storage in your browser, or use the installed launcher’s disk workspace."
+            "Try Circuit online with storage in your browser, or use the desktop app, which saves on your computer."
           ],
           [
             "Portable workspace backups",
@@ -1713,7 +1713,7 @@
     "Circuit": {
       "title": "From an idea to a circuit.",
       "first": "Choose a track pack, Routed Wood or FreeForm Drawing and start a layout.",
-      "storage": "The installed launcher keeps a disk workspace. The online version saves in your browser. Export workspace backups to move or protect your designs.",
+      "storage": "The desktop app saves on your computer. The online version saves in your browser. Export workspace backups to move or protect your designs.",
       "featureNote": "Dimensions and clearances are planning aids. Live Preview illustrates motion rather than predicting lap times. Construction exports still need your own CAD/CAM and cutter setup."
     },
     "Timing": {

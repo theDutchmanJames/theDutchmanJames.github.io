@@ -23,7 +23,7 @@ for(const file of pages){
  if(file.includes('/index')&&Object.keys(data.apps).some(n=>file===n.toLowerCase()+'/index.html')){
   const n=Object.keys(data.apps).find(n=>file.startsWith(n.toLowerCase()+'/'));
   for(const [,features] of data.featureGroups[n])for(const [title] of features)assert(text.includes(title.replaceAll('&','&amp;')),`${n}: missing feature ${title}`);
-  for(const asset of [...text.matchAll(/href="(https:\/\/github.com\/[^" ]+\/releases\/download\/[^" ]+)"/g)].map(m=>m[1]))assert(releases.apps[n].assets.some(a=>a.url===asset),`Unverified ${n} download ${asset}`);
+  for(const asset of [...text.matchAll(/href="(https:\/\/github.com\/[^" ]+\/releases\/download\/[^" ]+)"/g)].map(m=>m[1]))assert([...releases.apps[n].assets,...(releases.apps[n].partsLists??[])].some(a=>a.url===asset),`Unverified ${n} download ${asset}`);
   if(n!=='Circuit')assert(!text.includes('Discover Circuit')&&!text.includes('Use Circuit online'),`${n}: unrelated Circuit navigation`);
  }
 }
