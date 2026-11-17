@@ -2,95 +2,110 @@
   "checkedAt": "2026-11-17",
   "apps": {
     "Paddock": {
-      "tag": "v1.7.1",
-      "publishedAt": "2026-11-17T13:46:04Z",
-      "url": "https://github.com/theDutchmanJames/SlotForgePaddock/releases/tag/v1.7.1",
-      "body": "## Linux and macOS downloads for 1.7\n\nVersion 1.7.1 is the same application as [1.7.0](https://github.com/theDutchmanJames/SlotForgePaddock/releases/tag/v1.7.0). It exists so the Linux and macOS packages can be built: two problems in the automated tests stopped those builds for 1.7.0. Windows users on 1.7.0 do not need to do anything, though updating is harmless.\n\nOne small change in the application itself: when moving the shared library on Windows, a network folder written with forward slashes (`//server/share`) is now recognised as a network folder too.\n\n## New in 1.7\n\n- **Automatic backups:** Paddock makes complete backups on a schedule (Settings > Database). It is on by default: weekly, keeping the newest 5. Choose daily, weekly or monthly, another folder, or use \"Back up now\".\n- **Move the shared library:** move the library to another folder on this computer from Settings > Database. Timing follows it at its next start.\n- **Search everything:** press Ctrl+K, `/` or the Search button to search cars, parts, workshop jobs, manuals, pages and commands.\n- **Keyboard shortcuts:** Ctrl+N, Ctrl+F, Ctrl+`,` and Alt+1–9; press `?` for the list.\n- **Update notice:** Paddock shows when a newer release is available, with a Download button. It only asks GitHub for the latest version number, and can be switched off in Settings > Database > Updates.\n- **Lap-based maintenance reminders:** Record work accepts \"after this many laps\", counted from Timing races and manual track tests.\n- **Collection value chart:** the Overview shows current value and spending per purchase year, per currency.\n- **Faster everyday use:** the Cars list, Showroom, Settings, Shopping List, Find a Part and search respond several times faster on large collections.\n- **Spreadsheet import:** step 2 lists what blocks \"Choose cars\", with a button to fix each problem.\n- **Fixed:** a crash after adding a part from the Parts page, and a double scrollbar in the search box.\n\n## Downloads\n\n- **Windows installer:** `SlotForgePaddock-1.7.1-Setup.exe` updates the installed application while keeping its existing collection and settings.\n- **Windows portable:** `SlotForgePaddock-1.7.1-Portable.exe` runs without installation.\n- **Source:** `SlotForgePaddock-1.7.1-source.zip` is the tagged source: the app, build files and tests.\n- **Linux:** native x64 and ARM64 packages, each as AppImage and .deb, with their own checksum files.\n- **macOS:** no download for this release. The macOS build still fails 26 of its 1,863 checks, all in the racing-history pages, so no package was published.\n\n- **Parts lists (optional):** `NSR-Parts-List-11-2026.zip`, `ScaleAuto-Parts-List-11-2026.zip` and `Slotit-Parts-List-11-2026.zip` are attached to this release. They are the same files as before, supplied separately from the app. [What they contain and how to import them](https://github.com/theDutchmanJames/SlotForgePaddock/blob/main/parts-lists/README.md).\n\n## Validation\n\n1,863 automated tests on Windows: 1,854 passed, zero failures, nine optional tests skipped. Syntax checks passed for 295 JavaScript files. The full interface smoke test passed all 230 checks. Every application file inside the Windows package was compared with the tagged source and matches. The Linux packages were built on Linux x64 and ARM64, where the same test suite passed before they were attached.\n",
+      "tag": "v1.7.2",
+      "publishedAt": "2026-11-17T14:25:59Z",
+      "url": "https://github.com/theDutchmanJames/SlotForgePaddock/releases/tag/v1.7.2",
+      "body": "## macOS download for 1.7\n\nVersion 1.7.2 brings the macOS package back. For Windows and Linux it behaves the same as 1.7.1; updating is harmless but not needed.\n\n- **macOS:** the checks that every macOS package must pass run on a newer version of the database engine. That version exposed a weakness in how the racing-history pages (session results, lap pages, a car's history, results received from Timing) read their lists of participants and lanes. Those queries are corrected, so they work on both the current and the newer engine. The published 1.7.0 and 1.7.1 apps use the current engine and were not affected.\n- **Parts lists:** the NSR, ScaleAuto and Slot.it lists are now attached to every release automatically.\n\n## New in 1.7\n\n- **Automatic backups:** Paddock makes complete backups on a schedule (Settings > Database). It is on by default: weekly, keeping the newest 5. Choose daily, weekly or monthly, another folder, or use \"Back up now\".\n- **Move the shared library:** move the library to another folder on this computer from Settings > Database. Timing follows it at its next start.\n- **Search everything:** press Ctrl+K, `/` or the Search button to search cars, parts, workshop jobs, manuals, pages and commands.\n- **Keyboard shortcuts:** Ctrl+N, Ctrl+F, Ctrl+`,` and Alt+1–9; press `?` for the list.\n- **Update notice:** Paddock shows when a newer release is available, with a Download button. It only asks GitHub for the latest version number, and can be switched off in Settings > Database > Updates.\n- **Lap-based maintenance reminders:** Record work accepts \"after this many laps\", counted from Timing races and manual track tests.\n- **Collection value chart:** the Overview shows current value and spending per purchase year, per currency.\n- **Faster everyday use:** the Cars list, Showroom, Settings, Shopping List, Find a Part and search respond several times faster on large collections.\n- **Spreadsheet import:** step 2 lists what blocks \"Choose cars\", with a button to fix each problem.\n- **Fixed:** a crash after adding a part from the Parts page, and a double scrollbar in the search box.\n\n## Downloads\n\n- **Windows installer:** `SlotForgePaddock-1.7.2-Setup.exe` updates the installed application while keeping its existing collection and settings.\n- **Windows portable:** `SlotForgePaddock-1.7.2-Portable.exe` runs without installation.\n- **Source:** `SlotForgePaddock-1.7.2-source.zip` is the tagged source: the app, build files and tests.\n- **Linux:** native x64 and ARM64 packages, each as AppImage and .deb.\n- **macOS:** `SlotForgePaddock-1.7.2-mac-universal.dmg` (or the .zip) for Intel and Apple Silicon. The app is not signed with an Apple developer certificate, so macOS asks for approval the first time; see the [macOS notes](https://github.com/theDutchmanJames/SlotForgePaddock/blob/main/docs/BUILDING.md).\n- **Parts lists (optional):** the NSR, ScaleAuto and Slot.it lists are attached to this release, supplied separately from the app. [What they contain and how to import them](https://github.com/theDutchmanJames/SlotForgePaddock/blob/main/parts-lists/README.md).\n\n## Validation\n\n1,865 automated tests on Windows: 1,856 passed, zero failures, nine optional tests skipped. The same suite passed on Linux x64, Linux ARM64 and macOS before their packages were attached. Syntax checks passed for 296 JavaScript files. The full interface smoke test passed all 230 checks. Every application file inside the Windows package was compared with the tagged source and matches.\n",
       "assets": [
         {
           "name": "NSR-Parts-List-11-2026.zip",
-          "url": "https://github.com/theDutchmanJames/SlotForgePaddock/releases/download/v1.7.1/NSR-Parts-List-11-2026.zip",
+          "url": "https://github.com/theDutchmanJames/SlotForgePaddock/releases/download/v1.7.2/NSR-Parts-List-11-2026.zip",
           "size": 242981
         },
         {
           "name": "ScaleAuto-Parts-List-11-2026.zip",
-          "url": "https://github.com/theDutchmanJames/SlotForgePaddock/releases/download/v1.7.1/ScaleAuto-Parts-List-11-2026.zip",
+          "url": "https://github.com/theDutchmanJames/SlotForgePaddock/releases/download/v1.7.2/ScaleAuto-Parts-List-11-2026.zip",
           "size": 275485
         },
         {
           "name": "SHA256SUMS-linux-arm64.txt",
-          "url": "https://github.com/theDutchmanJames/SlotForgePaddock/releases/download/v1.7.1/SHA256SUMS-linux-arm64.txt",
+          "url": "https://github.com/theDutchmanJames/SlotForgePaddock/releases/download/v1.7.2/SHA256SUMS-linux-arm64.txt",
           "size": 215
         },
         {
           "name": "SHA256SUMS-linux-x64.txt",
-          "url": "https://github.com/theDutchmanJames/SlotForgePaddock/releases/download/v1.7.1/SHA256SUMS-linux-x64.txt",
+          "url": "https://github.com/theDutchmanJames/SlotForgePaddock/releases/download/v1.7.2/SHA256SUMS-linux-x64.txt",
           "size": 216
         },
         {
+          "name": "SHA256SUMS-mac-universal.txt",
+          "url": "https://github.com/theDutchmanJames/SlotForgePaddock/releases/download/v1.7.2/SHA256SUMS-mac-universal.txt",
+          "size": 214
+        },
+        {
           "name": "SHA256SUMS-windows-source.txt",
-          "url": "https://github.com/theDutchmanJames/SlotForgePaddock/releases/download/v1.7.1/SHA256SUMS-windows-source.txt",
+          "url": "https://github.com/theDutchmanJames/SlotForgePaddock/releases/download/v1.7.2/SHA256SUMS-windows-source.txt",
           "size": 301
         },
         {
-          "name": "SlotForgePaddock-1.7.1-linux-amd64.deb",
-          "url": "https://github.com/theDutchmanJames/SlotForgePaddock/releases/download/v1.7.1/SlotForgePaddock-1.7.1-linux-amd64.deb",
-          "size": 102878532
+          "name": "SlotForgePaddock-1.7.2-linux-amd64.deb",
+          "url": "https://github.com/theDutchmanJames/SlotForgePaddock/releases/download/v1.7.2/SlotForgePaddock-1.7.2-linux-amd64.deb",
+          "size": 102878536
         },
         {
-          "name": "SlotForgePaddock-1.7.1-linux-arm64.AppImage",
-          "url": "https://github.com/theDutchmanJames/SlotForgePaddock/releases/download/v1.7.1/SlotForgePaddock-1.7.1-linux-arm64.AppImage",
-          "size": 130615380
+          "name": "SlotForgePaddock-1.7.2-linux-arm64.AppImage",
+          "url": "https://github.com/theDutchmanJames/SlotForgePaddock/releases/download/v1.7.2/SlotForgePaddock-1.7.2-linux-arm64.AppImage",
+          "size": 130615311
         },
         {
-          "name": "SlotForgePaddock-1.7.1-linux-arm64.deb",
-          "url": "https://github.com/theDutchmanJames/SlotForgePaddock/releases/download/v1.7.1/SlotForgePaddock-1.7.1-linux-arm64.deb",
-          "size": 97759936
+          "name": "SlotForgePaddock-1.7.2-linux-arm64.deb",
+          "url": "https://github.com/theDutchmanJames/SlotForgePaddock/releases/download/v1.7.2/SlotForgePaddock-1.7.2-linux-arm64.deb",
+          "size": 97759996
         },
         {
-          "name": "SlotForgePaddock-1.7.1-linux-x86_64.AppImage",
-          "url": "https://github.com/theDutchmanJames/SlotForgePaddock/releases/download/v1.7.1/SlotForgePaddock-1.7.1-linux-x86_64.AppImage",
-          "size": 129404463
+          "name": "SlotForgePaddock-1.7.2-linux-x86_64.AppImage",
+          "url": "https://github.com/theDutchmanJames/SlotForgePaddock/releases/download/v1.7.2/SlotForgePaddock-1.7.2-linux-x86_64.AppImage",
+          "size": 129404400
         },
         {
-          "name": "SlotForgePaddock-1.7.1-Portable.exe",
-          "url": "https://github.com/theDutchmanJames/SlotForgePaddock/releases/download/v1.7.1/SlotForgePaddock-1.7.1-Portable.exe",
-          "size": 111966324
+          "name": "SlotForgePaddock-1.7.2-mac-universal.dmg",
+          "url": "https://github.com/theDutchmanJames/SlotForgePaddock/releases/download/v1.7.2/SlotForgePaddock-1.7.2-mac-universal.dmg",
+          "size": 228343632
         },
         {
-          "name": "SlotForgePaddock-1.7.1-Setup.exe",
-          "url": "https://github.com/theDutchmanJames/SlotForgePaddock/releases/download/v1.7.1/SlotForgePaddock-1.7.1-Setup.exe",
-          "size": 123657984
+          "name": "SlotForgePaddock-1.7.2-mac-universal.zip",
+          "url": "https://github.com/theDutchmanJames/SlotForgePaddock/releases/download/v1.7.2/SlotForgePaddock-1.7.2-mac-universal.zip",
+          "size": 221552810
         },
         {
-          "name": "SlotForgePaddock-1.7.1-source.zip",
-          "url": "https://github.com/theDutchmanJames/SlotForgePaddock/releases/download/v1.7.1/SlotForgePaddock-1.7.1-source.zip",
-          "size": 4180677
+          "name": "SlotForgePaddock-1.7.2-Portable.exe",
+          "url": "https://github.com/theDutchmanJames/SlotForgePaddock/releases/download/v1.7.2/SlotForgePaddock-1.7.2-Portable.exe",
+          "size": 111943449
+        },
+        {
+          "name": "SlotForgePaddock-1.7.2-Setup.exe",
+          "url": "https://github.com/theDutchmanJames/SlotForgePaddock/releases/download/v1.7.2/SlotForgePaddock-1.7.2-Setup.exe",
+          "size": 123657977
+        },
+        {
+          "name": "SlotForgePaddock-1.7.2-source.zip",
+          "url": "https://github.com/theDutchmanJames/SlotForgePaddock/releases/download/v1.7.2/SlotForgePaddock-1.7.2-source.zip",
+          "size": 4915667
         },
         {
           "name": "Slotit-Parts-List-11-2026.zip",
-          "url": "https://github.com/theDutchmanJames/SlotForgePaddock/releases/download/v1.7.1/Slotit-Parts-List-11-2026.zip",
+          "url": "https://github.com/theDutchmanJames/SlotForgePaddock/releases/download/v1.7.2/Slotit-Parts-List-11-2026.zip",
           "size": 215615
         }
       ],
       "partsLists": [
         {
           "name": "NSR-Parts-List-11-2026.zip",
-          "url": "https://github.com/theDutchmanJames/SlotForgePaddock/releases/download/v1.7.1/NSR-Parts-List-11-2026.zip",
+          "url": "https://github.com/theDutchmanJames/SlotForgePaddock/releases/download/v1.7.2/NSR-Parts-List-11-2026.zip",
           "size": 242981,
-          "release": "v1.7.1"
+          "release": "v1.7.2"
         },
         {
           "name": "ScaleAuto-Parts-List-11-2026.zip",
-          "url": "https://github.com/theDutchmanJames/SlotForgePaddock/releases/download/v1.7.1/ScaleAuto-Parts-List-11-2026.zip",
+          "url": "https://github.com/theDutchmanJames/SlotForgePaddock/releases/download/v1.7.2/ScaleAuto-Parts-List-11-2026.zip",
           "size": 275485,
-          "release": "v1.7.1"
+          "release": "v1.7.2"
         },
         {
           "name": "Slotit-Parts-List-11-2026.zip",
-          "url": "https://github.com/theDutchmanJames/SlotForgePaddock/releases/download/v1.7.1/Slotit-Parts-List-11-2026.zip",
+          "url": "https://github.com/theDutchmanJames/SlotForgePaddock/releases/download/v1.7.2/Slotit-Parts-List-11-2026.zip",
           "size": 215615,
-          "release": "v1.7.1"
+          "release": "v1.7.2"
         }
       ]
     },
