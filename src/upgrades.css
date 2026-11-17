@@ -124,3 +124,10 @@
 /* Screenshot edge: a thin ink-tinted outline so light shots don't melt into the light theme (and dark into dark). */
 #site{--sf-shot-edge:color-mix(in srgb,var(--sf-ink) 18%,transparent)}
 #site .sf-picture .theme-picture img,#site .sf-large-shot .theme-picture img{aspect-ratio:2560/1540;object-fit:contain;border:1px solid var(--sf-shot-edge);border-radius:8px;box-sizing:border-box}
+/* About: community call-out */
+#site .sf-community{margin:28px 0 8px;padding:24px 26px;border:1px solid color-mix(in srgb,var(--sf-accent) 40%,var(--sf-line));border-left:4px solid var(--sf-accent);border-radius:12px;background:linear-gradient(120deg,color-mix(in srgb,var(--sf-accent) 12%,var(--sf-panel)),var(--sf-panel) 75%)}
+#site .sf-community h2{margin:0 0 8px;font-size:clamp(21px,2.2vw,26px)}
+#site .sf-community p{margin:0 0 14px}
+#site .sf-community-links{display:flex;flex-wrap:wrap;gap:8px}
+#site .sf-community-links a{padding:6px 14px;border:1px solid var(--sf-line);border-radius:999px;background:var(--sf-panel);color:var(--sf-ink);font-size:13px;font-weight:600;text-decoration:none}
+#site .sf-community-links a:hover{border-color:var(--sf-accent);color:var(--sf-accent)}
