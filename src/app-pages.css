@@ -100,3 +100,30 @@
 #site .availability-note{padding:16px 18px;border:1px dashed color-mix(in srgb,var(--sf-accent) 45%,var(--sf-line));border-radius:12px;background:var(--sf-panel)}
 #site .availability-note p{margin:0 0 6px}
 #site .availability-note p+p{color:var(--sf-muted)}
+
+/* ── Paddock: free parts lists ──────────────────────────────────── */
+#site .parts-lists{margin-top:72px}
+#site .parts-intro{display:flex;justify-content:space-between;align-items:flex-end;gap:20px;flex-wrap:wrap}
+#site .parts-intro p{color:var(--sf-muted);max-width:640px;margin:0}
+#site .parts-more{font-size:12.5px;font-weight:600;padding:5px 12px;border-radius:999px;border:1px dashed color-mix(in srgb,var(--sf-accent) 50%,var(--sf-line));color:var(--sf-accent)}
+#site .parts-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(250px,1fr));gap:12px;margin:22px 0}
+#site .parts-card{display:flex;flex-direction:column;gap:10px;padding:22px;border:1px solid var(--sf-line);border-top:3px solid var(--sf-accent);border-radius:0 0 12px 12px;background:var(--sf-panel)}
+#site .parts-card-head{display:flex;justify-content:space-between;align-items:baseline;gap:10px}
+#site .parts-card h3{margin:0;font-size:22px;letter-spacing:-.01em}
+#site .parts-card-head span{font-size:12px;color:var(--sf-muted)}
+#site .parts-total{margin:0;color:var(--sf-muted)}
+#site .parts-total strong{font-size:30px;color:var(--sf-ink);font-variant-numeric:tabular-nums;margin-right:4px}
+#site .parts-card ul{list-style:none;margin:0 0 6px;padding:0;display:flex;gap:16px;flex-wrap:wrap;color:var(--sf-muted);font-size:13.5px}
+#site .parts-card ul strong{color:var(--sf-ink)}
+#site .parts-card .sf-action{justify-content:center;text-align:center}
+#site .parts-card small{color:var(--sf-muted);font-size:12px;text-align:center}
+#site .parts-details{display:grid;grid-template-columns:1.2fr 1fr;gap:12px}
+#site .parts-details>div{padding:20px 22px;border:1px solid var(--sf-line);border-radius:12px;background:var(--sf-panel)}
+#site .parts-details h3{margin:0 0 12px;font-size:16px}
+#site .parts-categories{list-style:none;margin:0;padding:0;display:flex;flex-wrap:wrap;gap:6px}
+#site .parts-categories li{padding:4px 10px;border-radius:999px;border:1px solid var(--sf-line);background:var(--sf-bg);font-size:12.5px}
+#site .parts-categories .is-supplies{border-color:color-mix(in srgb,var(--sf-accent) 45%,var(--sf-line));color:var(--sf-accent);font-weight:600}
+#site .parts-steps{margin:0;padding-left:20px;display:flex;flex-direction:column;gap:8px;color:var(--sf-muted)}
+#site .parts-steps strong{color:var(--sf-ink)}
+#site .parts-note{margin:12px 2px 0;font-size:12.5px;color:var(--sf-muted)}
+@media(max-width:860px){#site .parts-details{grid-template-columns:1fr}}

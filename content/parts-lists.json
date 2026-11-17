@@ -1,0 +1,29 @@
+{
+  "_note": "Premade Paddock parts catalogues, attached to a Paddock GitHub release. To add a brand: attach the ZIP to a Paddock release, refresh content/releases.json, and add one entry below. URL and size are read from releases.json at build time, so only verified release files are linked.",
+  "edition": "November 2026",
+  "categories": [
+    "Motors & motor parts",
+    "Gears & transmission",
+    "Axles & bearings",
+    "Wheels & accessories",
+    "Tyres",
+    "Guides & pickups",
+    "Chassis & mounting",
+    "Suspension & handling",
+    "Body & interior",
+    "Wiring & electronics",
+    "Screws & fixings"
+  ],
+  "supplies": [
+    "Cleaning & lubrication",
+    "Hand tools",
+    "Measuring & setup tools",
+    "Tyre & wheel equipment",
+    "Storage & transport"
+  ],
+  "catalogues": [
+    { "brand": "NSR", "file": "NSR-Parts-List-11-2026.zip", "parts": 1199, "supplies": 38 },
+    { "brand": "ScaleAuto", "file": "ScaleAuto-Parts-List-11-2026.zip", "parts": 1269, "supplies": 132 },
+    { "brand": "Slot.it", "file": "Slotit-Parts-List-11-2026.zip", "parts": 753, "supplies": 61 }
+  ]
+}
