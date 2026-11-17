@@ -1,5 +1,5 @@
 {
-  "_note": "Premade Paddock parts catalogues, attached to a Paddock GitHub release. To add a brand: attach the ZIP to a Paddock release, refresh content/releases.json, and add one entry below. URL and size are read from releases.json at build time, so only verified release files are linked.",
+  "_note": "Brands, editions and counts are refreshed by npm run refresh:releases from parts-lists/README.md in the SlotForgePaddock repo; download links come from the newest Paddock release that has each ZIP. Edit categories and supplies here by hand.",
   "edition": "November 2026",
   "categories": [
     "Motors & motor parts",
@@ -22,8 +22,26 @@
     "Storage & transport"
   ],
   "catalogues": [
-    { "brand": "NSR", "file": "NSR-Parts-List-11-2026.zip", "parts": 1199, "supplies": 38 },
-    { "brand": "ScaleAuto", "file": "ScaleAuto-Parts-List-11-2026.zip", "parts": 1269, "supplies": 132 },
-    { "brand": "Slot.it", "file": "Slotit-Parts-List-11-2026.zip", "parts": 753, "supplies": 61 }
+    {
+      "brand": "NSR",
+      "edition": "November 2026",
+      "file": "NSR-Parts-List-11-2026.zip",
+      "parts": 1199,
+      "supplies": 38
+    },
+    {
+      "brand": "ScaleAuto",
+      "edition": "November 2026",
+      "file": "ScaleAuto-Parts-List-11-2026.zip",
+      "parts": 1269,
+      "supplies": 132
+    },
+    {
+      "brand": "Slot.it",
+      "edition": "November 2026",
+      "file": "Slotit-Parts-List-11-2026.zip",
+      "parts": 753,
+      "supplies": 61
+    }
   ]
 }
