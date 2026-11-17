@@ -34,7 +34,7 @@
 
 /* ── Screenshot showcase: framed like the homepage carousel ─────── */
 #site .app-showcase{margin:32px 0 0;padding:14px 14px 18px;border:1px solid var(--sf-line);border-radius:16px;background:var(--sf-panel)}
-#site .app-showcase #gallery-picture img{border-radius:10px;border:1px solid var(--sf-line);display:block;width:100%;height:auto}
+#site .app-showcase #gallery-picture img{border-radius:10px;border:1px solid var(--sf-shot-edge);aspect-ratio:2560/1540;object-fit:contain;display:block;width:100%;height:auto}
 #site .app-showcase figcaption{display:flex;justify-content:space-between;align-items:center;margin:14px 6px 2px;font-size:12.5px;color:var(--sf-muted)}
 #site .app-showcase .gallery-description{margin:4px 6px 16px;font-size:16px;font-weight:500}
 #site .app-showcase .sf-gallery-tabs{margin:0 6px;display:flex;flex-wrap:wrap;gap:6px}

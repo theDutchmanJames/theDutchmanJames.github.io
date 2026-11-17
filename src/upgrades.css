@@ -121,3 +121,6 @@
 #site .sf-footer-logo img{height:20px;width:auto}
 #site footer a{text-decoration:none}
 #site footer a:hover{color:var(--sf-ink);text-decoration:underline;text-underline-offset:3px}
+/* Screenshot edge: a thin ink-tinted outline so light shots don't melt into the light theme (and dark into dark). */
+#site{--sf-shot-edge:color-mix(in srgb,var(--sf-ink) 18%,transparent)}
+#site .sf-picture .theme-picture img,#site .sf-large-shot .theme-picture img{aspect-ratio:2560/1540;object-fit:contain;border:1px solid var(--sf-shot-edge);border-radius:8px;box-sizing:border-box}
