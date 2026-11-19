@@ -137,3 +137,19 @@
   new IntersectionObserver(([e])=>{atDownloads=e.isIntersecting||e.boundingClientRect.top<0;update();},{rootMargin:'0px 0px -20% 0px'}).observe(downloads);
  }
 })();
+// ── Screenshot tour: previous/next, counter, arrow keys, keep the active view in sight.
+(()=>{
+ 'use strict';
+ const tour=document.querySelector('.sf-tour');if(!tour)return;
+ const buttons=[...tour.querySelectorAll('[data-gallery]')],pos=document.getElementById('tour-pos'),list=tour.querySelector('.tour-list');
+ const current=()=>Math.max(0,buttons.findIndex(b=>b.getAttribute('aria-pressed')==='true'));
+ const go=i=>{const b=buttons[(i+buttons.length)%buttons.length];b.click();};
+ const sync=()=>{const i=current(),b=buttons[i];pos.textContent=String(i+1);
+  const lr=list.getBoundingClientRect(),br=b.getBoundingClientRect();
+  if(list.scrollWidth>list.clientWidth)list.scrollTo({left:list.scrollLeft+br.left-lr.left-(lr.width-br.width)/2,behavior:'smooth'});
+  else if(list.scrollHeight>list.clientHeight)list.scrollTo({top:list.scrollTop+br.top-lr.top-(lr.height-br.height)/2,behavior:'smooth'});};
+ buttons.forEach(b=>b.addEventListener('click',()=>requestAnimationFrame(sync)));
+ document.getElementById('tour-prev').addEventListener('click',()=>go(current()-1));
+ document.getElementById('tour-next').addEventListener('click',()=>go(current()+1));
+ tour.addEventListener('keydown',e=>{if(!['ArrowLeft','ArrowRight','ArrowUp','ArrowDown'].includes(e.key)||!e.target.closest('.tour-list,.tour-nav'))return;e.preventDefault();const f=buttons.indexOf(e.target.closest('[data-gallery]')),i=(f>=0?f:current())+(['ArrowLeft','ArrowUp'].includes(e.key)?-1:1);go(i);if(e.target.closest('.tour-list'))buttons[(i+buttons.length)%buttons.length].focus();});
+})();
