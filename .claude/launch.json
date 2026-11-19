@@ -4,8 +4,12 @@
     {
       "name": "website",
       "runtimeExecutable": "node",
-      "runtimeArgs": ["scripts/serve.mjs"],
-      "env": { "PORT": "4174" },
+      "runtimeArgs": [
+        "scripts/serve.mjs"
+      ],
+      "env": {
+        "PORT": "4174"
+      },
       "port": 4174
     }
   ]

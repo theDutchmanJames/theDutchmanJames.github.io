@@ -1,9 +1,9 @@
 import http from 'node:http';
 import fs from 'node:fs/promises';
 import path from 'node:path';
-const root=path.resolve(import.meta.dirname,'../dist');
+const root=path.resolve(import.meta.dirname,'..',process.env.SF_DIST||'dist');
 const port=Number(process.env.PORT||4173);
-const types={'.html':'text/html; charset=utf-8','.css':'text/css; charset=utf-8','.js':'text/javascript; charset=utf-8','.mjs':'text/javascript; charset=utf-8','.json':'application/json; charset=utf-8','.svg':'image/svg+xml','.png':'image/png','.jpg':'image/jpeg','.jpeg':'image/jpeg','.webp':'image/webp','.ico':'image/x-icon','.txt':'text/plain; charset=utf-8','.pdf':'application/pdf','.woff2':'font/woff2'};
+const types={'.html':'text/html; charset=utf-8','.css':'text/css; charset=utf-8','.js':'text/javascript; charset=utf-8','.mjs':'text/javascript; charset=utf-8','.json':'application/json; charset=utf-8','.svg':'image/svg+xml','.png':'image/png','.jpg':'image/jpeg','.jpeg':'image/jpeg','.webp':'image/webp','.ico':'image/x-icon','.txt':'text/plain; charset=utf-8','.pdf':'application/pdf','.woff2':'font/woff2','.ttf':'font/ttf'};
 const server=http.createServer(async(req,res)=>{
  try{
   if(!['GET','HEAD'].includes(req.method)){res.writeHead(405,{'Allow':'GET, HEAD'});res.end();return;}

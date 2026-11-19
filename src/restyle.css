@@ -1,0 +1,129 @@
+/* ==========================================================================
+   SlotForge Restyle — website preview
+   The look of SlotForge Timing 2.4 / Paddock (SlotForgeRestyle.md), applied to the website.
+   Style names in comments refer to the catalogue in SlotForgeRestyle.md.
+   ========================================================================== */
+
+/* Type Trio: bundled fonts (SIL Open Font License, see assets/fonts/*/OFL.txt) */
+@font-face{font-family:'SF Barlow Condensed';src:url('fonts/barlowcondensed/BarlowCondensed-Bold.ttf') format('truetype');font-weight:700;font-style:normal;font-display:swap}
+@font-face{font-family:'SF Barlow Condensed';src:url('fonts/barlowcondensed/BarlowCondensed-BoldItalic.ttf') format('truetype');font-weight:700;font-style:italic;font-display:swap}
+@font-face{font-family:'SF Roboto Mono';src:url('fonts/robotomono/RobotoMono[wght].ttf') format('truetype');font-weight:100 700;font-style:normal;font-display:swap}
+
+/* Graphite: the site already uses these surfaces; align muted and accent, add the accent fill/text pair */
+#site{
+ --sf-muted:light-dark(#656c76,#98a0ab);
+ --sf-accent:light-dark(#c92424,#e5484d);
+ --sf-accent-fill:light-dark(#c92424,#d6383e);
+ --sf-accent-text:light-dark(#c92424,#f06b6f);
+ --sf-track:light-dark(color-mix(in srgb,#1d2229 7%,transparent),rgba(0,0,0,.22));
+ --sf-title:'SF Barlow Condensed','Bahnschrift',sans-serif;
+ --sf-mono:'SF Roboto Mono',Consolas,monospace;
+ --sf-ready:#3ecf8e;
+ --sf-glow:light-dark(color-mix(in srgb,#c92424 9%,transparent),color-mix(in srgb,#e5484d 24%,transparent));
+ --sf-glow-soft:light-dark(color-mix(in srgb,#c92424 4%,#fff),color-mix(in srgb,#e5484d 10%,#222831));
+}
+
+/* Type Trio: every title in Barlow Condensed, bold italic capitals */
+#site :is(h1,h2,h3){font-family:var(--sf-title);font-weight:700;font-style:italic;text-transform:uppercase;letter-spacing:.02em}
+#site .sf-hero h1,#site .app-hero h1{font-size:clamp(50px,6vw,88px);line-height:.92;text-wrap:balance}
+#site h2{font-size:clamp(30px,3vw,42px);line-height:1}
+#site h3{font-size:21px;line-height:1.1}
+#site .spotlight-copy h2{font-size:clamp(28px,2.6vw,36px)}
+/* eyebrows are plain type, not Barlow */
+#site .sf-kicker{font:700 11px/1.4 'Segoe UI',system-ui,sans-serif;letter-spacing:.14em;color:var(--sf-accent-text)}
+#site :is(.sf-category,.parts-card-head span){font:700 11px/1.4 'Segoe UI',system-ui,sans-serif;letter-spacing:.12em;text-transform:uppercase;color:var(--sf-muted)}
+/* numbers that are data in Roboto Mono */
+#site :is(.release-info,.file-size,.parts-total strong,.parts-card li strong,.sf-sticky-download small,.sf-download-meta>span){font-family:var(--sf-mono);font-weight:500;letter-spacing:0}
+
+/* Focus ring */
+#site :focus-visible{outline:3px solid #4c9aff;outline-offset:2px}
+
+/* Pit Buttons: flat, quiet, one accent for the main action */
+#site .sf-action{border:1px solid transparent;border-radius:7px;background:color-mix(in srgb,var(--sf-ink) 8%,var(--sf-panel));color:var(--sf-ink);box-shadow:none;font-weight:600;transition:background .12s,border-color .12s}
+#site .sf-action:hover{filter:none;transform:none;background:color-mix(in srgb,var(--sf-ink) 13%,var(--sf-panel))}
+#site .sf-action:active{background:color-mix(in srgb,var(--sf-ink) 17%,var(--sf-panel))}
+#site .sf-primary{background:var(--sf-accent-fill);border-color:transparent;color:#fff}
+#site .sf-primary:hover{background:var(--sf-accent)}
+#site .sf-header .sf-try-circuit{min-height:34px;padding:0 14px;font-size:13px}
+
+/* Gear Selector: theme switch, platform tabs, gallery tabs, spotlight pager — the chosen one is quiet grey, not red */
+#site :is(.sf-themes,.sf-platform-buttons,.sf-gallery-tabs,.spotlight-selectors){display:inline-flex;flex-wrap:wrap;gap:2px;padding:3px;border:1px solid var(--sf-line);border-radius:10px;background:color-mix(in srgb,var(--sf-bg) 60%,var(--sf-panel))}
+#site :is(.sf-themes,.sf-platform-buttons,.sf-gallery-tabs,.spotlight-selectors) button{min-height:28px;padding:5px 13px;border:0;border-radius:7px;background:transparent;box-shadow:none;color:var(--sf-muted);font-weight:500;filter:none}
+#site :is(.sf-themes,.sf-platform-buttons,.sf-gallery-tabs,.spotlight-selectors) button:hover{background:color-mix(in srgb,var(--sf-ink) 6%,transparent);color:var(--sf-ink)}
+#site :is(.sf-themes,.sf-platform-buttons,.sf-gallery-tabs,.spotlight-selectors) button[aria-pressed=true]{background:color-mix(in srgb,var(--sf-ink) 12%,var(--sf-panel));border-color:transparent;box-shadow:none;color:var(--sf-ink);font-weight:600}
+#site .sf-downloads .sf-platform-buttons .sf-action{border-radius:7px;padding:5px 16px}
+#site .spotlight-controls button{border-radius:7px}
+#site .spotlight-controls button[aria-pressed=true]{color:var(--sf-ink);border-color:transparent;background:color-mix(in srgb,var(--sf-ink) 12%,var(--sf-panel))}
+
+/* Pit Wall: the header menu as grouped tabs on a dark track, the open page lifted (no red underline) */
+@media(min-width:901px){
+ #site .sf-header>nav{gap:2px}
+ #site .sf-header>nav .sf-nav{padding:6px 9px;border-radius:7px;line-height:1.2}
+ #site .sf-header>nav .sf-nav:hover{background:color-mix(in srgb,var(--sf-ink) 6%,transparent)}
+ #site .sf-header>nav .sf-nav[aria-current=page]{background:color-mix(in srgb,var(--sf-ink) 12%,var(--sf-panel));box-shadow:none;color:var(--sf-ink);font-weight:600;padding-left:9px}
+}
+#site .sf-local-nav>div{gap:2px}
+#site .sf-local-nav .sf-nav{padding:6px 11px;border-radius:7px}
+#site .sf-local-nav .sf-nav:hover{background:color-mix(in srgb,var(--sf-ink) 6%,transparent)}
+
+/* Broadcast Hero: homepage and app-page headers on a dark accent glow, big Barlow titles */
+#site :is(.sf-hero,.app-hero){position:relative;padding:44px 40px 40px;border:1px solid var(--sf-line);border-radius:16px;overflow:hidden;
+ background:radial-gradient(60% 130% at 0% 100%,var(--sf-glow),transparent 70%),
+            linear-gradient(110deg,var(--sf-glow-soft) 0%,var(--sf-bg) 60%,color-mix(in srgb,var(--sf-panel) 70%,var(--sf-bg)) 100%)}
+#site .sf-hero .sf-kicker,#site .app-hero .sf-kicker{display:flex;align-items:center;gap:10px}
+#site .sf-hero .sf-kicker::before,#site .app-hero .sf-kicker::before{content:'';width:22px;height:2px;background:var(--sf-accent)}
+@media(max-width:700px){#site :is(.sf-hero,.app-hero){padding:28px 20px 24px}}
+
+/* Toggle Chips / pills: trust pills with the green "ready" dot */
+#site .sf-trust li{border-color:var(--sf-line);background:var(--sf-bg);color:color-mix(in srgb,var(--sf-ink) 82%,var(--sf-muted))}
+#site .sf-trust li::before{background:var(--sf-ready)}
+
+/* Garage Card: the app cards — picture edge to edge, Barlow title, darker foot with the links */
+#site .sf-app-card{border-radius:12px;background:var(--sf-panel);box-shadow:none}
+#site .sf-app-card-shot:hover{transform:none;box-shadow:none;border-color:color-mix(in srgb,var(--sf-ink) 30%,var(--sf-line))}
+#site .sf-app-card h3{font-size:24px;margin:0}
+#site .sf-app-card h3 a{color:var(--sf-ink);text-decoration:none}
+#site .sf-card-links{margin:auto 0 0;padding:12px 22px;border-top:1px solid var(--sf-line);background:color-mix(in srgb,var(--sf-bg) 50%,var(--sf-panel))}
+
+/* Page Note: "At a glance" on app pages — icon tile, lead line, grey line */
+#site .app-hero-highlights{border-radius:12px;background:var(--sf-panel)}
+#site .app-hero-highlights .feature-icon{width:40px;height:40px;border-radius:10px;background:color-mix(in srgb,var(--sf-accent) 16%,var(--sf-panel));color:var(--sf-accent-text)}
+
+/* Neutral surfaces: no coloured gradients behind text */
+#site :is(.sf-finale,.sf-downloads,.sf-community,.feature-topic-heading){background:var(--sf-panel);border-color:var(--sf-line)}
+#site .sf-community{border-left:1px solid var(--sf-line)}
+#site .sf-try-callout{background:var(--sf-panel);border-color:var(--sf-line)}
+#site .sf-try-callout .sf-try-icon{color:var(--sf-ready)}
+
+/* Entry Card: neutral icon tiles; Paint (system colour) stays on the race-system tiles and bars only */
+#site .feature-icon,#site .feature-topic-icon,#site .sharing-symbol{background:color-mix(in srgb,var(--sf-ink) 8%,var(--sf-panel));border-color:transparent;color:color-mix(in srgb,var(--sf-ink) 80%,var(--sf-muted))}
+#site .race-system-card{background:var(--sf-panel)}
+#site .race-system-icon{background:color-mix(in srgb,var(--system) 16%,var(--sf-panel));color:var(--system)}
+#site .race-system-card:hover{transform:none;box-shadow:none;border-color:color-mix(in srgb,var(--sf-ink) 22%,var(--sf-line))}
+#site .parts-card{border-top-width:1px;border-top-color:var(--sf-line);border-radius:12px}
+#site .parts-card h3{font-size:26px}
+#site .parts-total strong{font-size:1.1em}
+
+/* Paddock Rail: the feature topics as a side list — selected item quiet grey, its icon in the accent */
+#site .feature-topic-button[aria-pressed=true]{background:color-mix(in srgb,var(--sf-ink) 10%,var(--sf-panel));border-color:transparent;color:var(--sf-ink);font-weight:600}
+#site .feature-topic-button[aria-pressed=true] .feature-topic-icon{background:color-mix(in srgb,var(--sf-accent) 16%,var(--sf-panel));color:var(--sf-accent-text)}
+#site .feature-topic-button:hover{background:color-mix(in srgb,var(--sf-ink) 6%,transparent)}
+
+/* Downloads: file rows as detail rows (name left, size in mono right) */
+#site .sf-downloads .download-file{border-radius:10px;background:var(--sf-panel)}
+#site .sf-downloads .download-file:hover{transform:none;border-color:color-mix(in srgb,var(--sf-ink) 30%,var(--sf-line))}
+#site .sf-install li::before{font:italic 700 30px/1 var(--sf-title);letter-spacing:.02em;color:var(--sf-muted)}
+
+/* Help Reader: the About page as a calm document with the story as the lead */
+#site .text-page{max-width:780px}
+#site .text-page h1{font-size:clamp(46px,5vw,68px);line-height:.95}
+#site .text-page h1~p:not(h2~p){margin:0;padding:7px 0 7px 16px;border-left:2px solid var(--sf-accent);color:var(--sf-ink);font-size:16.5px;line-height:1.7}
+#site .sf-community h2{font-size:26px}
+#site .sf-community-links a{border-radius:999px;background:var(--sf-bg)}
+
+/* Finishing Touches: thin scroll bars in the theme */
+#site *::-webkit-scrollbar,html::-webkit-scrollbar{width:11px;height:11px}
+#site *::-webkit-scrollbar-track,html::-webkit-scrollbar-track{background:transparent}
+#site *::-webkit-scrollbar-thumb,html::-webkit-scrollbar-thumb{border:3px solid transparent;border-radius:8px;background:color-mix(in srgb,currentColor 22%,transparent) padding-box}
+#site .sf-themes{flex-wrap:nowrap;flex:none}
+#site .sf-downloads .file-size{color:var(--sf-ink)}
