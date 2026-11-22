@@ -633,6 +633,16 @@
       "body": "The first public release of SlotForge Foundry: design slot-car track, plan a layout and 3D print every part, with a full STL editor built in.\n\n## What's new\n\n- **Track Set:** design a piece's road, cross-section, borders, markings, joints and print segments, with every change shown live before you apply it.\n- **Track Planner:** snap pieces into a layout, add bridges with support blocks, see it in 3D and export the full print kit with a parts list.\n- **Special pieces:** add a hairpin, diamond crossing, pit lane, duel, chicane or timing straight to any pack with one click.\n- **STL Edit:** create parts from scratch, or edit, repair and combine any STL model.\n- **Library:** keep your packs, layouts and STL parts on your computer, with backup and restore.\n- **Desktop app:** an installer and a portable app for Windows, macOS and Linux, with the SlotForge themes and an update check.\n\n## Getting started\n\nStart with one of the two starter packs, **SlotForge Basic** (two lanes, 200 mm road) or **SlotForge Basic Single Lane** (100 mm). Or make your own pack, or import a layout from **SlotForge Circuit** (SVG or DXF). Before printing a whole track, print the **fit samples** from Home to find the clip clearance that suits your printer and filament.\n\nThe [README](https://github.com/theDutchmanJames/SlotForgeFoundry/blob/v1.0.0/README.md) gives a short tour, and the [user guide](https://github.com/theDutchmanJames/SlotForgeFoundry/blob/v1.0.0/docs/GUIDE.md) explains every tool.\n\n## Verification\n\n602 unit tests passed on Windows, covering the track geometry, connectors, drawing imports, the Library, the update check and where the data is kept. 60 browser stages clicked through the shipped app with networking disabled. The desktop app was started twice on a portable data folder to check that saved data survives a restart. Its update window was tested against a simulated GitHub release, including a download checked against its checksum.\n\nRobustness tests ran random sequences of Library saves and compared both storage paths. They interrupted the app during saves, autosave, restore and the Planner cache, and made thousands of random clicks through the interface.\n\nThe macOS and Linux downloads are built and tested by GitHub Actions after this release is published, on each operating system.\n\n## Install\n\n| System | Installer | Portable app |\n| --- | --- | --- |\n| Windows | `SlotForgeFoundry-1.0.0-Setup-x64.exe` | `SlotForgeFoundry-1.0.0-Portable-x64.exe` |\n| macOS (Intel and Apple Silicon) | `SlotForgeFoundry-1.0.0-mac-universal.dmg` | `SlotForgeFoundry-1.0.0-mac-universal.zip` |\n| Linux (x64) | `SlotForgeFoundry-1.0.0-linux-amd64.deb` | `SlotForgeFoundry-1.0.0-linux-x86_64.AppImage` |\n| Linux (ARM) | `SlotForgeFoundry-1.0.0-linux-arm64.deb` | `SlotForgeFoundry-1.0.0-linux-arm64.AppImage` |\n| Any browser | `SlotForge-Foundry-1.0.0.zip`: extract it and open **SlotForge Foundry.html** | |\n\nFoundry is not code-signed. On Windows, choose **More info → Run anyway**. On macOS, use **System Settings → Privacy & Security → Open Anyway** the first time. On Linux, mark the AppImage as executable (`chmod +x`). The SHA256SUMS files list each download's checksum.\n\nThe portable app and the AppImage keep everything in a **SlotForge Foundry Data** folder beside the program. The installed app uses its user-data folder. The desktop and browser editions keep separate Libraries; use **Library → Backup & restore** to move your work between them.\n",
       "assets": [
         {
+          "name": "SHA256SUMS-linux-arm64.txt",
+          "url": "https://github.com/theDutchmanJames/SlotForgeFoundry/releases/download/v1.0.0/SHA256SUMS-linux-arm64.txt",
+          "size": 215
+        },
+        {
+          "name": "SHA256SUMS-linux-x64.txt",
+          "url": "https://github.com/theDutchmanJames/SlotForgeFoundry/releases/download/v1.0.0/SHA256SUMS-linux-x64.txt",
+          "size": 216
+        },
+        {
           "name": "SHA256SUMS-mac-universal.txt",
           "url": "https://github.com/theDutchmanJames/SlotForgeFoundry/releases/download/v1.0.0/SHA256SUMS-mac-universal.txt",
           "size": 214
@@ -646,6 +656,26 @@
           "name": "SlotForge-Foundry-1.0.0.zip",
           "url": "https://github.com/theDutchmanJames/SlotForgeFoundry/releases/download/v1.0.0/SlotForge-Foundry-1.0.0.zip",
           "size": 2075793
+        },
+        {
+          "name": "SlotForgeFoundry-1.0.0-linux-amd64.deb",
+          "url": "https://github.com/theDutchmanJames/SlotForgeFoundry/releases/download/v1.0.0/SlotForgeFoundry-1.0.0-linux-amd64.deb",
+          "size": 102405464
+        },
+        {
+          "name": "SlotForgeFoundry-1.0.0-linux-arm64.AppImage",
+          "url": "https://github.com/theDutchmanJames/SlotForgeFoundry/releases/download/v1.0.0/SlotForgeFoundry-1.0.0-linux-arm64.AppImage",
+          "size": 128635481
+        },
+        {
+          "name": "SlotForgeFoundry-1.0.0-linux-arm64.deb",
+          "url": "https://github.com/theDutchmanJames/SlotForgeFoundry/releases/download/v1.0.0/SlotForgeFoundry-1.0.0-linux-arm64.deb",
+          "size": 97267924
+        },
+        {
+          "name": "SlotForgeFoundry-1.0.0-linux-x86_64.AppImage",
+          "url": "https://github.com/theDutchmanJames/SlotForgeFoundry/releases/download/v1.0.0/SlotForgeFoundry-1.0.0-linux-x86_64.AppImage",
+          "size": 127424444
         },
         {
           "name": "SlotForgeFoundry-1.0.0-mac-universal.dmg",
