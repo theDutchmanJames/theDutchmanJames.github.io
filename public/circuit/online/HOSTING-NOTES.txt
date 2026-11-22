@@ -1,6 +1,6 @@
 SlotForge Circuit browser edition
-Based on official release v0.4.1:
-https://github.com/theDutchmanJames/SlotForgeCircuit/releases/tag/v0.4.1
+Based on official release v0.5.0:
+https://github.com/theDutchmanJames/SlotForgeCircuit/releases/tag/v0.5.0
 
 Website adaptation on 2026-11-22:
 - Retained the app, designs and track-packs static directories.

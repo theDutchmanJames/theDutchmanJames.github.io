@@ -2,401 +2,381 @@
   "checkedAt": "2026-11-22",
   "apps": {
     "Paddock": {
-      "tag": "v1.7.2",
-      "publishedAt": "2026-11-17T14:25:59Z",
-      "url": "https://github.com/theDutchmanJames/SlotForgePaddock/releases/tag/v1.7.2",
-      "body": "## macOS download for 1.7\n\nVersion 1.7.2 brings the macOS package back. For Windows and Linux it behaves the same as 1.7.1; updating is harmless but not needed.\n\n- **macOS:** the checks that every macOS package must pass run on a newer version of the database engine. That version exposed a weakness in how the racing-history pages (session results, lap pages, a car's history, results received from Timing) read their lists of participants and lanes. Those queries are corrected, so they work on both the current and the newer engine. The published 1.7.0 and 1.7.1 apps use the current engine and were not affected.\n- **Parts lists:** the NSR, ScaleAuto and Slot.it lists are now attached to every release automatically.\n\n## New in 1.7\n\n- **Automatic backups:** Paddock makes complete backups on a schedule (Settings > Database). It is on by default: weekly, keeping the newest 5. Choose daily, weekly or monthly, another folder, or use \"Back up now\".\n- **Move the shared library:** move the library to another folder on this computer from Settings > Database. Timing follows it at its next start.\n- **Search everything:** press Ctrl+K, `/` or the Search button to search cars, parts, workshop jobs, manuals, pages and commands.\n- **Keyboard shortcuts:** Ctrl+N, Ctrl+F, Ctrl+`,` and Alt+1–9; press `?` for the list.\n- **Update notice:** Paddock shows when a newer release is available, with a Download button. It only asks GitHub for the latest version number, and can be switched off in Settings > Database > Updates.\n- **Lap-based maintenance reminders:** Record work accepts \"after this many laps\", counted from Timing races and manual track tests.\n- **Collection value chart:** the Overview shows current value and spending per purchase year, per currency.\n- **Faster everyday use:** the Cars list, Showroom, Settings, Shopping List, Find a Part and search respond several times faster on large collections.\n- **Spreadsheet import:** step 2 lists what blocks \"Choose cars\", with a button to fix each problem.\n- **Fixed:** a crash after adding a part from the Parts page, and a double scrollbar in the search box.\n\n## Downloads\n\n- **Windows installer:** `SlotForgePaddock-1.7.2-Setup.exe` updates the installed application while keeping its existing collection and settings.\n- **Windows portable:** `SlotForgePaddock-1.7.2-Portable.exe` runs without installation.\n- **Source:** `SlotForgePaddock-1.7.2-source.zip` is the tagged source: the app, build files and tests.\n- **Linux:** native x64 and ARM64 packages, each as AppImage and .deb.\n- **macOS:** `SlotForgePaddock-1.7.2-mac-universal.dmg` (or the .zip) for Intel and Apple Silicon. The app is not signed with an Apple developer certificate, so macOS asks for approval the first time; see the [macOS notes](https://github.com/theDutchmanJames/SlotForgePaddock/blob/main/docs/BUILDING.md).\n- **Parts lists (optional):** the NSR, ScaleAuto and Slot.it lists are attached to this release, supplied separately from the app. [What they contain and how to import them](https://github.com/theDutchmanJames/SlotForgePaddock/blob/main/parts-lists/README.md).\n\n## Validation\n\n1,865 automated tests on Windows: 1,856 passed, zero failures, nine optional tests skipped. The same suite passed on Linux x64, Linux ARM64 and macOS before their packages were attached. Syntax checks passed for 296 JavaScript files. The full interface smoke test passed all 230 checks. Every application file inside the Windows package was compared with the tagged source and matches.\n",
+      "tag": "v1.8.0",
+      "publishedAt": "2026-11-22T16:03:51Z",
+      "url": "https://github.com/theDutchmanJames/SlotForgePaddock/releases/tag/v1.8.0",
+      "body": "## New in 1.8\n\n- **New look:** every page, window and dialog now uses SlotForge Timing's style: its buttons, titles, numbers and cards. That covers the Overview and top bar, Garage car cards, the Showroom, the Car page, Parts, Workshop, Shopping List, Library, Connections, Import & Export, Settings, Review and Dealership.\n- **Redesigned screens:**\n  - **Build from Scratch:** one workbench screen, with search next to the part.\n  - **Find a Part:** redesigned.\n  - **Spreadsheet import:** a column list with a live car preview, sized to fit the window.\n  - **Part window:** a part sheet.\n  - **New workshop job:** one screen with car photos.\n  - **Add shopping item:** a basket.\n  - **Edit selected cars:** a field table with a live preview.\n  - **Car More menu:** a grouped drop-down.\n  - **Add setup:** a setup sheet.\n  - **Car picker:** one photo picker for Compare cars, Compare pace and Showroom groups.\n  - **Field arranger:** Table columns and Choose fields are arranged on a live preview.\n  - **Picture request:** manufacturers, product cards and the request side by side.\n  - **Manual test:** a scoreboard, with earlier tests side by side.\n  - **Real Car History editor:** classification cards, grouped facts and a live card.\n- **Printed PDFs** in Timing's print style.\n- **Quick archive and delete** for one car or for selected cars.\n- **Covers:** a sharp photo from edge to edge, with the whole car in view.\n- **Rebuild shopping lists:**\n  - a started rebuild gets its shopping list straight away;\n  - a rebuild's first planned parts always reach its list;\n  - the list's name follows when you rename the car or job.\n- **Parts lists:** 12 more manufacturers.\n\n## Faster\n\n- **Race history:** a car's statistics, consistency and lane records no longer slow down as history grows. On 300 races they are 1.5–2× faster than in 1.7, and on 80 races up to 20× faster.\n- **Reports and PDFs:** these use small photos. The car cards PDF for 57 cars now takes about 8 s instead of 49 s and is 5.7 MB instead of 86 MB. The inventory PDF now finishes.\n- **Dealership:**\n  - a first join takes about half the time;\n  - receiving, comparing and accepting car proposals is 3–5× faster;\n  - a member's first copy saves in about 13 s instead of up to 38 s.\n- **Other:** faster Picture request and Add part suggestions. Shared-engine speed fixes from SlotForge Timing 2.4.0.\n\n## Fixed\n\n- Pressing Enter in search boxes, keyboard focus, picture search and PDF preview colours.\n- Large PDFs, retries after a partly finished save, and details in several windows.\n- The car More menu now stays usable when the page redraws.\n- Leftover temporary files from interrupted backups and Dealership syncs are now cleaned up. Automatic Dealership backups now keep only the newest 3 of each kind.\n- Electron is updated to 45.3.3.\n\n## Downloads\n\n- **Windows installer:** `SlotForgePaddock-1.8.0-Setup.exe` updates the installed application and keeps your existing collection and settings.\n- **Windows portable:** `SlotForgePaddock-1.8.0-Portable.exe` runs without installation.\n- **Source:** `SlotForgePaddock-1.8.0-source.zip` is the tagged source: the app, build files and tests.\n- **Linux:** native x64 and ARM64 packages, each as AppImage and .deb.\n- **macOS:** `SlotForgePaddock-1.8.0-mac-universal.dmg` (or the .zip), for Intel and Apple Silicon. The app is not signed with an Apple developer certificate, so macOS asks for approval the first time you open it; see the [macOS notes](https://github.com/theDutchmanJames/SlotForgePaddock/blob/main/docs/BUILDING.md).\n- **Parts lists (optional):** the parts lists are attached to this release and are supplied separately from the app. [What they contain and how to import them](https://github.com/theDutchmanJames/SlotForgePaddock/blob/main/parts-lists/README.md).\n\n## Validation\n\n- **Automated tests:** 1,887 tests on Windows. 1,878 passed, none failed, and nine optional tests were skipped.\n- **Syntax checks:** passed for 318 JavaScript files.\n- **Interface smoke test:** passed all 289 checks.\n- **New bug-hunt tests:**\n  - random save sequences comparing both save paths;\n  - 60 forced shutdowns during saves, with no confirmed save lost;\n  - 40 forced shutdowns during backups;\n  - Dealership members killed during a sync;\n  - 7,000 random clicks on a copy of a real collection.\n- **Windows package:** every application file was compared with the tagged source and matches.\n",
       "assets": [
         {
           "name": "Avantslot-Parts-List-11-2026.zip",
-          "url": "https://github.com/theDutchmanJames/SlotForgePaddock/releases/download/v1.7.2/Avantslot-Parts-List-11-2026.zip",
+          "url": "https://github.com/theDutchmanJames/SlotForgePaddock/releases/download/v1.8.0/Avantslot-Parts-List-11-2026.zip",
           "size": 105964
         },
         {
           "name": "BRM-Parts-List-11-2026.zip",
-          "url": "https://github.com/theDutchmanJames/SlotForgePaddock/releases/download/v1.7.2/BRM-Parts-List-11-2026.zip",
+          "url": "https://github.com/theDutchmanJames/SlotForgePaddock/releases/download/v1.8.0/BRM-Parts-List-11-2026.zip",
           "size": 171683
         },
         {
           "name": "Carrera-Parts-List-11-2026.zip",
-          "url": "https://github.com/theDutchmanJames/SlotForgePaddock/releases/download/v1.7.2/Carrera-Parts-List-11-2026.zip",
+          "url": "https://github.com/theDutchmanJames/SlotForgePaddock/releases/download/v1.8.0/Carrera-Parts-List-11-2026.zip",
           "size": 212705
         },
         {
           "name": "Fly-Parts-List-11-2026.zip",
-          "url": "https://github.com/theDutchmanJames/SlotForgePaddock/releases/download/v1.7.2/Fly-Parts-List-11-2026.zip",
+          "url": "https://github.com/theDutchmanJames/SlotForgePaddock/releases/download/v1.8.0/Fly-Parts-List-11-2026.zip",
           "size": 99358
         },
         {
           "name": "NSR-Parts-List-11-2026.zip",
-          "url": "https://github.com/theDutchmanJames/SlotForgePaddock/releases/download/v1.7.2/NSR-Parts-List-11-2026.zip",
+          "url": "https://github.com/theDutchmanJames/SlotForgePaddock/releases/download/v1.8.0/NSR-Parts-List-11-2026.zip",
           "size": 242981
         },
         {
           "name": "PCS-Parts-List-11-2026.zip",
-          "url": "https://github.com/theDutchmanJames/SlotForgePaddock/releases/download/v1.7.2/PCS-Parts-List-11-2026.zip",
+          "url": "https://github.com/theDutchmanJames/SlotForgePaddock/releases/download/v1.8.0/PCS-Parts-List-11-2026.zip",
           "size": 74038
         },
         {
           "name": "Policar-Parts-List-11-2026.zip",
-          "url": "https://github.com/theDutchmanJames/SlotForgePaddock/releases/download/v1.7.2/Policar-Parts-List-11-2026.zip",
+          "url": "https://github.com/theDutchmanJames/SlotForgePaddock/releases/download/v1.8.0/Policar-Parts-List-11-2026.zip",
           "size": 97883
         },
         {
           "name": "RacerSideways-Parts-List-11-2026.zip",
-          "url": "https://github.com/theDutchmanJames/SlotForgePaddock/releases/download/v1.7.2/RacerSideways-Parts-List-11-2026.zip",
+          "url": "https://github.com/theDutchmanJames/SlotForgePaddock/releases/download/v1.8.0/RacerSideways-Parts-List-11-2026.zip",
           "size": 145206
         },
         {
           "name": "Revoslot-Parts-List-11-2026.zip",
-          "url": "https://github.com/theDutchmanJames/SlotForgePaddock/releases/download/v1.7.2/Revoslot-Parts-List-11-2026.zip",
+          "url": "https://github.com/theDutchmanJames/SlotForgePaddock/releases/download/v1.8.0/Revoslot-Parts-List-11-2026.zip",
           "size": 108392
         },
         {
           "name": "ScaleAuto-Parts-List-11-2026.zip",
-          "url": "https://github.com/theDutchmanJames/SlotForgePaddock/releases/download/v1.7.2/ScaleAuto-Parts-List-11-2026.zip",
+          "url": "https://github.com/theDutchmanJames/SlotForgePaddock/releases/download/v1.8.0/ScaleAuto-Parts-List-11-2026.zip",
           "size": 275485
         },
         {
           "name": "Scalextric-Parts-List-11-2026.zip",
-          "url": "https://github.com/theDutchmanJames/SlotForgePaddock/releases/download/v1.7.2/Scalextric-Parts-List-11-2026.zip",
+          "url": "https://github.com/theDutchmanJames/SlotForgePaddock/releases/download/v1.8.0/Scalextric-Parts-List-11-2026.zip",
           "size": 143586
         },
         {
           "name": "SHA256SUMS-linux-arm64.txt",
-          "url": "https://github.com/theDutchmanJames/SlotForgePaddock/releases/download/v1.7.2/SHA256SUMS-linux-arm64.txt",
+          "url": "https://github.com/theDutchmanJames/SlotForgePaddock/releases/download/v1.8.0/SHA256SUMS-linux-arm64.txt",
           "size": 215
         },
         {
           "name": "SHA256SUMS-linux-x64.txt",
-          "url": "https://github.com/theDutchmanJames/SlotForgePaddock/releases/download/v1.7.2/SHA256SUMS-linux-x64.txt",
+          "url": "https://github.com/theDutchmanJames/SlotForgePaddock/releases/download/v1.8.0/SHA256SUMS-linux-x64.txt",
           "size": 216
         },
         {
-          "name": "SHA256SUMS-mac-universal.txt",
-          "url": "https://github.com/theDutchmanJames/SlotForgePaddock/releases/download/v1.7.2/SHA256SUMS-mac-universal.txt",
-          "size": 214
-        },
-        {
           "name": "SHA256SUMS-windows-source.txt",
-          "url": "https://github.com/theDutchmanJames/SlotForgePaddock/releases/download/v1.7.2/SHA256SUMS-windows-source.txt",
+          "url": "https://github.com/theDutchmanJames/SlotForgePaddock/releases/download/v1.8.0/SHA256SUMS-windows-source.txt",
           "size": 301
         },
         {
-          "name": "SlotForgePaddock-1.7.2-linux-amd64.deb",
-          "url": "https://github.com/theDutchmanJames/SlotForgePaddock/releases/download/v1.7.2/SlotForgePaddock-1.7.2-linux-amd64.deb",
-          "size": 102878536
+          "name": "SlotForgePaddock-1.8.0-linux-amd64.deb",
+          "url": "https://github.com/theDutchmanJames/SlotForgePaddock/releases/download/v1.8.0/SlotForgePaddock-1.8.0-linux-amd64.deb",
+          "size": 103254896
         },
         {
-          "name": "SlotForgePaddock-1.7.2-linux-arm64.AppImage",
-          "url": "https://github.com/theDutchmanJames/SlotForgePaddock/releases/download/v1.7.2/SlotForgePaddock-1.7.2-linux-arm64.AppImage",
-          "size": 130615311
+          "name": "SlotForgePaddock-1.8.0-linux-arm64.AppImage",
+          "url": "https://github.com/theDutchmanJames/SlotForgePaddock/releases/download/v1.8.0/SlotForgePaddock-1.8.0-linux-arm64.AppImage",
+          "size": 131078983
         },
         {
-          "name": "SlotForgePaddock-1.7.2-linux-arm64.deb",
-          "url": "https://github.com/theDutchmanJames/SlotForgePaddock/releases/download/v1.7.2/SlotForgePaddock-1.7.2-linux-arm64.deb",
-          "size": 97759996
+          "name": "SlotForgePaddock-1.8.0-linux-arm64.deb",
+          "url": "https://github.com/theDutchmanJames/SlotForgePaddock/releases/download/v1.8.0/SlotForgePaddock-1.8.0-linux-arm64.deb",
+          "size": 98143600
         },
         {
-          "name": "SlotForgePaddock-1.7.2-linux-x86_64.AppImage",
-          "url": "https://github.com/theDutchmanJames/SlotForgePaddock/releases/download/v1.7.2/SlotForgePaddock-1.7.2-linux-x86_64.AppImage",
-          "size": 129404400
+          "name": "SlotForgePaddock-1.8.0-linux-x86_64.AppImage",
+          "url": "https://github.com/theDutchmanJames/SlotForgePaddock/releases/download/v1.8.0/SlotForgePaddock-1.8.0-linux-x86_64.AppImage",
+          "size": 129824732
         },
         {
-          "name": "SlotForgePaddock-1.7.2-mac-universal.dmg",
-          "url": "https://github.com/theDutchmanJames/SlotForgePaddock/releases/download/v1.7.2/SlotForgePaddock-1.7.2-mac-universal.dmg",
-          "size": 228343632
+          "name": "SlotForgePaddock-1.8.0-Portable.exe",
+          "url": "https://github.com/theDutchmanJames/SlotForgePaddock/releases/download/v1.8.0/SlotForgePaddock-1.8.0-Portable.exe",
+          "size": 112339701
         },
         {
-          "name": "SlotForgePaddock-1.7.2-mac-universal.zip",
-          "url": "https://github.com/theDutchmanJames/SlotForgePaddock/releases/download/v1.7.2/SlotForgePaddock-1.7.2-mac-universal.zip",
-          "size": 221552810
+          "name": "SlotForgePaddock-1.8.0-Setup.exe",
+          "url": "https://github.com/theDutchmanJames/SlotForgePaddock/releases/download/v1.8.0/SlotForgePaddock-1.8.0-Setup.exe",
+          "size": 124002677
         },
         {
-          "name": "SlotForgePaddock-1.7.2-Portable.exe",
-          "url": "https://github.com/theDutchmanJames/SlotForgePaddock/releases/download/v1.7.2/SlotForgePaddock-1.7.2-Portable.exe",
-          "size": 111943449
-        },
-        {
-          "name": "SlotForgePaddock-1.7.2-Setup.exe",
-          "url": "https://github.com/theDutchmanJames/SlotForgePaddock/releases/download/v1.7.2/SlotForgePaddock-1.7.2-Setup.exe",
-          "size": 123657977
-        },
-        {
-          "name": "SlotForgePaddock-1.7.2-source.zip",
-          "url": "https://github.com/theDutchmanJames/SlotForgePaddock/releases/download/v1.7.2/SlotForgePaddock-1.7.2-source.zip",
-          "size": 4915667
+          "name": "SlotForgePaddock-1.8.0-source.zip",
+          "url": "https://github.com/theDutchmanJames/SlotForgePaddock/releases/download/v1.8.0/SlotForgePaddock-1.8.0-source.zip",
+          "size": 9811450
         },
         {
           "name": "SlotingPlus-Parts-List-11-2026.zip",
-          "url": "https://github.com/theDutchmanJames/SlotForgePaddock/releases/download/v1.7.2/SlotingPlus-Parts-List-11-2026.zip",
+          "url": "https://github.com/theDutchmanJames/SlotForgePaddock/releases/download/v1.8.0/SlotingPlus-Parts-List-11-2026.zip",
           "size": 191676
         },
         {
           "name": "Slotit-Parts-List-11-2026.zip",
-          "url": "https://github.com/theDutchmanJames/SlotForgePaddock/releases/download/v1.7.2/Slotit-Parts-List-11-2026.zip",
+          "url": "https://github.com/theDutchmanJames/SlotForgePaddock/releases/download/v1.8.0/Slotit-Parts-List-11-2026.zip",
           "size": 215615
         },
         {
           "name": "Staffs-Parts-List-11-2026.zip",
-          "url": "https://github.com/theDutchmanJames/SlotForgePaddock/releases/download/v1.7.2/Staffs-Parts-List-11-2026.zip",
+          "url": "https://github.com/theDutchmanJames/SlotForgePaddock/releases/download/v1.8.0/Staffs-Parts-List-11-2026.zip",
           "size": 72842
         },
         {
           "name": "Thunderslot-Parts-List-11-2026.zip",
-          "url": "https://github.com/theDutchmanJames/SlotForgePaddock/releases/download/v1.7.2/Thunderslot-Parts-List-11-2026.zip",
+          "url": "https://github.com/theDutchmanJames/SlotForgePaddock/releases/download/v1.8.0/Thunderslot-Parts-List-11-2026.zip",
           "size": 118832
         }
       ],
       "partsLists": [
         {
           "name": "Avantslot-Parts-List-11-2026.zip",
-          "url": "https://github.com/theDutchmanJames/SlotForgePaddock/releases/download/v1.7.2/Avantslot-Parts-List-11-2026.zip",
+          "url": "https://github.com/theDutchmanJames/SlotForgePaddock/releases/download/v1.8.0/Avantslot-Parts-List-11-2026.zip",
           "size": 105964,
-          "release": "v1.7.2"
+          "release": "v1.8.0"
         },
         {
           "name": "BRM-Parts-List-11-2026.zip",
-          "url": "https://github.com/theDutchmanJames/SlotForgePaddock/releases/download/v1.7.2/BRM-Parts-List-11-2026.zip",
+          "url": "https://github.com/theDutchmanJames/SlotForgePaddock/releases/download/v1.8.0/BRM-Parts-List-11-2026.zip",
           "size": 171683,
-          "release": "v1.7.2"
+          "release": "v1.8.0"
         },
         {
           "name": "Carrera-Parts-List-11-2026.zip",
-          "url": "https://github.com/theDutchmanJames/SlotForgePaddock/releases/download/v1.7.2/Carrera-Parts-List-11-2026.zip",
+          "url": "https://github.com/theDutchmanJames/SlotForgePaddock/releases/download/v1.8.0/Carrera-Parts-List-11-2026.zip",
           "size": 212705,
-          "release": "v1.7.2"
+          "release": "v1.8.0"
         },
         {
           "name": "Fly-Parts-List-11-2026.zip",
-          "url": "https://github.com/theDutchmanJames/SlotForgePaddock/releases/download/v1.7.2/Fly-Parts-List-11-2026.zip",
+          "url": "https://github.com/theDutchmanJames/SlotForgePaddock/releases/download/v1.8.0/Fly-Parts-List-11-2026.zip",
           "size": 99358,
-          "release": "v1.7.2"
+          "release": "v1.8.0"
         },
         {
           "name": "NSR-Parts-List-11-2026.zip",
-          "url": "https://github.com/theDutchmanJames/SlotForgePaddock/releases/download/v1.7.2/NSR-Parts-List-11-2026.zip",
+          "url": "https://github.com/theDutchmanJames/SlotForgePaddock/releases/download/v1.8.0/NSR-Parts-List-11-2026.zip",
           "size": 242981,
-          "release": "v1.7.2"
+          "release": "v1.8.0"
         },
         {
           "name": "PCS-Parts-List-11-2026.zip",
-          "url": "https://github.com/theDutchmanJames/SlotForgePaddock/releases/download/v1.7.2/PCS-Parts-List-11-2026.zip",
+          "url": "https://github.com/theDutchmanJames/SlotForgePaddock/releases/download/v1.8.0/PCS-Parts-List-11-2026.zip",
           "size": 74038,
-          "release": "v1.7.2"
+          "release": "v1.8.0"
         },
         {
           "name": "Policar-Parts-List-11-2026.zip",
-          "url": "https://github.com/theDutchmanJames/SlotForgePaddock/releases/download/v1.7.2/Policar-Parts-List-11-2026.zip",
+          "url": "https://github.com/theDutchmanJames/SlotForgePaddock/releases/download/v1.8.0/Policar-Parts-List-11-2026.zip",
           "size": 97883,
-          "release": "v1.7.2"
+          "release": "v1.8.0"
         },
         {
           "name": "RacerSideways-Parts-List-11-2026.zip",
-          "url": "https://github.com/theDutchmanJames/SlotForgePaddock/releases/download/v1.7.2/RacerSideways-Parts-List-11-2026.zip",
+          "url": "https://github.com/theDutchmanJames/SlotForgePaddock/releases/download/v1.8.0/RacerSideways-Parts-List-11-2026.zip",
           "size": 145206,
-          "release": "v1.7.2"
+          "release": "v1.8.0"
         },
         {
           "name": "Revoslot-Parts-List-11-2026.zip",
-          "url": "https://github.com/theDutchmanJames/SlotForgePaddock/releases/download/v1.7.2/Revoslot-Parts-List-11-2026.zip",
+          "url": "https://github.com/theDutchmanJames/SlotForgePaddock/releases/download/v1.8.0/Revoslot-Parts-List-11-2026.zip",
           "size": 108392,
-          "release": "v1.7.2"
+          "release": "v1.8.0"
         },
         {
           "name": "ScaleAuto-Parts-List-11-2026.zip",
-          "url": "https://github.com/theDutchmanJames/SlotForgePaddock/releases/download/v1.7.2/ScaleAuto-Parts-List-11-2026.zip",
+          "url": "https://github.com/theDutchmanJames/SlotForgePaddock/releases/download/v1.8.0/ScaleAuto-Parts-List-11-2026.zip",
           "size": 275485,
-          "release": "v1.7.2"
+          "release": "v1.8.0"
         },
         {
           "name": "Scalextric-Parts-List-11-2026.zip",
-          "url": "https://github.com/theDutchmanJames/SlotForgePaddock/releases/download/v1.7.2/Scalextric-Parts-List-11-2026.zip",
+          "url": "https://github.com/theDutchmanJames/SlotForgePaddock/releases/download/v1.8.0/Scalextric-Parts-List-11-2026.zip",
           "size": 143586,
-          "release": "v1.7.2"
+          "release": "v1.8.0"
         },
         {
           "name": "SlotingPlus-Parts-List-11-2026.zip",
-          "url": "https://github.com/theDutchmanJames/SlotForgePaddock/releases/download/v1.7.2/SlotingPlus-Parts-List-11-2026.zip",
+          "url": "https://github.com/theDutchmanJames/SlotForgePaddock/releases/download/v1.8.0/SlotingPlus-Parts-List-11-2026.zip",
           "size": 191676,
-          "release": "v1.7.2"
+          "release": "v1.8.0"
         },
         {
           "name": "Slotit-Parts-List-11-2026.zip",
-          "url": "https://github.com/theDutchmanJames/SlotForgePaddock/releases/download/v1.7.2/Slotit-Parts-List-11-2026.zip",
+          "url": "https://github.com/theDutchmanJames/SlotForgePaddock/releases/download/v1.8.0/Slotit-Parts-List-11-2026.zip",
           "size": 215615,
-          "release": "v1.7.2"
+          "release": "v1.8.0"
         },
         {
           "name": "Staffs-Parts-List-11-2026.zip",
-          "url": "https://github.com/theDutchmanJames/SlotForgePaddock/releases/download/v1.7.2/Staffs-Parts-List-11-2026.zip",
+          "url": "https://github.com/theDutchmanJames/SlotForgePaddock/releases/download/v1.8.0/Staffs-Parts-List-11-2026.zip",
           "size": 72842,
-          "release": "v1.7.2"
+          "release": "v1.8.0"
         },
         {
           "name": "Thunderslot-Parts-List-11-2026.zip",
-          "url": "https://github.com/theDutchmanJames/SlotForgePaddock/releases/download/v1.7.2/Thunderslot-Parts-List-11-2026.zip",
+          "url": "https://github.com/theDutchmanJames/SlotForgePaddock/releases/download/v1.8.0/Thunderslot-Parts-List-11-2026.zip",
           "size": 118832,
-          "release": "v1.7.2"
+          "release": "v1.8.0"
         }
       ]
     },
     "Timing": {
-      "tag": "v2.3.0",
-      "publishedAt": "2026-11-17T12:44:58Z",
-      "url": "https://github.com/theDutchmanJames/SlotForgeTiming/releases/tag/v2.3.0",
-      "body": "## SlotForge Timing 2.3.0\n\nEasier race nights, much faster screens with a large history, and DS races that reach the shared library. No database conversion or schema change.\n\n**Race night**\n- Setup guide for a fresh install: track, drivers, cars, timing hardware, a sensor test and a 3-lap test race. Every step can be skipped.\n- Test sensors on Home: each lane lights up when its sensor sees a car.\n- DS Electronics: choose whether laps driven during a pause are ignored or added when the race resumes.\n- Virtual DS box and virtual Trackmate for trying Timing without hardware.\n- USB timing hardware is detected when plugged in: a known device reconnects, a new one is offered on Home.\n- Pair a phone with the Race Director by QR code. On a phone the race controls stay at the top.\n\n**Data**\n- Automatic backups, daily or weekly, keeping the newest few.\n- Share results as a web page, a CSV file or a text for a club chat.\n- Driver progress on each driver's card: best and average lap and consistency per track and month.\n- Records of races that the shared library has not accepted yet still count, marked as such.\n\n**Ease of use**\n- Problems show as chips on Home that open the page where they are fixed.\n- Timing's own dialogs replace the Windows pop-ups; laps keep counting while a question is open.\n- Notification of a newer release on GitHub (notify only) and Save diagnostics for bug reports.\n- Search across App Settings, and hide the Race Setup systems your club never uses.\n- Every built-in theme meets WCAG AA contrast for text; visible keyboard focus everywhere; reduced motion when Windows asks for it.\n\n**Faster** (measured with 300 races and 62 cars, shared library on)\n- Home 3.8 s → 0.3 s, Results and Records 10.4 s → about 1 s, start 4.8 s → 2.3 s.\n- Updated shared-library engine from Paddock with faster library requests.\n\n**Fixed**\n- Races that never reached the shared library: keyboard-timed races (lap-time rounding) and DS-timed races (measured lap times against serial arrival moments).\n- DS pause and resume messages, crossings during a pause that disappeared silently, and lag from DS signal polling.\n- Connected timing hardware that was not \"in use\" counted no laps without saying so: now warned about on the hardware page, at Start race and on the race screen.\n- Timing follows the shared library when Paddock moves it to another folder, without a restart.\n- Fixes from a full review: the race page after finalizing, a hardened local-network server, storage, engine and screen issues.\n\n### Downloads\n\n- **Windows Portable.exe:** run without installing; includes the unpacking splash.\n- **Windows Setup.exe:** install Timing for regular use.\n- **macOS DMG / ZIP:** universal build for Intel and Apple Silicon.\n- **Linux AppImage / Debian package:** choose the format for your distribution.\n\n`SHA256SUMS.txt` covers the downloads. Windows packages are unsigned; the macOS app is ad-hoc signed, not Apple notarized.\n",
+      "tag": "v2.4.0",
+      "publishedAt": "2026-11-22T16:04:19Z",
+      "url": "https://github.com/theDutchmanJames/SlotForgeTiming/releases/tag/v2.4.0",
+      "body": "## SlotForge Timing 2.4.0\n\nA new look on every page, new race-night tools, and a big speed-up for clubs with a large race history. The car library gets one new table, built automatically on first start; nothing needs converting by hand.\n\n**A new look**\n- Home as a broadcast-style page with seven new cards, Start a race for up to 8 lanes and your club logo.\n- Race Setup, Database, Customization and App Settings with a side list of sections and calmer cards.\n- After the race: broadcast-style result screens, also on the second screen for the audience.\n- Race Control in a window of its own while a race is on; Live Race with the classic board, driver stats as tiles and a Lane Desk.\n- Race report PDF with a page for every driver, in colour or monochrome.\n\n**New**\n- Find everything: every kind of thing, a preview with actions, and Recent.\n- Help: \"?\" and F1 on every page.\n- Lap explorer after the race, on the Race Director page and in the race window.\n- Finalize results: the heat named, your changes with undo, and a heat can be run again.\n- Championships: real round dates, a season strip, a calendar file and a points tally.\n- Rotation setups: lanes from the track, participants from an entry list, and lane fairness.\n- Multi-Class classes from the entry list; a virtual rival can be added in a lane.\n- Balance of Power and Time Tokens as named profiles.\n- Import and Export lists every backup with Restore; an import can replace or skip.\n- Track, Driver and Team sheets, and a safer driver delete.\n- Layout Editor: try a layout with a sample race, and see which setups use it.\n- Trackmate: a Live monitor with lap times, and Track power with its state and rules.\n- Pit Lights: choose each pit sensor's lane in Lane Check.\n- Shared library: a race that failed can be retried or removed.\n\n**Faster** (measured with 2,500 races, 450,000 laps and 800 cars)\n- Home statistics 88 s → 2 s, a car's statistics 70 s → under 0.1 s, records 77 s → 1.4 s.\n- Results and Records 167 s → 5 s, a page of the car list 3 s → 0.2 s.\n- A backup 261 s → 162 s, and Timing keeps working meanwhile.\n- The first start with a big history is 4x faster and shows progress.\n- The Layout Editor and the race screens are faster.\n\n**Fixed**\n- A full code review, with fixes in every area.\n- Penalties, disqualification, yellow flags and pit time during a pause.\n- Arduino after a reboot or a late connect; DS split packets; hardware lap times on the window's own clock.\n\n### Downloads\n\n- **Windows Portable.exe:** run without installing.\n- **Windows Setup.exe:** install Timing for regular use.\n- **macOS DMG / ZIP:** universal build for Intel and Apple Silicon.\n- **Linux AppImage / Debian package:** choose the format for your distribution.\n\n`SHA256SUMS-desktop.txt` covers the downloads. Windows packages are unsigned; the macOS app is ad-hoc signed, not Apple notarized.\n",
       "assets": [
         {
           "name": "SHA256SUMS-desktop.txt",
-          "url": "https://github.com/theDutchmanJames/SlotForgeTiming/releases/download/v2.3.0/SHA256SUMS-desktop.txt",
-          "size": 582
+          "url": "https://github.com/theDutchmanJames/SlotForgeTiming/releases/download/v2.4.0/SHA256SUMS-desktop.txt",
+          "size": 633
         },
         {
-          "name": "SHA256SUMS.txt",
-          "url": "https://github.com/theDutchmanJames/SlotForgeTiming/releases/download/v2.3.0/SHA256SUMS.txt",
-          "size": 582
+          "name": "SlotForgeTiming-2.4.0-linux-amd64.deb",
+          "url": "https://github.com/theDutchmanJames/SlotForgeTiming/releases/download/v2.4.0/SlotForgeTiming-2.4.0-linux-amd64.deb",
+          "size": 109943604
         },
         {
-          "name": "SlotForge.Timing-2.3.0-Portable.exe",
-          "url": "https://github.com/theDutchmanJames/SlotForgeTiming/releases/download/v2.3.0/SlotForge.Timing-2.3.0-Portable.exe",
-          "size": 118590665
+          "name": "SlotForgeTiming-2.4.0-linux-x86_64.AppImage",
+          "url": "https://github.com/theDutchmanJames/SlotForgeTiming/releases/download/v2.4.0/SlotForgeTiming-2.4.0-linux-x86_64.AppImage",
+          "size": 136088025
         },
         {
-          "name": "SlotForge.Timing-2.3.0-Setup.exe",
-          "url": "https://github.com/theDutchmanJames/SlotForgeTiming/releases/download/v2.3.0/SlotForge.Timing-2.3.0-Setup.exe",
-          "size": 129997478
+          "name": "SlotForgeTiming-2.4.0-mac-universal.dmg",
+          "url": "https://github.com/theDutchmanJames/SlotForgeTiming/releases/download/v2.4.0/SlotForgeTiming-2.4.0-mac-universal.dmg",
+          "size": 234652946
         },
         {
-          "name": "SlotForgeTiming-2.3.0-mac.dmg",
-          "url": "https://github.com/theDutchmanJames/SlotForgeTiming/releases/download/v2.3.0/SlotForgeTiming-2.3.0-mac.dmg",
-          "size": 234236705
+          "name": "SlotForgeTiming-2.4.0-mac-universal.zip",
+          "url": "https://github.com/theDutchmanJames/SlotForgeTiming/releases/download/v2.4.0/SlotForgeTiming-2.4.0-mac-universal.zip",
+          "size": 227761720
         },
         {
-          "name": "SlotForgeTiming-2.3.0-mac.zip",
-          "url": "https://github.com/theDutchmanJames/SlotForgeTiming/releases/download/v2.3.0/SlotForgeTiming-2.3.0-mac.zip",
-          "size": 227331907
+          "name": "SlotForgeTiming-2.4.0-Portable-x64.exe",
+          "url": "https://github.com/theDutchmanJames/SlotForgeTiming/releases/download/v2.4.0/SlotForgeTiming-2.4.0-Portable-x64.exe",
+          "size": 118917473
         },
         {
-          "name": "SlotForgeTiming-2.3.0.AppImage",
-          "url": "https://github.com/theDutchmanJames/SlotForgeTiming/releases/download/v2.3.0/SlotForgeTiming-2.3.0.AppImage",
-          "size": 135628816
-        },
-        {
-          "name": "SlotForgeTiming-2.3.0.deb",
-          "url": "https://github.com/theDutchmanJames/SlotForgeTiming/releases/download/v2.3.0/SlotForgeTiming-2.3.0.deb",
-          "size": 109555384
+          "name": "SlotForgeTiming-2.4.0-Setup-x64.exe",
+          "url": "https://github.com/theDutchmanJames/SlotForgeTiming/releases/download/v2.4.0/SlotForgeTiming-2.4.0-Setup-x64.exe",
+          "size": 130340483
         }
       ]
     },
     "Circuit": {
-      "tag": "v0.4.1",
-      "publishedAt": "2026-11-17T22:34:38Z",
-      "url": "https://github.com/theDutchmanJames/SlotForgeCircuit/releases/tag/v0.4.1",
-      "body": "A small update: Live preview now shows a car on every lane.\n\n## What's new\n\n- **One car per lane:** Live preview drives a car on every lane of the layout, up to 8, instead of only the first two. A 4-lane table now shows 4 cars. Lane 1 stays red and lane 2 blue; lanes 3–8 are green, yellow, orange, purple, teal and pink.\n\n## Verification\n\n57 unit test files passed on Windows, macOS and Linux, and 29 interface tests clicking through the real app passed on Windows and macOS. A new interface test opens a 2-lane and a 4-lane layout and checks that each lane has its own car and colour.\n\n## Install or update\n\n| System | Installer | Portable app |\n| --- | --- | --- |\n| Windows | `SlotForgeCircuit-0.4.1-Setup-x64.exe` | `SlotForgeCircuit-0.4.1-Portable-x64.exe` |\n| macOS (Intel and Apple Silicon) | `SlotForgeCircuit-0.4.1-mac-universal.dmg` | `SlotForgeCircuit-0.4.1-mac-universal.zip` |\n| Linux (x64) | `SlotForgeCircuit-0.4.1-linux-amd64.deb` | `SlotForgeCircuit-0.4.1-linux-x86_64.AppImage` |\n| Linux (ARM) | `SlotForgeCircuit-0.4.1-linux-arm64.deb` | `SlotForgeCircuit-0.4.1-linux-arm64.AppImage` |\n\nCircuit is not code-signed: on Windows choose **More info → Run anyway**, or right-click the downloaded file → **Properties** → **Unblock**; on macOS right-click the app and choose **Open** the first time; on Linux mark the AppImage as executable (`chmod +x`). The SHA256SUMS files list each download's checksum.\n\nInstall over 0.4.0 as before: your saved tracks and packs stay where they are. Storage formats and the SlotForge Timing integration are unchanged.\n",
+      "tag": "v0.5.0",
+      "publishedAt": "2026-11-22T16:00:31Z",
+      "url": "https://github.com/theDutchmanJames/SlotForgeCircuit/releases/tag/v0.5.0",
+      "body": "A big update: a new look throughout the app, a better update window, faster storage, and many fixes found by a new round of testing.\n\n## What's new\n\n- **New look throughout:** a redesigned Track Library, Print Shop, Track Packs, Settings, Routed Wood, Builder side panels, FreeForm guide and dialogs.\n- **Better updates:** the update window shows what's new and downloads the right file into your Downloads folder.\n- **Faster:** library pages, pictures and saves are quicker, and track packs load in one step.\n- **Pack galleries in their own window:** Open the gallery no longer replaces the app.\n- **Portable app:** opening it twice, or from a FAT/exFAT USB stick, now works.\n- **Safer after a crash:** Circuit starts normally again and nothing is half-saved.\n\n## Fixes\n\n- Typing a huge number of lanes in Routed Wood no longer freezes and crashes the page.\n- Routed Wood's Apply now opens the folded group that holds a bad value, instead of doing nothing.\n- A huge owned quantity in the Parts list is kept to 100,000 instead of causing an error.\n- The first click on a top navigation link no longer reloads the whole app.\n- After a crash, Circuit no longer refuses to start with a \"window is writing\" message.\n- A crash during the move from the old JSON workspace no longer leaves a full copy of the tracks behind.\n- A damaged workspace file now shows the advice to restore a backup.\n- On Linux, Circuit no longer mistakes a running copy of itself for one that had closed, so two copies can't save to the same folder at once.\n- On Linux, recent files that differ only in upper and lower case are kept apart, because Linux treats them as different files.\n- CAD exports for SlotForge Foundry now carry routed profiles, road width and spot heights.\n- Undo no longer stores a copy of the reference picture for every step.\n\n## Verification\n\n60 unit test files pass on Windows and Linux, and 48 interface tests clicking through the real app pass on Windows. New this release:\n\n- **Random saves:** about 4,700 random library actions, with every view checked against the others after each step.\n- **Crash tests:** 40 kills in the middle of saves and 20 in the middle of the old-workspace move. Nothing was lost or half-saved.\n- **Random-click run:** a full hour on a copy of a real library plus 60 sample tracks: 15,437 actions with no freezes or crashes.\n- **Coverage map:** the code that opens `.slotforge` files went from 41% to 100% tested.\n\n## Install or update\n\n| System | Installer | Portable app |\n| --- | --- | --- |\n| Windows | `SlotForgeCircuit-0.5.0-Setup-x64.exe` | `SlotForgeCircuit-0.5.0-Portable-x64.exe` |\n| macOS (Intel and Apple Silicon) | `SlotForgeCircuit-0.5.0-mac-universal.dmg` | `SlotForgeCircuit-0.5.0-mac-universal.zip` |\n| Linux (x64) | `SlotForgeCircuit-0.5.0-linux-amd64.deb` | `SlotForgeCircuit-0.5.0-linux-x86_64.AppImage` |\n| Linux (ARM) | `SlotForgeCircuit-0.5.0-linux-arm64.deb` | `SlotForgeCircuit-0.5.0-linux-arm64.AppImage` |\n\nCircuit is not code-signed: on Windows choose **More info → Run anyway**, or right-click the downloaded file → **Properties** → **Unblock**; on macOS right-click the app and choose **Open** the first time; on Linux mark the AppImage as executable (`chmod +x`). The SHA256SUMS files list each download's checksum.\n\nInstall over 0.4.1 as before: your saved tracks and packs stay where they are. Storage formats and the SlotForge Timing integration are unchanged.\n",
       "assets": [
         {
           "name": "SHA256SUMS-linux-arm64.txt",
-          "url": "https://github.com/theDutchmanJames/SlotForgeCircuit/releases/download/v0.4.1/SHA256SUMS-linux-arm64.txt",
+          "url": "https://github.com/theDutchmanJames/SlotForgeCircuit/releases/download/v0.5.0/SHA256SUMS-linux-arm64.txt",
           "size": 215
         },
         {
           "name": "SHA256SUMS-linux-x64.txt",
-          "url": "https://github.com/theDutchmanJames/SlotForgeCircuit/releases/download/v0.4.1/SHA256SUMS-linux-x64.txt",
+          "url": "https://github.com/theDutchmanJames/SlotForgeCircuit/releases/download/v0.5.0/SHA256SUMS-linux-x64.txt",
           "size": 216
         },
         {
           "name": "SHA256SUMS-mac-universal.txt",
-          "url": "https://github.com/theDutchmanJames/SlotForgeCircuit/releases/download/v0.4.1/SHA256SUMS-mac-universal.txt",
+          "url": "https://github.com/theDutchmanJames/SlotForgeCircuit/releases/download/v0.5.0/SHA256SUMS-mac-universal.txt",
           "size": 214
         },
         {
           "name": "SHA256SUMS-win-x64.txt",
-          "url": "https://github.com/theDutchmanJames/SlotForgeCircuit/releases/download/v0.4.1/SHA256SUMS-win-x64.txt",
+          "url": "https://github.com/theDutchmanJames/SlotForgeCircuit/releases/download/v0.5.0/SHA256SUMS-win-x64.txt",
           "size": 209
         },
         {
-          "name": "SlotForgeCircuit-0.4.1-linux-amd64.deb",
-          "url": "https://github.com/theDutchmanJames/SlotForgeCircuit/releases/download/v0.4.1/SlotForgeCircuit-0.4.1-linux-amd64.deb",
-          "size": 109179436
+          "name": "SlotForgeCircuit-0.5.0-linux-amd64.deb",
+          "url": "https://github.com/theDutchmanJames/SlotForgeCircuit/releases/download/v0.5.0/SlotForgeCircuit-0.5.0-linux-amd64.deb",
+          "size": 109472224
         },
         {
-          "name": "SlotForgeCircuit-0.4.1-linux-arm64.AppImage",
-          "url": "https://github.com/theDutchmanJames/SlotForgeCircuit/releases/download/v0.4.1/SlotForgeCircuit-0.4.1-linux-arm64.AppImage",
-          "size": 135769827
+          "name": "SlotForgeCircuit-0.5.0-linux-arm64.AppImage",
+          "url": "https://github.com/theDutchmanJames/SlotForgeCircuit/releases/download/v0.5.0/SlotForgeCircuit-0.5.0-linux-arm64.AppImage",
+          "size": 136101981
         },
         {
-          "name": "SlotForgeCircuit-0.4.1-linux-arm64.deb",
-          "url": "https://github.com/theDutchmanJames/SlotForgeCircuit/releases/download/v0.4.1/SlotForgeCircuit-0.4.1-linux-arm64.deb",
-          "size": 104101568
+          "name": "SlotForgeCircuit-0.5.0-linux-arm64.deb",
+          "url": "https://github.com/theDutchmanJames/SlotForgeCircuit/releases/download/v0.5.0/SlotForgeCircuit-0.5.0-linux-arm64.deb",
+          "size": 104365040
         },
         {
-          "name": "SlotForgeCircuit-0.4.1-linux-x86_64.AppImage",
-          "url": "https://github.com/theDutchmanJames/SlotForgeCircuit/releases/download/v0.4.1/SlotForgeCircuit-0.4.1-linux-x86_64.AppImage",
-          "size": 134554119
+          "name": "SlotForgeCircuit-0.5.0-linux-x86_64.AppImage",
+          "url": "https://github.com/theDutchmanJames/SlotForgeCircuit/releases/download/v0.5.0/SlotForgeCircuit-0.5.0-linux-x86_64.AppImage",
+          "size": 134890373
         },
         {
-          "name": "SlotForgeCircuit-0.4.1-mac-universal.dmg",
-          "url": "https://github.com/theDutchmanJames/SlotForgeCircuit/releases/download/v0.4.1/SlotForgeCircuit-0.4.1-mac-universal.dmg",
-          "size": 233352793
+          "name": "SlotForgeCircuit-0.5.0-mac-universal.dmg",
+          "url": "https://github.com/theDutchmanJames/SlotForgeCircuit/releases/download/v0.5.0/SlotForgeCircuit-0.5.0-mac-universal.dmg",
+          "size": 233653666
         },
         {
-          "name": "SlotForgeCircuit-0.4.1-mac-universal.zip",
-          "url": "https://github.com/theDutchmanJames/SlotForgeCircuit/releases/download/v0.4.1/SlotForgeCircuit-0.4.1-mac-universal.zip",
-          "size": 226970330
+          "name": "SlotForgeCircuit-0.5.0-mac-universal.zip",
+          "url": "https://github.com/theDutchmanJames/SlotForgeCircuit/releases/download/v0.5.0/SlotForgeCircuit-0.5.0-mac-universal.zip",
+          "size": 227299464
         },
         {
-          "name": "SlotForgeCircuit-0.4.1-Portable-x64.exe",
-          "url": "https://github.com/theDutchmanJames/SlotForgeCircuit/releases/download/v0.4.1/SlotForgeCircuit-0.4.1-Portable-x64.exe",
-          "size": 118316478
+          "name": "SlotForgeCircuit-0.5.0-Portable-x64.exe",
+          "url": "https://github.com/theDutchmanJames/SlotForgeCircuit/releases/download/v0.5.0/SlotForgeCircuit-0.5.0-Portable-x64.exe",
+          "size": 118535199
         },
         {
-          "name": "SlotForgeCircuit-0.4.1-Setup-x64.exe",
-          "url": "https://github.com/theDutchmanJames/SlotForgeCircuit/releases/download/v0.4.1/SlotForgeCircuit-0.4.1-Setup-x64.exe",
-          "size": 129806920
+          "name": "SlotForgeCircuit-0.5.0-Setup-x64.exe",
+          "url": "https://github.com/theDutchmanJames/SlotForgeCircuit/releases/download/v0.5.0/SlotForgeCircuit-0.5.0-Setup-x64.exe",
+          "size": 130092490
         }
       ]
     },
     "Telemetry": {
-      "tag": "v0.14.0",
-      "publishedAt": "2026-11-17T13:10:50Z",
-      "url": "https://github.com/theDutchmanJames/SlotForgeTelemetry/releases/tag/v0.14.0",
-      "body": "**SlotForge Telemetry 0.14.0 brings the app to the track: a Track day page for the change → drive → compare loop, a Garage for your cars and tracks, automatic backups, and a Windows installer.**\n\n### Track day\n\nSet the car, track, lane and driver once, note what you changed, and type or paste your lap times. A live preview shows best, typical and spread while you type. **Compare with last run** gives a plain verdict, such as \"typical pace faster by 0.250 s\", with a better/worse table and the setup differences, even before you save.\n\nSaved runs carry a snapshot of the gearing, tyres, weight and RPM, and appear in Lap analysis, Progress, Compare runs and Records like any other lap session.\n\n### Garage\n\n**Library → Garage** holds your cars and tracks.\n\n- Cars from Paddock on this computer arrive with each import: name, maker, class, technical configuration and photo.\n- Add your own cars for anything that is not in Paddock, and tracks with their lanes and lane lengths.\n- A car's page shows its setups and best lap per track and lane, with buttons to start a new setup or a Track day with it.\n\nSetups can now name their car, and Track day suggests garage cars and tracks and uses the lane length you entered.\n\n### Paddock on this computer\n\nConnect to Paddock on the same computer with one click and no password. Every race in the collection is imported, including races Timing saved to a Shared library. Imports are incremental and verified, Telemetry reconnects when Paddock restarts, and corrections and withdrawals follow Paddock.\n\n### Simpler to use\n\n- The workbench opens on **Quick setup**: gearing, motor, rear tyres and weight. Switch to **Measure the car**, **Plan & test** or **Everything** when you need more. Hidden values are kept and still used.\n- Analyze groups its modes into *Setups* and *Track laps*, and dims topics with nothing saved yet.\n- **Settings → Units:** metric, imperial or your own mix. Saved files always stay metric.\n- A **gear chart** shows rollout, speed or ratio for every pinion and driven gear; click a cell to try that gearing.\n- Download a printable **setup sheet** for the workbench or any saved setup.\n\n### Faster with a full library\n\nWith hundreds of setups, races and lap sessions, Telemetry starts in about half the time, opens Analyze and Library pages three to five times faster, and keeps up with your typing on the workbench and in race search. Your draft is still saved automatically, a moment after you stop typing and straight away when you close the app.\n\n### Backups and updates\n\nTelemetry now backs up all its data automatically: shortly after start-up, every 12 hours while open and when quitting, keeping the newest 10. You can also copy each backup to a folder of your choice, such as a USB stick or a cloud-synced folder. **Settings → Backups** lets you back up now, save a backup elsewhere and restore one. Every backup is checked before it replaces anything, and your current data is saved first.\n\nTelemetry also tells you when a new version is out. A notice offers **Download**, which opens the release page, or **Not now**. Nothing is downloaded or installed automatically, and **Settings → Updates** lets you check manually or turn the check off.\n\n### Review and compatibility\n\nLocal validation passed 244 automated tests, 3 Paddock interoperability tests, all 21 desktop suites and Windows packaging; four environment-dependent tests were skipped locally.\n\nExisting setups and lap data remain readable. On first start, the setup library moves from window storage to plain files in Telemetry's profile folder; the old copy is left in place. Older versions ignore a setup's car.\n\n### Choose your download\n\n| Computer | File in Assets |\n| --- | --- |\n| Windows, 64-bit Intel/AMD | **SlotForgeTelemetry-0.14.0-windows-x64-Setup.exe** — installs with Start menu and desktop shortcuts. Or **…-Portable.exe** to run without installing. |\n| Apple Silicon or Intel Mac | **SlotForgeTelemetry-0.14.0-mac-universal.dmg** — open and drag into Applications. The ZIP contains the same app. |\n| Ubuntu / Debian / Mint, x64 | **SlotForgeTelemetry-0.14.0-linux-amd64.deb** — open with your software installer. |\n| Other Linux desktops, x64 | **SlotForgeTelemetry-0.14.0-linux-x86_64.AppImage** — allow execution in Properties, then open. |\n\nGitHub's **Source code** archives are for developers. **SHA256SUMS.txt** contains checksums for the downloads.\n\n### Updating\n\nClose Telemetry and replace the old application with the new download, or run the installer. Existing local data is retained. From this version on, Telemetry makes backups for you; export one from an older version first if you want to be safe.\n\nSee the [installation instructions](https://github.com/theDutchmanJames/SlotForgeTelemetry#how-to-install) for platform-specific help. Windows and macOS builds are not publisher-signed/notarized; the README explains the operating-system prompts.\n",
+      "tag": "v0.15.0",
+      "publishedAt": "2026-11-22T16:04:16Z",
+      "url": "https://github.com/theDutchmanJames/SlotForgeTelemetry/releases/tag/v0.15.0",
+      "body": "**SlotForge Telemetry 0.15.0 rebuilds the app around your laps and your changes: every run on one Laps wall, a Setups page that says what a change does, a Library binder, a new Track day, and the shared SlotForge look.**\n\n### Laps: every run on one wall\n\nSix lap pages are now one. Pick a car, then a track and lane, and every run lands on one wall, whether it came from Paddock, Track day or was typed in. Each lap is a coloured square, from green at the record to red. The page also shows the record, the pace now, how much you gained, what changed between runs (such as *pinion 9 → 10*) and which changes moved the pace. Every run can have a note and a kind (Practice, Race, …), kept apart from imported races.\n\n### Setups: what does this change do?\n\nAnalyze is now **Setups**. Compare up to three setups, including the workbench as it is now, to see a change before you save it. You get a plain verdict (\"quicker on the straight, pulls less out of a corner\"), the inputs you changed, and only the results that moved, marked green or red. There is also a new result: pull per kg.\n\n### Library, Track day, Driver Feedback and the workbench\n\n- **Library:** every setup in one list, grouped by car, with the best lap driven on that gearing. Star favourites, tick several to compare, export or delete them, and find cars and tracks on the same page.\n- **Track day:** each run of the day is a column. Change pinion, gear, weight and tyre with + and − (Telemetry records the change for you), type one lap per box, and use *Keep this change* to put the quickest run's setup back on the workbench.\n- **Driver Feedback:** one page that builds up as you answer: picture cards for what the car does, short questions, a checklist, then three suggestions. One click sends a suggestion to Track day.\n- **Workbench:** each input sits beside the results it affects. Once the setup is saved, each row shows what your change did.\n- **Calculation Map:** a clickable map of how your inputs become results, with each formula filled in with your numbers. A **?** next to a number opens it.\n- **Connect to Paddock:** one card shows whether you are connected and the one action you need, plus your last eight imports.\n\n### The SlotForge look\n\nTelemetry now shares its style with Timing and Paddock: the same title and number fonts, buttons, focus ring and tables, a slim top bar with status lights, and a Settings side list with quick unit toggles.\n\n### Updates\n\nTelemetry looks for a new version once at start. A window shows what is new and can download the file for your copy into your Downloads folder, with progress and a completeness check. Nothing is ever installed automatically, and **Settings → Updates** has *Check now* and a switch for the check.\n\n### Safer data and fixes\n\n- **Restores:** a restore interrupted by a crash or power cut is finished at the next start, so your data is never a mix of old and new. A full disk changes nothing. A backup with one unreadable file can still be restored.\n- **Paddock imports:** a dropped connection during an import from Paddock on this computer now changes nothing, instead of saving with races missing.\n- **Saves:** Telemetry tries again when Windows briefly holds a file, and clears leftovers of cut-off saves at start.\n- **Library size and speed:** the Library now holds 500+ setups (it filled up at about 300), reads a large library about six times faster, and searches runs more quickly.\n- **Smaller fixes:** source links under Driver Feedback advice open in your browser, a hidden invalid value no longer blocks Save without a message, values stay in your units, and about a dozen other page fixes.\n\n### Review and compatibility\n\nLocal validation passed 292 automated tests and all 24 desktop suites. It also included new random-action and crash tests, network-cut tests, a 45-minute long run and a random-click run through the whole app.\n\nExisting setups, lap data and backups remain readable. Favourites and run notes are stored so that older versions open the files and ignore them.\n\n### Choose your download\n\nThe Windows files have new names, the same pattern as the other SlotForge apps.\n\n| Computer | File in Assets |\n| --- | --- |\n| Windows, 64-bit Intel/AMD | **SlotForgeTelemetry-0.15.0-Setup-x64.exe**: installs with Start menu and desktop shortcuts. Or **…-Portable-x64.exe** to run without installing. |\n| Apple Silicon or Intel Mac | **SlotForgeTelemetry-0.15.0-mac-universal.dmg**: open and drag into Applications. The ZIP contains the same app. |\n| Ubuntu / Debian / Mint, x64 | **SlotForgeTelemetry-0.15.0-linux-amd64.deb**: open with your software installer. |\n| Other Linux desktops, x64 | **SlotForgeTelemetry-0.15.0-linux-x86_64.AppImage**: allow execution in Properties, then open. |\n\nGitHub's **Source code** archives are for developers. **SHA256SUMS.txt** contains checksums for the downloads.\n\n### Updating\n\nClose Telemetry and replace the old application with the new download, or run the installer. Your data is kept, and Telemetry makes a backup automatically.\n\nSee the [installation instructions](https://github.com/theDutchmanJames/SlotForgeTelemetry#how-to-install) for platform-specific help. Windows and macOS builds are not publisher-signed or notarized; the README explains the operating-system prompts.\n",
       "assets": [
         {
           "name": "SHA256SUMS.txt",
-          "url": "https://github.com/theDutchmanJames/SlotForgeTelemetry/releases/download/v0.14.0/SHA256SUMS.txt",
-          "size": 673
+          "url": "https://github.com/theDutchmanJames/SlotForgeTelemetry/releases/download/v0.15.0/SHA256SUMS.txt",
+          "size": 657
         },
         {
-          "name": "SlotForgeTelemetry-0.14.0-linux-amd64.deb",
-          "url": "https://github.com/theDutchmanJames/SlotForgeTelemetry/releases/download/v0.14.0/SlotForgeTelemetry-0.14.0-linux-amd64.deb",
-          "size": 101079640
+          "name": "SlotForgeTelemetry-0.15.0-linux-amd64.deb",
+          "url": "https://github.com/theDutchmanJames/SlotForgeTelemetry/releases/download/v0.15.0/SlotForgeTelemetry-0.15.0-linux-amd64.deb",
+          "size": 101329872
         },
         {
-          "name": "SlotForgeTelemetry-0.14.0-linux-x86_64.AppImage",
-          "url": "https://github.com/theDutchmanJames/SlotForgeTelemetry/releases/download/v0.14.0/SlotForgeTelemetry-0.14.0-linux-x86_64.AppImage",
-          "size": 126087928
+          "name": "SlotForgeTelemetry-0.15.0-linux-x86_64.AppImage",
+          "url": "https://github.com/theDutchmanJames/SlotForgeTelemetry/releases/download/v0.15.0/SlotForgeTelemetry-0.15.0-linux-x86_64.AppImage",
+          "size": 126391299
         },
         {
-          "name": "SlotForgeTelemetry-0.14.0-mac-universal.dmg",
-          "url": "https://github.com/theDutchmanJames/SlotForgeTelemetry/releases/download/v0.14.0/SlotForgeTelemetry-0.14.0-mac-universal.dmg",
-          "size": 225111581
+          "name": "SlotForgeTelemetry-0.15.0-mac-universal.dmg",
+          "url": "https://github.com/theDutchmanJames/SlotForgeTelemetry/releases/download/v0.15.0/SlotForgeTelemetry-0.15.0-mac-universal.dmg",
+          "size": 225400631
         },
         {
-          "name": "SlotForgeTelemetry-0.14.0-mac-universal.zip",
-          "url": "https://github.com/theDutchmanJames/SlotForgeTelemetry/releases/download/v0.14.0/SlotForgeTelemetry-0.14.0-mac-universal.zip",
-          "size": 218445048
+          "name": "SlotForgeTelemetry-0.15.0-mac-universal.zip",
+          "url": "https://github.com/theDutchmanJames/SlotForgeTelemetry/releases/download/v0.15.0/SlotForgeTelemetry-0.15.0-mac-universal.zip",
+          "size": 218739059
         },
         {
-          "name": "SlotForgeTelemetry-0.14.0-windows-x64-Portable.exe",
-          "url": "https://github.com/theDutchmanJames/SlotForgeTelemetry/releases/download/v0.14.0/SlotForgeTelemetry-0.14.0-windows-x64-Portable.exe",
-          "size": 110650003
+          "name": "SlotForgeTelemetry-0.15.0-Portable-x64.exe",
+          "url": "https://github.com/theDutchmanJames/SlotForgeTelemetry/releases/download/v0.15.0/SlotForgeTelemetry-0.15.0-Portable-x64.exe",
+          "size": 110871074
         },
         {
-          "name": "SlotForgeTelemetry-0.14.0-windows-x64-Setup.exe",
-          "url": "https://github.com/theDutchmanJames/SlotForgeTelemetry/releases/download/v0.14.0/SlotForgeTelemetry-0.14.0-windows-x64-Setup.exe",
-          "size": 121649966
+          "name": "SlotForgeTelemetry-0.15.0-Setup-x64.exe",
+          "url": "https://github.com/theDutchmanJames/SlotForgeTelemetry/releases/download/v0.15.0/SlotForgeTelemetry-0.15.0-Setup-x64.exe",
+          "size": 121881758
         }
       ]
     },
@@ -514,115 +494,100 @@
       ]
     },
     "Decals": {
-      "tag": "v0.3.0",
-      "publishedAt": "2026-11-17T12:59:57Z",
-      "url": "https://github.com/theDutchmanJames/SlotForgeDecals/releases/tag/v0.3.0",
-      "body": "# SlotForge Decals 0.3.0\n\nPrint & cut for cutting machines and hand cutting, a Windows installer, faster everyday editing and a tidier workshop.\n\n## Print & cut\n\n- A new **Print & cut** panel sets how decals are cut out: lines that **follow each decal's shape** or a **rectangle**, with an offset around the artwork (default 1 mm). Nearby parts such as letters share one cut line and holes are not cut. Dashed lines on the sheet show the result, and any decal can override the sheet setting.\n- **Export for cutter…** saves a folder with step-by-step instructions for **Silhouette Studio** (including the free Basic edition), **Cricut Design Space** or **Brother ScanNCut**. Each decal becomes a 300 DPI PNG with a white border along its cut line: inkjets print white as no ink, while the cutter software traces the border. Sheet files keep the exact layout: a page PNG with DXF cut lines for Silhouette, or an SVG with print and cut layers. The cutter software adds its own registration marks.\n- **Print cut lines in the PDF** adds thin lines for cutting by hand or scanning a printed sheet with a ScanNCut.\n- These files are checked for size and structure but have not yet been tested on every machine. Print on plain paper first.\n\n## More ways to create\n\n- **Batch racing numbers:** fill in *More numbers* (for example 1-30, 44, 51) in Racing Number Plates to create a plate or matching pair for every car at once; they fill free space and add pages as needed.\n- **Recolour…** lists every colour in the selected decals, including inside SVG artwork, named colours and default black, and replaces the ones you change: handy for team variants.\n- **Add mirrored copy (other side)** flips directional graphics such as arrows and stripes for the other side of the car. Editable text stays readable; lettering inside imported logos is mirrored too.\n- **US Letter** and **custom paper sizes** (50–600 mm) join A4, A5 and Photo 4×6 in.\n- **Four new cars** in the car preview: classic endurance GT, touring saloon, rally hatchback and Group C prototype, each with side and top views. Choosing a car sizes the model from the real car's length at your scale.\n\n## Everyday editing\n\n- **Copy, cut and paste** decals with Ctrl+C / Ctrl+X / Ctrl+V, also between sheets. Paste a copied image, a screenshot or SVG code to import it.\n- **Choose installed font…** lists every font on your computer with a preview and embeds the chosen one in the sheet, so PDFs and shared sheets keep it.\n- Every colour field has an **eyedropper** and quick **swatches** of your recent colours and the colours on the sheet.\n- New artwork is placed in **free space** on the page instead of on top of existing decals.\n- **Opacity** is a percentage slider with a live preview, and **undo** keeps 200 steps.\n\n## A tidier workshop\n\n- The **car preview** stays pinned at the top of the right panel while you edit a decal.\n- **Import & Export** and the library windows follow the dark and light theme.\n- Toolbar buttons that need a selection are greyed out with a hint until they can be used.\n- **Help** is split into searchable topics with a keyboard-shortcut table.\n- The PDF review lists one row per decal, merges identical copies and names any bitmap parts.\n- The older .sfbackup format moved into a collapsible section of Settings.\n\n## Faster with big workspaces\n\n- Decals starts in about half the time, and saving no longer slows down as the workspace grows: on a test workspace with 2,000 decals and 300 sheets, autosave went from about 1 second to 60 ms.\n- Saved sheets open faster, and the Sheet Library shows its previews almost instantly.\n- Dragging, box-selecting and zooming stay smooth on busy pages with many logos and cut lines.\n\n## Update notice\n\n- About 15 seconds after starting, Decals asks GitHub whether a newer version has been published, at most twice a day. Only the version number is requested; nothing about you or your sheets is sent.\n- A newer version shows a notice above the sheet bar: **Download** opens the release page in your browser, **Not now** hides it until an even newer version appears. Decals never downloads or installs anything by itself.\n- **App Settings → Updates** shows the result, has **Check now** and turns automatic checks off.\n\n## Updating and installing\n\nYour saved sheets and decals remain in **Documents/SlotForge Decals**, outside the application. Sheets that use US Letter, a custom size or cut-line settings need Decals 0.3.0 or newer. Back up first through **Settings → Backup & Recovery → Export Complete Backup**.\n\n| Computer | Installer | Portable |\n| --- | --- | --- |\n| Windows x64 | windows-x64-setup.exe | windows-x64-portable.exe |\n| Intel Mac | mac-x64.dmg | mac-x64.zip |\n| Apple Silicon Mac (M1 or newer) | mac-arm64.dmg — drag Decals to Applications; ZIP also available |\n| Linux x64 | linux-amd64.deb | linux-x86_64.AppImage |\n| Linux ARM64 | linux-arm64.deb | linux-arm64.AppImage |\n\nThe Windows installer installs for your user account only, lets you choose the folder and never deletes your workspace when uninstalling. Apple Silicon downloads are added after their separate build passes. Mac builds require macOS 15 or newer. Windows builds are unsigned; Smart App Control may block them. Mac builds are ad-hoc signed, not Apple-notarized. Updates are never installed automatically.\n\n## Verification and sources\n\nLocal verification passed **143 unit tests** and **29 desktop suites**, including new checks for print & cut packages (DPI, millimetre sizes, DXF and SVG), copy and paste, clipboard images, installed fonts, recolouring, mirrored copies, batch numbers, custom paper and the update notice. The packaged Windows build passed the packaged acceptance suites. All test workspaces are isolated from user data.\n\nLicensed under **AGPL-3.0-or-later**; application source, corresponding Ghostscript and MuPDF sources, revision records and build instructions accompany the release. Bundled components retain their notices in THIRD-PARTY-NOTICES.txt.\n",
+      "tag": "v0.4.0",
+      "publishedAt": "2026-11-22T17:13:14Z",
+      "url": "https://github.com/theDutchmanJames/SlotForgeDecals/releases/tag/v0.4.0",
+      "body": "**Platform availability:** Windows x64, macOS Intel, Linux x64 and Linux ARM64 are included. Native Apple Silicon downloads are built separately and added after testing.\n\n# SlotForge Decals 0.4.0\n\nEvery screen redone, a new look shared with SlotForge Timing and Paddock, four more cars, and many fixes for safer saving and faster arranging.\n\n## What's new\n\n- **Workshop:** Decals now opens on a start page with all your sheets, their history and deleted sheets to recover.\n- **Editor remade:** a slim top bar, a tool rail, Library/Layers/Pages tabs, Find (Ctrl+K) and a floating car fit check.\n- **New pages:** a Decal Library with shelves and tags, a Car page to place the livery, and Print & share step by step.\n- **Make on the sheet:** type text, racing numbers and shapes straight on the sheet; one Import bay for all artwork.\n- **Four more cars:** classic and modern formula cars, a modern endurance prototype and a stock car.\n- **Safer and faster:** autosave during non-stop editing, Undo on notices, and auto-arrange about 100× faster.\n\n## A new look\n\n- Calmer and clearer, shared with SlotForge Timing and Paddock: flat buttons, one red accent, **Barlow Condensed** titles and **Roboto Mono** numbers. Both fonts only style the app; your sheets and their fonts are untouched.\n- The saved state is coloured: green when saved, yellow while saving, red if saving failed.\n\n## Every screen redone\n\n- **Workshop:** continue the open sheet, or start new: blank, from an image, from a shared file or the example. Every saved sheet with search, pin and filters, and a panel to open, rename, duplicate, share, pin, delete and see its history. Deleted sheets and snapshots can be recovered.\n- **Editor:** a slim top bar with Find (Ctrl+K) and Export PDF; a tool rail with one-key shortcuts; Library, Layers and Pages tabs on the left; Decal, Layout and Sheet & paper tabs on the right. A selection bar above the selected decals, layers with thumbnails and locks, page thumbnails, and a zoom percentage with an actual-size button.\n- **Import bay:** one window for all artwork, in steps: choose pages (PDF/EPS pages as separate decals), clean up, image or vector (trace), and size & place (on the car, quick sizes, 1, 2 or 4 copies).\n- **Making artwork:** Text, Number and Shape: click to drop, drag to size, or Enter for free space. Type directly on the sheet with a small text bar. Racing numbers in rows, Recolour inside the Decal tab, and Edit vector over the sheet.\n- **Decal Library page:** shelves for all, favourites, recently used, tags, untagged and each kind. Cards at the sheet's scale or true size. A details panel with tags, creator, sizes at 1:24, 1:32 and 1:43, and which sheets use the decal. Select several, and drag cards onto a tag shelf to tag them.\n- **Layout tab:** align and space with exact spacing (with a note against the cutting gap), repeat with ghosts on the sheet, Most that fit, Fill the free space, page counts, and auto-arrange with a before/after preview.\n- **Car page:** the whole livery on the side and top views, each decal at its printed size; drag to place and resize. Nine car bodies, or your own model from a photo.\n- **Print & share page:** check the sheet (with one-click fixes), test print and measure, print on decal paper with white ink and cut lines, cut out for Silhouette, Cricut or ScanNCut, and share & back up.\n- **Settings page:** the look, what Decals opens on, backups with a reminder, storage and updates. **Help** with three-step how-tos, Show me, and search. A **Fonts** tab with sample text, embedded fonts with clean-up, included fonts and computer fonts.\n- **Clearer windows:** \"Delete this?\" windows say what will happen and what stays safe. Trouble cards start with \"Your work is safe\". Up to three notices at once, with Undo; a deleted sheet offers Recover.\n\n## Update window\n\n- About 5 seconds after Decals starts, it asks GitHub once whether a newer version is out. If there is one, a window shows the version, what is new in it, and the file for your copy (installer, portable app, disk image, AppImage or .deb).\n- **Download** saves that file in your Downloads folder and checks it against the release; **Show in folder** then shows where it is. Decals never opens or installs it: close Decals and install it yourself.\n- **Skip this version** hides the window until a newer version appears. **Settings → Updates** has Check now, and an on/off switch for the check at start.\n- The Windows downloads are now named `Setup-x64.exe` and `Portable-x64.exe`, as in the other SlotForge apps.\n\n## Fixes and speed\n\n- **Safer saving:** auto-arrange and Undo no longer work from an out-of-date sheet; non-stop editing is now saved at most 2.5 seconds after the first change; closing right after an edit still saves it; interrupted backups and restores clean up their leftover files.\n- **Print:** white ink works on long custom sheets, see-through decals keep their white, imported SVGs keep blend modes and hidden layers, and each font is in the print file once.\n- **Clearer errors:** a damaged font says which font it is.\n- **Faster:** auto-arrange with 300 decals went from 3.5 s to 0.03 s, filling a page is about 5× faster, and heavy image work runs in the background without freezing the editor. Snapshots are kept at least 10 minutes apart.\n\n## Updating and installing\n\nYour saved sheets and decals remain in **Documents/SlotForge Decals**, outside the application. Sheets from 0.4.0 open in 0.3.0 and the other way round. Back up first through **Settings → Backups → Back up now**.\n\n| Computer | Installer | Portable |\n| --- | --- | --- |\n| Windows x64 | Setup-x64.exe | Portable-x64.exe |\n| Intel Mac | mac-x64.dmg | mac-x64.zip |\n| Linux x64 | linux-amd64.deb | linux-x86_64.AppImage |\n| Linux ARM64 | linux-arm64.deb | linux-arm64.AppImage |\n\nThe Windows installer installs for your user account only, lets you choose the folder and never deletes your workspace when uninstalling. Apple Silicon downloads are added after their separate build passes. Mac builds require macOS 15 or newer. Windows builds are unsigned; Smart App Control may block them. Mac builds are ad-hoc signed, not Apple-notarized. Updates are never installed automatically.\n\n## Verification and sources\n\nLocal verification passed **171 unit tests** and **41 desktop suites** in both themes, all with workspaces isolated from user data. On top of those: a coverage map (90.6% of code lines run by the tests), thousands of seeded random save and undo sequences, tests that kill the app mid-save, and an hour of random clicking (45,846 steps, storage intact).\n\nLicensed under **AGPL-3.0-or-later**; application source, corresponding Ghostscript and MuPDF sources, revision records and build instructions accompany the release. Bundled components retain their notices in THIRD-PARTY-NOTICES.txt.\n",
       "assets": [
         {
           "name": "BUILDING.md",
-          "url": "https://github.com/theDutchmanJames/SlotForgeDecals/releases/download/v0.3.0/BUILDING.md",
-          "size": 9102
+          "url": "https://github.com/theDutchmanJames/SlotForgeDecals/releases/download/v0.4.0/BUILDING.md",
+          "size": 9086
         },
         {
           "name": "ghostscript-10.08.0.tar.xz",
-          "url": "https://github.com/theDutchmanJames/SlotForgeDecals/releases/download/v0.3.0/ghostscript-10.08.0.tar.xz",
+          "url": "https://github.com/theDutchmanJames/SlotForgeDecals/releases/download/v0.4.0/ghostscript-10.08.0.tar.xz",
           "size": 69197208
         },
         {
           "name": "mupdf-1.28.1-complete-source.tar.gz",
-          "url": "https://github.com/theDutchmanJames/SlotForgeDecals/releases/download/v0.3.0/mupdf-1.28.1-complete-source.tar.gz",
+          "url": "https://github.com/theDutchmanJames/SlotForgeDecals/releases/download/v0.4.0/mupdf-1.28.1-complete-source.tar.gz",
           "size": 95482114
         },
         {
           "name": "MUPDF-SOURCE-REVISIONS.txt",
-          "url": "https://github.com/theDutchmanJames/SlotForgeDecals/releases/download/v0.3.0/MUPDF-SOURCE-REVISIONS.txt",
+          "url": "https://github.com/theDutchmanJames/SlotForgeDecals/releases/download/v0.4.0/MUPDF-SOURCE-REVISIONS.txt",
           "size": 1374
         },
         {
           "name": "SHA256SUMS-linux-arm64.txt",
-          "url": "https://github.com/theDutchmanJames/SlotForgeDecals/releases/download/v0.3.0/SHA256SUMS-linux-arm64.txt",
+          "url": "https://github.com/theDutchmanJames/SlotForgeDecals/releases/download/v0.4.0/SHA256SUMS-linux-arm64.txt",
           "size": 213
         },
         {
           "name": "SHA256SUMS-linux-x64.txt",
-          "url": "https://github.com/theDutchmanJames/SlotForgeDecals/releases/download/v0.3.0/SHA256SUMS-linux-x64.txt",
+          "url": "https://github.com/theDutchmanJames/SlotForgeDecals/releases/download/v0.4.0/SHA256SUMS-linux-x64.txt",
           "size": 214
         },
         {
-          "name": "SHA256SUMS-mac-arm64.txt",
-          "url": "https://github.com/theDutchmanJames/SlotForgeDecals/releases/download/v0.3.0/SHA256SUMS-mac-arm64.txt",
-          "size": 204
-        },
-        {
           "name": "SHA256SUMS-mac-x64.txt",
-          "url": "https://github.com/theDutchmanJames/SlotForgeDecals/releases/download/v0.3.0/SHA256SUMS-mac-x64.txt",
+          "url": "https://github.com/theDutchmanJames/SlotForgeDecals/releases/download/v0.4.0/SHA256SUMS-mac-x64.txt",
           "size": 200
         },
         {
           "name": "SHA256SUMS-sources.txt",
-          "url": "https://github.com/theDutchmanJames/SlotForgeDecals/releases/download/v0.3.0/SHA256SUMS-sources.txt",
+          "url": "https://github.com/theDutchmanJames/SlotForgeDecals/releases/download/v0.4.0/SHA256SUMS-sources.txt",
           "size": 462
         },
         {
           "name": "SHA256SUMS-windows-x64.txt",
-          "url": "https://github.com/theDutchmanJames/SlotForgeDecals/releases/download/v0.3.0/SHA256SUMS-windows-x64.txt",
-          "size": 223
+          "url": "https://github.com/theDutchmanJames/SlotForgeDecals/releases/download/v0.4.0/SHA256SUMS-windows-x64.txt",
+          "size": 207
         },
         {
-          "name": "SlotForgeDecals-0.3.0-linux-amd64.deb",
-          "url": "https://github.com/theDutchmanJames/SlotForgeDecals/releases/download/v0.3.0/SlotForgeDecals-0.3.0-linux-amd64.deb",
-          "size": 125158876
+          "name": "SlotForgeDecals-0.4.0-linux-amd64.deb",
+          "url": "https://github.com/theDutchmanJames/SlotForgeDecals/releases/download/v0.4.0/SlotForgeDecals-0.4.0-linux-amd64.deb",
+          "size": 126009200
         },
         {
-          "name": "SlotForgeDecals-0.3.0-linux-arm64.AppImage",
-          "url": "https://github.com/theDutchmanJames/SlotForgeDecals/releases/download/v0.3.0/SlotForgeDecals-0.3.0-linux-arm64.AppImage",
-          "size": 153090197
+          "name": "SlotForgeDecals-0.4.0-linux-arm64.AppImage",
+          "url": "https://github.com/theDutchmanJames/SlotForgeDecals/releases/download/v0.4.0/SlotForgeDecals-0.4.0-linux-arm64.AppImage",
+          "size": 154012716
         },
         {
-          "name": "SlotForgeDecals-0.3.0-linux-arm64.deb",
-          "url": "https://github.com/theDutchmanJames/SlotForgeDecals/releases/download/v0.3.0/SlotForgeDecals-0.3.0-linux-arm64.deb",
-          "size": 119754400
+          "name": "SlotForgeDecals-0.4.0-linux-arm64.deb",
+          "url": "https://github.com/theDutchmanJames/SlotForgeDecals/releases/download/v0.4.0/SlotForgeDecals-0.4.0-linux-arm64.deb",
+          "size": 120615392
         },
         {
-          "name": "SlotForgeDecals-0.3.0-linux-x86_64.AppImage",
-          "url": "https://github.com/theDutchmanJames/SlotForgeDecals/releases/download/v0.3.0/SlotForgeDecals-0.3.0-linux-x86_64.AppImage",
-          "size": 151931916
+          "name": "SlotForgeDecals-0.4.0-linux-x86_64.AppImage",
+          "url": "https://github.com/theDutchmanJames/SlotForgeDecals/releases/download/v0.4.0/SlotForgeDecals-0.4.0-linux-x86_64.AppImage",
+          "size": 152854563
         },
         {
-          "name": "SlotForgeDecals-0.3.0-mac-arm64.dmg",
-          "url": "https://github.com/theDutchmanJames/SlotForgeDecals/releases/download/v0.3.0/SlotForgeDecals-0.3.0-mac-arm64.dmg",
-          "size": 146416281
+          "name": "SlotForgeDecals-0.4.0-mac-x64.dmg",
+          "url": "https://github.com/theDutchmanJames/SlotForgeDecals/releases/download/v0.4.0/SlotForgeDecals-0.4.0-mac-x64.dmg",
+          "size": 153694030
         },
         {
-          "name": "SlotForgeDecals-0.3.0-mac-arm64.zip",
-          "url": "https://github.com/theDutchmanJames/SlotForgeDecals/releases/download/v0.3.0/SlotForgeDecals-0.3.0-mac-arm64.zip",
-          "size": 142253607
+          "name": "SlotForgeDecals-0.4.0-mac-x64.zip",
+          "url": "https://github.com/theDutchmanJames/SlotForgeDecals/releases/download/v0.4.0/SlotForgeDecals-0.4.0-mac-x64.zip",
+          "size": 149483580
         },
         {
-          "name": "SlotForgeDecals-0.3.0-mac-x64.dmg",
-          "url": "https://github.com/theDutchmanJames/SlotForgeDecals/releases/download/v0.3.0/SlotForgeDecals-0.3.0-mac-x64.dmg",
-          "size": 152732686
+          "name": "SlotForgeDecals-0.4.0-Portable-x64.exe",
+          "url": "https://github.com/theDutchmanJames/SlotForgeDecals/releases/download/v0.4.0/SlotForgeDecals-0.4.0-Portable-x64.exe",
+          "size": 134304436
         },
         {
-          "name": "SlotForgeDecals-0.3.0-mac-x64.zip",
-          "url": "https://github.com/theDutchmanJames/SlotForgeDecals/releases/download/v0.3.0/SlotForgeDecals-0.3.0-mac-x64.zip",
-          "size": 148576381
-        },
-        {
-          "name": "SlotForgeDecals-0.3.0-windows-x64-portable.exe",
-          "url": "https://github.com/theDutchmanJames/SlotForgeDecals/releases/download/v0.3.0/SlotForgeDecals-0.3.0-windows-x64-portable.exe",
-          "size": 133487430
-        },
-        {
-          "name": "SlotForgeDecals-0.3.0-windows-x64-setup.exe",
-          "url": "https://github.com/theDutchmanJames/SlotForgeDecals/releases/download/v0.3.0/SlotForgeDecals-0.3.0-windows-x64-setup.exe",
-          "size": 144775049
+          "name": "SlotForgeDecals-0.4.0-Setup-x64.exe",
+          "url": "https://github.com/theDutchmanJames/SlotForgeDecals/releases/download/v0.4.0/SlotForgeDecals-0.4.0-Setup-x64.exe",
+          "size": 145612388
         },
         {
           "name": "SlotForgeDecals-source.tar.gz",
-          "url": "https://github.com/theDutchmanJames/SlotForgeDecals/releases/download/v0.3.0/SlotForgeDecals-source.tar.gz",
-          "size": 6100209
+          "url": "https://github.com/theDutchmanJames/SlotForgeDecals/releases/download/v0.4.0/SlotForgeDecals-source.tar.gz",
+          "size": 40180305
         }
       ]
     },
