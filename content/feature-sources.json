@@ -1,6 +1,6 @@
 {
   "checkedAt": "2026-11-15",
-  "purpose": "Detailed feature groups and sharing workflows for all six apps, verified against their pinned release documentation",
+  "purpose": "Detailed feature groups and sharing workflows for all seven apps, verified against their pinned release documentation",
   "sources": [
     {
       "app": "Circuit",
@@ -37,6 +37,12 @@
       "ref": "v0.13.0",
       "url": "https://github.com/theDutchmanJames/SlotForgeTelemetry/blob/v0.13.0/README.md",
       "sha": "0e0c93177e74f823c6c27b366d21a4ebbbbb6552"
+    },
+    {
+      "app": "Foundry",
+      "ref": "v1.0.0",
+      "url": "https://github.com/theDutchmanJames/SlotForgeFoundry/blob/v1.0.0/README.md",
+      "sha": "2adce01152e3452debd39bd476af2039e7851be7"
     }
   ],
   "featureReviewAt": "2026-11-16"

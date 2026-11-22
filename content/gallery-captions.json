@@ -64,5 +64,15 @@
     "Slice & export": "Export the sheet as PDF or SVG, including white ink for clear paper.",
     "Decal library": "Save decals and sheets to reuse or share with another builder.",
     "Scale conversion": "Convert a whole sheet between scales, for example 1:32 to 1:24."
+  },
+  "Foundry": {
+    "Special pieces": "A double-crossover hairpin from the Special pieces shelf, with its isolated braid ends marked on the model.",
+    "Track Set": "Edit the road, cross-section, borders, markings and joints of a piece, with its live dimensions.",
+    "Track Planner": "Snap pieces into a layout and count every part you need to print.",
+    "Planner in 3D": "Check the generated 3D sections before you export them.",
+    "Single-lane pit": "A single-lane pit with its printed flipper and pit lane.",
+    "STL Edit": "Create, edit and repair STL models, from a bracket to a fix on someone else’s part.",
+    "Home": "Pick a starter pack, open a part or start a new pack from a Circuit drawing.",
+    "Settings": "Choose your printer and plate, and make Foundry look the way you want."
   }
 }

@@ -32,6 +32,42 @@
     "destination": "assets/apps/decals/icon.png"
   },
   {
+    "source": "https://raw.githubusercontent.com/theDutchmanJames/SlotForgeFoundry/2adce01152e3452debd39bd476af2039e7851be7/assets/slotforge-foundry.png",
+    "destination": "assets/apps/foundry/icon.png"
+  },
+  {
+    "source": "https://raw.githubusercontent.com/theDutchmanJames/SlotForgeFoundry/2adce01152e3452debd39bd476af2039e7851be7/docs/screenshots/special-hairpin.png",
+    "destination": "assets/apps/foundry/special-hairpin.png"
+  },
+  {
+    "source": "https://raw.githubusercontent.com/theDutchmanJames/SlotForgeFoundry/2adce01152e3452debd39bd476af2039e7851be7/docs/screenshots/track-set.png",
+    "destination": "assets/apps/foundry/track-set.png"
+  },
+  {
+    "source": "https://raw.githubusercontent.com/theDutchmanJames/SlotForgeFoundry/2adce01152e3452debd39bd476af2039e7851be7/docs/screenshots/planner.png",
+    "destination": "assets/apps/foundry/planner.png"
+  },
+  {
+    "source": "https://raw.githubusercontent.com/theDutchmanJames/SlotForgeFoundry/2adce01152e3452debd39bd476af2039e7851be7/docs/screenshots/planner-3d.png",
+    "destination": "assets/apps/foundry/planner-3d.png"
+  },
+  {
+    "source": "https://raw.githubusercontent.com/theDutchmanJames/SlotForgeFoundry/2adce01152e3452debd39bd476af2039e7851be7/docs/screenshots/special-pit.png",
+    "destination": "assets/apps/foundry/special-pit.png"
+  },
+  {
+    "source": "https://raw.githubusercontent.com/theDutchmanJames/SlotForgeFoundry/2adce01152e3452debd39bd476af2039e7851be7/docs/screenshots/stl-editor.png",
+    "destination": "assets/apps/foundry/stl-editor.png"
+  },
+  {
+    "source": "https://raw.githubusercontent.com/theDutchmanJames/SlotForgeFoundry/2adce01152e3452debd39bd476af2039e7851be7/docs/screenshots/home.png",
+    "destination": "assets/apps/foundry/home.png"
+  },
+  {
+    "source": "https://raw.githubusercontent.com/theDutchmanJames/SlotForgeFoundry/2adce01152e3452debd39bd476af2039e7851be7/docs/screenshots/settings.png",
+    "destination": "assets/apps/foundry/settings.png"
+  },
+  {
     "source": "//TITAN/nvme/WEBSCREENS/Paddock/Screenshot 2026-11-15 230419.png",
     "destination": "assets/apps/paddock/2026-11-15/showroom-light.png",
     "sha256": "9bed1fa7dd0cd0de008907293806ad27186c9d9c69598a1004bebf0aae89dfa5",

@@ -93,7 +93,7 @@
   if(!gallery.length)return;const picture=gallery[galleryIndex],frame=document.getElementById('gallery-picture');
   frame.querySelector('.theme-light').src=picture.light;frame.querySelector('.theme-dark').src=picture.dark;
   frame.querySelectorAll('img').forEach(img=>{img.alt=`SlotForge ${document.body.dataset.app} — ${picture.label}`;});
-  document.getElementById('gallery-caption').textContent=picture.label+(picture.paired?` · ${theme()} theme`:' · reference screenshot');
+  document.getElementById('gallery-caption').textContent=picture.label+(picture.paired?` · ${theme()} theme`:'');
   document.querySelectorAll('[data-gallery]').forEach(b=>b.setAttribute('aria-pressed',String(Number(b.dataset.gallery)===galleryIndex)));
   const dialogImage=document.getElementById('dialog-image');dialogImage.src=picture[theme()];dialogImage.alt=`SlotForge ${document.body.dataset.app} — ${picture.label}`;document.getElementById('dialog-label').textContent=picture.label;
  }

@@ -1,52 +1,241 @@
 {
   "Paddock": [
-    {"label":"Your collection","icon":"car","intro":"Give every car a place, a photograph and a story."},
-    {"label":"Organisation","icon":"layers","intro":"Find what you need and keep the details that matter to you."},
-    {"label":"Parts & shopping","icon":"tools","intro":"Know what you own, what is fitted and what to buy next."},
-    {"label":"Builds & setups","icon":"measure","intro":"Turn a box of parts into your next race-ready car."},
-    {"label":"Workshop","icon":"tools","intro":"Keep jobs, supplies and service history together."},
-    {"label":"On the track","icon":"timer","intro":"Connect each result to the car and setup behind it."},
-    {"label":"Sharing & backups","icon":"share","intro":"Exchange cars with other collectors and protect your own collection."}
+    {
+      "label": "Your collection",
+      "icon": "car",
+      "intro": "Give every car a place, a photograph and a story."
+    },
+    {
+      "label": "Organisation",
+      "icon": "layers",
+      "intro": "Find what you need and keep the details that matter to you."
+    },
+    {
+      "label": "Parts & shopping",
+      "icon": "tools",
+      "intro": "Know what you own, what is fitted and what to buy next."
+    },
+    {
+      "label": "Builds & setups",
+      "icon": "measure",
+      "intro": "Turn a box of parts into your next race-ready car."
+    },
+    {
+      "label": "Workshop",
+      "icon": "tools",
+      "intro": "Keep jobs, supplies and service history together."
+    },
+    {
+      "label": "On the track",
+      "icon": "timer",
+      "intro": "Connect each result to the car and setup behind it."
+    },
+    {
+      "label": "Sharing & backups",
+      "icon": "share",
+      "intro": "Exchange cars with other collectors and protect your own collection."
+    }
   ],
   "Circuit": [
-    {"label":"Track pieces","icon":"track","intro":"Start with your track system, then make the layout your own."},
-    {"label":"Planning tools","icon":"measure","intro":"Check the space, close the gaps and work out what is missing."},
-    {"label":"Routed wood","icon":"tools","intro":"Design the lanes, curves and construction details for a wooden track."},
-    {"label":"FreeForm","icon":"palette","intro":"Draw the circuit you imagine, beyond a catalogue of fixed pieces."},
-    {"label":"Tables & panels","icon":"layers","intro":"Plan the boards beneath the circuit and prepare the build."},
-    {"label":"Preview & sharing","icon":"share","intro":"See your layout in motion, share it or take the plans to the workshop."},
-    {"label":"Your track library","icon":"track","intro":"Keep designs ready for another session, online or on your computer."}
+    {
+      "label": "Track pieces",
+      "icon": "track",
+      "intro": "Start with your track system, then make the layout your own."
+    },
+    {
+      "label": "Planning tools",
+      "icon": "measure",
+      "intro": "Check the space, close the gaps and work out what is missing."
+    },
+    {
+      "label": "Routed wood",
+      "icon": "tools",
+      "intro": "Design the lanes, curves and construction details for a wooden track."
+    },
+    {
+      "label": "FreeForm",
+      "icon": "palette",
+      "intro": "Draw the circuit you imagine, beyond a catalogue of fixed pieces."
+    },
+    {
+      "label": "Tables & panels",
+      "icon": "layers",
+      "intro": "Plan the boards beneath the circuit and prepare the build."
+    },
+    {
+      "label": "Preview & sharing",
+      "icon": "share",
+      "intro": "See your layout in motion, share it or take the plans to the workshop."
+    },
+    {
+      "label": "Your track library",
+      "icon": "track",
+      "intro": "Keep designs ready for another session, online or on your computer."
+    }
   ],
   "Timing": [
-    {"label":"Race formats","icon":"timer","intro":"From a few practice laps to a full championship."},
-    {"label":"Race strategy","icon":"gauge","intro":"Make fuel, tyres and changing conditions part of the competition."},
-    {"label":"Race control","icon":"tools","intro":"Set the rules, manage the pit lane and keep the event moving."},
-    {"label":"Custom displays","icon":"screen","intro":"Put the information you care about exactly where you want it."},
-    {"label":"Sound & history","icon":"chart","intro":"Give race night its own identity and remember the results."},
-    {"label":"Track & club","icon":"track","intro":"Connect hardware, extra screens and the people around the circuit."},
-    {"label":"Sharing & extras","icon":"share","intro":"Exchange your creations, extend Timing and keep your work safe."}
+    {
+      "label": "Race formats",
+      "icon": "timer",
+      "intro": "From a few practice laps to a full championship."
+    },
+    {
+      "label": "Race strategy",
+      "icon": "gauge",
+      "intro": "Make fuel, tyres and changing conditions part of the competition."
+    },
+    {
+      "label": "Race control",
+      "icon": "tools",
+      "intro": "Set the rules, manage the pit lane and keep the event moving."
+    },
+    {
+      "label": "Custom displays",
+      "icon": "screen",
+      "intro": "Put the information you care about exactly where you want it."
+    },
+    {
+      "label": "Sound & history",
+      "icon": "chart",
+      "intro": "Give race night its own identity and remember the results."
+    },
+    {
+      "label": "Track & club",
+      "icon": "track",
+      "intro": "Connect hardware, extra screens and the people around the circuit."
+    },
+    {
+      "label": "Sharing & extras",
+      "icon": "share",
+      "intro": "Exchange your creations, extend Timing and keep your work safe."
+    }
   ],
   "Telemetry": [
-    {"label":"Handling & balance","icon":"car","intro":"Start with what the car does, then decide what to check."},
-    {"label":"Gearing & motors","icon":"gauge","intro":"Understand how your measurements affect the setup."},
-    {"label":"Testing tools","icon":"tools","intro":"Plan one change, test it and keep the evidence."},
-    {"label":"Lap analysis","icon":"chart","intro":"Find the pace and consistency behind a single fast lap."},
-    {"label":"Setups & sharing","icon":"share","intro":"Keep useful configurations and share what you have learned."}
+    {
+      "label": "Handling & balance",
+      "icon": "car",
+      "intro": "Start with what the car does, then decide what to check."
+    },
+    {
+      "label": "Gearing & motors",
+      "icon": "gauge",
+      "intro": "Understand how your measurements affect the setup."
+    },
+    {
+      "label": "Testing tools",
+      "icon": "tools",
+      "intro": "Plan one change, test it and keep the evidence."
+    },
+    {
+      "label": "Lap analysis",
+      "icon": "chart",
+      "intro": "Find the pace and consistency behind a single fast lap."
+    },
+    {
+      "label": "Setups & sharing",
+      "icon": "share",
+      "intro": "Keep useful configurations and share what you have learned."
+    }
   ],
   "Livery": [
-    {"label":"Car templates","icon":"car","intro":"Prepare a car view once, then use it for many designs."},
-    {"label":"Paint & stripes","icon":"palette","intro":"Build a distinctive scheme from colour, curves and finishes."},
-    {"label":"Decals & lettering","icon":"layers","intro":"Add the sponsors, numbers and details that make it yours."},
-    {"label":"Fitting & layers","icon":"measure","intro":"Refine the placement and keep complex artwork manageable."},
-    {"label":"Library & sharing","icon":"share","intro":"Reuse your designs, exchange editable projects and take a guide to the workshop."}
+    {
+      "label": "Car templates",
+      "icon": "car",
+      "intro": "Prepare a car view once, then use it for many designs."
+    },
+    {
+      "label": "Paint & stripes",
+      "icon": "palette",
+      "intro": "Build a distinctive scheme from colour, curves and finishes."
+    },
+    {
+      "label": "Decals & lettering",
+      "icon": "layers",
+      "intro": "Add the sponsors, numbers and details that make it yours."
+    },
+    {
+      "label": "Fitting & layers",
+      "icon": "measure",
+      "intro": "Refine the placement and keep complex artwork manageable."
+    },
+    {
+      "label": "Library & sharing",
+      "icon": "share",
+      "intro": "Reuse your designs, exchange editable projects and take a guide to the workshop."
+    }
   ],
   "Decals": [
-    {"label":"Artwork cleanup","icon":"palette","intro":"Turn your source graphics into artwork ready for a decal sheet."},
-    {"label":"Create graphics","icon":"layers","intro":"Make your own lettering, number plates and racing patterns."},
-    {"label":"Size & scale","icon":"measure","intro":"Get the dimensions right before you use decal paper."},
-    {"label":"Sheet layout","icon":"layers","intro":"Arrange more artwork neatly without changing its printed size."},
-    {"label":"Print & export","icon":"print","intro":"Prepare a whole sheet or just the area you need."},
-    {"label":"Library & sharing","icon":"share","intro":"Build a reusable collection and exchange designs with other makers."},
-    {"label":"History & backups","icon":"tools","intro":"Return to earlier work and keep your saved designs recoverable."}
+    {
+      "label": "Artwork cleanup",
+      "icon": "palette",
+      "intro": "Turn your source graphics into artwork ready for a decal sheet."
+    },
+    {
+      "label": "Create graphics",
+      "icon": "layers",
+      "intro": "Make your own lettering, number plates and racing patterns."
+    },
+    {
+      "label": "Size & scale",
+      "icon": "measure",
+      "intro": "Get the dimensions right before you use decal paper."
+    },
+    {
+      "label": "Sheet layout",
+      "icon": "layers",
+      "intro": "Arrange more artwork neatly without changing its printed size."
+    },
+    {
+      "label": "Print & export",
+      "icon": "print",
+      "intro": "Prepare a whole sheet or just the area you need."
+    },
+    {
+      "label": "Library & sharing",
+      "icon": "share",
+      "intro": "Build a reusable collection and exchange designs with other makers."
+    },
+    {
+      "label": "History & backups",
+      "icon": "tools",
+      "intro": "Return to earlier work and keep your saved designs recoverable."
+    }
+  ],
+  "Foundry": [
+    {
+      "label": "Track packs",
+      "icon": "track",
+      "intro": "Start from a ready-made pack, make your own or bring in a Circuit layout."
+    },
+    {
+      "label": "Track Set",
+      "icon": "tools",
+      "intro": "Shape every part of a piece and see each change live."
+    },
+    {
+      "label": "Special pieces",
+      "icon": "layers",
+      "intro": "Crossings, pits and timing straights, ready with one click."
+    },
+    {
+      "label": "Track Planner",
+      "icon": "measure",
+      "intro": "Snap a whole layout together and count every part."
+    },
+    {
+      "label": "Printing",
+      "icon": "print",
+      "intro": "Test the fit, check the plate and export a complete print kit."
+    },
+    {
+      "label": "STL Edit",
+      "icon": "palette",
+      "intro": "Create, edit, repair and combine any STL model."
+    },
+    {
+      "label": "Library",
+      "icon": "share",
+      "intro": "Keep your work on your computer and make Foundry your own."
+    }
   ]
 }

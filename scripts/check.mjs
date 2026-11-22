@@ -35,4 +35,4 @@ for(const [,source] of appHtml.matchAll(/(?:src|href)="([^"]+)"/g)){
  await fs.access(path.resolve(dist,'circuit/online/app',pathname));checks++;
 }
 assert.match(await fs.readFile(path.join(dist,'circuit/online/app/local-workspace.js'),'utf8'),/SLOTFORGE_BROWSER_ONLY/);
-console.log(`Passed: ${pages.length} website pages, ${checks} local references, six feature sets and verified release URLs, gallery assets, Circuit entry assets and browser-mode adapter.`);
+console.log(`Passed: ${pages.length} website pages, ${checks} local references, ${Object.keys(data.apps).length} feature sets and verified release URLs, gallery assets, Circuit entry assets and browser-mode adapter.`);

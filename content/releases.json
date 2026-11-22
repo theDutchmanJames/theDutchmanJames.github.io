@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-11-17",
+  "checkedAt": "2026-11-22",
   "apps": {
     "Paddock": {
       "tag": "v1.7.2",
@@ -8,14 +8,59 @@
       "body": "## macOS download for 1.7\n\nVersion 1.7.2 brings the macOS package back. For Windows and Linux it behaves the same as 1.7.1; updating is harmless but not needed.\n\n- **macOS:** the checks that every macOS package must pass run on a newer version of the database engine. That version exposed a weakness in how the racing-history pages (session results, lap pages, a car's history, results received from Timing) read their lists of participants and lanes. Those queries are corrected, so they work on both the current and the newer engine. The published 1.7.0 and 1.7.1 apps use the current engine and were not affected.\n- **Parts lists:** the NSR, ScaleAuto and Slot.it lists are now attached to every release automatically.\n\n## New in 1.7\n\n- **Automatic backups:** Paddock makes complete backups on a schedule (Settings > Database). It is on by default: weekly, keeping the newest 5. Choose daily, weekly or monthly, another folder, or use \"Back up now\".\n- **Move the shared library:** move the library to another folder on this computer from Settings > Database. Timing follows it at its next start.\n- **Search everything:** press Ctrl+K, `/` or the Search button to search cars, parts, workshop jobs, manuals, pages and commands.\n- **Keyboard shortcuts:** Ctrl+N, Ctrl+F, Ctrl+`,` and Alt+1–9; press `?` for the list.\n- **Update notice:** Paddock shows when a newer release is available, with a Download button. It only asks GitHub for the latest version number, and can be switched off in Settings > Database > Updates.\n- **Lap-based maintenance reminders:** Record work accepts \"after this many laps\", counted from Timing races and manual track tests.\n- **Collection value chart:** the Overview shows current value and spending per purchase year, per currency.\n- **Faster everyday use:** the Cars list, Showroom, Settings, Shopping List, Find a Part and search respond several times faster on large collections.\n- **Spreadsheet import:** step 2 lists what blocks \"Choose cars\", with a button to fix each problem.\n- **Fixed:** a crash after adding a part from the Parts page, and a double scrollbar in the search box.\n\n## Downloads\n\n- **Windows installer:** `SlotForgePaddock-1.7.2-Setup.exe` updates the installed application while keeping its existing collection and settings.\n- **Windows portable:** `SlotForgePaddock-1.7.2-Portable.exe` runs without installation.\n- **Source:** `SlotForgePaddock-1.7.2-source.zip` is the tagged source: the app, build files and tests.\n- **Linux:** native x64 and ARM64 packages, each as AppImage and .deb.\n- **macOS:** `SlotForgePaddock-1.7.2-mac-universal.dmg` (or the .zip) for Intel and Apple Silicon. The app is not signed with an Apple developer certificate, so macOS asks for approval the first time; see the [macOS notes](https://github.com/theDutchmanJames/SlotForgePaddock/blob/main/docs/BUILDING.md).\n- **Parts lists (optional):** the NSR, ScaleAuto and Slot.it lists are attached to this release, supplied separately from the app. [What they contain and how to import them](https://github.com/theDutchmanJames/SlotForgePaddock/blob/main/parts-lists/README.md).\n\n## Validation\n\n1,865 automated tests on Windows: 1,856 passed, zero failures, nine optional tests skipped. The same suite passed on Linux x64, Linux ARM64 and macOS before their packages were attached. Syntax checks passed for 296 JavaScript files. The full interface smoke test passed all 230 checks. Every application file inside the Windows package was compared with the tagged source and matches.\n",
       "assets": [
         {
+          "name": "Avantslot-Parts-List-11-2026.zip",
+          "url": "https://github.com/theDutchmanJames/SlotForgePaddock/releases/download/v1.7.2/Avantslot-Parts-List-11-2026.zip",
+          "size": 105964
+        },
+        {
+          "name": "BRM-Parts-List-11-2026.zip",
+          "url": "https://github.com/theDutchmanJames/SlotForgePaddock/releases/download/v1.7.2/BRM-Parts-List-11-2026.zip",
+          "size": 171683
+        },
+        {
+          "name": "Carrera-Parts-List-11-2026.zip",
+          "url": "https://github.com/theDutchmanJames/SlotForgePaddock/releases/download/v1.7.2/Carrera-Parts-List-11-2026.zip",
+          "size": 212705
+        },
+        {
+          "name": "Fly-Parts-List-11-2026.zip",
+          "url": "https://github.com/theDutchmanJames/SlotForgePaddock/releases/download/v1.7.2/Fly-Parts-List-11-2026.zip",
+          "size": 99358
+        },
+        {
           "name": "NSR-Parts-List-11-2026.zip",
           "url": "https://github.com/theDutchmanJames/SlotForgePaddock/releases/download/v1.7.2/NSR-Parts-List-11-2026.zip",
           "size": 242981
         },
         {
+          "name": "PCS-Parts-List-11-2026.zip",
+          "url": "https://github.com/theDutchmanJames/SlotForgePaddock/releases/download/v1.7.2/PCS-Parts-List-11-2026.zip",
+          "size": 74038
+        },
+        {
+          "name": "Policar-Parts-List-11-2026.zip",
+          "url": "https://github.com/theDutchmanJames/SlotForgePaddock/releases/download/v1.7.2/Policar-Parts-List-11-2026.zip",
+          "size": 97883
+        },
+        {
+          "name": "RacerSideways-Parts-List-11-2026.zip",
+          "url": "https://github.com/theDutchmanJames/SlotForgePaddock/releases/download/v1.7.2/RacerSideways-Parts-List-11-2026.zip",
+          "size": 145206
+        },
+        {
+          "name": "Revoslot-Parts-List-11-2026.zip",
+          "url": "https://github.com/theDutchmanJames/SlotForgePaddock/releases/download/v1.7.2/Revoslot-Parts-List-11-2026.zip",
+          "size": 108392
+        },
+        {
           "name": "ScaleAuto-Parts-List-11-2026.zip",
           "url": "https://github.com/theDutchmanJames/SlotForgePaddock/releases/download/v1.7.2/ScaleAuto-Parts-List-11-2026.zip",
           "size": 275485
+        },
+        {
+          "name": "Scalextric-Parts-List-11-2026.zip",
+          "url": "https://github.com/theDutchmanJames/SlotForgePaddock/releases/download/v1.7.2/Scalextric-Parts-List-11-2026.zip",
+          "size": 143586
         },
         {
           "name": "SHA256SUMS-linux-arm64.txt",
@@ -83,16 +128,79 @@
           "size": 4915667
         },
         {
+          "name": "SlotingPlus-Parts-List-11-2026.zip",
+          "url": "https://github.com/theDutchmanJames/SlotForgePaddock/releases/download/v1.7.2/SlotingPlus-Parts-List-11-2026.zip",
+          "size": 191676
+        },
+        {
           "name": "Slotit-Parts-List-11-2026.zip",
           "url": "https://github.com/theDutchmanJames/SlotForgePaddock/releases/download/v1.7.2/Slotit-Parts-List-11-2026.zip",
           "size": 215615
+        },
+        {
+          "name": "Staffs-Parts-List-11-2026.zip",
+          "url": "https://github.com/theDutchmanJames/SlotForgePaddock/releases/download/v1.7.2/Staffs-Parts-List-11-2026.zip",
+          "size": 72842
+        },
+        {
+          "name": "Thunderslot-Parts-List-11-2026.zip",
+          "url": "https://github.com/theDutchmanJames/SlotForgePaddock/releases/download/v1.7.2/Thunderslot-Parts-List-11-2026.zip",
+          "size": 118832
         }
       ],
       "partsLists": [
         {
+          "name": "Avantslot-Parts-List-11-2026.zip",
+          "url": "https://github.com/theDutchmanJames/SlotForgePaddock/releases/download/v1.7.2/Avantslot-Parts-List-11-2026.zip",
+          "size": 105964,
+          "release": "v1.7.2"
+        },
+        {
+          "name": "BRM-Parts-List-11-2026.zip",
+          "url": "https://github.com/theDutchmanJames/SlotForgePaddock/releases/download/v1.7.2/BRM-Parts-List-11-2026.zip",
+          "size": 171683,
+          "release": "v1.7.2"
+        },
+        {
+          "name": "Carrera-Parts-List-11-2026.zip",
+          "url": "https://github.com/theDutchmanJames/SlotForgePaddock/releases/download/v1.7.2/Carrera-Parts-List-11-2026.zip",
+          "size": 212705,
+          "release": "v1.7.2"
+        },
+        {
+          "name": "Fly-Parts-List-11-2026.zip",
+          "url": "https://github.com/theDutchmanJames/SlotForgePaddock/releases/download/v1.7.2/Fly-Parts-List-11-2026.zip",
+          "size": 99358,
+          "release": "v1.7.2"
+        },
+        {
           "name": "NSR-Parts-List-11-2026.zip",
           "url": "https://github.com/theDutchmanJames/SlotForgePaddock/releases/download/v1.7.2/NSR-Parts-List-11-2026.zip",
           "size": 242981,
+          "release": "v1.7.2"
+        },
+        {
+          "name": "PCS-Parts-List-11-2026.zip",
+          "url": "https://github.com/theDutchmanJames/SlotForgePaddock/releases/download/v1.7.2/PCS-Parts-List-11-2026.zip",
+          "size": 74038,
+          "release": "v1.7.2"
+        },
+        {
+          "name": "Policar-Parts-List-11-2026.zip",
+          "url": "https://github.com/theDutchmanJames/SlotForgePaddock/releases/download/v1.7.2/Policar-Parts-List-11-2026.zip",
+          "size": 97883,
+          "release": "v1.7.2"
+        },
+        {
+          "name": "RacerSideways-Parts-List-11-2026.zip",
+          "url": "https://github.com/theDutchmanJames/SlotForgePaddock/releases/download/v1.7.2/RacerSideways-Parts-List-11-2026.zip",
+          "size": 145206,
+          "release": "v1.7.2"
+        },
+        {
+          "name": "Revoslot-Parts-List-11-2026.zip",
+          "url": "https://github.com/theDutchmanJames/SlotForgePaddock/releases/download/v1.7.2/Revoslot-Parts-List-11-2026.zip",
+          "size": 108392,
           "release": "v1.7.2"
         },
         {
@@ -102,9 +210,33 @@
           "release": "v1.7.2"
         },
         {
+          "name": "Scalextric-Parts-List-11-2026.zip",
+          "url": "https://github.com/theDutchmanJames/SlotForgePaddock/releases/download/v1.7.2/Scalextric-Parts-List-11-2026.zip",
+          "size": 143586,
+          "release": "v1.7.2"
+        },
+        {
+          "name": "SlotingPlus-Parts-List-11-2026.zip",
+          "url": "https://github.com/theDutchmanJames/SlotForgePaddock/releases/download/v1.7.2/SlotingPlus-Parts-List-11-2026.zip",
+          "size": 191676,
+          "release": "v1.7.2"
+        },
+        {
           "name": "Slotit-Parts-List-11-2026.zip",
           "url": "https://github.com/theDutchmanJames/SlotForgePaddock/releases/download/v1.7.2/Slotit-Parts-List-11-2026.zip",
           "size": 215615,
+          "release": "v1.7.2"
+        },
+        {
+          "name": "Staffs-Parts-List-11-2026.zip",
+          "url": "https://github.com/theDutchmanJames/SlotForgePaddock/releases/download/v1.7.2/Staffs-Parts-List-11-2026.zip",
+          "size": 72842,
+          "release": "v1.7.2"
+        },
+        {
+          "name": "Thunderslot-Parts-List-11-2026.zip",
+          "url": "https://github.com/theDutchmanJames/SlotForgePaddock/releases/download/v1.7.2/Thunderslot-Parts-List-11-2026.zip",
+          "size": 118832,
           "release": "v1.7.2"
         }
       ]
@@ -158,70 +290,70 @@
       ]
     },
     "Circuit": {
-      "tag": "v0.4.0",
-      "publishedAt": "2026-11-17T12:41:35Z",
-      "url": "https://github.com/theDutchmanJames/SlotForgeCircuit/releases/tag/v0.4.0",
-      "body": "Circuit is now a desktop app as well, with templates, lap times, a side view of track heights and a quicker, friendlier way of working.\r\n\r\n## What's new\r\n\r\n- **Desktop app for Windows, macOS and Linux:** choose the installer or the portable app. Circuit opens in its own window. Installed copies open your existing Track Library straight away; the portable app keeps everything in a *SlotForge Circuit Data* folder beside it.\r\n- **Templates:** *File → Start from a template…* builds a compact oval, long oval, club rectangle or wide oval from your track system's standard straight and curves, so every template closes exactly. A **figure eight with a bridge** starts in FreeForm.\r\n- **Lap times:** *Tune profile → Lap times* shows a time and average speed for every lane, and how far each lane is behind the fastest. They use the same speed plan as Live Preview, so set the profile to your cars' speeds for realistic times.\r\n- **Side view of heights:** *Heights & bridges* (and FreeForm *Checks*) shows the height along the lap, the highest point and the steepest climb. Climbs over 10% are flagged.\r\n- **Update notice:** the desktop app tells you when a newer version is published, with *Download* (the release page in your browser) or *Not now*. It checks at most twice a day, sends nothing about you or your tracks, and never installs anything by itself. *Settings → Updates* has *Check now* and turns the automatic check off.\r\n- **Inches and feet:** *Settings → Measurement units → Imperial* shows lengths, footprints, speeds and the PDF report in inches and feet.\r\n- **Files on the desktop:** system Open and Save dialogs that remember your folder, a recent-files list in the File menu, and double-click a **.slotforge** track file to open it. *Track JSON for SlotForge Timing* (.slotforge.json) is still offered when saving.\r\n\r\n## Easier to use\r\n\r\n- **Welcome screen** on first start, and a **?** help button. Press **?** for all keyboard shortcuts; Ctrl+N and Ctrl+O are new.\r\n- **Right-click** a piece to rotate, mirror, duplicate, add borders, set heights, lock or delete it.\r\n- **File menu:** the builder's top bar is now *Save to Library* plus **File ▾**.\r\n- **Routed Wood** keeps the routing profile in a side panel beside its preview, materials and checks.\r\n- **Tidier navigation:** editing your own pack now lives under Track Packs, and each import or export has one clear home.\r\n- **Shorter help texts** with a *More* link, and clearer empty states for the Track Library and new FreeForm drawings.\r\n\r\n## Faster\r\n\r\n- **Zooming, panning and dragging** no longer redraw the whole track: a zoom step went from about 14 ms to 2 ms and each drag frame from about 15 ms to under 2 ms on a 190-piece layout, so large layouts stay smooth.\r\n- **Adding pieces** is about twice as fast on large layouts, because connections are worked out once per change and only changed pieces are redrawn.\r\n- **Saving** happens once you pause editing instead of after every change: 30 quick edits now write one save instead of 30. Quitting, backups and closing the window still save a waiting change first.\r\n- **Starting** loads half as much: the PDF library (2 MB) now loads the first time you make a PDF, and the start-up save of an unchanged track is gone.\r\n\r\n## Fixed\r\n\r\n- The track could be off-screen when Circuit started on another page or in a small window.\r\n- The local server refused every file when Circuit ran from a Windows short path (such as `C:\\Users\\LONGNA~1\\…`).\r\n\r\n## Verification\r\n\r\n57 unit test files passed on Windows, macOS and Linux, and 28 interface tests clicking through the real app passed on Windows and macOS. The Windows installer was installed, started, associated with .slotforge files and uninstalled again cleanly; the portable app was started from an empty folder. The macOS and Linux downloads were built and tested on GitHub's macOS and Linux machines.\r\n\r\n## Install or update\r\n\r\n| System | Installer | Portable app |\r\n| --- | --- | --- |\r\n| Windows | `SlotForgeCircuit-0.4.0-Setup-x64.exe` | `SlotForgeCircuit-0.4.0-Portable-x64.exe` |\r\n| macOS (Intel and Apple Silicon) | `SlotForgeCircuit-0.4.0-mac-universal.dmg` | `SlotForgeCircuit-0.4.0-mac-universal.zip` |\r\n| Linux (x64) | `SlotForgeCircuit-0.4.0-linux-amd64.deb` | `SlotForgeCircuit-0.4.0-linux-x86_64.AppImage` |\r\n| Linux (ARM) | `SlotForgeCircuit-0.4.0-linux-arm64.deb` | `SlotForgeCircuit-0.4.0-linux-arm64.AppImage` |\r\n\r\nCircuit is not code-signed: on Windows choose **More info → Run anyway**; on macOS right-click the app and choose **Open** the first time; on Linux mark the AppImage as executable (`chmod +x`). The SHA256SUMS files list each download's checksum.\r\n\r\nDownload the installer or portable app for your system. Before updating, open **Storage** in the bottom-right corner and choose **Download workspace backup**. If the browser edition is still running, choose **Stop local app** there first. Saved tracks and custom packs stay in their existing data folder; this update does not change storage formats or the Timing integration contract.\r\n",
+      "tag": "v0.4.1",
+      "publishedAt": "2026-11-17T22:34:38Z",
+      "url": "https://github.com/theDutchmanJames/SlotForgeCircuit/releases/tag/v0.4.1",
+      "body": "A small update: Live preview now shows a car on every lane.\n\n## What's new\n\n- **One car per lane:** Live preview drives a car on every lane of the layout, up to 8, instead of only the first two. A 4-lane table now shows 4 cars. Lane 1 stays red and lane 2 blue; lanes 3–8 are green, yellow, orange, purple, teal and pink.\n\n## Verification\n\n57 unit test files passed on Windows, macOS and Linux, and 29 interface tests clicking through the real app passed on Windows and macOS. A new interface test opens a 2-lane and a 4-lane layout and checks that each lane has its own car and colour.\n\n## Install or update\n\n| System | Installer | Portable app |\n| --- | --- | --- |\n| Windows | `SlotForgeCircuit-0.4.1-Setup-x64.exe` | `SlotForgeCircuit-0.4.1-Portable-x64.exe` |\n| macOS (Intel and Apple Silicon) | `SlotForgeCircuit-0.4.1-mac-universal.dmg` | `SlotForgeCircuit-0.4.1-mac-universal.zip` |\n| Linux (x64) | `SlotForgeCircuit-0.4.1-linux-amd64.deb` | `SlotForgeCircuit-0.4.1-linux-x86_64.AppImage` |\n| Linux (ARM) | `SlotForgeCircuit-0.4.1-linux-arm64.deb` | `SlotForgeCircuit-0.4.1-linux-arm64.AppImage` |\n\nCircuit is not code-signed: on Windows choose **More info → Run anyway**, or right-click the downloaded file → **Properties** → **Unblock**; on macOS right-click the app and choose **Open** the first time; on Linux mark the AppImage as executable (`chmod +x`). The SHA256SUMS files list each download's checksum.\n\nInstall over 0.4.0 as before: your saved tracks and packs stay where they are. Storage formats and the SlotForge Timing integration are unchanged.\n",
       "assets": [
         {
           "name": "SHA256SUMS-linux-arm64.txt",
-          "url": "https://github.com/theDutchmanJames/SlotForgeCircuit/releases/download/v0.4.0/SHA256SUMS-linux-arm64.txt",
+          "url": "https://github.com/theDutchmanJames/SlotForgeCircuit/releases/download/v0.4.1/SHA256SUMS-linux-arm64.txt",
           "size": 215
         },
         {
           "name": "SHA256SUMS-linux-x64.txt",
-          "url": "https://github.com/theDutchmanJames/SlotForgeCircuit/releases/download/v0.4.0/SHA256SUMS-linux-x64.txt",
+          "url": "https://github.com/theDutchmanJames/SlotForgeCircuit/releases/download/v0.4.1/SHA256SUMS-linux-x64.txt",
           "size": 216
         },
         {
           "name": "SHA256SUMS-mac-universal.txt",
-          "url": "https://github.com/theDutchmanJames/SlotForgeCircuit/releases/download/v0.4.0/SHA256SUMS-mac-universal.txt",
+          "url": "https://github.com/theDutchmanJames/SlotForgeCircuit/releases/download/v0.4.1/SHA256SUMS-mac-universal.txt",
           "size": 214
         },
         {
           "name": "SHA256SUMS-win-x64.txt",
-          "url": "https://github.com/theDutchmanJames/SlotForgeCircuit/releases/download/v0.4.0/SHA256SUMS-win-x64.txt",
+          "url": "https://github.com/theDutchmanJames/SlotForgeCircuit/releases/download/v0.4.1/SHA256SUMS-win-x64.txt",
           "size": 209
         },
         {
-          "name": "SlotForgeCircuit-0.4.0-linux-amd64.deb",
-          "url": "https://github.com/theDutchmanJames/SlotForgeCircuit/releases/download/v0.4.0/SlotForgeCircuit-0.4.0-linux-amd64.deb",
-          "size": 109154184
+          "name": "SlotForgeCircuit-0.4.1-linux-amd64.deb",
+          "url": "https://github.com/theDutchmanJames/SlotForgeCircuit/releases/download/v0.4.1/SlotForgeCircuit-0.4.1-linux-amd64.deb",
+          "size": 109179436
         },
         {
-          "name": "SlotForgeCircuit-0.4.0-linux-arm64.AppImage",
-          "url": "https://github.com/theDutchmanJames/SlotForgeCircuit/releases/download/v0.4.0/SlotForgeCircuit-0.4.0-linux-arm64.AppImage",
-          "size": 135741106
+          "name": "SlotForgeCircuit-0.4.1-linux-arm64.AppImage",
+          "url": "https://github.com/theDutchmanJames/SlotForgeCircuit/releases/download/v0.4.1/SlotForgeCircuit-0.4.1-linux-arm64.AppImage",
+          "size": 135769827
         },
         {
-          "name": "SlotForgeCircuit-0.4.0-linux-arm64.deb",
-          "url": "https://github.com/theDutchmanJames/SlotForgeCircuit/releases/download/v0.4.0/SlotForgeCircuit-0.4.0-linux-arm64.deb",
-          "size": 104070856
+          "name": "SlotForgeCircuit-0.4.1-linux-arm64.deb",
+          "url": "https://github.com/theDutchmanJames/SlotForgeCircuit/releases/download/v0.4.1/SlotForgeCircuit-0.4.1-linux-arm64.deb",
+          "size": 104101568
         },
         {
-          "name": "SlotForgeCircuit-0.4.0-linux-x86_64.AppImage",
-          "url": "https://github.com/theDutchmanJames/SlotForgeCircuit/releases/download/v0.4.0/SlotForgeCircuit-0.4.0-linux-x86_64.AppImage",
-          "size": 134529491
+          "name": "SlotForgeCircuit-0.4.1-linux-x86_64.AppImage",
+          "url": "https://github.com/theDutchmanJames/SlotForgeCircuit/releases/download/v0.4.1/SlotForgeCircuit-0.4.1-linux-x86_64.AppImage",
+          "size": 134554119
         },
         {
-          "name": "SlotForgeCircuit-0.4.0-mac-universal.dmg",
-          "url": "https://github.com/theDutchmanJames/SlotForgeCircuit/releases/download/v0.4.0/SlotForgeCircuit-0.4.0-mac-universal.dmg",
-          "size": 233352678
+          "name": "SlotForgeCircuit-0.4.1-mac-universal.dmg",
+          "url": "https://github.com/theDutchmanJames/SlotForgeCircuit/releases/download/v0.4.1/SlotForgeCircuit-0.4.1-mac-universal.dmg",
+          "size": 233352793
         },
         {
-          "name": "SlotForgeCircuit-0.4.0-mac-universal.zip",
-          "url": "https://github.com/theDutchmanJames/SlotForgeCircuit/releases/download/v0.4.0/SlotForgeCircuit-0.4.0-mac-universal.zip",
-          "size": 226970138
+          "name": "SlotForgeCircuit-0.4.1-mac-universal.zip",
+          "url": "https://github.com/theDutchmanJames/SlotForgeCircuit/releases/download/v0.4.1/SlotForgeCircuit-0.4.1-mac-universal.zip",
+          "size": 226970330
         },
         {
-          "name": "SlotForgeCircuit-0.4.0-Portable-x64.exe",
-          "url": "https://github.com/theDutchmanJames/SlotForgeCircuit/releases/download/v0.4.0/SlotForgeCircuit-0.4.0-Portable-x64.exe",
-          "size": 118292089
+          "name": "SlotForgeCircuit-0.4.1-Portable-x64.exe",
+          "url": "https://github.com/theDutchmanJames/SlotForgeCircuit/releases/download/v0.4.1/SlotForgeCircuit-0.4.1-Portable-x64.exe",
+          "size": 118316478
         },
         {
-          "name": "SlotForgeCircuit-0.4.0-Setup-x64.exe",
-          "url": "https://github.com/theDutchmanJames/SlotForgeCircuit/releases/download/v0.4.0/SlotForgeCircuit-0.4.0-Setup-x64.exe",
-          "size": 129779755
+          "name": "SlotForgeCircuit-0.4.1-Setup-x64.exe",
+          "url": "https://github.com/theDutchmanJames/SlotForgeCircuit/releases/download/v0.4.1/SlotForgeCircuit-0.4.1-Setup-x64.exe",
+          "size": 129806920
         }
       ]
     },
@@ -269,115 +401,115 @@
       ]
     },
     "Livery": {
-      "tag": "v1.4.0",
-      "publishedAt": "2026-11-17T12:59:42Z",
-      "url": "https://github.com/theDutchmanJames/SlotForgeLivery/releases/tag/v1.4.0",
-      "body": "**SlotForge Livery 1.4.0 — From design to workbench**\n\n**Faster editing, real-world sizes and everything you need at the paint bench**\n\n## What's new and where to find it\n\n**Editing**\n- **Align and distribute** several selected layers from the right-hand inspector.\n- **Eyedropper:** pick a colour straight from the canvas.\n- **Outlines** on text and shapes, and a **hard drop shadow**.\n- **Lock layers** in the Layers list so they cannot be moved by accident.\n- **Team colours** per project, plus your recently used colours.\n\n**Design tools**\n- **Rulers and draggable guides**, saved per view. With Snap on, artwork snaps to guides, the car centre line and panel edges.\n- **Text:** spread letters to fill the box width, or bend text along an arc.\n- **Preset shapes:** number board, roundel, chequered band, shield and star.\n- **Mirror a whole side** onto the other side, fitted to that view.\n- **Side-by-side pane** showing another view of the car live while you work.\n\n**Slotcar workshop**\n- **Real-world scale:** set a view's real width in mm for mm readouts and mm rulers.\n- **Print at true size:** one masking template per colour plus the full design, with a 50 mm check bar.\n- **Paint catalogue:** Tamiya (TS, X/XF) and Humbrol built in; add Revell, Zero Paints and others under **My paints**.\n- **Workshop PDF:** paint products and a painting order (lightest first), with a picture per step.\n- **Send decals to SlotForge Decals** as a `.sfdecal` pack at real size.\n- **Photo tracing aids:** photo opacity and a centre guide for symmetry.\n\n**Interface**\n- Resizable split between the properties and the Layers list.\n- Compact list view in the library, with usage counts for cars.\n- **Settings → Studio:** scale for new cars, undo steps, finish preview, Snap/Grid on start and tips.\n- Recent projects and **Try a sample car** on the welcome screen.\n- Step-by-step tips on the canvas; Help is split into tabs.\n- Notifications clear when you change screen.\n\n**Safety and maintenance**\n- **Automatic backups** to a folder you choose, daily or weekly, keeping 5–50. Each backup is a normal library package.\n- **Update check:** once a day Livery checks GitHub for a newer release and shows an **Update** button in the header. It sends nothing about you or your designs; switch it off in **Settings → Updates**.\n- **Lighter undo:** undo steps share images and fonts instead of copying them, so a design with a large photo uses far less memory.\n\n**Speed**\n- Edits redraw about ten times faster on detailed cars with several views and photo decals.\n- Autosave after an edit, switching projects and opening the library are all quicker.\n\n**Fixes**\n- Fixed the \"Unreferenced library record\" save failure after preparing a car template.\n\n## Downloads\n\nEvery system now has both an **installer** and a **portable app**:\n\n- **Windows:** `…-windows-x64-setup.exe` (installer) or `…-windows-x64-portable.exe`.\n- **macOS**, when supplied: `.dmg` (installer) or `.zip` (portable), for Intel (`x64`) and Apple silicon (`arm64`).\n- **Linux:** `.deb` (installer) or `.AppImage` (portable), for x64 and arm64.\n\nBoth open the same library on a computer, so you can switch between them. EPS/PDF conversion is bundled and works offline. No account is required. Windows applications are unsigned; macOS packages are not notarised.\n\n## Updating\n\nYour existing library stays in the same location and opens as before. Projects that use the new features (guides, outlines, real-world scale and so on) need Livery 1.4.0 or later to show them correctly.\n\n## Verification and source\n\nRelease assets are published only after their native build and packaged checks pass, including the new installer and portable-app tests.\n\nLivery is licensed under **GNU AGPL version 3 or later**. Corresponding source archives, build instructions and checksums accompany the downloads.\n",
+      "tag": "v1.5.0",
+      "publishedAt": "2026-11-22T15:58:41Z",
+      "url": "https://github.com/theDutchmanJames/SlotForgeLivery/releases/tag/v1.5.0",
+      "body": "**SlotForge Livery 1.5.0 — The new look**\n\n**A calmer look, rebuilt screens and stock cars to paint straight away**\n\n## What's new\n\n- **New look:** Graphite colours, new type and calmer buttons throughout Livery, with Light/Dark in the top right.\n- **Paint Studio and Garage:** a Workbench layout, and one Garage page for cars, liveries, the library, the Trash and backups.\n- **Showroom:** nine stock cars to paint when you don't have a drawing of your own.\n- **Entries:** one livery on many cars, each with its own number and name.\n- **Colours and printing:** livery colours with real paints and a shopping list, and a Print pack saved as one PDF.\n- **Safer and faster:** exports and backups survive a crash, and the inspector and Print pack are much quicker.\n\n## Everything in this release\n\n**Look**\n- A full restyle: Graphite colours, Barlow and Roboto Mono, flat buttons, quieter selections, and redesigned dialogs, Settings, Help and the welcome screen.\n- The Light/Dark switch is back in the top right corner.\n\n**Screens rebuilt**\n- **Paint Studio:** Workbench layout with Layers on the left, view tabs, Selection and Workshop tabs, a quick bar and a right-click menu.\n- **Garage:** one page for cars, liveries, the library, the Trash and backups.\n- **Car setup:** a guided, step-by-step preparation of a new car.\n- **Colours:** livery colours with real paints, the paints you own and a shopping list.\n- **Print pack:** pick and order the pages, then save them as one PDF.\n- **Side by side:** edit two sides together, mirrored or the same.\n- **Help on the spot:** help for the screen you are on (F1), tours and a keyboard sheet.\n- **Start page:** a proper welcome when you open Livery.\n- **Arrivals:** imported packages arrive in the Garage, where you can check them or send them back.\n- **Rescue window:** if the library cannot be read, Livery finds your backups and brings one back.\n\n**New**\n- **Entries:** one livery, many cars, each with its own number and name.\n- **Showroom:** nine stock cars ready to paint.\n- **Update window:** replaces the daily update check, shows what's new and downloads the update for you.\n\n**Speed**\n- The inspector is about five times faster; the Print pack draws about eight times faster.\n- Side by side, Panel Studio and exports are quicker.\n\n**Fixes**\n- Exports and backups no longer damage an earlier file if Livery stops while writing; an interrupted restore leaves nothing behind.\n- Typing a name and then clicking other artwork no longer renames the wrong piece.\n- Liveries saved by older versions get their Garage summary rebuilt, so the Garage can group them.\n- Two library items with the same id can no longer be merged silently.\n- Opening a file that is not a Livery package gives a plain message.\n- Many smaller fixes from a full review.\n\n## Downloads\n\nEvery system has both an **installer** and a **portable app**:\n\n- **Windows:** `…-windows-x64-setup.exe` (installer) or `…-windows-x64-portable.exe`.\n- **macOS**, when supplied: `.dmg` (installer) or `.zip` (portable), for Intel (`x64`) and Apple silicon (`arm64`).\n- **Linux:** `.deb` (installer) or `.AppImage` (portable), for x64 and arm64.\n\nBoth open the same library on a computer, so you can switch between them. EPS/PDF conversion is bundled and works offline. No account is required. Windows applications are unsigned; macOS packages are not notarised.\n\n## Updating\n\nYour existing library stays in the same location and opens as before. Designs that use the new features, such as Entries, may not show fully in older versions.\n\n## Verification and source\n\nRelease assets are published only after their native build and packaged checks pass. This release also adds random-save, crash, random-click and coverage tests.\n\nLivery is licensed under **GNU AGPL version 3 or later**. Corresponding source archives, build instructions and checksums accompany the downloads.\n",
       "assets": [
         {
           "name": "BUILDING.md",
-          "url": "https://github.com/theDutchmanJames/SlotForgeLivery/releases/download/v1.4.0/BUILDING.md",
-          "size": 7043
+          "url": "https://github.com/theDutchmanJames/SlotForgeLivery/releases/download/v1.5.0/BUILDING.md",
+          "size": 10582
         },
         {
           "name": "ghostscript-10.08.0.tar.xz",
-          "url": "https://github.com/theDutchmanJames/SlotForgeLivery/releases/download/v1.4.0/ghostscript-10.08.0.tar.xz",
+          "url": "https://github.com/theDutchmanJames/SlotForgeLivery/releases/download/v1.5.0/ghostscript-10.08.0.tar.xz",
           "size": 69197208
         },
         {
           "name": "mupdf-1.28.1-complete-source.tar.gz",
-          "url": "https://github.com/theDutchmanJames/SlotForgeLivery/releases/download/v1.4.0/mupdf-1.28.1-complete-source.tar.gz",
-          "size": 95447728
+          "url": "https://github.com/theDutchmanJames/SlotForgeLivery/releases/download/v1.5.0/mupdf-1.28.1-complete-source.tar.gz",
+          "size": 95480400
         },
         {
           "name": "MUPDF-SOURCE-REVISIONS.txt",
-          "url": "https://github.com/theDutchmanJames/SlotForgeLivery/releases/download/v1.4.0/MUPDF-SOURCE-REVISIONS.txt",
+          "url": "https://github.com/theDutchmanJames/SlotForgeLivery/releases/download/v1.5.0/MUPDF-SOURCE-REVISIONS.txt",
           "size": 1375
         },
         {
           "name": "SHA256SUMS-linux-arm64.txt",
-          "url": "https://github.com/theDutchmanJames/SlotForgeLivery/releases/download/v1.4.0/SHA256SUMS-linux-arm64.txt",
+          "url": "https://github.com/theDutchmanJames/SlotForgeLivery/releases/download/v1.5.0/SHA256SUMS-linux-arm64.txt",
           "size": 213
         },
         {
           "name": "SHA256SUMS-linux-x64.txt",
-          "url": "https://github.com/theDutchmanJames/SlotForgeLivery/releases/download/v1.4.0/SHA256SUMS-linux-x64.txt",
+          "url": "https://github.com/theDutchmanJames/SlotForgeLivery/releases/download/v1.5.0/SHA256SUMS-linux-x64.txt",
           "size": 214
         },
         {
           "name": "SHA256SUMS-mac-arm64.txt",
-          "url": "https://github.com/theDutchmanJames/SlotForgeLivery/releases/download/v1.4.0/SHA256SUMS-mac-arm64.txt",
+          "url": "https://github.com/theDutchmanJames/SlotForgeLivery/releases/download/v1.5.0/SHA256SUMS-mac-arm64.txt",
           "size": 204
         },
         {
           "name": "SHA256SUMS-mac-x64.txt",
-          "url": "https://github.com/theDutchmanJames/SlotForgeLivery/releases/download/v1.4.0/SHA256SUMS-mac-x64.txt",
+          "url": "https://github.com/theDutchmanJames/SlotForgeLivery/releases/download/v1.5.0/SHA256SUMS-mac-x64.txt",
           "size": 200
         },
         {
           "name": "SHA256SUMS-sources.txt",
-          "url": "https://github.com/theDutchmanJames/SlotForgeLivery/releases/download/v1.4.0/SHA256SUMS-sources.txt",
+          "url": "https://github.com/theDutchmanJames/SlotForgeLivery/releases/download/v1.5.0/SHA256SUMS-sources.txt",
           "size": 462
         },
         {
           "name": "SHA256SUMS-windows-x64.txt",
-          "url": "https://github.com/theDutchmanJames/SlotForgeLivery/releases/download/v1.4.0/SHA256SUMS-windows-x64.txt",
+          "url": "https://github.com/theDutchmanJames/SlotForgeLivery/releases/download/v1.5.0/SHA256SUMS-windows-x64.txt",
           "size": 223
         },
         {
-          "name": "SlotForgeLivery-1.4.0-linux-amd64.deb",
-          "url": "https://github.com/theDutchmanJames/SlotForgeLivery/releases/download/v1.4.0/SlotForgeLivery-1.4.0-linux-amd64.deb",
-          "size": 121508112
+          "name": "SlotForgeLivery-1.5.0-linux-amd64.deb",
+          "url": "https://github.com/theDutchmanJames/SlotForgeLivery/releases/download/v1.5.0/SlotForgeLivery-1.5.0-linux-amd64.deb",
+          "size": 122558988
         },
         {
-          "name": "SlotForgeLivery-1.4.0-linux-arm64.AppImage",
-          "url": "https://github.com/theDutchmanJames/SlotForgeLivery/releases/download/v1.4.0/SlotForgeLivery-1.4.0-linux-arm64.AppImage",
-          "size": 149038622
+          "name": "SlotForgeLivery-1.5.0-linux-arm64.AppImage",
+          "url": "https://github.com/theDutchmanJames/SlotForgeLivery/releases/download/v1.5.0/SlotForgeLivery-1.5.0-linux-arm64.AppImage",
+          "size": 150744742
         },
         {
-          "name": "SlotForgeLivery-1.4.0-linux-arm64.deb",
-          "url": "https://github.com/theDutchmanJames/SlotForgeLivery/releases/download/v1.4.0/SlotForgeLivery-1.4.0-linux-arm64.deb",
-          "size": 116117268
+          "name": "SlotForgeLivery-1.5.0-linux-arm64.deb",
+          "url": "https://github.com/theDutchmanJames/SlotForgeLivery/releases/download/v1.5.0/SlotForgeLivery-1.5.0-linux-arm64.deb",
+          "size": 117165816
         },
         {
-          "name": "SlotForgeLivery-1.4.0-linux-x86_64.AppImage",
-          "url": "https://github.com/theDutchmanJames/SlotForgeLivery/releases/download/v1.4.0/SlotForgeLivery-1.4.0-linux-x86_64.AppImage",
-          "size": 147879726
+          "name": "SlotForgeLivery-1.5.0-linux-x86_64.AppImage",
+          "url": "https://github.com/theDutchmanJames/SlotForgeLivery/releases/download/v1.5.0/SlotForgeLivery-1.5.0-linux-x86_64.AppImage",
+          "size": 149586287
         },
         {
-          "name": "SlotForgeLivery-1.4.0-mac-arm64.dmg",
-          "url": "https://github.com/theDutchmanJames/SlotForgeLivery/releases/download/v1.4.0/SlotForgeLivery-1.4.0-mac-arm64.dmg",
-          "size": 141037262
+          "name": "SlotForgeLivery-1.5.0-mac-arm64.dmg",
+          "url": "https://github.com/theDutchmanJames/SlotForgeLivery/releases/download/v1.5.0/SlotForgeLivery-1.5.0-mac-arm64.dmg",
+          "size": 142680019
         },
         {
-          "name": "SlotForgeLivery-1.4.0-mac-arm64.zip",
-          "url": "https://github.com/theDutchmanJames/SlotForgeLivery/releases/download/v1.4.0/SlotForgeLivery-1.4.0-mac-arm64.zip",
-          "size": 137026102
+          "name": "SlotForgeLivery-1.5.0-mac-arm64.zip",
+          "url": "https://github.com/theDutchmanJames/SlotForgeLivery/releases/download/v1.5.0/SlotForgeLivery-1.5.0-mac-arm64.zip",
+          "size": 138564285
         },
         {
-          "name": "SlotForgeLivery-1.4.0-mac-x64.dmg",
-          "url": "https://github.com/theDutchmanJames/SlotForgeLivery/releases/download/v1.4.0/SlotForgeLivery-1.4.0-mac-x64.dmg",
-          "size": 148708417
+          "name": "SlotForgeLivery-1.5.0-mac-x64.dmg",
+          "url": "https://github.com/theDutchmanJames/SlotForgeLivery/releases/download/v1.5.0/SlotForgeLivery-1.5.0-mac-x64.dmg",
+          "size": 150376033
         },
         {
-          "name": "SlotForgeLivery-1.4.0-mac-x64.zip",
-          "url": "https://github.com/theDutchmanJames/SlotForgeLivery/releases/download/v1.4.0/SlotForgeLivery-1.4.0-mac-x64.zip",
-          "size": 144678792
+          "name": "SlotForgeLivery-1.5.0-mac-x64.zip",
+          "url": "https://github.com/theDutchmanJames/SlotForgeLivery/releases/download/v1.5.0/SlotForgeLivery-1.5.0-mac-x64.zip",
+          "size": 146216978
         },
         {
-          "name": "SlotForgeLivery-1.4.0-windows-x64-portable.exe",
-          "url": "https://github.com/theDutchmanJames/SlotForgeLivery/releases/download/v1.4.0/SlotForgeLivery-1.4.0-windows-x64-portable.exe",
-          "size": 129924991
+          "name": "SlotForgeLivery-1.5.0-windows-x64-portable.exe",
+          "url": "https://github.com/theDutchmanJames/SlotForgeLivery/releases/download/v1.5.0/SlotForgeLivery-1.5.0-windows-x64-portable.exe",
+          "size": 130847779
         },
         {
-          "name": "SlotForgeLivery-1.4.0-windows-x64-setup.exe",
-          "url": "https://github.com/theDutchmanJames/SlotForgeLivery/releases/download/v1.4.0/SlotForgeLivery-1.4.0-windows-x64-setup.exe",
-          "size": 141163107
+          "name": "SlotForgeLivery-1.5.0-windows-x64-setup.exe",
+          "url": "https://github.com/theDutchmanJames/SlotForgeLivery/releases/download/v1.5.0/SlotForgeLivery-1.5.0-windows-x64-setup.exe",
+          "size": 142127251
         },
         {
           "name": "SlotForgeLivery-source.tar.gz",
-          "url": "https://github.com/theDutchmanJames/SlotForgeLivery/releases/download/v1.4.0/SlotForgeLivery-source.tar.gz",
-          "size": 1590099
+          "url": "https://github.com/theDutchmanJames/SlotForgeLivery/releases/download/v1.5.0/SlotForgeLivery-source.tar.gz",
+          "size": 8652215
         }
       ]
     },
@@ -491,6 +623,49 @@
           "name": "SlotForgeDecals-source.tar.gz",
           "url": "https://github.com/theDutchmanJames/SlotForgeDecals/releases/download/v0.3.0/SlotForgeDecals-source.tar.gz",
           "size": 6100209
+        }
+      ]
+    },
+    "Foundry": {
+      "tag": "v1.0.0",
+      "publishedAt": "2026-11-22T15:51:53Z",
+      "url": "https://github.com/theDutchmanJames/SlotForgeFoundry/releases/tag/v1.0.0",
+      "body": "The first public release of SlotForge Foundry: design slot-car track, plan a layout and 3D print every part, with a full STL editor built in.\n\n## What's new\n\n- **Track Set:** design a piece's road, cross-section, borders, markings, joints and print segments, with every change shown live before you apply it.\n- **Track Planner:** snap pieces into a layout, add bridges with support blocks, see it in 3D and export the full print kit with a parts list.\n- **Special pieces:** add a hairpin, diamond crossing, pit lane, duel, chicane or timing straight to any pack with one click.\n- **STL Edit:** create parts from scratch, or edit, repair and combine any STL model.\n- **Library:** keep your packs, layouts and STL parts on your computer, with backup and restore.\n- **Desktop app:** an installer and a portable app for Windows, macOS and Linux, with the SlotForge themes and an update check.\n\n## Getting started\n\nStart with one of the two starter packs, **SlotForge Basic** (two lanes, 200 mm road) or **SlotForge Basic Single Lane** (100 mm). Or make your own pack, or import a layout from **SlotForge Circuit** (SVG or DXF). Before printing a whole track, print the **fit samples** from Home to find the clip clearance that suits your printer and filament.\n\nThe [README](https://github.com/theDutchmanJames/SlotForgeFoundry/blob/v1.0.0/README.md) gives a short tour, and the [user guide](https://github.com/theDutchmanJames/SlotForgeFoundry/blob/v1.0.0/docs/GUIDE.md) explains every tool.\n\n## Verification\n\n602 unit tests passed on Windows, covering the track geometry, connectors, drawing imports, the Library, the update check and where the data is kept. 60 browser stages clicked through the shipped app with networking disabled. The desktop app was started twice on a portable data folder to check that saved data survives a restart. Its update window was tested against a simulated GitHub release, including a download checked against its checksum.\n\nRobustness tests ran random sequences of Library saves and compared both storage paths. They interrupted the app during saves, autosave, restore and the Planner cache, and made thousands of random clicks through the interface.\n\nThe macOS and Linux downloads are built and tested by GitHub Actions after this release is published, on each operating system.\n\n## Install\n\n| System | Installer | Portable app |\n| --- | --- | --- |\n| Windows | `SlotForgeFoundry-1.0.0-Setup-x64.exe` | `SlotForgeFoundry-1.0.0-Portable-x64.exe` |\n| macOS (Intel and Apple Silicon) | `SlotForgeFoundry-1.0.0-mac-universal.dmg` | `SlotForgeFoundry-1.0.0-mac-universal.zip` |\n| Linux (x64) | `SlotForgeFoundry-1.0.0-linux-amd64.deb` | `SlotForgeFoundry-1.0.0-linux-x86_64.AppImage` |\n| Linux (ARM) | `SlotForgeFoundry-1.0.0-linux-arm64.deb` | `SlotForgeFoundry-1.0.0-linux-arm64.AppImage` |\n| Any browser | `SlotForge-Foundry-1.0.0.zip`: extract it and open **SlotForge Foundry.html** | |\n\nFoundry is not code-signed. On Windows, choose **More info → Run anyway**. On macOS, use **System Settings → Privacy & Security → Open Anyway** the first time. On Linux, mark the AppImage as executable (`chmod +x`). The SHA256SUMS files list each download's checksum.\n\nThe portable app and the AppImage keep everything in a **SlotForge Foundry Data** folder beside the program. The installed app uses its user-data folder. The desktop and browser editions keep separate Libraries; use **Library → Backup & restore** to move your work between them.\n",
+      "assets": [
+        {
+          "name": "SHA256SUMS-mac-universal.txt",
+          "url": "https://github.com/theDutchmanJames/SlotForgeFoundry/releases/download/v1.0.0/SHA256SUMS-mac-universal.txt",
+          "size": 214
+        },
+        {
+          "name": "SHA256SUMS-win-x64.txt",
+          "url": "https://github.com/theDutchmanJames/SlotForgeFoundry/releases/download/v1.0.0/SHA256SUMS-win-x64.txt",
+          "size": 303
+        },
+        {
+          "name": "SlotForge-Foundry-1.0.0.zip",
+          "url": "https://github.com/theDutchmanJames/SlotForgeFoundry/releases/download/v1.0.0/SlotForge-Foundry-1.0.0.zip",
+          "size": 2075793
+        },
+        {
+          "name": "SlotForgeFoundry-1.0.0-mac-universal.dmg",
+          "url": "https://github.com/theDutchmanJames/SlotForgeFoundry/releases/download/v1.0.0/SlotForgeFoundry-1.0.0-mac-universal.dmg",
+          "size": 226322062
+        },
+        {
+          "name": "SlotForgeFoundry-1.0.0-mac-universal.zip",
+          "url": "https://github.com/theDutchmanJames/SlotForgeFoundry/releases/download/v1.0.0/SlotForgeFoundry-1.0.0-mac-universal.zip",
+          "size": 219690621
+        },
+        {
+          "name": "SlotForgeFoundry-1.0.0-Portable-x64.exe",
+          "url": "https://github.com/theDutchmanJames/SlotForgeFoundry/releases/download/v1.0.0/SlotForgeFoundry-1.0.0-Portable-x64.exe",
+          "size": 111562056
+        },
+        {
+          "name": "SlotForgeFoundry-1.0.0-Setup-x64.exe",
+          "url": "https://github.com/theDutchmanJames/SlotForgeFoundry/releases/download/v1.0.0/SlotForgeFoundry-1.0.0-Setup-x64.exe",
+          "size": 122604342
         }
       ]
     }

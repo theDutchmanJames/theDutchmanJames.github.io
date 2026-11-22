@@ -23,11 +23,67 @@
   ],
   "catalogues": [
     {
+      "brand": "Avant Slot",
+      "edition": "November 2026",
+      "file": "Avantslot-Parts-List-11-2026.zip",
+      "parts": 180,
+      "supplies": 0
+    },
+    {
+      "brand": "BRM",
+      "edition": "November 2026",
+      "file": "BRM-Parts-List-11-2026.zip",
+      "parts": 673,
+      "supplies": 1
+    },
+    {
+      "brand": "Carrera",
+      "edition": "November 2026",
+      "file": "Carrera-Parts-List-11-2026.zip",
+      "parts": 914,
+      "supplies": 4
+    },
+    {
+      "brand": "Fly",
+      "edition": "November 2026",
+      "file": "Fly-Parts-List-11-2026.zip",
+      "parts": 146,
+      "supplies": 0
+    },
+    {
       "brand": "NSR",
       "edition": "November 2026",
       "file": "NSR-Parts-List-11-2026.zip",
       "parts": 1199,
       "supplies": 38
+    },
+    {
+      "brand": "PCS",
+      "edition": "November 2026",
+      "file": "PCS-Parts-List-11-2026.zip",
+      "parts": 274,
+      "supplies": 0
+    },
+    {
+      "brand": "Policar",
+      "edition": "November 2026",
+      "file": "Policar-Parts-List-11-2026.zip",
+      "parts": 203,
+      "supplies": 0
+    },
+    {
+      "brand": "Racer Sideways",
+      "edition": "November 2026",
+      "file": "RacerSideways-Parts-List-11-2026.zip",
+      "parts": 368,
+      "supplies": 11
+    },
+    {
+      "brand": "Revoslot",
+      "edition": "November 2026",
+      "file": "Revoslot-Parts-List-11-2026.zip",
+      "parts": 301,
+      "supplies": 0
     },
     {
       "brand": "ScaleAuto",
@@ -37,11 +93,39 @@
       "supplies": 132
     },
     {
+      "brand": "Scalextric",
+      "edition": "November 2026",
+      "file": "Scalextric-Parts-List-11-2026.zip",
+      "parts": 591,
+      "supplies": 0
+    },
+    {
+      "brand": "Sloting Plus",
+      "edition": "November 2026",
+      "file": "SlotingPlus-Parts-List-11-2026.zip",
+      "parts": 636,
+      "supplies": 78
+    },
+    {
       "brand": "Slot.it",
       "edition": "November 2026",
       "file": "Slotit-Parts-List-11-2026.zip",
       "parts": 753,
       "supplies": 61
+    },
+    {
+      "brand": "Staffs",
+      "edition": "November 2026",
+      "file": "Staffs-Parts-List-11-2026.zip",
+      "parts": 366,
+      "supplies": 29
+    },
+    {
+      "brand": "Thunderslot",
+      "edition": "November 2026",
+      "file": "Thunderslot-Parts-List-11-2026.zip",
+      "parts": 131,
+      "supplies": 3
     }
   ]
 }

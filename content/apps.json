@@ -221,6 +221,43 @@
         "light": "wordmark-light.svg",
         "dark": "wordmark-dark.svg"
       }
+    },
+    "Foundry": {
+      "category": "3D-PRINTED TRACK",
+      "summary": "Design slotcar track, plan the layout and 3D print every part, with a full STL editor built in.",
+      "short": "Design track pieces, plan a layout and print every part.",
+      "sha": "2adce01152e3452debd39bd476af2039e7851be7",
+      "icon": "assets/slotforge-foundry.png",
+      "features": [
+        [
+          "Design every piece",
+          "Set the road, slot, borders, markings and joints, and see each change live before you apply it."
+        ],
+        [
+          "Plan the whole layout",
+          "Snap pieces into a layout, add bridges and check it in 3D. Every section is cut to fit your print plate."
+        ],
+        [
+          "Print it. Share it.",
+          "Export a print kit with every STL, quantities and an assembly map, or send the editable design to another builder."
+        ]
+      ],
+      "highlightIcons": [
+        "track",
+        "measure",
+        "print"
+      ],
+      "highlightLabels": [
+        "TRACK SET",
+        "TRACK PLANNER",
+        "PRINT KIT"
+      ],
+      "wordmark": {
+        "light": "wordmark-light.svg",
+        "dark": "wordmark-dark.svg"
+      },
+      "light": "special-hairpin.png",
+      "dark": "special-hairpin.png"
     }
   },
   "galleries": {
@@ -605,6 +642,56 @@
         "capturedAt": "2026-11-16",
         "light": "2026-11-16/scale-conversion-light.png",
         "dark": "2026-11-16/scale-conversion-dark.png"
+      }
+    ],
+    "Foundry": [
+      {
+        "label": "Special pieces",
+        "source": "readme",
+        "capturedAt": "2026-11-22",
+        "file": "special-hairpin.png"
+      },
+      {
+        "label": "Track Set",
+        "source": "readme",
+        "capturedAt": "2026-11-22",
+        "file": "track-set.png"
+      },
+      {
+        "label": "Track Planner",
+        "source": "readme",
+        "capturedAt": "2026-11-22",
+        "file": "planner.png"
+      },
+      {
+        "label": "Planner in 3D",
+        "source": "readme",
+        "capturedAt": "2026-11-22",
+        "file": "planner-3d.png"
+      },
+      {
+        "label": "Single-lane pit",
+        "source": "readme",
+        "capturedAt": "2026-11-22",
+        "file": "special-pit.png"
+      },
+      {
+        "label": "STL Edit",
+        "source": "readme",
+        "capturedAt": "2026-11-22",
+        "file": "stl-editor.png"
+      },
+      {
+        "label": "Home",
+        "source": "readme",
+        "capturedAt": "2026-11-22",
+        "file": "home.png"
+      },
+      {
+        "label": "Settings",
+        "source": "readme",
+        "capturedAt": "2026-11-22",
+        "file": "settings.png"
       }
     ]
   },
@@ -1702,6 +1789,159 @@
           ]
         ]
       ]
+    ],
+    "Foundry": [
+      [
+        "Start with a track pack",
+        [
+          [
+            "Two starter packs",
+            "SlotForge Basic has two lanes on a 200 mm road; SlotForge Basic Single Lane has one on 100 mm. Each comes with three straights, a starting grid and six nesting 30° corners."
+          ],
+          [
+            "Make your own pack",
+            "Set the road width, lane count, slot spacing, first corner radius and default sweep, then add matching R1–R8 curves, straights or freeform paths."
+          ],
+          [
+            "Shared print profiles",
+            "Keep the cross-section and connectors the same across every piece in a pack, so the parts always fit together."
+          ],
+          [
+            "Import from SlotForge Circuit",
+            "Bring in a Circuit drawing (SVG or DXF) and Foundry builds the printable road from its lanes and edges."
+          ]
+        ]
+      ],
+      [
+        "Design every detail of a piece",
+        [
+          [
+            "Shape",
+            "Set the road path, lanes and lane spacing. Squeeze or spread the lanes mid-piece while the ends stay aligned with the rest of the pack."
+          ],
+          [
+            "Cross-section",
+            "Choose a solid or hollow deck with underside ribs, the guide slot, braid recesses and braid pass-throughs."
+          ],
+          [
+            "Borders",
+            "Add inside and outside borders with their own widths, apex and ends: rounded, tapered or S-curve."
+          ],
+          [
+            "Markings",
+            "Add white lines, centre lines, kerbstones, starting grids and pit markers, with optional paint grooves cut into the print."
+          ],
+          [
+            "Joints",
+            "Use the double-dovetail draw key with quarter-turn keepers, a Carrera-style fork, or tabs and sockets. Drag each one into place."
+          ],
+          [
+            "Live preview and scale car",
+            "See every change in the viewport before you apply it, and place a 1:64, 1:43, 1:32 or 1:24 car on the road."
+          ]
+        ]
+      ],
+      [
+        "Special pieces",
+        [
+          [
+            "Crossings with isolated braid",
+            "Add a double-crossover hairpin or a flat diamond crossing, with isolated braid ends so each driver keeps a separate circuit."
+          ],
+          [
+            "Single-lane pit",
+            "A pit entry with a printed flipper, pivot and crank, and an optional adjustable motor mount."
+          ],
+          [
+            "Duel, chicane and timing straight",
+            "Add a late-apex duel, a bus-stop chicane or a timing straight with sensor pockets and cable exits."
+          ],
+          [
+            "Conductor maps and test prints",
+            "Special pieces come with a conductor map and assembly notes. For crossings, a test STL checks guide and braid clearance with your own cars."
+          ]
+        ]
+      ],
+      [
+        "Plan a complete layout",
+        [
+          [
+            "Snap pieces together",
+            "Pick a pack and click pieces to snap them into place. Choose left or right for corners, reverse a turn, or delete and rejoin sections."
+          ],
+          [
+            "Cut to your print plate",
+            "Each piece is split to fit your print plate automatically, and the parts tally counts every road section, key and keeper."
+          ],
+          [
+            "Bridges and figure eights",
+            "Set the lift at each end of an upper road, and Foundry adds numbered support blocks clear of the road below."
+          ],
+          [
+            "Check it in 3D",
+            "Switch to 3D to see the generated parts before you print, then save the layout to the Library."
+          ]
+        ]
+      ],
+      [
+        "Print with confidence",
+        [
+          [
+            "Fit samples",
+            "Test the clip clearance with your own printer and filament before printing a whole track. The turning key for the keepers is included."
+          ],
+          [
+            "Printer and plate checks",
+            "Choose your printer or enter a custom plate. Checks include rotation, the full footprint and protruding connectors."
+          ],
+          [
+            "A complete print kit",
+            "Roads and borders export driving-face down and centred on the bed, with quantities in parts.csv, a numbered assembly map and the editable project."
+          ],
+          [
+            "Filament estimate",
+            "A shopping list estimates the filament your layout needs."
+          ]
+        ]
+      ],
+      [
+        "A full STL editor",
+        [
+          [
+            "Create from scratch",
+            "Start from dimensioned solids, sketches or imported SVG/DXF outlines. Extrude, revolve, sweep and loft, with an editable history."
+          ],
+          [
+            "Edit existing models",
+            "Trim, push/pull, tilt, hollow and add text. Resize or fill holes, round or chamfer edges, and stretch a section."
+          ],
+          [
+            "Repair and refine",
+            "Inspect a damaged STL, patch openings, fix winding, reduce triangles and split loose bodies."
+          ],
+          [
+            "Combine parts",
+            "Add more models, align them, and join, subtract or intersect them. Any track part opens here with Edit as STL."
+          ]
+        ]
+      ],
+      [
+        "Library and look",
+        [
+          [
+            "Your Library",
+            "Track packs, layouts and STL parts are kept in a Library on your computer."
+          ],
+          [
+            "Backup and restore",
+            "Move the whole Library to another computer, or between the desktop and browser editions."
+          ],
+          [
+            "Your own colours",
+            "Choose Dark or Light, a colour theme shared with the other SlotForge apps, or your own colours. Track parts keep their print colours."
+          ]
+        ]
+      ]
     ]
   },
   "appDetails": {
@@ -1738,6 +1978,12 @@
       "title": "From artwork to decal sheet.",
       "first": "Choose a paper size, import artwork, set its printed dimensions and make a plain-paper sizing proof.",
       "storage": "Sheets, artwork, fonts and history are stored separately from the app in your Documents workspace. Use Backup & Recovery for complete backups."
+    },
+    "Foundry": {
+      "title": "From a track idea to a print kit.",
+      "first": "Print the fit samples from Home, then pick a starter pack to design a piece or plan a layout.",
+      "storage": "Your Library is kept on your computer. The portable app keeps everything in a SlotForge Foundry Data folder beside the program. Use Library → Backup & restore to move it.",
+      "featureNote": "Fit and clearances depend on your printer, filament and settings. Print the fit samples before printing a whole track."
     }
   },
   "showcase": [
@@ -1755,6 +2001,11 @@
       "app": "Circuit",
       "title": "Your next track starts here.",
       "text": "Try a new layout, plan the space and share an editable circuit. Download Circuit or start designing in your browser."
+    },
+    {
+      "app": "Foundry",
+      "title": "Print the track you designed.",
+      "text": "Design every piece, plan the layout and 3D print all the parts. Start from a pack or bring in a Circuit layout."
     },
     {
       "app": "Decals",
@@ -1916,6 +2167,30 @@
         ]
       ],
       "note": "Reports capture a snapshot of the comparison. Later corrections in Telemetry do not update an already exported report."
+    },
+    "Foundry": {
+      "title": "Pass the design to the next builder.",
+      "text": "Share an editable piece or layout, or hand over a ready-made print kit.",
+      "formats": [
+        ".slotfab projects",
+        ".slotplan layouts",
+        "STL print kits"
+      ],
+      "steps": [
+        [
+          "Choose your design",
+          "Open the piece in Track Set or STL Edit, or the layout in the Track Planner."
+        ],
+        [
+          "Save or export",
+          "Save downloads an editable .slotfab project or .slotplan layout. Export STLs gives the print kit with quantities and an assembly map."
+        ],
+        [
+          "Open and build on it",
+          "The other builder opens the file in their own Foundry and carries on, or prints the kit straight away."
+        ]
+      ],
+      "note": "To move your whole Library to another computer, use Library → Backup & restore."
     }
   }
 }
