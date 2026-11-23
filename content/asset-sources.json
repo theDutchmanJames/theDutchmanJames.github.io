@@ -200,15 +200,15 @@
     "provided": true
   },
   {
-    "source": "Captured from SlotForge Timing 2.4.0 (local build, .cache/shot-scripts/timing)",
+    "source": "Supplied by the site owner (Timing 2.4.0 Home screenshot, 2026-11-23), title bar and scrollbar cropped",
     "destination": "assets/apps/timing/2026-11-23/race-setup-dark.png",
-    "sha256": "55145d7316fae639eaa2adbce66293529d966b892cd62930098a7aeb46e47028",
+    "sha256": "96cd9b78b2abd2137dda413693c271250ca0166384d207b118d93a8f9cd5ffc2",
     "provided": true
   },
   {
-    "source": "Captured from SlotForge Timing 2.4.0 (local build, .cache/shot-scripts/timing)",
+    "source": "Supplied by the site owner (Timing 2.4.0 Home screenshot, 2026-11-23), title bar and scrollbar cropped",
     "destination": "assets/apps/timing/2026-11-23/race-setup-light.png",
-    "sha256": "65a69b013f288f516284eaa27041f97a0c5f6e4d81f4b7b01679e7fc0d550b0a",
+    "sha256": "1d8b809487498fe70777f1812d2dc42ba53f0e205929ca0a8350e48f93297704",
     "provided": true
   },
   {
