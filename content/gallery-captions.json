@@ -75,5 +75,14 @@
     "STL Edit": "Create, edit and repair STL models, from a bracket to a fix on someone else’s part.",
     "Home": "Pick a starter pack, open a part or start a new pack from a Circuit drawing.",
     "Settings": "Choose your printer and plate, and make Foundry look the way you want."
+  },
+  "Anvil": {
+    "Open and scale": "Anvil guesses the file’s scale from the car’s length and resizes it to 1/32 or 1/24 in one click.",
+    "Health check": "Open any STL car and Anvil tells you what kind of model it is, how thick its walls are and what needs fixing.",
+    "Shell": "Cut the underside open at a floor line, then hollow to an even wall built inwards. The colours show the wall thickness.",
+    "Chassis fit": "Anvil finds the wheel arches and suggests a chassis that fits, shown with its tyres inside the body.",
+    "Posts": "Click the body to place screw posts, mirrored, reaching down to the chassis deck.",
+    "Windows": "Click points round each window and a smooth line runs through them. Side windows are mirrored.",
+    "Final check": "One list of everything that matters before printing, each with a button to the tool that fixes it."
   }
 }

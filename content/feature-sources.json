@@ -1,6 +1,6 @@
 {
   "checkedAt": "2026-11-15",
-  "purpose": "Detailed feature groups and sharing workflows for all seven apps, verified against their pinned release documentation",
+  "purpose": "Detailed feature groups and sharing workflows for all eight apps, verified against their pinned release documentation",
   "sources": [
     {
       "app": "Circuit",
@@ -43,6 +43,12 @@
       "ref": "v1.0.0",
       "url": "https://github.com/theDutchmanJames/SlotForgeFoundry/blob/v1.0.0/README.md",
       "sha": "2adce01152e3452debd39bd476af2039e7851be7"
+    },
+    {
+      "app": "Anvil",
+      "ref": "v1.0.1",
+      "url": "https://github.com/theDutchmanJames/SlotForgeAnvil/blob/v1.0.1/README.md",
+      "sha": "01c2fb3f6d7d96f216297243e7255374123d30c4"
     }
   ],
   "featureReviewAt": "2026-11-16"

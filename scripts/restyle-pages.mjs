@@ -3,9 +3,9 @@
 
 
 // Every app is a "lane" with its own number and colour, in menu order, like the lanes in Timing.
-export const LANES=['Timing','Paddock','Circuit','Foundry','Decals','Livery','Telemetry'];
+export const LANES=['Timing','Paddock','Circuit','Foundry','Anvil','Decals','Livery','Telemetry'];
 // Stripe colours stay with each app; a new app gets the next colour (--l7, …) instead of shifting the others.
-const COLOURS=['Timing','Paddock','Circuit','Decals','Livery','Telemetry','Foundry'];
+const COLOURS=['Timing','Paddock','Circuit','Decals','Livery','Telemetry','Foundry','Anvil'];
 export const lane=name=>COLOURS.indexOf(name)+1;
 
 // Odometer: each digit on its own little tile.
@@ -15,7 +15,7 @@ export const odo=(n,width=4)=>`<span class="odo" aria-label="${n}">${String(n).p
 export function pitWall({prefix,name,slug,icon}){
  const tab=app=>`<a class="sf-nav pw-tab" href="${prefix}${slug(app)}/"${name===app?' aria-current="page"':''}><img src="${icon(app,prefix)}" alt="" width="20" height="20">${app}</a>`;
  const group=(label,list)=>`<span class="pw-grp" role="group" aria-label="${label}"><span class="pw-label">${label}</span>${list.map(tab).join('')}</span>`;
- return `${group('Race and garage',['Timing','Paddock'])}${group('Track',['Circuit','Foundry'])}${group('Analysis',['Telemetry'])}${group('Paint and print',['Livery','Decals'])}<a class="sf-nav sf-nav-about pw-about" href="${prefix}about/"${name==='about'?' aria-current="page"':''}>About</a><span class="pw-light" title="Every app is free">All free</span><a class="pw-onair sf-try-circuit" href="${prefix}circuit/online/app/index.html"><i aria-hidden="true"></i>Try Circuit Online!</a>`;
+ return `${group('Race and garage',['Timing','Paddock'])}${group('Track',['Circuit'])}${group('3D printing',['Foundry','Anvil'])}${group('Analysis',['Telemetry'])}${group('Paint and print',['Livery','Decals'])}<a class="sf-nav sf-nav-about pw-about" href="${prefix}about/" title="About SlotForge"${name==='about'?' aria-current="page"':''}><svg class="pw-about-icon" viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><circle cx="12" cy="12" r="9.5"/><path d="M12 11v6"/><circle cx="12" cy="7.5" r=".6" fill="currentColor"/></svg><span class="pw-about-text">About</span></a><span class="pw-light" title="Every app is free">All free</span><a class="pw-onair sf-try-circuit" href="${prefix}circuit/online/app/index.html"><i aria-hidden="true"></i>Try Circuit Online!</a>`;
 }
 
 export function homepageV2(h){
@@ -30,7 +30,7 @@ export function homepageV2(h){
   <div class="bh-pic"><img src="assets/restyle/hero-track.jpg" alt="Two slotcars side by side through a curve on a home track" width="2000" height="1502" fetchpriority="high"></div>
   <div class="bh-band"><div class="bh-date"><i></i>Free apps for slotcar racers &amp; builders</div>
    <h1 id="bh-title">More from <em>every lap.</em></h1>
-   <p>Lap timing and race management for your analogue slotcar track. Plus tools to design and 3D print your track, prepare cars and bring your collection to life.</p></div>
+   <p>Lap timing and race management for your analogue slotcar track. Plus tools to design and 3D print your track and car bodies, prepare cars and bring your collection to life.</p></div>
   <div class="bh-start">
    <div class="bh-mark" aria-hidden="true"><svg viewBox="207.5 9 87.5 90" width="70" height="72"><path fill="#f5f5f5" d="M280.17,22.51H222.31c-1.4,0-2.1.75-2.1,2.24v4.14a1.87,1.87,0,0,0,2.1,2.13h57.86a1.87,1.87,0,0,0,2.11-2.13V24.75C282.28,23.26,281.58,22.51,280.17,22.51Z"/><path fill="#f5f5f5" d="M280.17,10.63H222.31c-1.4,0-2.1.75-2.1,2.24V17a1.87,1.87,0,0,0,2.1,2.14h57.86A1.88,1.88,0,0,0,282.28,17V12.87C282.28,11.38,281.58,10.63,280.17,10.63Z"/><path fill="#e5484d" d="M258,35H241.85a2,2,0,0,0-2,1.59L234.75,61a2,2,0,0,0,1.95,2.42h6.15a2,2,0,0,1,2,2l-.13,32.06L272.1,49.11H259.83a2,2,0,0,1-1.95-2.45l2.09-9.2A2,2,0,0,0,258,35Z"/></svg></div>
    <div class="bh-lanes">${fact('M5 12.5 9.5 17 19 7','All apps free','Every app, every feature')}${fact('M12 12a4 4 0 1 0 0-8 4 4 0 0 0 0 8Zm-7 8a7 7 0 0 1 14 0M4 4l16 16','No accounts<br>or sign‑ups','Download and start')}${fact('M3 5h18v11H3zM8 20h8M12 16v4','Windows, macOS<br>and Linux','Runs on your own computer')}</div>

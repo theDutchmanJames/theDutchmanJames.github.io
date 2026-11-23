@@ -237,5 +237,42 @@
       "icon": "share",
       "intro": "Keep your work on your computer and make Foundry your own."
     }
+  ],
+  "Anvil": [
+    {
+      "label": "Open and repair",
+      "icon": "car",
+      "intro": "Bring any STL car to scale and fix what is broken."
+    },
+    {
+      "label": "Shell",
+      "icon": "layers",
+      "intro": "Hollow the body to an even wall you can print."
+    },
+    {
+      "label": "Chassis and posts",
+      "icon": "measure",
+      "intro": "Fit the body to your chassis, tyres and posts."
+    },
+    {
+      "label": "Windows",
+      "icon": "screen",
+      "intro": "Cut clean windows and make a buck for the glazing."
+    },
+    {
+      "label": "Shape",
+      "icon": "tools",
+      "intro": "Delete, smooth, slice and add parts."
+    },
+    {
+      "label": "Final check",
+      "icon": "gauge",
+      "intro": "Everything to check before you print, in one list."
+    },
+    {
+      "label": "Projects and printing",
+      "icon": "print",
+      "intro": "Every step reversible, saved for you, ready for resin or FDM."
+    }
   ]
 }

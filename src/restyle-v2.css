@@ -5,7 +5,7 @@
    ========================================================================== */
 #site{
  --l1:light-dark(#1e8a4c,#2fb86a);--l2:light-dark(#0f6fd6,#4c9aff);--l3:light-dark(#b38600,#f2b705);
- --l4:light-dark(#c92424,#e5484d);--l5:light-dark(#7a33d6,#9b4dff);--l6:light-dark(#c75400,#ff7a1a);--l7:light-dark(#0e7c86,#2ec4cf);
+ --l4:light-dark(#c92424,#e5484d);--l5:light-dark(#7a33d6,#9b4dff);--l6:light-dark(#c75400,#ff7a1a);--l7:light-dark(#0e7c86,#2ec4cf);--l8:light-dark(#c2185b,#f06292);
  --purple:light-dark(#7a33d6,#c79bff);
  --hb-banner:linear-gradient(110deg,#2a1519 0%,#5a2026 45%,#b8312f 100%);
  overflow-x:clip}
@@ -192,9 +192,14 @@
 #site .bh-startbtn{gap:12px}
 @media(max-width:1000px){#site .bh-start{grid-template-columns:1fr}#site .bh-mark{border-right:0;border-bottom:1px solid #343b47;padding:16px}#site .bh-mark svg{width:52px;height:54px}}
 html:has(#site){scroll-padding-top:84px}
-/* seven apps: the desktop menu drops its tab icons so ON AIR and the theme switch keep their room */
+/* seven or more apps: the desktop menu drops its tab icons so ON AIR and the theme switch keep their room */
 @media(min-width:1101px){#site .sf-header>nav .pw-tab img{display:none}#site .sf-header>nav .pw-tab{padding:0 10px}}
 @media(min-width:1101px) and (max-width:1259px){#site .sf-header{padding:10px 18px;gap:10px}#site .sf-brand img{width:128px}#site .sf-header>nav .pw-tab{padding:0 8px}#site .pw-onair{padding:0 12px;font-size:14.5px}}
-/* seven app cards: four on top, three wider ones below */
-@media(min-width:1101px){#site .sf-apps .sf-grid{grid-template-columns:repeat(12,minmax(0,1fr))}#site .sf-apps .sf-grid>:nth-child(-n+4){grid-column:span 3}#site .sf-apps .sf-grid>:nth-child(n+5){grid-column:span 4}}
+/* eight apps: narrower tabs just above the phone menu */
+@media(min-width:1101px) and (max-width:1199px){#site .sf-header>nav .pw-tab{padding:0 6px}}
+/* eight app cards: two rows of four */
+@media(min-width:1101px){#site .sf-apps .sf-grid{grid-template-columns:repeat(4,minmax(0,1fr))}}
 @media(min-width:601px) and (max-width:1100px){#site .sf-apps .sf-grid{grid-template-columns:repeat(2,minmax(0,1fr))}#site .sf-apps .sf-grid>:last-child:nth-child(odd){grid-column:1/-1}}
+/* About as an info icon on the desktop menu; the phone menu keeps the word */
+#site .pw-about-icon{display:none}
+@media(min-width:1101px){#site .sf-header>nav .pw-about{padding:0 8px;width:34px;justify-content:center}#site .sf-header>nav .pw-about-icon{display:block}#site .sf-header>nav .pw-about-text{position:absolute;width:1px;height:1px;overflow:hidden;clip-path:inset(50%);white-space:nowrap}}

@@ -258,6 +258,43 @@
       },
       "light": "special-hairpin.png",
       "dark": "special-hairpin.png"
+    },
+    "Anvil": {
+      "category": "3D-PRINTED BODIES",
+      "summary": "Turn any 3D car model into a light, printable slotcar body, fitted to your own chassis.",
+      "short": "Turn any car model into a body you can print and race.",
+      "sha": "01c2fb3f6d7d96f216297243e7255374123d30c4",
+      "icon": "src/assets/slotforge-anvil.svg",
+      "features": [
+        [
+          "Scale and repair",
+          "Open any STL car. Anvil straightens it, scales it to 1/32 or 1/24 and fixes what is broken."
+        ],
+        [
+          "Hollow and fit",
+          "Hollow it to an even wall, fit your chassis, tyres and posts, and cut the windows."
+        ],
+        [
+          "Check and print",
+          "One final check before printing, then a print-ready STL for resin or FDM."
+        ]
+      ],
+      "highlightIcons": [
+        "car",
+        "layers",
+        "print"
+      ],
+      "highlightLabels": [
+        "OPEN & SCALE",
+        "SHELL",
+        "FINAL CHECK"
+      ],
+      "wordmark": {
+        "light": "wordmark-light.svg",
+        "dark": "wordmark-dark.svg"
+      },
+      "light": "2026-11-23/hollow-light.png",
+      "dark": "2026-11-23/hollow-dark.png"
     }
   },
   "galleries": {
@@ -699,6 +736,57 @@
         "source": "readme",
         "capturedAt": "2026-11-22",
         "file": "settings.png"
+      }
+    ],
+    "Anvil": [
+      {
+        "label": "Open and scale",
+        "source": "provided",
+        "capturedAt": "2026-11-23",
+        "light": "2026-11-23/scale-light.png",
+        "dark": "2026-11-23/scale-dark.png"
+      },
+      {
+        "label": "Health check",
+        "source": "provided",
+        "capturedAt": "2026-11-23",
+        "light": "2026-11-23/repair-check-light.png",
+        "dark": "2026-11-23/repair-check-dark.png"
+      },
+      {
+        "label": "Shell",
+        "source": "provided",
+        "capturedAt": "2026-11-23",
+        "light": "2026-11-23/hollow-light.png",
+        "dark": "2026-11-23/hollow-dark.png"
+      },
+      {
+        "label": "Chassis fit",
+        "source": "provided",
+        "capturedAt": "2026-11-23",
+        "light": "2026-11-23/chassis-light.png",
+        "dark": "2026-11-23/chassis-dark.png"
+      },
+      {
+        "label": "Posts",
+        "source": "provided",
+        "capturedAt": "2026-11-23",
+        "light": "2026-11-23/posts-light.png",
+        "dark": "2026-11-23/posts-dark.png"
+      },
+      {
+        "label": "Windows",
+        "source": "provided",
+        "capturedAt": "2026-11-23",
+        "light": "2026-11-23/windows-light.png",
+        "dark": "2026-11-23/windows-dark.png"
+      },
+      {
+        "label": "Final check",
+        "source": "provided",
+        "capturedAt": "2026-11-23",
+        "light": "2026-11-23/final-check-light.png",
+        "dark": "2026-11-23/final-check-dark.png"
       }
     ]
   },
@@ -1949,6 +2037,151 @@
           ]
         ]
       ]
+    ],
+    "Anvil": [
+      [
+        "Open and repair",
+        [
+          [
+            "Front and up, found for you",
+            "Open any STL car. Anvil finds which way is front and up, and straightens a car that sits at an angle in the file."
+          ],
+          [
+            "Any scale",
+            "Scale it to 1/32 or 1/24, to a length you give, or by a factor. Measure a known distance on the car to set the scale from it."
+          ],
+          [
+            "Health check",
+            "Every import gets a plain report: what kind of model it is, how thick its walls are and what is wrong with it."
+          ],
+          [
+            "Light fix",
+            "Removes specks and broken triangles, turns inside-out areas round and closes small holes, without moving the outer surface."
+          ],
+          [
+            "Loose parts, openings and triangles",
+            "Tick the loose parts to keep, close openings with a flat or smooth patch, and cut down the triangle count where the shape allows it."
+          ]
+        ]
+      ],
+      [
+        "Shell",
+        [
+          [
+            "Floor line",
+            "Cut the underside open at a floor line, or squish the lower body up onto the line so the sills keep their shape."
+          ],
+          [
+            "Hollow",
+            "Hollow the body to an even wall built inwards, so the outside does not move. You can make the roof thinner than the sills."
+          ],
+          [
+            "Paint thickness",
+            "Paint thicker or thinner spots on the wall. The thickness view shows in red where it is too thin to print."
+          ],
+          [
+            "Hammer, dolly and planish",
+            "Hammer panels out or in like a real body panel, hold areas with a dolly and planish out the marks."
+          ]
+        ]
+      ],
+      [
+        "Chassis and posts",
+        [
+          [
+            "A chassis that fits",
+            "Anvil finds the wheel arches and suggests a matching chassis and tyres. Type over any number with your own chassis’s."
+          ],
+          [
+            "Your own chassis",
+            "Keep your chassis in the library, share one as a file, or load its STL to see the real chassis inside the body."
+          ],
+          [
+            "Stretch, widen and arches",
+            "Lengthen or shorten the body between the arches, or widen it. Cut the arches round the tyres, or flare them out."
+          ],
+          [
+            "Posts",
+            "Place screw posts or brass-tube sockets, mirrored, running from the chassis deck into the wall. Make your own post types and print a test-fit piece first."
+          ]
+        ]
+      ],
+      [
+        "Windows and glazing",
+        [
+          [
+            "Draw each window",
+            "Click points round a window and a smooth line runs through them. Side windows are mirrored."
+          ],
+          [
+            "Clean cuts",
+            "Open windows are cut through the wall with a clean edge; solid ones are only marked."
+          ],
+          [
+            "Cabin buck",
+            "Anvil makes one buck for the whole cabin, to vac-form a glazing insert that you glue in from the inside."
+          ]
+        ]
+      ],
+      [
+        "Shape",
+        [
+          [
+            "Delete and patch",
+            "Select with a brush, a lasso or a whole part, mirrored, then delete it and patch the hole or leave it open."
+          ],
+          [
+            "Smooth",
+            "Smooth with a brush or smooth a selection. Sharp edges stay sharp."
+          ],
+          [
+            "Slice",
+            "Slice the body in two to print it in parts, and close the cut if you like."
+          ],
+          [
+            "Add parts",
+            "Add a wing, scoop, mirror or driver, and join it to the body or keep it as its own print."
+          ],
+          [
+            "Protect outside",
+            "Once the body is hollowed, the tools only touch the inside of the wall."
+          ]
+        ]
+      ],
+      [
+        "Final check",
+        [
+          [
+            "Everything on one list",
+            "Before printing, one list shows the wall thickness, chassis fit and ground clearance, posts, windows, weight and balance."
+          ],
+          [
+            "Straight to the fix",
+            "Each line has a button that takes you to the tool that fixes it."
+          ]
+        ]
+      ],
+      [
+        "Projects and printing",
+        [
+          [
+            "Always reversible",
+            "Every action is a step you can change or switch off, with undo and redo."
+          ],
+          [
+            "Projects save themselves",
+            "Your project saves automatically. Save project writes an .anvil file with the original model and every step."
+          ],
+          [
+            "Resin or FDM",
+            "Print presets for resin or FDM set the walls and the weight estimate."
+          ],
+          [
+            "Millimetres or inches",
+            "Work in the units you like."
+          ]
+        ]
+      ]
     ]
   },
   "appDetails": {
@@ -1991,6 +2224,12 @@
       "first": "Print the fit samples from Home, then pick a starter pack to design a piece or plan a layout.",
       "storage": "Your Library is kept on your computer. The portable app keeps everything in a SlotForge Foundry Data folder beside the program. Use Library → Backup & restore to move it.",
       "featureNote": "Fit and clearances depend on your printer, filament and settings. Print the fit samples before printing a whole track."
+    },
+    "Anvil": {
+      "title": "From any car model to a body you can race.",
+      "first": "Open an STL car, read its health check, then work through the tools from Scale to Final check.",
+      "storage": "Your projects, library and settings are kept on your computer. Save project writes an .anvil file you can keep or move, and Help → Show data folder shows where everything is.",
+      "featureNote": "Wall thickness, fit and weight depend on your printer, material and settings. Print a test-fit piece before a whole body."
     }
   },
   "showcase": [
@@ -2013,6 +2252,11 @@
       "app": "Foundry",
       "title": "Print the track you designed.",
       "text": "Design every piece, plan the layout and 3D print all the parts. Start from a pack or bring in a Circuit layout."
+    },
+    {
+      "app": "Anvil",
+      "title": "Hammered into shape.",
+      "text": "Turn any 3D car model into a light, printable body: scale it, hollow it, fit your chassis and cut the windows."
     },
     {
       "app": "Decals",
@@ -2198,6 +2442,30 @@
         ]
       ],
       "note": "To move your whole Library to another computer, use Library → Backup & restore."
+    },
+    "Anvil": {
+      "title": "Pass the body to the next builder.",
+      "text": "Share an editable project, a chassis from your library or a print-ready body.",
+      "formats": [
+        ".anvil projects",
+        ".anvilchassis chassis",
+        "STL bodies"
+      ],
+      "steps": [
+        [
+          "Save your work",
+          "Save project writes an .anvil file holding the original model and every step."
+        ],
+        [
+          "Share a chassis",
+          "Share a chassis from your library as an .anvilchassis file, so another builder can use it too."
+        ],
+        [
+          "Export to print",
+          "Export STL writes the finished body, and the window buck as its own STL."
+        ]
+      ],
+      "note": "The other builder opens the .anvil file in their own Anvil and can change or switch off any step."
     }
   }
 }

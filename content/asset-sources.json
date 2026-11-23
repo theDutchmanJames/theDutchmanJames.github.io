@@ -68,6 +68,10 @@
     "destination": "assets/apps/foundry/settings.png"
   },
   {
+    "source": "https://raw.githubusercontent.com/theDutchmanJames/SlotForgeAnvil/01c2fb3f6d7d96f216297243e7255374123d30c4/src/assets/slotforge-anvil.svg",
+    "destination": "assets/apps/anvil/icon.svg"
+  },
+  {
     "source": "C:/Users/theDutchmanJames/Documents/ChatGPT/SlotForge Timing - Analog/SlotForgeTiming/renderer/assets/brand/timing-wordmark-light.svg",
     "destination": "assets/apps/timing/wordmark-light.svg",
     "provided": true,
@@ -785,6 +789,100 @@
     "source": "Captured from SlotForge Decals 0.4.0 (local build, .cache/shot-scripts/decals)",
     "destination": "assets/apps/decals/2026-11-23/vector-tracing-light.png",
     "sha256": "018c938de5ff6cd9deea53158dd168bb59fda07379390d2936fa472852f9111c",
+    "provided": true
+  },
+  {
+    "source": "Captured from SlotForge Anvil 1.0.1 (local build, .cache/shot-scripts/anvil), model supplied by the site owner",
+    "destination": "assets/apps/anvil/2026-11-23/chassis-dark.png",
+    "sha256": "0a98bd4706282b606431b7e207b22766625a18516fbff994ca7b68f9e5c08c35",
+    "provided": true
+  },
+  {
+    "source": "Captured from SlotForge Anvil 1.0.1 (local build, .cache/shot-scripts/anvil), model supplied by the site owner",
+    "destination": "assets/apps/anvil/2026-11-23/chassis-light.png",
+    "sha256": "5595df9a7e47d5b7c89436f800972a9f269418941ad70e5d1de3d70304057c95",
+    "provided": true
+  },
+  {
+    "source": "Captured from SlotForge Anvil 1.0.1 (local build, .cache/shot-scripts/anvil), model supplied by the site owner",
+    "destination": "assets/apps/anvil/2026-11-23/final-check-dark.png",
+    "sha256": "2264bf3c1042488a7f95f36250ec17f57621ad32dd76702325d3e0615221fe51",
+    "provided": true
+  },
+  {
+    "source": "Captured from SlotForge Anvil 1.0.1 (local build, .cache/shot-scripts/anvil), model supplied by the site owner",
+    "destination": "assets/apps/anvil/2026-11-23/final-check-light.png",
+    "sha256": "877c36cf2d1ef2bee2cdcbe4e9e8bb33bf6f8a37e285e78d908319a471d163a8",
+    "provided": true
+  },
+  {
+    "source": "Captured from SlotForge Anvil 1.0.1 (local build, .cache/shot-scripts/anvil), model supplied by the site owner",
+    "destination": "assets/apps/anvil/2026-11-23/hollow-dark.png",
+    "sha256": "7ab44b7cca14de945a7ed9f6bd35757245920c82468b8a637ae0ddf4316d711d",
+    "provided": true
+  },
+  {
+    "source": "Captured from SlotForge Anvil 1.0.1 (local build, .cache/shot-scripts/anvil), model supplied by the site owner",
+    "destination": "assets/apps/anvil/2026-11-23/hollow-light.png",
+    "sha256": "cac6df17e2bf3215c70efee265b3307b72acfdd55c12936fe2ca7eb7142080e3",
+    "provided": true
+  },
+  {
+    "source": "Captured from SlotForge Anvil 1.0.1 (local build, .cache/shot-scripts/anvil), model supplied by the site owner",
+    "destination": "assets/apps/anvil/2026-11-23/posts-dark.png",
+    "sha256": "1fd842ceba8737d93df4cd6d85117f2bff298d6d6fab54d87dba8af49b15eb1e",
+    "provided": true
+  },
+  {
+    "source": "Captured from SlotForge Anvil 1.0.1 (local build, .cache/shot-scripts/anvil), model supplied by the site owner",
+    "destination": "assets/apps/anvil/2026-11-23/posts-light.png",
+    "sha256": "1e64da576c37bcbbbaacb15202c96ab608c6d83e275002ce235aa01739a026e1",
+    "provided": true
+  },
+  {
+    "source": "Captured from SlotForge Anvil 1.0.1 (local build, .cache/shot-scripts/anvil), model supplied by the site owner",
+    "destination": "assets/apps/anvil/2026-11-23/repair-check-dark.png",
+    "sha256": "cbe407949d4166a74b19ff7820a4de9f821af5a8e039ccfa400a0ccc5873ada4",
+    "provided": true
+  },
+  {
+    "source": "Captured from SlotForge Anvil 1.0.1 (local build, .cache/shot-scripts/anvil), model supplied by the site owner",
+    "destination": "assets/apps/anvil/2026-11-23/repair-check-light.png",
+    "sha256": "2ca81e4993cb4702d9f93f0ea60282d8250d94bd0751cc2a5614ed280f2836c8",
+    "provided": true
+  },
+  {
+    "source": "Captured from SlotForge Anvil 1.0.1 (local build, .cache/shot-scripts/anvil), model supplied by the site owner",
+    "destination": "assets/apps/anvil/2026-11-23/scale-dark.png",
+    "sha256": "30b503cf636f4ce0a8249452068c922e737496eff0687b2bd13a4616adb8fd21",
+    "provided": true
+  },
+  {
+    "source": "Captured from SlotForge Anvil 1.0.1 (local build, .cache/shot-scripts/anvil), model supplied by the site owner",
+    "destination": "assets/apps/anvil/2026-11-23/scale-light.png",
+    "sha256": "f9eb2ffe6c3ba4f5ab5228942b0405172684870b65df4f291927dc5a3ad2f0f8",
+    "provided": true
+  },
+  {
+    "source": "Captured from SlotForge Anvil 1.0.1 (local build, .cache/shot-scripts/anvil), model supplied by the site owner",
+    "destination": "assets/apps/anvil/2026-11-23/windows-dark.png",
+    "sha256": "ce3363ea42b318ec6cc38248dd8780f395893be6c2b051c1c63f3770819cda0d",
+    "provided": true
+  },
+  {
+    "source": "Captured from SlotForge Anvil 1.0.1 (local build, .cache/shot-scripts/anvil), model supplied by the site owner",
+    "destination": "assets/apps/anvil/2026-11-23/windows-light.png",
+    "sha256": "3907b043872452a50000901355a3571a26910e9bc0189e75934d5a6cdbc21a35",
+    "provided": true
+  },
+  {
+    "source": "SlotForge Anvil v1.0.1 src/assets/anvil-light.svg",
+    "destination": "assets/apps/anvil/wordmark-light.svg",
+    "provided": true
+  },
+  {
+    "source": "SlotForge Anvil v1.0.1 src/assets/anvil-dark.svg",
+    "destination": "assets/apps/anvil/wordmark-dark.svg",
     "provided": true
   }
 ]
