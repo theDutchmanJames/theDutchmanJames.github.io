@@ -613,9 +613,19 @@
       "body": "Two requested features: a flowing curve / S-bend track piece, and raised lands for adhesive-backed copper tape.\n\n## What's new\n\n- **Flowing curve / S-bend:** a new track piece shape. Drag two handles and the end to draw a sweeping bend, an S-bend or a gentle transition.\n- **Starting shapes:** begin from Sweeping bend, S-bend or Straight transition, and mirror it to the other side with one click.\n- **Radius check:** set a preferred minimum radius and Foundry marks tighter lane sections red, with the smallest radius and slot length per lane.\n- **Raised lands for copper tape:** a new Braid style. Each strip gets a low flat land above the road, not a recess, so copper tape sits slightly above the surface.\n- **Adjustable height:** the lands stand 0.2 mm above the road by default, adjustable from 0.05 to 0.8 mm.\n\n## Details\n\n**Flowing curve / S-bend.** Choose **Add track piece → Flowing curve / S-bend**. The curve works like the flowing curve in SlotForge Circuit's Create Routed Section: one smooth curve with a start handle, an end handle and a square that moves the end.\n\n- **Keep start and end directions** holds both end directions while you drag, so the piece keeps mating with its neighbours. You can also type the directions in degrees and the exact handle coordinates.\n- Arrow keys move a selected handle by 1 mm, or 10 mm with Shift. The 5 mm snap applies to dragging.\n- The starting shapes are sized to your road width. Foundry refuses a curve that folds a lane or a road edge, or that overlaps itself, and says what to move.\n- The piece is a freeform piece: it saves to a pack, joins at both ends at the exact angle in the Track Planner, and exports like any other piece. As with other freeform pieces, it has no off-centre slot position, no Kevan Sideclip and no test joint export.\n\n**Raised lands for copper tape.** Choose **Cross-section → Braid recess → Braid style → Raised land for copper tape**. It is a pack rule, so every piece in the pack follows it.\n\n- Each land is as wide as the braid width. The lands stop at the guide slot, at braid pass-throughs and at the insulating gaps of a hairpin or diamond.\n- A piece with raised lands always exports driving-face up, also as a special piece, a flat crossing or a Track Planner print, because the lands cannot lie on the print bed.\n- Pit lanes and timing straights are built around a recess and ask you to choose **Recessed** for that piece.\n\nPieces with a braid recess, and freeform pieces drawn with waypoints, build exactly as in v1.2.0.\n\nThe [user guide](https://github.com/theDutchmanJames/SlotForgeFoundry/blob/v1.3.0/docs/GUIDE.md) explains both features.\n\n## Verification\n\n803 unit tests passed on Windows, among them real builds of flowing pieces and of pieces with raised lands. The browser stages clicked through the shipped app with networking disabled, including drawing, saving and joining a flowing curve in the Track Planner, and switching a pack to raised lands.\n\n22 pieces with a braid recess were compared with the previous build, mesh for mesh, with no differences, and six waypoint freeform recipes produce identical plans. Neither feature has been test-printed.\n\nThe macOS and Linux downloads are built and tested by GitHub Actions after this release is published, on each operating system.\n\n## Install\n\n| System | Installer | Portable app |\n| --- | --- | --- |\n| Windows | `SlotForgeFoundry-1.3.0-Setup-x64.exe` | `SlotForgeFoundry-1.3.0-Portable-x64.exe` |\n| macOS (Intel and Apple Silicon) | `SlotForgeFoundry-1.3.0-mac-universal.dmg` | `SlotForgeFoundry-1.3.0-mac-universal.zip` |\n| Linux (x64) | `SlotForgeFoundry-1.3.0-linux-amd64.deb` | `SlotForgeFoundry-1.3.0-linux-x86_64.AppImage` |\n| Linux (ARM) | `SlotForgeFoundry-1.3.0-linux-arm64.deb` | `SlotForgeFoundry-1.3.0-linux-arm64.AppImage` |\n| Any browser | `SlotForge-Foundry-1.3.0.zip`: extract it and open **SlotForge Foundry.html** | |\n\nFoundry is not code-signed. On Windows, choose **More info → Run anyway**. On macOS, use **System Settings → Privacy & Security → Open Anyway** the first time. On Linux, mark the AppImage as executable (`chmod +x`). The SHA256SUMS files list each download's checksum.\n\nYour Library, layouts and settings carry over from earlier versions.\n",
       "assets": [
         {
+          "name": "SHA256SUMS-linux-arm64.txt",
+          "url": "https://github.com/theDutchmanJames/SlotForgeFoundry/releases/download/v1.3.0/SHA256SUMS-linux-arm64.txt",
+          "size": 215
+        },
+        {
           "name": "SHA256SUMS-linux-x64.txt",
           "url": "https://github.com/theDutchmanJames/SlotForgeFoundry/releases/download/v1.3.0/SHA256SUMS-linux-x64.txt",
           "size": 216
+        },
+        {
+          "name": "SHA256SUMS-mac-universal.txt",
+          "url": "https://github.com/theDutchmanJames/SlotForgeFoundry/releases/download/v1.3.0/SHA256SUMS-mac-universal.txt",
+          "size": 214
         },
         {
           "name": "SHA256SUMS-win-x64.txt",
@@ -633,9 +643,29 @@
           "size": 102433648
         },
         {
+          "name": "SlotForgeFoundry-1.3.0-linux-arm64.AppImage",
+          "url": "https://github.com/theDutchmanJames/SlotForgeFoundry/releases/download/v1.3.0/SlotForgeFoundry-1.3.0-linux-arm64.AppImage",
+          "size": 128684622
+        },
+        {
+          "name": "SlotForgeFoundry-1.3.0-linux-arm64.deb",
+          "url": "https://github.com/theDutchmanJames/SlotForgeFoundry/releases/download/v1.3.0/SlotForgeFoundry-1.3.0-linux-arm64.deb",
+          "size": 97296424
+        },
+        {
           "name": "SlotForgeFoundry-1.3.0-linux-x86_64.AppImage",
           "url": "https://github.com/theDutchmanJames/SlotForgeFoundry/releases/download/v1.3.0/SlotForgeFoundry-1.3.0-linux-x86_64.AppImage",
           "size": 127473596
+        },
+        {
+          "name": "SlotForgeFoundry-1.3.0-mac-universal.dmg",
+          "url": "https://github.com/theDutchmanJames/SlotForgeFoundry/releases/download/v1.3.0/SlotForgeFoundry-1.3.0-mac-universal.dmg",
+          "size": 226386511
+        },
+        {
+          "name": "SlotForgeFoundry-1.3.0-mac-universal.zip",
+          "url": "https://github.com/theDutchmanJames/SlotForgeFoundry/releases/download/v1.3.0/SlotForgeFoundry-1.3.0-mac-universal.zip",
+          "size": 219735715
         },
         {
           "name": "SlotForgeFoundry-1.3.0-Portable-x64.exe",

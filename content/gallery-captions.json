@@ -69,10 +69,11 @@
   "Foundry": {
     "Special pieces": "A double-crossover hairpin from the Special pieces shelf, with its isolated braid ends marked on the model.",
     "Track Set": "Edit the road, cross-section, borders, markings and joints of a piece, with its live dimensions.",
+    "Flowing curve": "Draw a sweeping bend or an S-bend by dragging two handles and the end, new in Foundry 1.3.",
     "Track Planner": "Snap pieces into a layout and count every part you need to print.",
     "Planner in 3D": "Check the generated 3D sections before you export them.",
     "Single-lane pit": "A single-lane pit with its printed flipper and pit lane.",
-    "STL Edit": "Create, edit and repair STL models, from a bracket to a fix on someone else’s part.",
+    "STL Edit": "Edit, cut and repair STL models, from a small tool to a fix on someone else’s part.",
     "Home": "Pick a starter pack, open a part or start a new pack from a Circuit drawing.",
     "Settings": "Choose your printer and plate, and make Foundry look the way you want."
   },

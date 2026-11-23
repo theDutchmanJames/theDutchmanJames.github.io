@@ -256,8 +256,8 @@
         "light": "wordmark-light.svg",
         "dark": "wordmark-dark.svg"
       },
-      "light": "special-hairpin.png",
-      "dark": "special-hairpin.png"
+      "light": "2026-11-23/special-hairpin-light.png",
+      "dark": "2026-11-23/special-hairpin-dark.png"
     },
     "Anvil": {
       "category": "3D-PRINTED BODIES",
@@ -691,51 +691,66 @@
     "Foundry": [
       {
         "label": "Special pieces",
-        "source": "readme",
-        "capturedAt": "2026-11-22",
-        "file": "special-hairpin.png"
+        "source": "provided",
+        "capturedAt": "2026-11-23",
+        "light": "2026-11-23/special-hairpin-light.png",
+        "dark": "2026-11-23/special-hairpin-dark.png"
       },
       {
         "label": "Track Set",
-        "source": "readme",
-        "capturedAt": "2026-11-22",
-        "file": "track-set.png"
+        "source": "provided",
+        "capturedAt": "2026-11-23",
+        "light": "2026-11-23/track-set-light.png",
+        "dark": "2026-11-23/track-set-dark.png"
+      },
+      {
+        "label": "Flowing curve",
+        "source": "provided",
+        "capturedAt": "2026-11-23",
+        "light": "2026-11-23/flowing-curve-light.png",
+        "dark": "2026-11-23/flowing-curve-dark.png"
       },
       {
         "label": "Track Planner",
-        "source": "readme",
-        "capturedAt": "2026-11-22",
-        "file": "planner.png"
+        "source": "provided",
+        "capturedAt": "2026-11-23",
+        "light": "2026-11-23/planner-light.png",
+        "dark": "2026-11-23/planner-dark.png"
       },
       {
         "label": "Planner in 3D",
-        "source": "readme",
-        "capturedAt": "2026-11-22",
-        "file": "planner-3d.png"
+        "source": "provided",
+        "capturedAt": "2026-11-23",
+        "light": "2026-11-23/planner-3d-light.png",
+        "dark": "2026-11-23/planner-3d-dark.png"
       },
       {
         "label": "Single-lane pit",
-        "source": "readme",
-        "capturedAt": "2026-11-22",
-        "file": "special-pit.png"
+        "source": "provided",
+        "capturedAt": "2026-11-23",
+        "light": "2026-11-23/special-pit-light.png",
+        "dark": "2026-11-23/special-pit-dark.png"
       },
       {
         "label": "STL Edit",
-        "source": "readme",
-        "capturedAt": "2026-11-22",
-        "file": "stl-editor.png"
+        "source": "provided",
+        "capturedAt": "2026-11-23",
+        "light": "2026-11-23/stl-editor-light.png",
+        "dark": "2026-11-23/stl-editor-dark.png"
       },
       {
         "label": "Home",
-        "source": "readme",
-        "capturedAt": "2026-11-22",
-        "file": "home.png"
+        "source": "provided",
+        "capturedAt": "2026-11-23",
+        "light": "2026-11-23/home-light.png",
+        "dark": "2026-11-23/home-dark.png"
       },
       {
         "label": "Settings",
-        "source": "readme",
-        "capturedAt": "2026-11-22",
-        "file": "settings.png"
+        "source": "provided",
+        "capturedAt": "2026-11-23",
+        "light": "2026-11-23/settings-light.png",
+        "dark": "2026-11-23/settings-dark.png"
       }
     ],
     "Anvil": [

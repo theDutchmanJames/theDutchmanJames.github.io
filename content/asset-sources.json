@@ -36,38 +36,6 @@
     "destination": "assets/apps/foundry/icon.png"
   },
   {
-    "source": "https://raw.githubusercontent.com/theDutchmanJames/SlotForgeFoundry/2adce01152e3452debd39bd476af2039e7851be7/docs/screenshots/special-hairpin.png",
-    "destination": "assets/apps/foundry/special-hairpin.png"
-  },
-  {
-    "source": "https://raw.githubusercontent.com/theDutchmanJames/SlotForgeFoundry/2adce01152e3452debd39bd476af2039e7851be7/docs/screenshots/track-set.png",
-    "destination": "assets/apps/foundry/track-set.png"
-  },
-  {
-    "source": "https://raw.githubusercontent.com/theDutchmanJames/SlotForgeFoundry/2adce01152e3452debd39bd476af2039e7851be7/docs/screenshots/planner.png",
-    "destination": "assets/apps/foundry/planner.png"
-  },
-  {
-    "source": "https://raw.githubusercontent.com/theDutchmanJames/SlotForgeFoundry/2adce01152e3452debd39bd476af2039e7851be7/docs/screenshots/planner-3d.png",
-    "destination": "assets/apps/foundry/planner-3d.png"
-  },
-  {
-    "source": "https://raw.githubusercontent.com/theDutchmanJames/SlotForgeFoundry/2adce01152e3452debd39bd476af2039e7851be7/docs/screenshots/special-pit.png",
-    "destination": "assets/apps/foundry/special-pit.png"
-  },
-  {
-    "source": "https://raw.githubusercontent.com/theDutchmanJames/SlotForgeFoundry/2adce01152e3452debd39bd476af2039e7851be7/docs/screenshots/stl-editor.png",
-    "destination": "assets/apps/foundry/stl-editor.png"
-  },
-  {
-    "source": "https://raw.githubusercontent.com/theDutchmanJames/SlotForgeFoundry/2adce01152e3452debd39bd476af2039e7851be7/docs/screenshots/home.png",
-    "destination": "assets/apps/foundry/home.png"
-  },
-  {
-    "source": "https://raw.githubusercontent.com/theDutchmanJames/SlotForgeFoundry/2adce01152e3452debd39bd476af2039e7851be7/docs/screenshots/settings.png",
-    "destination": "assets/apps/foundry/settings.png"
-  },
-  {
     "source": "https://raw.githubusercontent.com/theDutchmanJames/SlotForgeAnvil/01c2fb3f6d7d96f216297243e7255374123d30c4/src/assets/slotforge-anvil.svg",
     "destination": "assets/apps/anvil/icon.svg"
   },
@@ -883,6 +851,114 @@
   {
     "source": "SlotForge Anvil v1.0.1 src/assets/anvil-dark.svg",
     "destination": "assets/apps/anvil/wordmark-dark.svg",
+    "provided": true
+  },
+  {
+    "source": "Captured from SlotForge Foundry 1.3.0 (local build, .cache/shot-scripts/foundry)",
+    "destination": "assets/apps/foundry/2026-11-23/flowing-curve-dark.png",
+    "sha256": "fe0db52c4ef0b6a561616689c1357f755d84843c465aa11cf4406f47576f0a9a",
+    "provided": true
+  },
+  {
+    "source": "Captured from SlotForge Foundry 1.3.0 (local build, .cache/shot-scripts/foundry)",
+    "destination": "assets/apps/foundry/2026-11-23/flowing-curve-light.png",
+    "sha256": "058602a9e4bbdddd0625fe640e8ebdbc301398ac37007b18aea8ec74ee83948d",
+    "provided": true
+  },
+  {
+    "source": "Captured from SlotForge Foundry 1.3.0 (local build, .cache/shot-scripts/foundry)",
+    "destination": "assets/apps/foundry/2026-11-23/home-dark.png",
+    "sha256": "254d197abecde95c28ce9f9ac6ea88745fcdf1b1a931449ed7dd0b8230fc80ef",
+    "provided": true
+  },
+  {
+    "source": "Captured from SlotForge Foundry 1.3.0 (local build, .cache/shot-scripts/foundry)",
+    "destination": "assets/apps/foundry/2026-11-23/home-light.png",
+    "sha256": "5fcce52d9886741182286c0a58191c38affc68c76002fd394c72c670a9c0a493",
+    "provided": true
+  },
+  {
+    "source": "Captured from SlotForge Foundry 1.3.0 (local build, .cache/shot-scripts/foundry)",
+    "destination": "assets/apps/foundry/2026-11-23/planner-3d-dark.png",
+    "sha256": "5adc4ae35e18dc1fe392fef6c436553639139dc67733a6419caff691152797e4",
+    "provided": true
+  },
+  {
+    "source": "Captured from SlotForge Foundry 1.3.0 (local build, .cache/shot-scripts/foundry)",
+    "destination": "assets/apps/foundry/2026-11-23/planner-3d-light.png",
+    "sha256": "c00f11e637794f03585924566a3f9c11db209e7884a33001e9c29feef15e54c2",
+    "provided": true
+  },
+  {
+    "source": "Captured from SlotForge Foundry 1.3.0 (local build, .cache/shot-scripts/foundry)",
+    "destination": "assets/apps/foundry/2026-11-23/planner-dark.png",
+    "sha256": "a9fa5ed4730ec26d41516ae3dfc37d9b00d9eeeeed34d5b4b05d29396fb4580a",
+    "provided": true
+  },
+  {
+    "source": "Captured from SlotForge Foundry 1.3.0 (local build, .cache/shot-scripts/foundry)",
+    "destination": "assets/apps/foundry/2026-11-23/planner-light.png",
+    "sha256": "32cec1f4b9727130d3d222b5b81ce72a198c4de8033f7f92c683ce65d7579b73",
+    "provided": true
+  },
+  {
+    "source": "Captured from SlotForge Foundry 1.3.0 (local build, .cache/shot-scripts/foundry)",
+    "destination": "assets/apps/foundry/2026-11-23/settings-dark.png",
+    "sha256": "e0d5e954456cf5dc274bd43868009dfce427ac094a411df298d535078fe34ec0",
+    "provided": true
+  },
+  {
+    "source": "Captured from SlotForge Foundry 1.3.0 (local build, .cache/shot-scripts/foundry)",
+    "destination": "assets/apps/foundry/2026-11-23/settings-light.png",
+    "sha256": "c55dffb6703fdf0501e4be5673b82123fc1cedc44f4287ad3a2e88028c00581e",
+    "provided": true
+  },
+  {
+    "source": "Captured from SlotForge Foundry 1.3.0 (local build, .cache/shot-scripts/foundry)",
+    "destination": "assets/apps/foundry/2026-11-23/special-hairpin-dark.png",
+    "sha256": "2079ff7cc8002f13c2a0046dc30c66fd3567ba8981cfd77be21d4941a8669eba",
+    "provided": true
+  },
+  {
+    "source": "Captured from SlotForge Foundry 1.3.0 (local build, .cache/shot-scripts/foundry)",
+    "destination": "assets/apps/foundry/2026-11-23/special-hairpin-light.png",
+    "sha256": "9e5938dd9789560a1017a5411cfc1102380aa44331309d3b649e7cac9df99c25",
+    "provided": true
+  },
+  {
+    "source": "Captured from SlotForge Foundry 1.3.0 (local build, .cache/shot-scripts/foundry)",
+    "destination": "assets/apps/foundry/2026-11-23/special-pit-dark.png",
+    "sha256": "f0cc9e6b983c23067f1c1e8e4d7ea5cc2af011ddb0b5f9e62883f49aa3bd38d4",
+    "provided": true
+  },
+  {
+    "source": "Captured from SlotForge Foundry 1.3.0 (local build, .cache/shot-scripts/foundry)",
+    "destination": "assets/apps/foundry/2026-11-23/special-pit-light.png",
+    "sha256": "12479f15cce60d1ee22aaed730e51c302e0996345cdc5c1569154fb83b6ae8ae",
+    "provided": true
+  },
+  {
+    "source": "Captured from SlotForge Foundry 1.3.0 (local build, .cache/shot-scripts/foundry)",
+    "destination": "assets/apps/foundry/2026-11-23/stl-editor-dark.png",
+    "sha256": "efb27ab9568cc20982bc423f7fabefb57ca8905f5c1127ad7db345f04475c9ea",
+    "provided": true
+  },
+  {
+    "source": "Captured from SlotForge Foundry 1.3.0 (local build, .cache/shot-scripts/foundry)",
+    "destination": "assets/apps/foundry/2026-11-23/stl-editor-light.png",
+    "sha256": "5037035983fcf5de25cd3ef9bf4f9c521868d6a7d7f90dbcac6533e24dea0abb",
+    "provided": true
+  },
+  {
+    "source": "Captured from SlotForge Foundry 1.3.0 (local build, .cache/shot-scripts/foundry)",
+    "destination": "assets/apps/foundry/2026-11-23/track-set-dark.png",
+    "sha256": "4fc6894276103016bc0d092721e4a5dd7a3c6352f94e1b173c27f6e162ebbd49",
+    "provided": true
+  },
+  {
+    "source": "Captured from SlotForge Foundry 1.3.0 (local build, .cache/shot-scripts/foundry)",
+    "destination": "assets/apps/foundry/2026-11-23/track-set-light.png",
+    "sha256": "12e50a75c5e8e707c7c43422cff83ec78e071457d1dd9f4f4d7d855e44d763d5",
     "provided": true
   }
 ]
