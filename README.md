@@ -35,7 +35,7 @@ App pages contain only their own features, gallery, downloads and guidance. The 
 - `src/site.css`: full-site layout, responsive styles and accessibility.
 - `src/enhancements.css` and `scripts/icons.mjs`: homepage showcase, feature cards and sharing sections.
 - `content/feature-sources.json`: release documentation used for the expanded features and sharing instructions.
-- `content/paddock-screenshot-import.json`: supplied screenshot filenames, checksums, pairing and recapture status. The Paddock gallery uses ten new light/dark pairs from 15 November; supplied assets are preserved by `sync:assets`.
+- `content/paddock-screenshot-import.json`: supplied screenshot filenames, checksums, pairing and recapture status. Since 23 November every gallery except Foundry uses light/dark pairs captured from the current app builds (scripts in `.cache/shot-scripts`); supplied assets are preserved by `sync:assets`.
 - `src/site.js` and `src/theme.js`: browser interactions.
 - `public/assets/`: local logos, icons and screenshots. `content/asset-sources.json` records original URLs and revisions.
 - `public/circuit/online/`: retained Circuit static release files, licences and documented hosting adapter.

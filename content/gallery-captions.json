@@ -1,28 +1,28 @@
 {
   "_note": "One sentence per gallery screenshot, keyed by app and gallery label. Shown under the large screenshot on each app page.",
   "Timing": {
-    "Live race": "A four-lane race in full swing: race clock, laps to go, track conditions, a live leaderboard with fuel and tyres, and a lap-time chart.",
-    "Race setup": "Pick a race setup, put a driver and car in every lane and start. Home also shows the track record and the last podium.",
-    "Results": "The Race Director's final check: review laps, adjust or disqualify, then finalise the result.",
-    "Fuel": "Set tank size, consumption and refuel speed, and see straight away how many laps a full tank lasts.",
+    "Live race": "A race in full swing on your own race screen: race clock, laps to go, start lights, lap times, gaps, fuel and the last laps.",
+    "Race setup": "Pick a race setup, put a driver and car in every lane and start. Home also shows the weather, tyres, car mileage and the record to beat.",
+    "Results": "The Race Director’s final check: review every lap, adjust or disqualify, then finalise the result.",
+    "Fuel": "Set the tank, the fuel used per lap and the refuelling speed, and see straight away how many laps a full tank lasts.",
     "Tyre wear": "Choose compounds and wear rates, pit-stop time and what worn tyres do to the car.",
-    "Weather": "Plan when the rain comes and goes, and what the wrong tyres cost in penalties, fuel and refuelling.",
-    "Widget Builder": "Build your own race-screen widgets from blocks, starting from a ready-made template.",
-    "Audio calls": "Give your race a voice: 134 race calls and 39 ambient sounds, each with its own words or recording.",
-    "Race Director": "Decide how penalties, time and laps are adjusted during a race, with pads on every lane card.",
+    "Weather": "Plan when the rain comes and goes, see the forecast at a glance, and set what the wrong tyres cost.",
+    "Widget Builder": "Build your own race-screen widgets from text, values and pictures, with a live preview of the race screen.",
+    "Audio calls": "Give your race a voice: 134 race calls in groups, each with its own words, switched on or off one by one.",
+    "Race Director": "Choose the penalty, damage, time and lap pads the Race Director uses, and preview them before the race.",
     "Help": "Built-in guides, from your first race to every Race System. Available offline."
   },
   "Paddock": {
     "Showroom": "Your favourite cars, presented the way they deserve.",
     "Car collection": "Every car in one place, with photos, specifications and quick filters.",
     "Parts catalogue": "Keep motors, gears, magnets and every other part organised and easy to find.",
-    "Wheels & tyres": "Track wheel and tyre combinations, sizes and what fits which car.",
+    "Wheels & tyres": "Browse every wheel and tyre by size, compound and maker, and see what you have in stock.",
     "Shopping lists": "Know what to buy next, and what you already have.",
     "Build from Scratch": "Plan a new build, part by part, before it hits the track.",
-    "Workshop": "Every workshop change in one history, car by car.",
+    "Workshop": "See every open workshop job at a glance, with the car it belongs to.",
     "Workshop job": "Record a job step by step: what changed, which parts and why.",
-    "Import & export": "Move cars and collections in and out, or share selected cars with a friend.",
-    "Appearance": "Make Paddock your own with themes and display options."
+    "Import & export": "Bring cars in from spreadsheets or files, share selected cars, and keep complete backups.",
+    "Appearance": "Make Paddock your own with a choice of colour themes."
   },
   "Circuit": {
     "Track builder": "Lay out a multi-lane track piece by piece, with the parts list and track overview always in view.",
@@ -30,18 +30,18 @@
     "Routed track": "Design a routed wooden track with flowing curves on a fixed table.",
     "FreeForm": "Draw one lane freely and let Circuit generate the others, with editable points.",
     "Measure & check": "Check footprint, lane lengths, gaps and curves before you build.",
-    "Table Designer": "Plan the table, panel splits and transport sizes to fit your room.",
+    "Table Designer": "Split your table into transport panels and plan them onto sheets of wood.",
     "Owned pieces & shopping": "Compare the layout with the track you own and get a shopping list for the rest.",
-    "Track packs": "Start from manufacturer track packs, with every piece drawn to scale.",
-    "Import & export": "Export your layout to share, print or send to Timing's Live Track."
+    "Track packs": "Browse manufacturer track packs piece by piece, with every piece measured and drawn to scale.",
+    "Import & export": "Export your layout as a track file, PDF report, picture, parts list or drawing."
   },
   "Telemetry": {
-    "Workbench": "Your setup and lap data side by side, ready to explore.",
-    "Setup analysis": "See how each setup change affected pace and consistency.",
+    "Workbench": "Enter your setup and see what each change does as you type.",
+    "Setup analysis": "Read a saved setup’s numbers: gearing, speed, torque and power.",
     "Compare setups": "Put two setups next to each other and spot what really made the difference.",
     "Setup library": "Keep every setup you have tried, searchable and ready to reuse.",
     "Lap analysis": "Dig into lap times, spread and the laps that cost you most.",
-    "Progress": "Follow your improvement over sessions and weeks.",
+    "Progress": "Every lap of every run on one wall, with your record and how much pace you have gained.",
     "Driver Feedback": "Describe how the car feels and get suggested checks to try next.",
     "Ballast planner": "Plan where weight goes and what it does to the balance of the car.",
     "Tyre wear & clearance": "Keep an eye on tyre wear and ground clearance before they cost you laps."
@@ -50,8 +50,8 @@
     "Design studio": "Paint stripes, numbers and sponsors on your car, with every layer editable.",
     "Decals & race numbers": "Fit decals and race numbers onto the body, skewed to match the angle of the car.",
     "Gradients & stripes": "Multi-stop gradients and stripe tools for a paint job that stands out.",
-    "Template preparation": "Turn any car drawing into a paintable template: label bodywork, glass, lights and wheels.",
-    "User Library": "Keep your decals, stripes and shapes ready for the next design.",
+    "Template preparation": "Turn any car drawing into a paintable template: pick the panels that get paint and group them into parts.",
+    "User Library": "Keep your decals, stripes and shapes in the Garage, ready for the next design.",
     "Workshop notes": "Paint references and masking steps go along with the design and into the PDF.",
     "Transparent PNG": "Export a finished car as a transparent image for posters, websites or entry lists.",
     "Welcome": "Start a new livery, open a project or pick up where you left off."
@@ -59,11 +59,12 @@
   "Decals": {
     "Sheet editor": "A full A4 sheet of decals at true model size, with layers, rulers and margins.",
     "Racing graphics": "Curved lettering, number plates and racing stripes, all editable.",
-    "Car preview": "Check every decal on a car at its printed size before you print.",
-    "Vector tracing": "Turn a logo into clean, flat-colour shapes ready to print.",
-    "Slice & export": "Export the sheet as PDF or SVG, including white ink for clear paper.",
-    "Decal library": "Save decals and sheets to reuse or share with another builder.",
-    "Scale conversion": "Convert a whole sheet between scales, for example 1:32 to 1:24."
+    "Car preview": "Place decals on the side and top of the car at their printed size before you print.",
+    "Vector tracing": "Turn a logo into clean, flat-colour shapes as you import it.",
+    "Slice & export": "Cut out part of a sheet to print on its own or save to your library.",
+    "Decal library": "Save decals to your library, tag them and find favourites again in seconds.",
+    "Scale conversion": "Convert a whole sheet between scales, for example 1:32 to 1:24.",
+    "Print & white ink": "Print on clear or white decal paper, with white ink behind light colours."
   },
   "Foundry": {
     "Special pieces": "A double-crossover hairpin from the Special pieces shelf, with its isolated braid ends marked on the model.",

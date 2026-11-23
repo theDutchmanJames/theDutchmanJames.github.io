@@ -34,8 +34,8 @@
         "light": "wordmark-light.svg",
         "dark": "wordmark-dark.svg"
       },
-      "light": "2026-11-16/live-race-light.png",
-      "dark": "2026-11-16/live-race-dark.png"
+      "light": "2026-11-23/live-race-light.png",
+      "dark": "2026-11-23/live-race-dark.png"
     },
     "Paddock": {
       "category": "COLLECTION & WORKSHOP",
@@ -108,8 +108,8 @@
         "light": "wordmark-light.svg",
         "dark": "wordmark-dark.svg"
       },
-      "light": "2026-11-16/track-builder-light.png",
-      "dark": "2026-11-16/track-builder-dark.png"
+      "light": "2026-11-23/track-builder-light.png",
+      "dark": "2026-11-23/track-builder-dark.png"
     },
     "Telemetry": {
       "category": "SETUP & ANALYSIS",
@@ -145,16 +145,16 @@
         "light": "wordmark-light.svg",
         "dark": "wordmark-dark.svg"
       },
-      "light": "2026-11-16/workbench-light.png",
-      "dark": "2026-11-16/workbench-dark.png"
+      "light": "2026-11-23/workbench-light.png",
+      "dark": "2026-11-23/workbench-dark.png"
     },
     "Livery": {
       "category": "PAINT & DESIGN",
       "summary": "Plan paint schemes, stripes, race numbers and decals on editable 2D car templates.",
       "short": "Create the look of your next build with editable car templates.",
       "sha": "92dfbcf0ae7ec05b7b159a1801bd4c91042e754b",
-      "light": "2026-11-16/studio-light.png",
-      "dark": "2026-11-16/studio-dark.png",
+      "light": "2026-11-23/studio-light.png",
+      "dark": "2026-11-23/studio-dark.png",
       "icon": "assets/icon.png",
       "features": [
         [
@@ -190,8 +190,8 @@
       "summary": "Size and arrange your artwork into decal sheets, then export a PDF for printing.",
       "short": "Turn your artwork into carefully arranged printable decal sheets.",
       "sha": "37b86469521930d0a6a6358ae001c3e0ae38e9dd",
-      "light": "2026-11-16/sheet-editor-light.png",
-      "dark": "2026-11-16/sheet-editor-dark.png",
+      "light": "2026-11-23/sheet-editor-light.png",
+      "dark": "2026-11-23/sheet-editor-dark.png",
       "icon": "assets/icon.png",
       "features": [
         [
@@ -265,383 +265,390 @@
       {
         "label": "Showroom",
         "source": "provided",
-        "capturedAt": "2026-11-15",
-        "light": "2026-11-15/showroom-light.png",
-        "dark": "2026-11-15/showroom-dark.png"
+        "capturedAt": "2026-11-23",
+        "light": "2026-11-23/showroom-light.png",
+        "dark": "2026-11-23/showroom-dark.png"
       },
       {
         "label": "Car collection",
         "source": "provided",
-        "capturedAt": "2026-11-15",
-        "light": "2026-11-15/car-collection-light.png",
-        "dark": "2026-11-15/car-collection-dark.png"
+        "capturedAt": "2026-11-23",
+        "light": "2026-11-23/car-collection-light.png",
+        "dark": "2026-11-23/car-collection-dark.png"
       },
       {
         "label": "Parts catalogue",
         "source": "provided",
-        "capturedAt": "2026-11-15",
-        "light": "2026-11-15/parts-categories-light.png",
-        "dark": "2026-11-15/parts-categories-dark.png"
+        "capturedAt": "2026-11-23",
+        "light": "2026-11-23/parts-categories-light.png",
+        "dark": "2026-11-23/parts-categories-dark.png"
       },
       {
         "label": "Wheels & tyres",
         "source": "provided",
-        "capturedAt": "2026-11-15",
-        "light": "2026-11-15/wheels-tyres-light.png",
-        "dark": "2026-11-15/wheels-tyres-dark.png"
+        "capturedAt": "2026-11-23",
+        "light": "2026-11-23/wheels-tyres-light.png",
+        "dark": "2026-11-23/wheels-tyres-dark.png"
       },
       {
         "label": "Shopping lists",
         "source": "provided",
-        "capturedAt": "2026-11-15",
-        "light": "2026-11-15/shopping-lists-light.png",
-        "dark": "2026-11-15/shopping-lists-dark.png"
+        "capturedAt": "2026-11-23",
+        "light": "2026-11-23/shopping-lists-light.png",
+        "dark": "2026-11-23/shopping-lists-dark.png"
       },
       {
         "label": "Build from Scratch",
         "source": "provided",
-        "capturedAt": "2026-11-15",
-        "light": "2026-11-15/build-from-scratch-light.png",
-        "dark": "2026-11-15/build-from-scratch-dark.png"
+        "capturedAt": "2026-11-23",
+        "light": "2026-11-23/build-from-scratch-light.png",
+        "dark": "2026-11-23/build-from-scratch-dark.png"
       },
       {
         "label": "Workshop",
         "source": "provided",
-        "capturedAt": "2026-11-15",
-        "light": "2026-11-15/workshop-light.png",
-        "dark": "2026-11-15/workshop-dark.png"
+        "capturedAt": "2026-11-23",
+        "light": "2026-11-23/workshop-light.png",
+        "dark": "2026-11-23/workshop-dark.png"
       },
       {
         "label": "Workshop job",
         "source": "provided",
-        "capturedAt": "2026-11-15",
-        "light": "2026-11-15/workshop-job-light.png",
-        "dark": "2026-11-15/workshop-job-dark.png"
+        "capturedAt": "2026-11-23",
+        "light": "2026-11-23/workshop-job-light.png",
+        "dark": "2026-11-23/workshop-job-dark.png"
       },
       {
         "label": "Import & export",
         "source": "provided",
-        "capturedAt": "2026-11-15",
-        "light": "2026-11-15/import-export-light.png",
-        "dark": "2026-11-15/import-export-dark.png"
+        "capturedAt": "2026-11-23",
+        "light": "2026-11-23/import-export-light.png",
+        "dark": "2026-11-23/import-export-dark.png"
       },
       {
         "label": "Appearance",
         "source": "provided",
-        "capturedAt": "2026-11-15",
-        "light": "2026-11-15/appearance-light.png",
-        "dark": "2026-11-15/appearance-dark.png"
+        "capturedAt": "2026-11-23",
+        "light": "2026-11-23/appearance-light.png",
+        "dark": "2026-11-23/appearance-dark.png"
       }
     ],
     "Circuit": [
       {
         "label": "Track builder",
         "source": "provided",
-        "capturedAt": "2026-11-16",
-        "light": "2026-11-16/track-builder-light.png",
-        "dark": "2026-11-16/track-builder-dark.png"
+        "capturedAt": "2026-11-23",
+        "light": "2026-11-23/track-builder-light.png",
+        "dark": "2026-11-23/track-builder-dark.png"
       },
       {
         "label": "Live Preview",
         "source": "provided",
-        "capturedAt": "2026-11-16",
-        "light": "2026-11-16/live-preview-light.png",
-        "dark": "2026-11-16/live-preview-dark.png"
+        "capturedAt": "2026-11-23",
+        "light": "2026-11-23/live-preview-light.png",
+        "dark": "2026-11-23/live-preview-dark.png"
       },
       {
         "label": "Routed track",
         "source": "provided",
-        "capturedAt": "2026-11-16",
-        "light": "2026-11-16/routed-track-light.png",
-        "dark": "2026-11-16/routed-track-dark.png"
+        "capturedAt": "2026-11-23",
+        "light": "2026-11-23/routed-track-light.png",
+        "dark": "2026-11-23/routed-track-dark.png"
       },
       {
         "label": "FreeForm",
         "source": "provided",
-        "capturedAt": "2026-11-16",
-        "light": "2026-11-16/freeform-light.png",
-        "dark": "2026-11-16/freeform-dark.png"
+        "capturedAt": "2026-11-23",
+        "light": "2026-11-23/freeform-light.png",
+        "dark": "2026-11-23/freeform-dark.png"
       },
       {
         "label": "Measure & check",
         "source": "provided",
-        "capturedAt": "2026-11-16",
-        "light": "2026-11-16/measure-check-light.png",
-        "dark": "2026-11-16/measure-check-dark.png"
+        "capturedAt": "2026-11-23",
+        "light": "2026-11-23/measure-check-light.png",
+        "dark": "2026-11-23/measure-check-dark.png"
       },
       {
         "label": "Table Designer",
         "source": "provided",
-        "capturedAt": "2026-11-16",
-        "light": "2026-11-16/table-designer-light.png",
-        "dark": "2026-11-16/table-designer-dark.png"
+        "capturedAt": "2026-11-23",
+        "light": "2026-11-23/table-designer-light.png",
+        "dark": "2026-11-23/table-designer-dark.png"
       },
       {
         "label": "Owned pieces & shopping",
         "source": "provided",
-        "capturedAt": "2026-11-16",
-        "light": "2026-11-16/stock-list-light.png",
-        "dark": "2026-11-16/stock-list-dark.png"
+        "capturedAt": "2026-11-23",
+        "light": "2026-11-23/stock-list-light.png",
+        "dark": "2026-11-23/stock-list-dark.png"
       },
       {
         "label": "Track packs",
         "source": "provided",
-        "capturedAt": "2026-11-16",
-        "light": "2026-11-16/track-packs-light.png",
-        "dark": "2026-11-16/track-packs-dark.png"
+        "capturedAt": "2026-11-23",
+        "light": "2026-11-23/track-packs-light.png",
+        "dark": "2026-11-23/track-packs-dark.png"
       },
       {
         "label": "Import & export",
         "source": "provided",
-        "capturedAt": "2026-11-16",
-        "light": "2026-11-16/export-light.png",
-        "dark": "2026-11-16/export-dark.png"
+        "capturedAt": "2026-11-23",
+        "light": "2026-11-23/export-light.png",
+        "dark": "2026-11-23/export-dark.png"
       }
     ],
     "Timing": [
       {
         "label": "Live race",
         "source": "provided",
-        "capturedAt": "2026-11-16",
-        "light": "2026-11-16/live-race-light.png",
-        "dark": "2026-11-16/live-race-dark.png"
+        "capturedAt": "2026-11-23",
+        "light": "2026-11-23/live-race-light.png",
+        "dark": "2026-11-23/live-race-dark.png"
       },
       {
         "label": "Race setup",
         "source": "provided",
-        "capturedAt": "2026-11-16",
-        "light": "2026-11-16/race-setup-light.png",
-        "dark": "2026-11-16/race-setup-dark.png"
+        "capturedAt": "2026-11-23",
+        "light": "2026-11-23/race-setup-light.png",
+        "dark": "2026-11-23/race-setup-dark.png"
       },
       {
         "label": "Results",
         "source": "provided",
-        "capturedAt": "2026-11-16",
-        "light": "2026-11-16/results-light.png",
-        "dark": "2026-11-16/results-dark.png"
+        "capturedAt": "2026-11-23",
+        "light": "2026-11-23/results-light.png",
+        "dark": "2026-11-23/results-dark.png"
       },
       {
         "label": "Fuel",
         "source": "provided",
-        "capturedAt": "2026-11-16",
-        "light": "2026-11-16/fuel-light.png",
-        "dark": "2026-11-16/fuel-dark.png"
+        "capturedAt": "2026-11-23",
+        "light": "2026-11-23/fuel-light.png",
+        "dark": "2026-11-23/fuel-dark.png"
       },
       {
         "label": "Tyre wear",
         "source": "provided",
-        "capturedAt": "2026-11-16",
-        "light": "2026-11-16/tyre-wear-light.png",
-        "dark": "2026-11-16/tyre-wear-dark.png"
+        "capturedAt": "2026-11-23",
+        "light": "2026-11-23/tyre-wear-light.png",
+        "dark": "2026-11-23/tyre-wear-dark.png"
       },
       {
         "label": "Weather",
         "source": "provided",
-        "capturedAt": "2026-11-16",
-        "light": "2026-11-16/weather-light.png",
-        "dark": "2026-11-16/weather-dark.png"
+        "capturedAt": "2026-11-23",
+        "light": "2026-11-23/weather-light.png",
+        "dark": "2026-11-23/weather-dark.png"
       },
       {
         "label": "Widget Builder",
         "source": "provided",
-        "capturedAt": "2026-11-16",
-        "light": "2026-11-16/widget-builder-light.png",
-        "dark": "2026-11-16/widget-builder-dark.png"
+        "capturedAt": "2026-11-23",
+        "light": "2026-11-23/widget-builder-light.png",
+        "dark": "2026-11-23/widget-builder-dark.png"
       },
       {
         "label": "Audio calls",
         "source": "provided",
-        "capturedAt": "2026-11-16",
-        "light": "2026-11-16/audio-calls-light.png",
-        "dark": "2026-11-16/audio-calls-dark.png"
+        "capturedAt": "2026-11-23",
+        "light": "2026-11-23/audio-calls-light.png",
+        "dark": "2026-11-23/audio-calls-dark.png"
       },
       {
         "label": "Race Director",
         "source": "provided",
-        "capturedAt": "2026-11-16",
-        "light": "2026-11-16/race-director-light.png",
-        "dark": "2026-11-16/race-director-dark.png"
+        "capturedAt": "2026-11-23",
+        "light": "2026-11-23/race-director-light.png",
+        "dark": "2026-11-23/race-director-dark.png"
       },
       {
         "label": "Help",
         "source": "provided",
-        "capturedAt": "2026-11-16",
-        "light": "2026-11-16/help-light.png",
-        "dark": "2026-11-16/help-dark.png"
+        "capturedAt": "2026-11-23",
+        "light": "2026-11-23/help-light.png",
+        "dark": "2026-11-23/help-dark.png"
       }
     ],
     "Telemetry": [
       {
         "label": "Workbench",
         "source": "provided",
-        "capturedAt": "2026-11-16",
-        "light": "2026-11-16/workbench-light.png",
-        "dark": "2026-11-16/workbench-dark.png"
+        "capturedAt": "2026-11-23",
+        "light": "2026-11-23/workbench-light.png",
+        "dark": "2026-11-23/workbench-dark.png"
       },
       {
         "label": "Setup analysis",
         "source": "provided",
-        "capturedAt": "2026-11-16",
-        "light": "2026-11-16/setup-analysis-light.png",
-        "dark": "2026-11-16/setup-analysis-dark.png"
+        "capturedAt": "2026-11-23",
+        "light": "2026-11-23/setup-analysis-light.png",
+        "dark": "2026-11-23/setup-analysis-dark.png"
       },
       {
         "label": "Compare setups",
         "source": "provided",
-        "capturedAt": "2026-11-16",
-        "light": "2026-11-16/compare-setups-light.png",
-        "dark": "2026-11-16/compare-setups-dark.png"
+        "capturedAt": "2026-11-23",
+        "light": "2026-11-23/compare-setups-light.png",
+        "dark": "2026-11-23/compare-setups-dark.png"
       },
       {
         "label": "Setup library",
         "source": "provided",
-        "capturedAt": "2026-11-16",
-        "light": "2026-11-16/library-light.png",
-        "dark": "2026-11-16/library-dark.png"
+        "capturedAt": "2026-11-23",
+        "light": "2026-11-23/library-light.png",
+        "dark": "2026-11-23/library-dark.png"
       },
       {
         "label": "Lap analysis",
         "source": "provided",
-        "capturedAt": "2026-11-16",
-        "light": "2026-11-16/lap-analysis-light.png",
-        "dark": "2026-11-16/lap-analysis-dark.png"
+        "capturedAt": "2026-11-23",
+        "light": "2026-11-23/lap-analysis-light.png",
+        "dark": "2026-11-23/lap-analysis-dark.png"
       },
       {
         "label": "Progress",
         "source": "provided",
-        "capturedAt": "2026-11-16",
-        "light": "2026-11-16/progress-light.png",
-        "dark": "2026-11-16/progress-dark.png"
+        "capturedAt": "2026-11-23",
+        "light": "2026-11-23/progress-light.png",
+        "dark": "2026-11-23/progress-dark.png"
       },
       {
         "label": "Driver Feedback",
         "source": "provided",
-        "capturedAt": "2026-11-16",
-        "light": "2026-11-16/driver-feedback-light.png",
-        "dark": "2026-11-16/driver-feedback-dark.png"
+        "capturedAt": "2026-11-23",
+        "light": "2026-11-23/driver-feedback-light.png",
+        "dark": "2026-11-23/driver-feedback-dark.png"
       },
       {
         "label": "Ballast planner",
         "source": "provided",
-        "capturedAt": "2026-11-16",
-        "light": "2026-11-16/balance-light.png",
-        "dark": "2026-11-16/balance-dark.png"
+        "capturedAt": "2026-11-23",
+        "light": "2026-11-23/balance-light.png",
+        "dark": "2026-11-23/balance-dark.png"
       },
       {
         "label": "Tyre wear & clearance",
         "source": "provided",
-        "capturedAt": "2026-11-16",
-        "light": "2026-11-16/clearance-light.png",
-        "dark": "2026-11-16/clearance-dark.png"
+        "capturedAt": "2026-11-23",
+        "light": "2026-11-23/clearance-light.png",
+        "dark": "2026-11-23/clearance-dark.png"
       }
     ],
     "Livery": [
       {
         "label": "Design studio",
         "source": "provided",
-        "capturedAt": "2026-11-16",
-        "light": "2026-11-16/studio-light.png",
-        "dark": "2026-11-16/studio-dark.png"
+        "capturedAt": "2026-11-23",
+        "light": "2026-11-23/studio-light.png",
+        "dark": "2026-11-23/studio-dark.png"
       },
       {
         "label": "Decals & race numbers",
         "source": "provided",
-        "capturedAt": "2026-11-16",
-        "light": "2026-11-16/decals-light.png",
-        "dark": "2026-11-16/decals-dark.png"
+        "capturedAt": "2026-11-23",
+        "light": "2026-11-23/decals-light.png",
+        "dark": "2026-11-23/decals-dark.png"
       },
       {
         "label": "Gradients & stripes",
         "source": "provided",
-        "capturedAt": "2026-11-16",
-        "light": "2026-11-16/gradients-light.png",
-        "dark": "2026-11-16/gradients-dark.png"
+        "capturedAt": "2026-11-23",
+        "light": "2026-11-23/gradients-light.png",
+        "dark": "2026-11-23/gradients-dark.png"
       },
       {
         "label": "Template preparation",
         "source": "provided",
-        "capturedAt": "2026-11-16",
-        "light": "2026-11-16/prepare-light.png",
-        "dark": "2026-11-16/prepare-dark.png"
+        "capturedAt": "2026-11-23",
+        "light": "2026-11-23/prepare-light.png",
+        "dark": "2026-11-23/prepare-dark.png"
       },
       {
         "label": "User Library",
         "source": "provided",
-        "capturedAt": "2026-11-16",
-        "light": "2026-11-16/library-light.png",
-        "dark": "2026-11-16/library-dark.png"
+        "capturedAt": "2026-11-23",
+        "light": "2026-11-23/library-light.png",
+        "dark": "2026-11-23/library-dark.png"
       },
       {
         "label": "Workshop notes",
         "source": "provided",
-        "capturedAt": "2026-11-16",
-        "light": "2026-11-16/workshop-light.png",
-        "dark": "2026-11-16/workshop-dark.png"
+        "capturedAt": "2026-11-23",
+        "light": "2026-11-23/workshop-light.png",
+        "dark": "2026-11-23/workshop-dark.png"
       },
       {
         "label": "Transparent PNG",
         "source": "provided",
-        "capturedAt": "2026-11-16",
-        "light": "2026-11-16/export-light.png",
-        "dark": "2026-11-16/export-dark.png"
+        "capturedAt": "2026-11-23",
+        "light": "2026-11-23/export-light.png",
+        "dark": "2026-11-23/export-dark.png"
       },
       {
         "label": "Welcome",
         "source": "provided",
-        "capturedAt": "2026-11-16",
-        "light": "2026-11-16/welcome-light.png",
-        "dark": "2026-11-16/welcome-dark.png"
+        "capturedAt": "2026-11-23",
+        "light": "2026-11-23/welcome-light.png",
+        "dark": "2026-11-23/welcome-dark.png"
       }
     ],
     "Decals": [
       {
         "label": "Sheet editor",
         "source": "provided",
-        "capturedAt": "2026-11-16",
-        "light": "2026-11-16/sheet-editor-light.png",
-        "dark": "2026-11-16/sheet-editor-dark.png"
+        "capturedAt": "2026-11-23",
+        "light": "2026-11-23/sheet-editor-light.png",
+        "dark": "2026-11-23/sheet-editor-dark.png"
       },
       {
         "label": "Racing graphics",
         "source": "provided",
-        "capturedAt": "2026-11-16",
-        "light": "2026-11-16/racing-graphics-light.png",
-        "dark": "2026-11-16/racing-graphics-dark.png"
+        "capturedAt": "2026-11-23",
+        "light": "2026-11-23/racing-graphics-light.png",
+        "dark": "2026-11-23/racing-graphics-dark.png"
       },
       {
         "label": "Car preview",
         "source": "provided",
-        "capturedAt": "2026-11-16",
-        "light": "2026-11-16/car-preview-light.png",
-        "dark": "2026-11-16/car-preview-dark.png"
+        "capturedAt": "2026-11-23",
+        "light": "2026-11-23/car-preview-light.png",
+        "dark": "2026-11-23/car-preview-dark.png"
       },
       {
         "label": "Vector tracing",
         "source": "provided",
-        "capturedAt": "2026-11-16",
-        "light": "2026-11-16/vector-tracing-light.png",
-        "dark": "2026-11-16/vector-tracing-dark.png"
+        "capturedAt": "2026-11-23",
+        "light": "2026-11-23/vector-tracing-light.png",
+        "dark": "2026-11-23/vector-tracing-dark.png"
       },
       {
         "label": "Slice & export",
         "source": "provided",
-        "capturedAt": "2026-11-16",
-        "light": "2026-11-16/slice-export-light.png",
-        "dark": "2026-11-16/slice-export-dark.png"
+        "capturedAt": "2026-11-23",
+        "light": "2026-11-23/slice-export-light.png",
+        "dark": "2026-11-23/slice-export-dark.png"
+      },
+      {
+        "label": "Print & white ink",
+        "source": "provided",
+        "capturedAt": "2026-11-23",
+        "light": "2026-11-23/print-white-ink-light.png",
+        "dark": "2026-11-23/print-white-ink-dark.png"
       },
       {
         "label": "Decal library",
         "source": "provided",
-        "capturedAt": "2026-11-16",
-        "light": "2026-11-16/decal-library-light.png",
-        "dark": "2026-11-16/decal-library-dark.png"
+        "capturedAt": "2026-11-23",
+        "light": "2026-11-23/decal-library-light.png",
+        "dark": "2026-11-23/decal-library-dark.png"
       },
       {
         "label": "Scale conversion",
         "source": "provided",
-        "capturedAt": "2026-11-16",
-        "light": "2026-11-16/scale-conversion-light.png",
-        "dark": "2026-11-16/scale-conversion-dark.png"
+        "capturedAt": "2026-11-23",
+        "light": "2026-11-23/scale-conversion-light.png",
+        "dark": "2026-11-23/scale-conversion-dark.png"
       }
     ],
     "Foundry": [
