@@ -274,5 +274,42 @@
       "icon": "print",
       "intro": "Every step reversible, saved for you, ready for resin or FDM."
     }
+  ],
+  "Frame": [
+    {
+      "label": "Start from your car",
+      "icon": "car",
+      "intro": "Wheels, axles and your club’s rules first."
+    },
+    {
+      "label": "Outline and shape",
+      "icon": "measure",
+      "intro": "Draw the outline or trace it from a body, then shape the plate."
+    },
+    {
+      "label": "Fill",
+      "icon": "layers",
+      "intro": "A closed plate, a light rail frame or a lattice."
+    },
+    {
+      "label": "Guide, axle and mounts",
+      "icon": "tools",
+      "intro": "Place every holder, bracket and mount where you want it."
+    },
+    {
+      "label": "The motor pod",
+      "icon": "gauge",
+      "intro": "The pod is designed with the chassis, gears and all."
+    },
+    {
+      "label": "Bodies and bought parts",
+      "icon": "share",
+      "intro": "Work with Anvil bodies and parts you bought."
+    },
+    {
+      "label": "Check, then print",
+      "icon": "print",
+      "intro": "Everything to check before you print, then STL files."
+    }
   ]
 }

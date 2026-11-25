@@ -40,6 +40,10 @@
     "destination": "assets/apps/anvil/icon.svg"
   },
   {
+    "source": "https://raw.githubusercontent.com/theDutchmanJames/SlotForgeFrame/566b5b5dcab6dab877657e13cbbb935ef6d645a6/src/assets/slotforge-frame.svg",
+    "destination": "assets/apps/frame/icon.svg"
+  },
+  {
     "source": "C:/Users/theDutchmanJames/Documents/ChatGPT/SlotForge Timing - Analog/SlotForgeTiming/renderer/assets/brand/timing-wordmark-light.svg",
     "destination": "assets/apps/timing/wordmark-light.svg",
     "provided": true,
@@ -959,6 +963,112 @@
     "source": "Captured from SlotForge Foundry 1.3.0 (local build, .cache/shot-scripts/foundry)",
     "destination": "assets/apps/foundry/2026-11-23/track-set-light.png",
     "sha256": "12e50a75c5e8e707c7c43422cff83ec78e071457d1dd9f4f4d7d855e44d763d5",
+    "provided": true
+  },
+  {
+    "source": "SlotForge Frame main 566b5b5 src/assets/frame-light.svg",
+    "destination": "assets/apps/frame/wordmark-light.svg",
+    "provided": true
+  },
+  {
+    "source": "SlotForge Frame main 566b5b5 src/assets/frame-dark.svg",
+    "destination": "assets/apps/frame/wordmark-dark.svg",
+    "provided": true
+  },
+  {
+    "source": "Captured from SlotForge Frame 0.1.0 (local build, .cache/shot-scripts/frame), body model supplied by the site owner",
+    "destination": "assets/apps/frame/2026-11-25/drivetrain-dark.png",
+    "sha256": "659ac00c13be6a9e2ed628679164c33a1f8f41c1d933ce4e84fa56e686c17349",
+    "provided": true
+  },
+  {
+    "source": "Captured from SlotForge Frame 0.1.0 (local build, .cache/shot-scripts/frame), body model supplied by the site owner",
+    "destination": "assets/apps/frame/2026-11-25/drivetrain-light.png",
+    "sha256": "3f4cb389bec4d5de8e15b924743e3d516fdd1a52b28c2b31a3d95a3df658e6c5",
+    "provided": true
+  },
+  {
+    "source": "Captured from SlotForge Frame 0.1.0 (local build, .cache/shot-scripts/frame), body model supplied by the site owner",
+    "destination": "assets/apps/frame/2026-11-25/features-dark.png",
+    "sha256": "cc0c5c70ea4566ae07e4a822f756821e64e440ca575dc8ed642659f363503056",
+    "provided": true
+  },
+  {
+    "source": "Captured from SlotForge Frame 0.1.0 (local build, .cache/shot-scripts/frame), body model supplied by the site owner",
+    "destination": "assets/apps/frame/2026-11-25/features-light.png",
+    "sha256": "9a7426df94669ecc1bafecc6789e06b4e6f61a8f22294d3800e804d3fbe105df",
+    "provided": true
+  },
+  {
+    "source": "Captured from SlotForge Frame 0.1.0 (local build, .cache/shot-scripts/frame), body model supplied by the site owner",
+    "destination": "assets/apps/frame/2026-11-25/final-check-dark.png",
+    "sha256": "4b15fdabc94dc0d0f8d57b34f725b8874840f02224669ab822a21223961b3d22",
+    "provided": true
+  },
+  {
+    "source": "Captured from SlotForge Frame 0.1.0 (local build, .cache/shot-scripts/frame), body model supplied by the site owner",
+    "destination": "assets/apps/frame/2026-11-25/final-check-light.png",
+    "sha256": "58c372cf96fcd36ee308087757a4fe8b327f1fd028be8b715c417fa13a3d4db7",
+    "provided": true
+  },
+  {
+    "source": "Captured from SlotForge Frame 0.1.0 (local build, .cache/shot-scripts/frame), body model supplied by the site owner",
+    "destination": "assets/apps/frame/2026-11-25/from-body-dark.png",
+    "sha256": "f652e8d6debf940b9f0d49e94e13b0103f680273b56a586b970f89cba81fff5a",
+    "provided": true
+  },
+  {
+    "source": "Captured from SlotForge Frame 0.1.0 (local build, .cache/shot-scripts/frame), body model supplied by the site owner",
+    "destination": "assets/apps/frame/2026-11-25/from-body-light.png",
+    "sha256": "3a8f7b18a3aa5d7f15e623ec8969bdf08cc041dcded74cf0411584e2052058ef",
+    "provided": true
+  },
+  {
+    "source": "Captured from SlotForge Frame 0.1.0 (local build, .cache/shot-scripts/frame), body model supplied by the site owner",
+    "destination": "assets/apps/frame/2026-11-25/library-dark.png",
+    "sha256": "b1ffbc68c6badec08d05f06f6adcd05ecb52fe01f5c8d2b3f903c6bbb6b03e2a",
+    "provided": true
+  },
+  {
+    "source": "Captured from SlotForge Frame 0.1.0 (local build, .cache/shot-scripts/frame), body model supplied by the site owner",
+    "destination": "assets/apps/frame/2026-11-25/library-light.png",
+    "sha256": "842a529b5e31126fd1534491b2fd99c16123756e1edf8e2000dfd884b69a4d7b",
+    "provided": true
+  },
+  {
+    "source": "Captured from SlotForge Frame 0.1.0 (local build, .cache/shot-scripts/frame), body model supplied by the site owner",
+    "destination": "assets/apps/frame/2026-11-25/outline-dark.png",
+    "sha256": "2bb91be58c8e3f044b0ee18deef1feb8e7fbae3fb1192e1d9ae6936fbae847e9",
+    "provided": true
+  },
+  {
+    "source": "Captured from SlotForge Frame 0.1.0 (local build, .cache/shot-scripts/frame), body model supplied by the site owner",
+    "destination": "assets/apps/frame/2026-11-25/outline-light.png",
+    "sha256": "cda780d38e9012a388c0f46c7cc25ab4d1cefc5efefbdee34d1ca4a725c77890",
+    "provided": true
+  },
+  {
+    "source": "Captured from SlotForge Frame 0.1.0 (local build, .cache/shot-scripts/frame), body model supplied by the site owner",
+    "destination": "assets/apps/frame/2026-11-25/rail-frame-dark.png",
+    "sha256": "e23d6df3b684458f20603f659f8bdc0674910665c537a4e715d539844ffd4a7a",
+    "provided": true
+  },
+  {
+    "source": "Captured from SlotForge Frame 0.1.0 (local build, .cache/shot-scripts/frame), body model supplied by the site owner",
+    "destination": "assets/apps/frame/2026-11-25/rail-frame-light.png",
+    "sha256": "21e052bdd30c646ead2cac8370a7cd05c5ba830e0b73275f79364d7f9d4279d5",
+    "provided": true
+  },
+  {
+    "source": "Captured from SlotForge Frame 0.1.0 (local build, .cache/shot-scripts/frame), body model supplied by the site owner",
+    "destination": "assets/apps/frame/2026-11-25/view-3d-dark.png",
+    "sha256": "ddaa6b605b8ef93076163cddd2d61583d91e4c3dcc9d8c7bfacb9e51ad90d702",
+    "provided": true
+  },
+  {
+    "source": "Captured from SlotForge Frame 0.1.0 (local build, .cache/shot-scripts/frame), body model supplied by the site owner",
+    "destination": "assets/apps/frame/2026-11-25/view-3d-light.png",
+    "sha256": "40cd7124ecaeaaf546615eae7e5f474f42583b0a5103168a00bc1db33013324b",
     "provided": true
   }
 ]

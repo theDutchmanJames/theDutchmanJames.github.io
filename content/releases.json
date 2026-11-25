@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-11-23",
+  "checkedAt": "2026-11-25",
   "apps": {
     "Paddock": {
       "tag": "v1.8.1",
@@ -242,45 +242,45 @@
       ]
     },
     "Timing": {
-      "tag": "v2.4.0",
-      "publishedAt": "2026-11-22T16:04:19Z",
-      "url": "https://github.com/theDutchmanJames/SlotForgeTiming/releases/tag/v2.4.0",
-      "body": "## SlotForge Timing 2.4.0\n\nA new look on every page, new race-night tools, and a big speed-up for clubs with a large race history. The car library gets one new table, built automatically on first start; nothing needs converting by hand.\n\n**A new look**\n- Home as a broadcast-style page with seven new cards, Start a race for up to 8 lanes and your club logo.\n- Race Setup, Database, Customization and App Settings with a side list of sections and calmer cards.\n- After the race: broadcast-style result screens, also on the second screen for the audience.\n- Race Control in a window of its own while a race is on; Live Race with the classic board, driver stats as tiles and a Lane Desk.\n- Race report PDF with a page for every driver, in colour or monochrome.\n\n**New**\n- Find everything: every kind of thing, a preview with actions, and Recent.\n- Help: \"?\" and F1 on every page.\n- Lap explorer after the race, on the Race Director page and in the race window.\n- Finalize results: the heat named, your changes with undo, and a heat can be run again.\n- Championships: real round dates, a season strip, a calendar file and a points tally.\n- Rotation setups: lanes from the track, participants from an entry list, and lane fairness.\n- Multi-Class classes from the entry list; a virtual rival can be added in a lane.\n- Balance of Power and Time Tokens as named profiles.\n- Import and Export lists every backup with Restore; an import can replace or skip.\n- Track, Driver and Team sheets, and a safer driver delete.\n- Layout Editor: try a layout with a sample race, and see which setups use it.\n- Trackmate: a Live monitor with lap times, and Track power with its state and rules.\n- Pit Lights: choose each pit sensor's lane in Lane Check.\n- Shared library: a race that failed can be retried or removed.\n\n**Faster** (measured with 2,500 races, 450,000 laps and 800 cars)\n- Home statistics 88 s → 2 s, a car's statistics 70 s → under 0.1 s, records 77 s → 1.4 s.\n- Results and Records 167 s → 5 s, a page of the car list 3 s → 0.2 s.\n- A backup 261 s → 162 s, and Timing keeps working meanwhile.\n- The first start with a big history is 4x faster and shows progress.\n- The Layout Editor and the race screens are faster.\n\n**Fixed**\n- A full code review, with fixes in every area.\n- Penalties, disqualification, yellow flags and pit time during a pause.\n- Arduino after a reboot or a late connect; DS split packets; hardware lap times on the window's own clock.\n\n### Downloads\n\n- **Windows Portable.exe:** run without installing.\n- **Windows Setup.exe:** install Timing for regular use.\n- **macOS DMG / ZIP:** universal build for Intel and Apple Silicon.\n- **Linux AppImage / Debian package:** choose the format for your distribution.\n\n`SHA256SUMS-desktop.txt` covers the downloads. Windows packages are unsigned; the macOS app is ad-hoc signed, not Apple notarized.\n",
+      "tag": "v2.5.1",
+      "publishedAt": "2026-11-24T11:53:08Z",
+      "url": "https://github.com/theDutchmanJames/SlotForgeTiming/releases/tag/v2.5.1",
+      "body": "## SlotForge Timing 2.5.1\n\n**New: the second screen before a race**\n- While nobody is racing, the second screen shows your Home page for the audience: your banner and welcome, the next race with its line-up, your cards, and \"Starting soon\". No menu, no buttons.\n- The line-up follows Home on the race computer: pick another driver or car and the second screen shows it.\n- Press Start race and the second screen switches to Race timing by itself. After the race it shows the results, as before, and when you go back to Home it does too.\n- Move the mouse over the second screen for Live Race pages (the menu of before) and Full screen. A page you pick stays until the next race starts.\n- Phones, tablets and the Live Race tab keep their menu.\n",
       "assets": [
         {
           "name": "SHA256SUMS-desktop.txt",
-          "url": "https://github.com/theDutchmanJames/SlotForgeTiming/releases/download/v2.4.0/SHA256SUMS-desktop.txt",
+          "url": "https://github.com/theDutchmanJames/SlotForgeTiming/releases/download/v2.5.1/SHA256SUMS-desktop.txt",
           "size": 633
         },
         {
-          "name": "SlotForgeTiming-2.4.0-linux-amd64.deb",
-          "url": "https://github.com/theDutchmanJames/SlotForgeTiming/releases/download/v2.4.0/SlotForgeTiming-2.4.0-linux-amd64.deb",
-          "size": 109943604
+          "name": "SlotForgeTiming-2.5.1-linux-amd64.deb",
+          "url": "https://github.com/theDutchmanJames/SlotForgeTiming/releases/download/v2.5.1/SlotForgeTiming-2.5.1-linux-amd64.deb",
+          "size": 110049380
         },
         {
-          "name": "SlotForgeTiming-2.4.0-linux-x86_64.AppImage",
-          "url": "https://github.com/theDutchmanJames/SlotForgeTiming/releases/download/v2.4.0/SlotForgeTiming-2.4.0-linux-x86_64.AppImage",
-          "size": 136088025
+          "name": "SlotForgeTiming-2.5.1-linux-x86_64.AppImage",
+          "url": "https://github.com/theDutchmanJames/SlotForgeTiming/releases/download/v2.5.1/SlotForgeTiming-2.5.1-linux-x86_64.AppImage",
+          "size": 136252203
         },
         {
-          "name": "SlotForgeTiming-2.4.0-mac-universal.dmg",
-          "url": "https://github.com/theDutchmanJames/SlotForgeTiming/releases/download/v2.4.0/SlotForgeTiming-2.4.0-mac-universal.dmg",
-          "size": 234652946
+          "name": "SlotForgeTiming-2.5.1-mac-universal.dmg",
+          "url": "https://github.com/theDutchmanJames/SlotForgeTiming/releases/download/v2.5.1/SlotForgeTiming-2.5.1-mac-universal.dmg",
+          "size": 234863510
         },
         {
-          "name": "SlotForgeTiming-2.4.0-mac-universal.zip",
-          "url": "https://github.com/theDutchmanJames/SlotForgeTiming/releases/download/v2.4.0/SlotForgeTiming-2.4.0-mac-universal.zip",
-          "size": 227761720
+          "name": "SlotForgeTiming-2.5.1-mac-universal.zip",
+          "url": "https://github.com/theDutchmanJames/SlotForgeTiming/releases/download/v2.5.1/SlotForgeTiming-2.5.1-mac-universal.zip",
+          "size": 227909268
         },
         {
-          "name": "SlotForgeTiming-2.4.0-Portable-x64.exe",
-          "url": "https://github.com/theDutchmanJames/SlotForgeTiming/releases/download/v2.4.0/SlotForgeTiming-2.4.0-Portable-x64.exe",
-          "size": 118917473
+          "name": "SlotForgeTiming-2.5.1-Portable-x64.exe",
+          "url": "https://github.com/theDutchmanJames/SlotForgeTiming/releases/download/v2.5.1/SlotForgeTiming-2.5.1-Portable-x64.exe",
+          "size": 118997438
         },
         {
-          "name": "SlotForgeTiming-2.4.0-Setup-x64.exe",
-          "url": "https://github.com/theDutchmanJames/SlotForgeTiming/releases/download/v2.4.0/SlotForgeTiming-2.4.0-Setup-x64.exe",
-          "size": 130340483
+          "name": "SlotForgeTiming-2.5.1-Setup-x64.exe",
+          "url": "https://github.com/theDutchmanJames/SlotForgeTiming/releases/download/v2.5.1/SlotForgeTiming-2.5.1-Setup-x64.exe",
+          "size": 130487216
         }
       ]
     },
@@ -607,148 +607,221 @@
       ]
     },
     "Foundry": {
-      "tag": "v1.3.0",
-      "publishedAt": "2026-11-23T22:25:41Z",
-      "url": "https://github.com/theDutchmanJames/SlotForgeFoundry/releases/tag/v1.3.0",
-      "body": "Two requested features: a flowing curve / S-bend track piece, and raised lands for adhesive-backed copper tape.\n\n## What's new\n\n- **Flowing curve / S-bend:** a new track piece shape. Drag two handles and the end to draw a sweeping bend, an S-bend or a gentle transition.\n- **Starting shapes:** begin from Sweeping bend, S-bend or Straight transition, and mirror it to the other side with one click.\n- **Radius check:** set a preferred minimum radius and Foundry marks tighter lane sections red, with the smallest radius and slot length per lane.\n- **Raised lands for copper tape:** a new Braid style. Each strip gets a low flat land above the road, not a recess, so copper tape sits slightly above the surface.\n- **Adjustable height:** the lands stand 0.2 mm above the road by default, adjustable from 0.05 to 0.8 mm.\n\n## Details\n\n**Flowing curve / S-bend.** Choose **Add track piece → Flowing curve / S-bend**. The curve works like the flowing curve in SlotForge Circuit's Create Routed Section: one smooth curve with a start handle, an end handle and a square that moves the end.\n\n- **Keep start and end directions** holds both end directions while you drag, so the piece keeps mating with its neighbours. You can also type the directions in degrees and the exact handle coordinates.\n- Arrow keys move a selected handle by 1 mm, or 10 mm with Shift. The 5 mm snap applies to dragging.\n- The starting shapes are sized to your road width. Foundry refuses a curve that folds a lane or a road edge, or that overlaps itself, and says what to move.\n- The piece is a freeform piece: it saves to a pack, joins at both ends at the exact angle in the Track Planner, and exports like any other piece. As with other freeform pieces, it has no off-centre slot position, no Kevan Sideclip and no test joint export.\n\n**Raised lands for copper tape.** Choose **Cross-section → Braid recess → Braid style → Raised land for copper tape**. It is a pack rule, so every piece in the pack follows it.\n\n- Each land is as wide as the braid width. The lands stop at the guide slot, at braid pass-throughs and at the insulating gaps of a hairpin or diamond.\n- A piece with raised lands always exports driving-face up, also as a special piece, a flat crossing or a Track Planner print, because the lands cannot lie on the print bed.\n- Pit lanes and timing straights are built around a recess and ask you to choose **Recessed** for that piece.\n\nPieces with a braid recess, and freeform pieces drawn with waypoints, build exactly as in v1.2.0.\n\nThe [user guide](https://github.com/theDutchmanJames/SlotForgeFoundry/blob/v1.3.0/docs/GUIDE.md) explains both features.\n\n## Verification\n\n803 unit tests passed on Windows, among them real builds of flowing pieces and of pieces with raised lands. The browser stages clicked through the shipped app with networking disabled, including drawing, saving and joining a flowing curve in the Track Planner, and switching a pack to raised lands.\n\n22 pieces with a braid recess were compared with the previous build, mesh for mesh, with no differences, and six waypoint freeform recipes produce identical plans. Neither feature has been test-printed.\n\nThe macOS and Linux downloads are built and tested by GitHub Actions after this release is published, on each operating system.\n\n## Install\n\n| System | Installer | Portable app |\n| --- | --- | --- |\n| Windows | `SlotForgeFoundry-1.3.0-Setup-x64.exe` | `SlotForgeFoundry-1.3.0-Portable-x64.exe` |\n| macOS (Intel and Apple Silicon) | `SlotForgeFoundry-1.3.0-mac-universal.dmg` | `SlotForgeFoundry-1.3.0-mac-universal.zip` |\n| Linux (x64) | `SlotForgeFoundry-1.3.0-linux-amd64.deb` | `SlotForgeFoundry-1.3.0-linux-x86_64.AppImage` |\n| Linux (ARM) | `SlotForgeFoundry-1.3.0-linux-arm64.deb` | `SlotForgeFoundry-1.3.0-linux-arm64.AppImage` |\n| Any browser | `SlotForge-Foundry-1.3.0.zip`: extract it and open **SlotForge Foundry.html** | |\n\nFoundry is not code-signed. On Windows, choose **More info → Run anyway**. On macOS, use **System Settings → Privacy & Security → Open Anyway** the first time. On Linux, mark the AppImage as executable (`chmod +x`). The SHA256SUMS files list each download's checksum.\n\nYour Library, layouts and settings carry over from earlier versions.\n",
+      "tag": "v1.5.4",
+      "publishedAt": "2026-11-25T08:44:05Z",
+      "url": "https://github.com/theDutchmanJames/SlotForgeFoundry/releases/tag/v1.5.4",
+      "body": "A fix for sloped pieces: no thin sheet left standing at the sloped end.\n\n## What's new\n\n- **Sloped pieces:** the sloped end is cut cleanly to the joint line; no thin sheet of the old end face sticks out any more.\n\n## Details\n\n**A thin sheet at the sloped end.** In 1.5.3 the sloped end of a sloped piece was cut back to an upright face, so that it meets the tilted straight behind it. On the straights of the starter packs, with their dovetail keys and hollow underside, that cut could leave a paper-thin sheet of the old, leaning end face standing beyond the end, and a few loose bits inside the road. In the Track Planner it showed as a diagonal sheet hanging from the top edge of the joint. The end is now cut in one clean plane, and every sloped piece is one solid body.\n\nPieces already placed in a layout were made with 1.5.3: place them again, or open the layout once, so they are made anew.\n\nThe [user guide](https://github.com/theDutchmanJames/SlotForgeFoundry/blob/v1.5.4/docs/GUIDE.md) explains every setting.\n\n## Not yet printed\n\nThe road surface texture and the sloped pieces from 1.5.3 have still not been printed and tried on a track. The notes of [v1.5.3](https://github.com/theDutchmanJames/SlotForgeFoundry/releases/tag/v1.5.3) list what to check first.\n\n## Verification\n\n917 unit tests passed on Windows, among them one that makes all four sloped forms from the starter pack's straight, with and without the solid base, and finds each one a single clean body ending on its joint lines. It fails on 1.5.3. The browser stages clicked through the shipped app with networking disabled.\n\nThe macOS and Linux downloads are built and tested by GitHub Actions after this release is published, on each operating system.\n\n## Install\n\n| System | Installer | Portable app |\n| --- | --- | --- |\n| Windows | `SlotForgeFoundry-1.5.4-Setup-x64.exe` | `SlotForgeFoundry-1.5.4-Portable-x64.exe` |\n| macOS (Intel and Apple Silicon) | `SlotForgeFoundry-1.5.4-mac-universal.dmg` | `SlotForgeFoundry-1.5.4-mac-universal.zip` |\n| Linux (x64) | `SlotForgeFoundry-1.5.4-linux-amd64.deb` | `SlotForgeFoundry-1.5.4-linux-x86_64.AppImage` |\n| Linux (ARM) | `SlotForgeFoundry-1.5.4-linux-arm64.deb` | `SlotForgeFoundry-1.5.4-linux-arm64.AppImage` |\n| Any browser | `SlotForge-Foundry-1.5.4.zip`: extract it and open **SlotForge Foundry.html** | |\n\nFoundry is not code-signed. On Windows, choose **More info → Run anyway**. On macOS, use **System Settings → Privacy & Security → Open Anyway** the first time. On Linux, mark the AppImage as executable (`chmod +x`). The SHA256SUMS files list each download's checksum.\n\nYour Library, layouts and settings carry over from earlier versions.\n",
       "assets": [
         {
           "name": "SHA256SUMS-linux-arm64.txt",
-          "url": "https://github.com/theDutchmanJames/SlotForgeFoundry/releases/download/v1.3.0/SHA256SUMS-linux-arm64.txt",
+          "url": "https://github.com/theDutchmanJames/SlotForgeFoundry/releases/download/v1.5.4/SHA256SUMS-linux-arm64.txt",
           "size": 215
         },
         {
           "name": "SHA256SUMS-linux-x64.txt",
-          "url": "https://github.com/theDutchmanJames/SlotForgeFoundry/releases/download/v1.3.0/SHA256SUMS-linux-x64.txt",
+          "url": "https://github.com/theDutchmanJames/SlotForgeFoundry/releases/download/v1.5.4/SHA256SUMS-linux-x64.txt",
           "size": 216
         },
         {
           "name": "SHA256SUMS-mac-universal.txt",
-          "url": "https://github.com/theDutchmanJames/SlotForgeFoundry/releases/download/v1.3.0/SHA256SUMS-mac-universal.txt",
+          "url": "https://github.com/theDutchmanJames/SlotForgeFoundry/releases/download/v1.5.4/SHA256SUMS-mac-universal.txt",
           "size": 214
         },
         {
           "name": "SHA256SUMS-win-x64.txt",
-          "url": "https://github.com/theDutchmanJames/SlotForgeFoundry/releases/download/v1.3.0/SHA256SUMS-win-x64.txt",
-          "size": 303
+          "url": "https://github.com/theDutchmanJames/SlotForgeFoundry/releases/download/v1.5.4/SHA256SUMS-win-x64.txt",
+          "size": 209
         },
         {
-          "name": "SlotForge-Foundry-1.3.0.zip",
-          "url": "https://github.com/theDutchmanJames/SlotForgeFoundry/releases/download/v1.3.0/SlotForge-Foundry-1.3.0.zip",
-          "size": 2124055
+          "name": "SlotForge-Foundry-1.5.4.zip",
+          "url": "https://github.com/theDutchmanJames/SlotForgeFoundry/releases/download/v1.5.4/SlotForge-Foundry-1.5.4.zip",
+          "size": 2219833
         },
         {
-          "name": "SlotForgeFoundry-1.3.0-linux-amd64.deb",
-          "url": "https://github.com/theDutchmanJames/SlotForgeFoundry/releases/download/v1.3.0/SlotForgeFoundry-1.3.0-linux-amd64.deb",
-          "size": 102433648
+          "name": "SlotForgeFoundry-1.5.4-linux-amd64.deb",
+          "url": "https://github.com/theDutchmanJames/SlotForgeFoundry/releases/download/v1.5.4/SlotForgeFoundry-1.5.4-linux-amd64.deb",
+          "size": 102488448
         },
         {
-          "name": "SlotForgeFoundry-1.3.0-linux-arm64.AppImage",
-          "url": "https://github.com/theDutchmanJames/SlotForgeFoundry/releases/download/v1.3.0/SlotForgeFoundry-1.3.0-linux-arm64.AppImage",
-          "size": 128684622
+          "name": "SlotForgeFoundry-1.5.4-linux-arm64.AppImage",
+          "url": "https://github.com/theDutchmanJames/SlotForgeFoundry/releases/download/v1.5.4/SlotForgeFoundry-1.5.4-linux-arm64.AppImage",
+          "size": 128778792
         },
         {
-          "name": "SlotForgeFoundry-1.3.0-linux-arm64.deb",
-          "url": "https://github.com/theDutchmanJames/SlotForgeFoundry/releases/download/v1.3.0/SlotForgeFoundry-1.3.0-linux-arm64.deb",
-          "size": 97296424
+          "name": "SlotForgeFoundry-1.5.4-linux-arm64.deb",
+          "url": "https://github.com/theDutchmanJames/SlotForgeFoundry/releases/download/v1.5.4/SlotForgeFoundry-1.5.4-linux-arm64.deb",
+          "size": 97351592
         },
         {
-          "name": "SlotForgeFoundry-1.3.0-linux-x86_64.AppImage",
-          "url": "https://github.com/theDutchmanJames/SlotForgeFoundry/releases/download/v1.3.0/SlotForgeFoundry-1.3.0-linux-x86_64.AppImage",
-          "size": 127473596
+          "name": "SlotForgeFoundry-1.5.4-linux-x86_64.AppImage",
+          "url": "https://github.com/theDutchmanJames/SlotForgeFoundry/releases/download/v1.5.4/SlotForgeFoundry-1.5.4-linux-x86_64.AppImage",
+          "size": 127567754
         },
         {
-          "name": "SlotForgeFoundry-1.3.0-mac-universal.dmg",
-          "url": "https://github.com/theDutchmanJames/SlotForgeFoundry/releases/download/v1.3.0/SlotForgeFoundry-1.3.0-mac-universal.dmg",
-          "size": 226386511
+          "name": "SlotForgeFoundry-1.5.4-mac-universal.dmg",
+          "url": "https://github.com/theDutchmanJames/SlotForgeFoundry/releases/download/v1.5.4/SlotForgeFoundry-1.5.4-mac-universal.dmg",
+          "size": 226446271
         },
         {
-          "name": "SlotForgeFoundry-1.3.0-mac-universal.zip",
-          "url": "https://github.com/theDutchmanJames/SlotForgeFoundry/releases/download/v1.3.0/SlotForgeFoundry-1.3.0-mac-universal.zip",
-          "size": 219735715
+          "name": "SlotForgeFoundry-1.5.4-mac-universal.zip",
+          "url": "https://github.com/theDutchmanJames/SlotForgeFoundry/releases/download/v1.5.4/SlotForgeFoundry-1.5.4-mac-universal.zip",
+          "size": 219821633
         },
         {
-          "name": "SlotForgeFoundry-1.3.0-Portable-x64.exe",
-          "url": "https://github.com/theDutchmanJames/SlotForgeFoundry/releases/download/v1.3.0/SlotForgeFoundry-1.3.0-Portable-x64.exe",
-          "size": 111593889
+          "name": "SlotForgeFoundry-1.5.4-Portable-x64.exe",
+          "url": "https://github.com/theDutchmanJames/SlotForgeFoundry/releases/download/v1.5.4/SlotForgeFoundry-1.5.4-Portable-x64.exe",
+          "size": 111658989
         },
         {
-          "name": "SlotForgeFoundry-1.3.0-Setup-x64.exe",
-          "url": "https://github.com/theDutchmanJames/SlotForgeFoundry/releases/download/v1.3.0/SlotForgeFoundry-1.3.0-Setup-x64.exe",
-          "size": 122644816
+          "name": "SlotForgeFoundry-1.5.4-Setup-x64.exe",
+          "url": "https://github.com/theDutchmanJames/SlotForgeFoundry/releases/download/v1.5.4/SlotForgeFoundry-1.5.4-Setup-x64.exe",
+          "size": 122714569
         }
       ]
     },
     "Anvil": {
-      "tag": "v1.0.1",
-      "publishedAt": "2026-11-23T22:20:22Z",
-      "url": "https://github.com/theDutchmanJames/SlotForgeAnvil/releases/tag/v1.0.1",
-      "body": "Anvil now looks and works like the rest of the SlotForge family: its own icon, the SlotForge header, automatic update checks and a light theme.\n\n## What's new\n\n- **New app icon:** Anvil's own icon, a wireframe car body in selection brackets, for the window, taskbar, installer and top bar.\n- **SlotForge header:** the app icon, the Anvil wordmark and the slogan \"Hammered into shape\", with the SlotForge App Collection mark in the status bar.\n- **Update check:** Anvil checks for a new version a few seconds after it starts and shows what's new, with Skip and Download. It never installs anything by itself.\n- **Settings:** the new sliders button in the top bar opens Settings. Under Updates you can check now or turn the check at start off.\n- **Light and Dark:** a theme switch in the top bar, shared with your other SlotForge apps on this computer.\n- **Smaller windows:** the top bar and the tool row now fit windows down to 1000 pixels wide.\n\n## Verification\n\n102 unit tests passed on Windows, including the update check's own tests. The desktop app was started twice on a fresh data folder and opened with its icon, wordmark and update check. The update check was tried against this repository's releases: it found v1.0.0 and offered the Windows installer. Both themes were checked in the app. The macOS and Linux downloads are built and tested by GitHub Actions after this release is published, on each operating system.\n\n## Install\n\n| System | Installer | Portable app |\n| --- | --- | --- |\n| Windows | `SlotForgeAnvil-1.0.1-Setup-x64.exe` | `SlotForgeAnvil-1.0.1-Portable-x64.exe` or `SlotForgeAnvil-1.0.1-Windows-x64.zip` |\n| macOS (Intel and Apple Silicon) | `SlotForgeAnvil-1.0.1-mac-universal.dmg` | `SlotForgeAnvil-1.0.1-mac-universal.zip` |\n| Linux (x64) | `SlotForgeAnvil-1.0.1-linux-amd64.deb` | `SlotForgeAnvil-1.0.1-linux-x86_64.AppImage` |\n| Linux (ARM) | `SlotForgeAnvil-1.0.1-linux-arm64.deb` | `SlotForgeAnvil-1.0.1-linux-arm64.AppImage` |\n\nAnvil is not code-signed. On Windows, choose **More info → Run anyway**. On macOS, use **System Settings → Privacy & Security → Open Anyway** the first time. On Linux, mark the AppImage as executable (`chmod +x`). The SHA256SUMS files list each download's checksum.\n\nYour projects, library and settings carry over from 1.0.0. Version 1.0.0 has no update check yet, so install 1.0.1 by hand once; from here on Anvil tells you about new versions itself.\n",
+      "tag": "v1.0.5",
+      "publishedAt": "2026-11-25T09:15:01Z",
+      "url": "https://github.com/theDutchmanJames/SlotForgeAnvil/releases/tag/v1.0.5",
+      "body": "Cuts through a hollow shell now close its wall, so the body prints solid between its outer and inner skin.\n\n## What's new\n\n- **Floor line closes the wall:** on a model that is already a hollow shell, the wall is closed along the cut. Before, the wall was left open there, and a slicer saw the space between the skins as hollow. The inside of the body stays open underneath, as a slot car body should, and the step list shows \"wall closed\".\n- **Wheel arches too:** the cut round the tyres closes the wall the same way.\n- **Slice closes its cut by default:** \"Close the cut\" is now ticked when you start a slice.\n- On a solid model, Floor line still opens the underside for Hollow, as before. Cut off and Windows already closed their cuts.\n\nProjects you already have pick this up when they open: their Floor line and Wheel arches steps rebuild with the wall closed.\n\n## Verification\n\n116 unit tests passed on Windows, including four new ones: a floor line on a shell (wall closed, inside still open), a floor line on a solid body (underside still opens for Hollow), wheel arches through a shell, and a closed slice through a shell. On a hollow test car, a floor line at 1.49 mm went from 836 open edges to none, wheel arch cuts from 1,536 to none, and Hollow afterwards still gave a clean result. The desktop app was started twice on a fresh data folder. The macOS and Linux downloads are built and tested by GitHub Actions after this release is published, on each operating system.\n\n## Install\n\n| System | Installer | Portable app |\n| --- | --- | --- |\n| Windows | `SlotForgeAnvil-1.0.5-Setup-x64.exe` | `SlotForgeAnvil-1.0.5-Portable-x64.exe` or `SlotForgeAnvil-1.0.5-Windows-x64.zip` |\n| macOS (Intel and Apple Silicon) | `SlotForgeAnvil-1.0.5-mac-universal.dmg` | `SlotForgeAnvil-1.0.5-mac-universal.zip` |\n| Linux (x64) | `SlotForgeAnvil-1.0.5-linux-amd64.deb` | `SlotForgeAnvil-1.0.5-linux-x86_64.AppImage` |\n| Linux (ARM) | `SlotForgeAnvil-1.0.5-linux-arm64.deb` | `SlotForgeAnvil-1.0.5-linux-arm64.AppImage` |\n\nAnvil is not code-signed. On Windows, choose **More info → Run anyway**. On macOS, use **System Settings → Privacy & Security → Open Anyway** the first time. On Linux, mark the AppImage as executable (`chmod +x`). The SHA256SUMS files list each download's checksum.\n\nYour projects, library and settings carry over. Anvil 1.0.1 and later tell you about this version themselves; from 1.0.0, install it by hand once.\n",
       "assets": [
         {
           "name": "SHA256SUMS-linux-arm64.txt",
-          "url": "https://github.com/theDutchmanJames/SlotForgeAnvil/releases/download/v1.0.1/SHA256SUMS-linux-arm64.txt",
+          "url": "https://github.com/theDutchmanJames/SlotForgeAnvil/releases/download/v1.0.5/SHA256SUMS-linux-arm64.txt",
           "size": 211
         },
         {
           "name": "SHA256SUMS-linux-x64.txt",
-          "url": "https://github.com/theDutchmanJames/SlotForgeAnvil/releases/download/v1.0.1/SHA256SUMS-linux-x64.txt",
+          "url": "https://github.com/theDutchmanJames/SlotForgeAnvil/releases/download/v1.0.5/SHA256SUMS-linux-x64.txt",
           "size": 212
         },
         {
           "name": "SHA256SUMS-mac-universal.txt",
-          "url": "https://github.com/theDutchmanJames/SlotForgeAnvil/releases/download/v1.0.1/SHA256SUMS-mac-universal.txt",
+          "url": "https://github.com/theDutchmanJames/SlotForgeAnvil/releases/download/v1.0.5/SHA256SUMS-mac-universal.txt",
           "size": 210
         },
         {
           "name": "SHA256SUMS-win-x64.txt",
-          "url": "https://github.com/theDutchmanJames/SlotForgeAnvil/releases/download/v1.0.1/SHA256SUMS-win-x64.txt",
-          "size": 307
+          "url": "https://github.com/theDutchmanJames/SlotForgeAnvil/releases/download/v1.0.5/SHA256SUMS-win-x64.txt",
+          "size": 311
         },
         {
-          "name": "SlotForgeAnvil-1.0.1-linux-amd64.deb",
-          "url": "https://github.com/theDutchmanJames/SlotForgeAnvil/releases/download/v1.0.1/SlotForgeAnvil-1.0.1-linux-amd64.deb",
-          "size": 102023748
+          "name": "SlotForgeAnvil-1.0.5-linux-amd64.deb",
+          "url": "https://github.com/theDutchmanJames/SlotForgeAnvil/releases/download/v1.0.5/SlotForgeAnvil-1.0.5-linux-amd64.deb",
+          "size": 102037532
         },
         {
-          "name": "SlotForgeAnvil-1.0.1-linux-arm64.AppImage",
-          "url": "https://github.com/theDutchmanJames/SlotForgeAnvil/releases/download/v1.0.1/SlotForgeAnvil-1.0.1-linux-arm64.AppImage",
-          "size": 128053208
+          "name": "SlotForgeAnvil-1.0.5-linux-arm64.AppImage",
+          "url": "https://github.com/theDutchmanJames/SlotForgeAnvil/releases/download/v1.0.5/SlotForgeAnvil-1.0.5-linux-arm64.AppImage",
+          "size": 128069693
         },
         {
-          "name": "SlotForgeAnvil-1.0.1-linux-arm64.deb",
-          "url": "https://github.com/theDutchmanJames/SlotForgeAnvil/releases/download/v1.0.1/SlotForgeAnvil-1.0.1-linux-arm64.deb",
-          "size": 96890192
+          "name": "SlotForgeAnvil-1.0.5-linux-arm64.deb",
+          "url": "https://github.com/theDutchmanJames/SlotForgeAnvil/releases/download/v1.0.5/SlotForgeAnvil-1.0.5-linux-arm64.deb",
+          "size": 96904452
         },
         {
-          "name": "SlotForgeAnvil-1.0.1-linux-x86_64.AppImage",
-          "url": "https://github.com/theDutchmanJames/SlotForgeAnvil/releases/download/v1.0.1/SlotForgeAnvil-1.0.1-linux-x86_64.AppImage",
-          "size": 126842163
+          "name": "SlotForgeAnvil-1.0.5-linux-x86_64.AppImage",
+          "url": "https://github.com/theDutchmanJames/SlotForgeAnvil/releases/download/v1.0.5/SlotForgeAnvil-1.0.5-linux-x86_64.AppImage",
+          "size": 126858689
         },
         {
-          "name": "SlotForgeAnvil-1.0.1-mac-universal.dmg",
-          "url": "https://github.com/theDutchmanJames/SlotForgeAnvil/releases/download/v1.0.1/SlotForgeAnvil-1.0.1-mac-universal.dmg",
-          "size": 225892839
+          "name": "SlotForgeAnvil-1.0.5-mac-universal.dmg",
+          "url": "https://github.com/theDutchmanJames/SlotForgeAnvil/releases/download/v1.0.5/SlotForgeAnvil-1.0.5-mac-universal.dmg",
+          "size": 225940298
         },
         {
-          "name": "SlotForgeAnvil-1.0.1-mac-universal.zip",
-          "url": "https://github.com/theDutchmanJames/SlotForgeAnvil/releases/download/v1.0.1/SlotForgeAnvil-1.0.1-mac-universal.zip",
-          "size": 219187335
+          "name": "SlotForgeAnvil-1.0.5-mac-universal.zip",
+          "url": "https://github.com/theDutchmanJames/SlotForgeAnvil/releases/download/v1.0.5/SlotForgeAnvil-1.0.5-mac-universal.zip",
+          "size": 219203381
         },
         {
-          "name": "SlotForgeAnvil-1.0.1-Portable-x64.exe",
-          "url": "https://github.com/theDutchmanJames/SlotForgeAnvil/releases/download/v1.0.1/SlotForgeAnvil-1.0.1-Portable-x64.exe",
-          "size": 111190778
+          "name": "SlotForgeAnvil-1.0.5-Portable-x64.exe",
+          "url": "https://github.com/theDutchmanJames/SlotForgeAnvil/releases/download/v1.0.5/SlotForgeAnvil-1.0.5-Portable-x64.exe",
+          "size": 111242001
         },
         {
-          "name": "SlotForgeAnvil-1.0.1-Setup-x64.exe",
-          "url": "https://github.com/theDutchmanJames/SlotForgeAnvil/releases/download/v1.0.1/SlotForgeAnvil-1.0.1-Setup-x64.exe",
-          "size": 122187650
+          "name": "SlotForgeAnvil-1.0.5-Setup-x64.exe",
+          "url": "https://github.com/theDutchmanJames/SlotForgeAnvil/releases/download/v1.0.5/SlotForgeAnvil-1.0.5-Setup-x64.exe",
+          "size": 122200233
         },
         {
-          "name": "SlotForgeAnvil-1.0.1-Windows-x64.zip",
-          "url": "https://github.com/theDutchmanJames/SlotForgeAnvil/releases/download/v1.0.1/SlotForgeAnvil-1.0.1-Windows-x64.zip",
-          "size": 154270757
+          "name": "SlotForgeAnvil-1.0.5-Windows-x64.zip",
+          "url": "https://github.com/theDutchmanJames/SlotForgeAnvil/releases/download/v1.0.5/SlotForgeAnvil-1.0.5-Windows-x64.zip",
+          "size": 154287871
+        }
+      ]
+    },
+    "Frame": {
+      "tag": "v0.1.0",
+      "publishedAt": "2026-11-25T09:03:42Z",
+      "url": "https://github.com/theDutchmanJames/SlotForgeFrame/releases/tag/v0.1.0",
+      "body": "The first release of SlotForge Frame: design a 3D-printable slotcar chassis and motor pod around the parts you race with.\n\n## What's new\n\n- **Outline:** draw one side of the chassis as points in the top view, with straight or curved points, or trace it from a body made in SlotForge Anvil: inside the body at a gap you set, or under it with the body standing on the plate.\n- **Plate or rail frame:** a closed plate, or a rail frame with cross rails, a spine, nose struts and a closed plate behind the rear wheels. The chassis always runs all the way round the motor pod.\n- **Shaping:** kick-up at the rear and the front, a side profile, ribs and strakes, edge walls, tunnels, upright panels, levels, pockets, windows and cut-outs.\n- **Features:** guide holder, front axle brackets with travel and grub screws, body mounts and supports, magnet and ballast holders, wire guides and a chip mount, each placed where you want it.\n- **Motor pod:** inline, sidewinder and anglewinder for short-can, long-can and slim-can motors, driving either rear wheel, in its opening or on top of the chassis. Or import a pod or chassis as an STL.\n- **Body check:** load the body, fit the axles to its wheel arches, and see in 3D whether the chassis runs into it.\n- **Before printing:** a final check, weight and balance, a calibration coupon for your printer's hole sizes, and STL export. Works in millimetres or inches.\n- **Library:** motors, gears, guides, wheels, printers, rule sets and car presets, with your own parts added and shared as a file.\n\nNothing designed with this version has been printed and raced yet. Print the calibration coupon first, and measure the sizes the app marks as unconfirmed.\n\n## Verification\n\n- 127 unit tests and 28 browser checks pass.\n- The desktop start-up test passes on the packaged Windows app; the macOS and Linux downloads are built and start-up tested on their own systems by GitHub Actions before they are attached.\n\n## Install\n\n| System | Installer | Portable |\n| --- | --- | --- |\n| Windows 10/11 (x64) | `SlotForgeFrame-0.1.0-Setup-x64.exe` | `SlotForgeFrame-0.1.0-Portable-x64.exe` or `SlotForgeFrame-0.1.0-Windows-x64.zip` |\n| macOS (Apple silicon and Intel) | `SlotForgeFrame-0.1.0-mac-universal.dmg` | `SlotForgeFrame-0.1.0-mac-universal.zip` |\n| Linux x64 | `SlotForgeFrame-0.1.0-linux-amd64.deb` | `SlotForgeFrame-0.1.0-linux-x86_64.AppImage` |\n| Linux arm64 | `SlotForgeFrame-0.1.0-linux-arm64.deb` | `SlotForgeFrame-0.1.0-linux-arm64.AppImage` |\n\nThe macOS and Linux files are added to this release a few minutes after it is published. Each system has a `SHA256SUMS` file to check a download against.\n\nThe downloads are not code signed. Windows SmartScreen and macOS Gatekeeper may ask you to confirm before the app opens for the first time.\n",
+      "assets": [
+        {
+          "name": "SHA256SUMS-linux-arm64.txt",
+          "url": "https://github.com/theDutchmanJames/SlotForgeFrame/releases/download/v0.1.0/SHA256SUMS-linux-arm64.txt",
+          "size": 211
+        },
+        {
+          "name": "SHA256SUMS-linux-x64.txt",
+          "url": "https://github.com/theDutchmanJames/SlotForgeFrame/releases/download/v0.1.0/SHA256SUMS-linux-x64.txt",
+          "size": 212
+        },
+        {
+          "name": "SHA256SUMS-mac-universal.txt",
+          "url": "https://github.com/theDutchmanJames/SlotForgeFrame/releases/download/v0.1.0/SHA256SUMS-mac-universal.txt",
+          "size": 210
+        },
+        {
+          "name": "SHA256SUMS-win-x64.txt",
+          "url": "https://github.com/theDutchmanJames/SlotForgeFrame/releases/download/v0.1.0/SHA256SUMS-win-x64.txt",
+          "size": 308
+        },
+        {
+          "name": "SlotForgeFrame-0.1.0-linux-amd64.deb",
+          "url": "https://github.com/theDutchmanJames/SlotForgeFrame/releases/download/v0.1.0/SlotForgeFrame-0.1.0-linux-amd64.deb",
+          "size": 101785288
+        },
+        {
+          "name": "SlotForgeFrame-0.1.0-linux-arm64.AppImage",
+          "url": "https://github.com/theDutchmanJames/SlotForgeFrame/releases/download/v0.1.0/SlotForgeFrame-0.1.0-linux-arm64.AppImage",
+          "size": 127786692
+        },
+        {
+          "name": "SlotForgeFrame-0.1.0-linux-arm64.deb",
+          "url": "https://github.com/theDutchmanJames/SlotForgeFrame/releases/download/v0.1.0/SlotForgeFrame-0.1.0-linux-arm64.deb",
+          "size": 96662584
+        },
+        {
+          "name": "SlotForgeFrame-0.1.0-linux-x86_64.AppImage",
+          "url": "https://github.com/theDutchmanJames/SlotForgeFrame/releases/download/v0.1.0/SlotForgeFrame-0.1.0-linux-x86_64.AppImage",
+          "size": 126571578
+        },
+        {
+          "name": "SlotForgeFrame-0.1.0-mac-universal.dmg",
+          "url": "https://github.com/theDutchmanJames/SlotForgeFrame/releases/download/v0.1.0/SlotForgeFrame-0.1.0-mac-universal.dmg",
+          "size": 225494897
+        },
+        {
+          "name": "SlotForgeFrame-0.1.0-mac-universal.zip",
+          "url": "https://github.com/theDutchmanJames/SlotForgeFrame/releases/download/v0.1.0/SlotForgeFrame-0.1.0-mac-universal.zip",
+          "size": 218888474
+        },
+        {
+          "name": "SlotForgeFrame-0.1.0-Portable-x64.exe",
+          "url": "https://github.com/theDutchmanJames/SlotForgeFrame/releases/download/v0.1.0/SlotForgeFrame-0.1.0-Portable-x64.exe",
+          "size": 110999184
+        },
+        {
+          "name": "SlotForgeFrame-0.1.0-Setup-x64.exe",
+          "url": "https://github.com/theDutchmanJames/SlotForgeFrame/releases/download/v0.1.0/SlotForgeFrame-0.1.0-Setup-x64.exe",
+          "size": 121989428
+        },
+        {
+          "name": "SlotForgeFrame-0.1.0-Windows-x64.zip",
+          "url": "https://github.com/theDutchmanJames/SlotForgeFrame/releases/download/v0.1.0/SlotForgeFrame-0.1.0-Windows-x64.zip",
+          "size": 154034463
         }
       ]
     }

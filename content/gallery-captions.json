@@ -85,5 +85,15 @@
     "Posts": "Click the body to place screw posts, mirrored, reaching down to the chassis deck.",
     "Windows": "Click points round each window and a smooth line runs through them. Side windows are mirrored.",
     "Final check": "One list of everything that matters before printing, each with a button to the tool that fixes it."
+  },
+  "Frame": {
+    "From body": "Load a body from Anvil and trace the chassis inside it, with the wheel arches left open.",
+    "Chassis and pod in 3D": "A rail-frame chassis with a raised rear and an anglewinder pod, shown with its wheels, axles and motor in place.",
+    "Draw the outline": "Shape one side as points in the top view; the other side mirrors it.",
+    "Rail frame": "A closed plate, a rail frame or a lattice. Frame proposes where the cross rails go.",
+    "Drivetrain": "Inline, sidewinder or anglewinder, with the motor placed so the gears mesh.",
+    "Guide and mounts": "Place the guide holder, front axle brackets and body mounts, each sized yourself.",
+    "Final check": "One list of everything that matters before you print, each row leading to its fix.",
+    "Library": "Your chassis and pods in one library, shareable as a .framelib file."
   }
 }

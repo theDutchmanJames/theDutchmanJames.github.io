@@ -295,6 +295,43 @@
       },
       "light": "2026-11-23/hollow-light.png",
       "dark": "2026-11-23/hollow-dark.png"
+    },
+    "Frame": {
+      "category": "3D-PRINTED CHASSIS",
+      "summary": "Design a 3D-printable slotcar chassis and motor pod around the wheels, guide, motor and gears you race with.",
+      "short": "Design a printable chassis and motor pod for your car.",
+      "sha": "566b5b5dcab6dab877657e13cbbb935ef6d645a6",
+      "icon": "src/assets/slotforge-frame.svg",
+      "features": [
+        [
+          "Outline and shape",
+          "Draw the outline or trace it from an Anvil body, then add a kick-up, ribs and strakes."
+        ],
+        [
+          "Pod and drivetrain",
+          "Inline, sidewinder or anglewinder, with gears that mesh and bearing holders sized for your printer."
+        ],
+        [
+          "Check and print",
+          "One final check before printing, a calibration coupon for the holes, then STL files laid flat."
+        ]
+      ],
+      "highlightIcons": [
+        "measure",
+        "gauge",
+        "print"
+      ],
+      "highlightLabels": [
+        "OUTLINE",
+        "MOTOR POD",
+        "FINAL CHECK"
+      ],
+      "wordmark": {
+        "light": "wordmark-light.svg",
+        "dark": "wordmark-dark.svg"
+      },
+      "light": "2026-11-25/view-3d-light.png",
+      "dark": "2026-11-25/view-3d-dark.png"
     }
   },
   "galleries": {
@@ -802,6 +839,64 @@
         "capturedAt": "2026-11-23",
         "light": "2026-11-23/final-check-light.png",
         "dark": "2026-11-23/final-check-dark.png"
+      }
+    ],
+    "Frame": [
+      {
+        "label": "From body",
+        "source": "provided",
+        "capturedAt": "2026-11-25",
+        "light": "2026-11-25/from-body-light.png",
+        "dark": "2026-11-25/from-body-dark.png"
+      },
+      {
+        "label": "Chassis and pod in 3D",
+        "source": "provided",
+        "capturedAt": "2026-11-25",
+        "light": "2026-11-25/view-3d-light.png",
+        "dark": "2026-11-25/view-3d-dark.png"
+      },
+      {
+        "label": "Draw the outline",
+        "source": "provided",
+        "capturedAt": "2026-11-25",
+        "light": "2026-11-25/outline-light.png",
+        "dark": "2026-11-25/outline-dark.png"
+      },
+      {
+        "label": "Rail frame",
+        "source": "provided",
+        "capturedAt": "2026-11-25",
+        "light": "2026-11-25/rail-frame-light.png",
+        "dark": "2026-11-25/rail-frame-dark.png"
+      },
+      {
+        "label": "Drivetrain",
+        "source": "provided",
+        "capturedAt": "2026-11-25",
+        "light": "2026-11-25/drivetrain-light.png",
+        "dark": "2026-11-25/drivetrain-dark.png"
+      },
+      {
+        "label": "Guide and mounts",
+        "source": "provided",
+        "capturedAt": "2026-11-25",
+        "light": "2026-11-25/features-light.png",
+        "dark": "2026-11-25/features-dark.png"
+      },
+      {
+        "label": "Final check",
+        "source": "provided",
+        "capturedAt": "2026-11-25",
+        "light": "2026-11-25/final-check-light.png",
+        "dark": "2026-11-25/final-check-dark.png"
+      },
+      {
+        "label": "Library",
+        "source": "provided",
+        "capturedAt": "2026-11-25",
+        "light": "2026-11-25/library-light.png",
+        "dark": "2026-11-25/library-dark.png"
       }
     ]
   },
@@ -2197,6 +2292,163 @@
           ]
         ]
       ]
+    ],
+    "Frame": [
+      [
+        "Start from your car",
+        [
+          [
+            "1/32 and 1/24",
+            "Start a new chassis in either scale, with matching starting values."
+          ],
+          [
+            "Wheels and axles",
+            "Set the wheelbase, ground clearance, axle diameter and the tyre sizes and track for the front and the rear."
+          ],
+          [
+            "Your club’s rules",
+            "Enter the widest car, the longest guide lead and the least clearance your club allows. The final check compares the design with them."
+          ],
+          [
+            "Presets",
+            "Car presets and rule sets come from the library, and you can add your own."
+          ]
+        ]
+      ],
+      [
+        "Outline and shape",
+        [
+          [
+            "Draw the outline",
+            "Shape one side as points in the top view; the other side mirrors it. Drag the points or type them in, round the corners and bevel the edges."
+          ],
+          [
+            "From body",
+            "Load a body made in SlotForge Anvil and trace it. The chassis goes inside the body or under it, and the wheel arches stay open."
+          ],
+          [
+            "Kick-up",
+            "Tilt the rear upward behind a fold line, with strakes underneath like a diffuser. A front kick-up does the same at the nose."
+          ],
+          [
+            "Ribs, walls and tunnels",
+            "Stiffen and shape the plate with ribs and strakes, edge walls, tunnels, upright panels, levels and pockets, each placed and sized freely."
+          ],
+          [
+            "Split part",
+            "Print a long chassis as two parts that key into each other."
+          ]
+        ]
+      ],
+      [
+        "Closed, rail frame or lattice",
+        [
+          [
+            "Closed plate",
+            "A full plate, with windows and cut-outs where you want them."
+          ],
+          [
+            "Rail frame",
+            "An outer rail with cross and lengthwise rails and pads under every feature. Frame proposes where the rails go; move, add or remove them."
+          ],
+          [
+            "Lattice",
+            "An open mesh with the cell size you set."
+          ]
+        ]
+      ],
+      [
+        "Guide, axle and mounts",
+        [
+          [
+            "Guide holder",
+            "For the common guides or your own sizes, anywhere ahead of the front axle."
+          ],
+          [
+            "Front axle brackets",
+            "Set their spread, height and wall. Give the axle travel, grub screws, or a stub axle for each wheel."
+          ],
+          [
+            "Body mounts",
+            "As many mount spots as you need, shared with SlotForge Anvil, and tabs for the body to rest on."
+          ],
+          [
+            "Magnets, ballast and wires",
+            "Pockets for magnets or weights, wire guides for the lead wires and a tray for a digital chip, each where you put it."
+          ]
+        ]
+      ],
+      [
+        "The motor pod",
+        [
+          [
+            "Inline, sidewinder and anglewinder",
+            "For short-can, long-can and slim-can motors, driving either rear wheel. Set the anglewinder angle yourself."
+          ],
+          [
+            "Gears that mesh",
+            "Pick a crown or spur gear set and the motor is placed so the gears mesh. The chassis is cut free for the gear."
+          ],
+          [
+            "In its opening or on top",
+            "The pod drops into its opening or sits on top of the rails, with float on its screws if you want it."
+          ],
+          [
+            "Bearing holders",
+            "Closed, snap-in or clamp, with a buttress, a brace and room to oil the bearing."
+          ],
+          [
+            "Live preview",
+            "Axles, wheels, tyres, motor, pinion and gear are drawn in place in the top view and in 3D."
+          ]
+        ]
+      ],
+      [
+        "Bodies and bought parts",
+        [
+          [
+            "Body from Anvil",
+            "Load the body’s STL. Frame finds its wheel arches, fits the wheelbase to them and checks in 3D that nothing runs into the body."
+          ],
+          [
+            "Export for Anvil",
+            "An .anvilchassis file with the chassis, the pod and the body-mount spots, so Anvil builds the posts on them."
+          ],
+          [
+            "Import an STL",
+            "Bring in a pod or chassis you bought or downloaded. Frame measures it, finds its screw holes and fits the chassis round it."
+          ],
+          [
+            "Library",
+            "Every chassis and pod you make, with motors, gear sets, bearings, guides, printers and rule sets. Share it as a .framelib file."
+          ]
+        ]
+      ],
+      [
+        "Check, then print",
+        [
+          [
+            "Calibration coupon",
+            "A small test piece with every hole size the design uses. Print it once per printer and material and tell Frame which holes fitted."
+          ],
+          [
+            "Final check",
+            "One list of what matters before printing, from tyre clearance to gear mesh and wall thickness, each row leading to its fix."
+          ],
+          [
+            "Weight and balance",
+            "The weight of the printed parts and where the centre of gravity lies."
+          ],
+          [
+            "Export STL",
+            "The chassis and the pod laid flat for printing, and split parts as their own files."
+          ],
+          [
+            "Projects",
+            "Your design opens again next time. Save writes a .frame file with everything in it."
+          ]
+        ]
+      ]
     ]
   },
   "appDetails": {
@@ -2245,6 +2497,12 @@
       "first": "Open an STL car, read its health check, then work through the tools from Scale to Final check.",
       "storage": "Your projects, library and settings are kept on your computer. Save project writes an .anvil file you can keep or move, and Help → Show data folder shows where everything is.",
       "featureNote": "Wall thickness, fit and weight depend on your printer, material and settings. Print a test-fit piece before a whole body."
+    },
+    "Frame": {
+      "title": "Built from the ground up.",
+      "first": "Choose New and pick 1/32 or 1/24, type your car’s wheels and axles, then work through the menus from Outline to Print.",
+      "storage": "Your last design, the library and settings are kept on your computer. Save writes a .frame file you can keep or move, and Help → Show data folder shows where everything is.",
+      "featureNote": "Sizes that no maker publishes are marked unconfirmed in the app, so you know what to measure. Print the calibration coupon before a whole chassis."
     }
   },
   "showcase": [
@@ -2272,6 +2530,11 @@
       "app": "Anvil",
       "title": "Hammered into shape.",
       "text": "Turn any 3D car model into a light, printable body: scale it, hollow it, fit your chassis and cut the windows."
+    },
+    {
+      "app": "Frame",
+      "title": "Built from the ground up.",
+      "text": "Design a printable chassis and motor pod around your wheels, guide, motor and gears, and check it before you print."
     },
     {
       "app": "Decals",
@@ -2481,6 +2744,31 @@
         ]
       ],
       "note": "The other builder opens the .anvil file in their own Anvil and can change or switch off any step."
+    },
+    "Frame": {
+      "title": "Share the chassis, not just the photos.",
+      "text": "Share an editable design, your parts library or a chassis for Anvil.",
+      "formats": [
+        ".frame designs",
+        ".framelib libraries",
+        ".anvilchassis for Anvil",
+        "STL parts"
+      ],
+      "steps": [
+        [
+          "Save your design",
+          "Save writes a .frame file with the whole design, imported parts included."
+        ],
+        [
+          "Share your parts",
+          "Export a part or the whole library as a .framelib file for other Frame users."
+        ],
+        [
+          "Send it to Anvil",
+          "Export for Anvil writes an .anvilchassis file, so the body is built round your chassis."
+        ]
+      ],
+      "note": "Only share imported parts you are allowed to: bought chassis and pods belong to their makers."
     }
   }
 }
