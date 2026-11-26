@@ -157,3 +157,5 @@ html[data-theme=dark] #site .race-system-card{--system:var(--system-dark)}
  #site .feature-footnote{margin-left:0}
  #site .feature-search{width:100%}
 }
+
+#site .sharing-library{margin:16px 0 18px;font-size:13px;color:var(--sf-muted)}#site .sharing-library a{color:var(--sf-accent);font-weight:600;text-decoration:none}#site .sharing-library a:hover{text-decoration:underline}

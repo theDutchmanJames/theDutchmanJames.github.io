@@ -88,6 +88,8 @@
     root.querySelectorAll('[data-type]').forEach(x => x.setAttribute('aria-pressed', String(x === b)));
     show();
   }));
+  const askedApp = new URLSearchParams(location.search).get('app');
+  if (askedApp && [...$('#lib-app').options].some(o => o.value === askedApp)) { state.app = askedApp; $('#lib-app').value = askedApp; }
   $('#lib-app').addEventListener('change', e => { state.app = e.target.value; show(); });
   $('#lib-scale').addEventListener('change', e => { state.scale = e.target.value; show(); });
   $('#lib-tested').addEventListener('change', e => { state.tested = e.target.checked; show(); });
