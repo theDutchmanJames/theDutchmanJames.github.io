@@ -161,6 +161,8 @@ await write('circuit/online/index.html',onlinePage());await write('about/index.h
 await write('404.html',shell({title:'Page not found — SlotForge',description:'This page could not be found.',prefix:'./',content:'<section class="text-page"><h1>That page is off track.</h1><p>The address may have changed.</p><a class="sf-action sf-primary" href="./">Back to SlotForge →</a></section>'}));
 await write('.nojekyll','');
 const pages=['',...Object.keys(apps).map(n=>slug(n)+'/'),'circuit/online/','library/','about/'];
+// releases.txt lets the scheduled workflow see whether the live site already has the newest releases.
+await write('releases.txt',Object.entries(releases.apps).map(([n,r])=>`${n} ${r.tag} ${r.assets.map(x=>x.name).sort().join(' ')}`).join('\n')+'\n');
 await write('sitemap.xml',`<?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 ${pages.map(p=>` <url><loc>${pageUrl(p)}</loc></url>`).join('\n')}

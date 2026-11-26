@@ -1,5 +1,8 @@
 # Builds the site with Node and publishes dist/ to GitHub Pages.
-# Runs on every push to main, and by hand from the Actions tab.
+# Runs on every push to main, by hand from the Actions tab, and every 30 minutes.
+# Each run first fetches the newest release of every app, so Latest releases and the
+# download buttons follow GitHub without a commit. A scheduled run only publishes when
+# a release or its files changed since the live site was built.
 # One-time setup on GitHub: Settings → Pages → Source: "GitHub Actions".
 name: Publish website
 
@@ -7,6 +10,8 @@ on:
   push:
     branches: [main]
   workflow_dispatch:
+  schedule:
+    - cron: '*/30 * * * *'
 
 permissions:
   contents: read
@@ -21,22 +26,43 @@ concurrency:
 jobs:
   build:
     runs-on: ubuntu-latest
+    outputs:
+      publish: ${{ steps.compare.outputs.publish }}
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-node@v4
         with:
           node-version: 22
+      - name: Fetch the newest app releases
+        # If GitHub's API is unavailable, the committed content/releases.json is used.
+        continue-on-error: true
+        run: npm run refresh:releases
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
       - name: Build
         run: npm run build
+      - name: Compare with the live site
+        id: compare
+        run: |
+          if [ "${{ github.event_name }}" != "schedule" ]; then echo "publish=true" >> "$GITHUB_OUTPUT"; exit 0; fi
+          if curl -sf "https://thedutchmanjames.github.io/releases.txt?run=${{ github.run_id }}" -o live.txt && cmp -s live.txt dist/releases.txt; then
+            echo "No new releases."; echo "publish=false" >> "$GITHUB_OUTPUT"
+          else
+            echo "New releases found."; echo "publish=true" >> "$GITHUB_OUTPUT"
+          fi
       - name: Check links, downloads and assets
+        if: steps.compare.outputs.publish == 'true'
         run: npm run check
       - uses: actions/configure-pages@v5
+        if: steps.compare.outputs.publish == 'true'
       - uses: actions/upload-pages-artifact@v3
+        if: steps.compare.outputs.publish == 'true'
         with:
           path: dist
 
   deploy:
     needs: build
+    if: needs.build.outputs.publish == 'true'
     runs-on: ubuntu-latest
     environment:
       name: github-pages
