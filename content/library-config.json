@@ -1,5 +1,5 @@
 {
   "purpose": "Community library submit form. Fill in once the Cloudflare Worker is set up (see the SlotForgeLibrary README). While submitUrl is empty, 'Share yours' opens the GitHub form instead.",
-  "submitUrl": "",
-  "turnstileSiteKey": ""
+  "submitUrl": "https://slotforge-library.slotforge.workers.dev",
+  "turnstileSiteKey": "0x4AAAAAAGUXSlui7dC23K0A"
 }
