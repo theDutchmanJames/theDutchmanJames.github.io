@@ -193,7 +193,7 @@
 @media(max-width:1000px){#site .bh-start{grid-template-columns:1fr}#site .bh-mark{border-right:0;border-bottom:1px solid #343b47;padding:16px}#site .bh-mark svg{width:52px;height:54px}}
 html:has(#site){scroll-padding-top:84px}
 /* seven or more apps: the desktop menu drops its tab icons so ON AIR and the theme switch keep their room */
-@media(min-width:1101px){#site .sf-header>nav .pw-tab img{display:none}#site .sf-header>nav .pw-tab{padding:0 8px}}
+@media(min-width:1101px){#site .sf-header>nav .pw-tab img{display:none}#site .sf-header>nav .pw-tab{padding:0 7px}}
 @media(min-width:1101px) and (max-width:1259px){#site .sf-header{padding:10px 18px;gap:10px}#site .sf-brand img{width:128px}#site .sf-header>nav .pw-tab{padding:0 8px}#site .pw-onair{padding:0 12px;font-size:14.5px}}
 /* nine apps: narrower tabs just above the phone menu */
 @media(min-width:1101px) and (max-width:1199px){#site .sf-header>nav .pw-tab{padding:0 6px}}
@@ -203,3 +203,6 @@ html:has(#site){scroll-padding-top:84px}
 /* About as an info icon on the desktop menu; the phone menu keeps the word */
 #site .pw-about-icon{display:none}
 @media(min-width:1101px){#site .sf-header>nav .pw-about{padding:0 8px;width:34px;justify-content:center}#site .sf-header>nav .pw-about-icon{display:block}#site .sf-header>nav .pw-about-text{position:absolute;width:1px;height:1px;overflow:hidden;clip-path:inset(50%);white-space:nowrap}}
+/* Library and About as two icons; tighter menu so nine tabs, two icons and ON AIR fit */
+@media(min-width:1101px){#site .sf-header>nav{gap:4px}#site .sf-header>nav .pw-light{display:none}#site .sf-header>nav .pw-about{width:30px;padding:0 5px}}
+@media(min-width:1101px) and (max-width:1159px){#site .sf-header>nav .pw-tab{padding:0 5px}}

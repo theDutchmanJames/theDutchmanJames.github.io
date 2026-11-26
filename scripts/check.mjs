@@ -4,7 +4,7 @@ import assert from 'node:assert/strict';
 const root=path.resolve(import.meta.dirname,'..'),dist=path.join(root,'dist');
 const data=JSON.parse(await fs.readFile(path.join(root,'content/apps.json'),'utf8'));
 const releases=JSON.parse(await fs.readFile(path.join(root,'content/releases.json'),'utf8'));
-const pages=['index.html','about/index.html','circuit/online/index.html',...Object.keys(data.apps).map(n=>n.toLowerCase()+'/index.html')];
+const pages=['index.html','about/index.html','library/index.html','circuit/online/index.html',...Object.keys(data.apps).map(n=>n.toLowerCase()+'/index.html')];
 let checks=0;
 for(const file of pages){
  const text=await fs.readFile(path.join(dist,file),'utf8');

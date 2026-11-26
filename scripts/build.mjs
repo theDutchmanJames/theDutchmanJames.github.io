@@ -3,6 +3,7 @@ import path from 'node:path';
 import {featureIcon} from './icons.mjs';
 import {featureExplorer} from './feature-explorer.mjs';
 import {homepageV2,pitWall} from './restyle-pages.mjs';
+import {libraryPage} from './library-page.mjs';
 const root=path.resolve(import.meta.dirname,'..');
 const data=JSON.parse(await fs.readFile(path.join(root,'content/apps.json'),'utf8'));
 const featurePresentation=JSON.parse(await fs.readFile(path.join(root,'content/feature-presentation.json'),'utf8'));
@@ -47,7 +48,7 @@ function shell({name='home',prefix='./',page='',title,description,content,image}
  const menu=`<button type="button" class="sf-menu-toggle" aria-expanded="false" aria-controls="site-menu"><span class="sf-menu-icon" aria-hidden="true"></span><span class="sf-menu-label">Menu</span></button>`;
  return `<!doctype html>
 <html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="color-scheme" content="light dark"><title>${esc(title)}</title><meta name="description" content="${esc(description)}"><meta property="og:title" content="${esc(title)}"><meta property="og:description" content="${esc(description)}"><meta property="og:type" content="website">${social}${favicon}<script src="${prefix}assets/theme.js?v=${assetVersion}"></script><link rel="stylesheet" href="${prefix}assets/site.css?v=${assetVersion}"><script defer src="${prefix}assets/site.js?v=${assetVersion}"></script></head>
-<body id="site" data-app="${esc(name)}"><a class="skip-link" href="#main">Skip to content</a><div class="sf-site"><header class="sf-header"><a class="sf-brand" href="${prefix}" aria-label="SlotForge home">${logo}</a>${menu}<nav id="site-menu" aria-label="Website">${restyle?pitWall({prefix,name,slug,icon}):`${appNavigation}<a class="sf-nav sf-nav-about" href="${prefix}about/"${name==='about'?' aria-current="page"':''}>About</a><a class="sf-action sf-primary sf-try-circuit" href="${prefix}circuit/online/app/index.html">Try Circuit Online!</a>`}</nav>${themeButtons}</header><main id="main">${content}</main><footer><div class="sf-footer-brand"><a class="sf-footer-logo" href="${prefix}" aria-label="SlotForge home">${logo}</a><span>Free apps for slotcar racers and builders.</span></div><nav class="sf-footer-links" aria-label="Apps">${Object.keys(apps).map(n=>`<a href="${prefix}${slug(n)}/">${n}</a>`).join('')}</nav><div>${external('https://github.com/theDutchmanJames','GitHub ↗')}<a href="${prefix}about/">About &amp; credits</a><span>© ${year} theDutchmanJames</span></div></footer></div></body></html>`;
+<body id="site" data-app="${esc(name)}"><a class="skip-link" href="#main">Skip to content</a><div class="sf-site"><header class="sf-header"><a class="sf-brand" href="${prefix}" aria-label="SlotForge home">${logo}</a>${menu}<nav id="site-menu" aria-label="Website">${restyle?pitWall({prefix,name,slug,icon}):`${appNavigation}<a class="sf-nav" href="${prefix}library/"${name==='library'?' aria-current="page"':''}>Library</a><a class="sf-nav sf-nav-about" href="${prefix}about/"${name==='about'?' aria-current="page"':''}>About</a><a class="sf-action sf-primary sf-try-circuit" href="${prefix}circuit/online/app/index.html">Try Circuit Online!</a>`}</nav>${themeButtons}</header><main id="main">${content}</main><footer><div class="sf-footer-brand"><a class="sf-footer-logo" href="${prefix}" aria-label="SlotForge home">${logo}</a><span>Free apps for slotcar racers and builders.</span></div><nav class="sf-footer-links" aria-label="Apps">${Object.keys(apps).map(n=>`<a href="${prefix}${slug(n)}/">${n}</a>`).join('')}</nav><div>${external('https://github.com/theDutchmanJames','GitHub ↗')}<a href="${prefix}library/">Community library</a><a href="${prefix}about/">About &amp; credits</a><span>© ${year} theDutchmanJames</span></div></footer></div></body></html>`;
 }
 function homepage(){
  const slides=data.showcase.map(({app,title,text},i)=>`<article class="spotlight-slide" data-slide="${i}" aria-label="${i+1} of 6: ${app}" aria-roledescription="slide"${i?' hidden':''}><div class="sf-picture">${themedImage(app,galleries[app][0],'./',{eager:i===0})}</div><div class="spotlight-copy"><div class="sf-kicker">SLOTFORGE ${app.toUpperCase()}</div><h2>${esc(title)}</h2><p>${esc(text)}</p><a class="sf-inline" href="${slug(app)}/">Explore ${app} →</a></div></article>`).join('');
@@ -147,17 +148,18 @@ css+='\n'+await fs.readFile(path.join(root,'src/site.css'),'utf8');
 css+='\n'+await fs.readFile(path.join(root,'src/enhancements.css'),'utf8');
 css+='\n'+await fs.readFile(path.join(root,'src/upgrades.css'),'utf8');
 css+='\n'+await fs.readFile(path.join(root,'src/app-pages.css'),'utf8');
-if(restyle){for(const f of ['restyle.css','restyle-v2.css','restyle-apps.css'])css+='\n'+await fs.readFile(path.join(root,'src',f),'utf8');await fs.cp(path.join(root,'src/restyle-fonts'),path.join(out,'assets/fonts'),{recursive:true});await fs.cp(path.join(root,'src/restyle-assets'),path.join(out,'assets/restyle'),{recursive:true});}
+if(restyle){for(const f of ['restyle.css','restyle-v2.css','restyle-apps.css','library.css'])css+='\n'+await fs.readFile(path.join(root,'src',f),'utf8');await fs.cp(path.join(root,'src/restyle-fonts'),path.join(out,'assets/fonts'),{recursive:true});await fs.cp(path.join(root,'src/restyle-assets'),path.join(out,'assets/restyle'),{recursive:true});}
 await write('assets/site.css',css);
 await fs.copyFile(path.join(root,'src/site.js'),path.join(out,'assets/site.js'));
 await fs.copyFile(path.join(root,'src/theme.js'),path.join(out,'assets/theme.js'));
-{const {createHash}=await import('node:crypto');const h=createHash('sha256').update(css);for(const js of ['site.js','theme.js'])h.update(await fs.readFile(path.join(root,'src',js)));assetVersion=h.digest('hex').slice(0,10);}
+await fs.copyFile(path.join(root,'src/library.js'),path.join(out,'assets/library.js'));
+{const {createHash}=await import('node:crypto');const h=createHash('sha256').update(css);for(const js of ['site.js','theme.js','library.js'])h.update(await fs.readFile(path.join(root,'src',js)));assetVersion=h.digest('hex').slice(0,10);}
 await write('index.html',homepage());
 for(const name of Object.keys(apps))await write(`${slug(name)}/index.html`,appPage(name));
-await write('circuit/online/index.html',onlinePage());await write('about/index.html',aboutPage());
+await write('circuit/online/index.html',onlinePage());await write('about/index.html',aboutPage());await write('library/index.html',libraryPage({root,shell,esc,external,assetVersion}));
 await write('404.html',shell({title:'Page not found — SlotForge',description:'This page could not be found.',prefix:'./',content:'<section class="text-page"><h1>That page is off track.</h1><p>The address may have changed.</p><a class="sf-action sf-primary" href="./">Back to SlotForge →</a></section>'}));
 await write('.nojekyll','');
-const pages=['',...Object.keys(apps).map(n=>slug(n)+'/'),'circuit/online/','about/'];
+const pages=['',...Object.keys(apps).map(n=>slug(n)+'/'),'circuit/online/','library/','about/'];
 await write('sitemap.xml',`<?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 ${pages.map(p=>` <url><loc>${pageUrl(p)}</loc></url>`).join('\n')}
@@ -167,4 +169,4 @@ await write('robots.txt',`User-agent: *
 Allow: /
 Sitemap: ${pageUrl('sitemap.xml')}
 `);
-console.log('Built homepage, nine app pages, Circuit browser entry, about and 404 pages in dist/.');
+console.log('Built homepage, nine app pages, Circuit browser entry, library, about and 404 pages in dist/.');
