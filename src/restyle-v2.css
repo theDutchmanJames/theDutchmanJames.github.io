@@ -206,3 +206,14 @@ html:has(#site){scroll-padding-top:84px}
 /* Library and About as two icons; tighter menu so nine tabs, two icons and ON AIR fit */
 @media(min-width:1101px){#site .sf-header>nav{gap:4px}#site .sf-header>nav .pw-light{display:none}#site .sf-header>nav .pw-about{width:30px;padding:0 5px}}
 @media(min-width:1101px) and (max-width:1159px){#site .sf-header>nav .pw-tab{padding:0 5px}}
+
+/* Library as a word tab; About as an icon after the Light/Dark switch (desktop), the word About in the phone menu. */
+#site .pw-about-out{display:none}
+#site .sf-header>nav .pw-tab-icon{flex:none;opacity:.8}
+@media(min-width:1101px){
+#site .sf-header>nav .pw-tab-icon{display:none}
+#site .sf-header>nav .pw-about{display:none}
+#site .pw-about-out{display:flex;align-items:center;justify-content:center;flex:none;width:34px;height:34px;border-radius:8px;color:color-mix(in srgb,var(--sf-ink) 78%,var(--sf-muted))}
+#site .pw-about-out:hover{background:color-mix(in srgb,var(--sf-ink) 8%,transparent);color:var(--sf-ink)}
+#site .pw-about-out[aria-current=page]{background:color-mix(in srgb,var(--sf-ink) 12%,var(--sf-panel));color:var(--sf-ink);box-shadow:inset 0 -2px var(--sf-accent)}
+}
