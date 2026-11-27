@@ -4,15 +4,15 @@
   "sources": [
     {
       "app": "Circuit",
-      "ref": "v0.3.26",
-      "url": "https://github.com/theDutchmanJames/SlotForgeCircuit/blob/v0.3.26/README.md",
-      "sha": "96dd1e2ac7c23b8fd7f483166ed69696494a9a23"
+      "ref": "v0.6.0",
+      "url": "https://github.com/theDutchmanJames/SlotForgeCircuit/blob/v0.6.0/README.md",
+      "sha": "c6b4a1b0a879d58f8ec78e56a282550704a2b6e3"
     },
     {
       "app": "Timing",
-      "ref": "v2.2.4",
-      "url": "https://github.com/theDutchmanJames/SlotForgeTiming/blob/v2.2.4/README.md",
-      "sha": "dd3d59250ec7cfbb7af631e7aaadd7bd8b0871d2"
+      "ref": "v2.5.2",
+      "url": "https://github.com/theDutchmanJames/SlotForgeTiming/blob/v2.5.2/README.md",
+      "sha": "49116031e7029824b12950583ce63bfa0435e344"
     },
     {
       "app": "Paddock",
@@ -40,21 +40,21 @@
     },
     {
       "app": "Foundry",
-      "ref": "v1.0.0",
-      "url": "https://github.com/theDutchmanJames/SlotForgeFoundry/blob/v1.0.0/README.md",
-      "sha": "2adce01152e3452debd39bd476af2039e7851be7"
+      "ref": "v1.7.1",
+      "url": "https://github.com/theDutchmanJames/SlotForgeFoundry/blob/v1.7.1/README.md",
+      "sha": "abc5d1010e1644b37c134b7209e5859f7ed93ce4"
     },
     {
       "app": "Anvil",
-      "ref": "v1.0.1",
-      "url": "https://github.com/theDutchmanJames/SlotForgeAnvil/blob/v1.0.1/README.md",
-      "sha": "01c2fb3f6d7d96f216297243e7255374123d30c4"
+      "ref": "v1.1.6",
+      "url": "https://github.com/theDutchmanJames/SlotForgeAnvil/blob/v1.1.6/README.md",
+      "sha": "96e7b009dfddbc4073a9b53075bfba9fcb6cc92f"
     },
     {
       "app": "Frame",
-      "ref": "v0.1.0",
-      "url": "https://github.com/theDutchmanJames/SlotForgeFrame/blob/566b5b5dcab6dab877657e13cbbb935ef6d645a6/README.md",
-      "sha": "566b5b5dcab6dab877657e13cbbb935ef6d645a6"
+      "ref": "v0.7.1",
+      "url": "https://github.com/theDutchmanJames/SlotForgeFrame/blob/v0.7.1/README.md",
+      "sha": "5f05b0852e08caa10d678a8433951328334ee332"
     }
   ],
   "featureReviewAt": "2026-11-16"

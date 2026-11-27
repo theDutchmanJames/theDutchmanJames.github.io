@@ -1,6 +1,6 @@
 [
   {
-    "source": "https://raw.githubusercontent.com/theDutchmanJames/SlotForgeTiming/4e0ba93ea1f2b8660b4ddd7776aad4a899b9a091/build/icon.png",
+    "source": "https://raw.githubusercontent.com/theDutchmanJames/SlotForgeTiming/49116031e7029824b12950583ce63bfa0435e344/build/icon.png",
     "destination": "assets/apps/timing/icon.png"
   },
   {
@@ -114,126 +114,6 @@
     "destination": "assets/apps/circuit/wordmark-dark.svg",
     "provided": true,
     "sha256": "81f956102fe3a129751ea62eab3bf4cda858e444a4e0c30d1ee2c4024e691d82"
-  },
-  {
-    "source": "Captured from SlotForge Timing 2.4.0 (local build, .cache/shot-scripts/timing)",
-    "destination": "assets/apps/timing/2026-11-23/audio-calls-dark.png",
-    "sha256": "5f56b5c5b687bb0545f7dad206aa5707cab087e99072b3abfd3d441f4d4686a3",
-    "provided": true
-  },
-  {
-    "source": "Captured from SlotForge Timing 2.4.0 (local build, .cache/shot-scripts/timing)",
-    "destination": "assets/apps/timing/2026-11-23/audio-calls-light.png",
-    "sha256": "a62a72c9182a07bb36863411006daf544bfe3c72105f0e8cd9fa233f7275697e",
-    "provided": true
-  },
-  {
-    "source": "Captured from SlotForge Timing 2.4.0 (local build, .cache/shot-scripts/timing)",
-    "destination": "assets/apps/timing/2026-11-23/fuel-dark.png",
-    "sha256": "bb1b5fe0c0129195a2ef002c675208f9d4f5d4de939e779900246519fb92bd0b",
-    "provided": true
-  },
-  {
-    "source": "Captured from SlotForge Timing 2.4.0 (local build, .cache/shot-scripts/timing)",
-    "destination": "assets/apps/timing/2026-11-23/fuel-light.png",
-    "sha256": "bc83826ea50987503e93b4cb809c2b55bc74c2b4cbc9cdc46a44d5e6740777f2",
-    "provided": true
-  },
-  {
-    "source": "Captured from SlotForge Timing 2.4.0 (local build, .cache/shot-scripts/timing)",
-    "destination": "assets/apps/timing/2026-11-23/help-dark.png",
-    "sha256": "a6015e3236626ed1ff4da054807b4dca53c79b7b66e9e4daf0bc043673b11235",
-    "provided": true
-  },
-  {
-    "source": "Captured from SlotForge Timing 2.4.0 (local build, .cache/shot-scripts/timing)",
-    "destination": "assets/apps/timing/2026-11-23/help-light.png",
-    "sha256": "743ef26e99a30f08c2b6d4b84e733d7d75e63691cde7bb609d8808cb71b74541",
-    "provided": true
-  },
-  {
-    "source": "Captured from SlotForge Timing 2.4.0 (local build, .cache/shot-scripts/timing)",
-    "destination": "assets/apps/timing/2026-11-23/live-race-dark.png",
-    "sha256": "68eba19da0dcbe0e65dc208119d240305dda2465c065d572e75ed017c188db96",
-    "provided": true
-  },
-  {
-    "source": "Captured from SlotForge Timing 2.4.0 (local build, .cache/shot-scripts/timing)",
-    "destination": "assets/apps/timing/2026-11-23/live-race-light.png",
-    "sha256": "d93ddb610e8bd375256144d85ef55b32f212137e8dc8e46bee31cd8c52fe8246",
-    "provided": true
-  },
-  {
-    "source": "Captured from SlotForge Timing 2.4.0 (local build, .cache/shot-scripts/timing)",
-    "destination": "assets/apps/timing/2026-11-23/race-director-dark.png",
-    "sha256": "dfe69ff45f20bdbeb3a19aa9f958a1b46fa6f4b414be8c81c2511972548be2eb",
-    "provided": true
-  },
-  {
-    "source": "Captured from SlotForge Timing 2.4.0 (local build, .cache/shot-scripts/timing)",
-    "destination": "assets/apps/timing/2026-11-23/race-director-light.png",
-    "sha256": "3102a7a85417f0ed7a2a1e795be075168903b7b64ed9d29f0a0d366d0423c09f",
-    "provided": true
-  },
-  {
-    "source": "Supplied by the site owner (Timing 2.4.0 Home screenshot, 2026-11-23), title bar and scrollbar cropped",
-    "destination": "assets/apps/timing/2026-11-23/race-setup-dark.png",
-    "sha256": "96cd9b78b2abd2137dda413693c271250ca0166384d207b118d93a8f9cd5ffc2",
-    "provided": true
-  },
-  {
-    "source": "Supplied by the site owner (Timing 2.4.0 Home screenshot, 2026-11-23), title bar and scrollbar cropped",
-    "destination": "assets/apps/timing/2026-11-23/race-setup-light.png",
-    "sha256": "1d8b809487498fe70777f1812d2dc42ba53f0e205929ca0a8350e48f93297704",
-    "provided": true
-  },
-  {
-    "source": "Captured from SlotForge Timing 2.4.0 (local build, .cache/shot-scripts/timing)",
-    "destination": "assets/apps/timing/2026-11-23/results-dark.png",
-    "sha256": "26e62ddc1f5bebfdf9bac2f55b8b859ce78de170bf5c9f0ff2df5e7f74a6df58",
-    "provided": true
-  },
-  {
-    "source": "Captured from SlotForge Timing 2.4.0 (local build, .cache/shot-scripts/timing)",
-    "destination": "assets/apps/timing/2026-11-23/results-light.png",
-    "sha256": "ccdcb6a54d590be442dbbe2191a1008a064634fd3b69afd929f2f4c3e855bd36",
-    "provided": true
-  },
-  {
-    "source": "Captured from SlotForge Timing 2.4.0 (local build, .cache/shot-scripts/timing)",
-    "destination": "assets/apps/timing/2026-11-23/tyre-wear-dark.png",
-    "sha256": "049666d8cd43f508765c7a8d492809490c858b4b8721199a7ad02b08e783b518",
-    "provided": true
-  },
-  {
-    "source": "Captured from SlotForge Timing 2.4.0 (local build, .cache/shot-scripts/timing)",
-    "destination": "assets/apps/timing/2026-11-23/tyre-wear-light.png",
-    "sha256": "b7f8ccb203a00991565e3f5e270fbaa0ecdc0330b910e4dd63f5af85f2f234f7",
-    "provided": true
-  },
-  {
-    "source": "Captured from SlotForge Timing 2.4.0 (local build, .cache/shot-scripts/timing)",
-    "destination": "assets/apps/timing/2026-11-23/weather-dark.png",
-    "sha256": "d24df054b4c37a7acfe35d6eedc08429e23d54a9e0e1d206aa6c47ccb4306721",
-    "provided": true
-  },
-  {
-    "source": "Captured from SlotForge Timing 2.4.0 (local build, .cache/shot-scripts/timing)",
-    "destination": "assets/apps/timing/2026-11-23/weather-light.png",
-    "sha256": "637292a6b8fccaa6689a38f3986d1abe45bbc4f8bb35fa884b6a10a00c16a1e0",
-    "provided": true
-  },
-  {
-    "source": "Captured from SlotForge Timing 2.4.0 (local build, .cache/shot-scripts/timing)",
-    "destination": "assets/apps/timing/2026-11-23/widget-builder-dark.png",
-    "sha256": "a46a1ef33f60345a1b3ff8a425aa2e81dd378e9f6f9fa5d9b4fdfa628d6633dd",
-    "provided": true
-  },
-  {
-    "source": "Captured from SlotForge Timing 2.4.0 (local build, .cache/shot-scripts/timing)",
-    "destination": "assets/apps/timing/2026-11-23/widget-builder-light.png",
-    "sha256": "397864717d2b93d8564edcf6d57c34d4ee1645039266d86f59881fd17f695e4c",
-    "provided": true
   },
   {
     "source": "Captured from SlotForge Paddock 1.8.1 (local build, .cache/shot-scripts/paddock)",
@@ -417,18 +297,6 @@
   },
   {
     "source": "Captured from SlotForge Circuit 0.5.0 (local build, .cache/shot-scripts/circuit)",
-    "destination": "assets/apps/circuit/2026-11-23/stock-list-dark.png",
-    "sha256": "790a24f494ef8c8d036a5694976d69f631e192d78a89e59cbb32d7689f03296f",
-    "provided": true
-  },
-  {
-    "source": "Captured from SlotForge Circuit 0.5.0 (local build, .cache/shot-scripts/circuit)",
-    "destination": "assets/apps/circuit/2026-11-23/stock-list-light.png",
-    "sha256": "50afea72ee7e26ad65ab0b2b795874678bfa5d3be1659d2e992cf3dffb13c4e0",
-    "provided": true
-  },
-  {
-    "source": "Captured from SlotForge Circuit 0.5.0 (local build, .cache/shot-scripts/circuit)",
     "destination": "assets/apps/circuit/2026-11-23/table-designer-dark.png",
     "sha256": "5b0630e3f10c97f57b8c4775ebf33b75ec9ccaf1611bae5ab785ef04ae7b84f7",
     "provided": true
@@ -437,30 +305,6 @@
     "source": "Captured from SlotForge Circuit 0.5.0 (local build, .cache/shot-scripts/circuit)",
     "destination": "assets/apps/circuit/2026-11-23/table-designer-light.png",
     "sha256": "087d462d5e235228e05c9ee4ea5c25a9056db44ec9283beaa895d6f1ebdfc5ea",
-    "provided": true
-  },
-  {
-    "source": "Captured from SlotForge Circuit 0.5.0 (local build, .cache/shot-scripts/circuit)",
-    "destination": "assets/apps/circuit/2026-11-23/track-builder-dark.png",
-    "sha256": "46b89f66b29a91011d69a9e3e9e9b0206bf95b9069391268958ca6188e038229",
-    "provided": true
-  },
-  {
-    "source": "Captured from SlotForge Circuit 0.5.0 (local build, .cache/shot-scripts/circuit)",
-    "destination": "assets/apps/circuit/2026-11-23/track-builder-light.png",
-    "sha256": "1ff3633aab4819c82efbb410fe81cecc37c720f83ea4af457f2223260eeabfca",
-    "provided": true
-  },
-  {
-    "source": "Captured from SlotForge Circuit 0.5.0 (local build, .cache/shot-scripts/circuit)",
-    "destination": "assets/apps/circuit/2026-11-23/track-packs-dark.png",
-    "sha256": "930b37230eee1cb7309174cfa740b908861105a6850b2842c4e44dd390ea3ffb",
-    "provided": true
-  },
-  {
-    "source": "Captured from SlotForge Circuit 0.5.0 (local build, .cache/shot-scripts/circuit)",
-    "destination": "assets/apps/circuit/2026-11-23/track-packs-light.png",
-    "sha256": "5a5797591d87963fd5947884c42027062bc6c5cbbe12a61ed081271cea75cbdf",
     "provided": true
   },
   {
@@ -764,90 +608,6 @@
     "provided": true
   },
   {
-    "source": "Captured from SlotForge Anvil 1.0.1 (local build, .cache/shot-scripts/anvil), model supplied by the site owner",
-    "destination": "assets/apps/anvil/2026-11-23/chassis-dark.png",
-    "sha256": "0a98bd4706282b606431b7e207b22766625a18516fbff994ca7b68f9e5c08c35",
-    "provided": true
-  },
-  {
-    "source": "Captured from SlotForge Anvil 1.0.1 (local build, .cache/shot-scripts/anvil), model supplied by the site owner",
-    "destination": "assets/apps/anvil/2026-11-23/chassis-light.png",
-    "sha256": "5595df9a7e47d5b7c89436f800972a9f269418941ad70e5d1de3d70304057c95",
-    "provided": true
-  },
-  {
-    "source": "Captured from SlotForge Anvil 1.0.1 (local build, .cache/shot-scripts/anvil), model supplied by the site owner",
-    "destination": "assets/apps/anvil/2026-11-23/final-check-dark.png",
-    "sha256": "2264bf3c1042488a7f95f36250ec17f57621ad32dd76702325d3e0615221fe51",
-    "provided": true
-  },
-  {
-    "source": "Captured from SlotForge Anvil 1.0.1 (local build, .cache/shot-scripts/anvil), model supplied by the site owner",
-    "destination": "assets/apps/anvil/2026-11-23/final-check-light.png",
-    "sha256": "877c36cf2d1ef2bee2cdcbe4e9e8bb33bf6f8a37e285e78d908319a471d163a8",
-    "provided": true
-  },
-  {
-    "source": "Captured from SlotForge Anvil 1.0.1 (local build, .cache/shot-scripts/anvil), model supplied by the site owner",
-    "destination": "assets/apps/anvil/2026-11-23/hollow-dark.png",
-    "sha256": "7ab44b7cca14de945a7ed9f6bd35757245920c82468b8a637ae0ddf4316d711d",
-    "provided": true
-  },
-  {
-    "source": "Captured from SlotForge Anvil 1.0.1 (local build, .cache/shot-scripts/anvil), model supplied by the site owner",
-    "destination": "assets/apps/anvil/2026-11-23/hollow-light.png",
-    "sha256": "cac6df17e2bf3215c70efee265b3307b72acfdd55c12936fe2ca7eb7142080e3",
-    "provided": true
-  },
-  {
-    "source": "Captured from SlotForge Anvil 1.0.1 (local build, .cache/shot-scripts/anvil), model supplied by the site owner",
-    "destination": "assets/apps/anvil/2026-11-23/posts-dark.png",
-    "sha256": "1fd842ceba8737d93df4cd6d85117f2bff298d6d6fab54d87dba8af49b15eb1e",
-    "provided": true
-  },
-  {
-    "source": "Captured from SlotForge Anvil 1.0.1 (local build, .cache/shot-scripts/anvil), model supplied by the site owner",
-    "destination": "assets/apps/anvil/2026-11-23/posts-light.png",
-    "sha256": "1e64da576c37bcbbbaacb15202c96ab608c6d83e275002ce235aa01739a026e1",
-    "provided": true
-  },
-  {
-    "source": "Captured from SlotForge Anvil 1.0.1 (local build, .cache/shot-scripts/anvil), model supplied by the site owner",
-    "destination": "assets/apps/anvil/2026-11-23/repair-check-dark.png",
-    "sha256": "cbe407949d4166a74b19ff7820a4de9f821af5a8e039ccfa400a0ccc5873ada4",
-    "provided": true
-  },
-  {
-    "source": "Captured from SlotForge Anvil 1.0.1 (local build, .cache/shot-scripts/anvil), model supplied by the site owner",
-    "destination": "assets/apps/anvil/2026-11-23/repair-check-light.png",
-    "sha256": "2ca81e4993cb4702d9f93f0ea60282d8250d94bd0751cc2a5614ed280f2836c8",
-    "provided": true
-  },
-  {
-    "source": "Captured from SlotForge Anvil 1.0.1 (local build, .cache/shot-scripts/anvil), model supplied by the site owner",
-    "destination": "assets/apps/anvil/2026-11-23/scale-dark.png",
-    "sha256": "30b503cf636f4ce0a8249452068c922e737496eff0687b2bd13a4616adb8fd21",
-    "provided": true
-  },
-  {
-    "source": "Captured from SlotForge Anvil 1.0.1 (local build, .cache/shot-scripts/anvil), model supplied by the site owner",
-    "destination": "assets/apps/anvil/2026-11-23/scale-light.png",
-    "sha256": "f9eb2ffe6c3ba4f5ab5228942b0405172684870b65df4f291927dc5a3ad2f0f8",
-    "provided": true
-  },
-  {
-    "source": "Captured from SlotForge Anvil 1.0.1 (local build, .cache/shot-scripts/anvil), model supplied by the site owner",
-    "destination": "assets/apps/anvil/2026-11-23/windows-dark.png",
-    "sha256": "ce3363ea42b318ec6cc38248dd8780f395893be6c2b051c1c63f3770819cda0d",
-    "provided": true
-  },
-  {
-    "source": "Captured from SlotForge Anvil 1.0.1 (local build, .cache/shot-scripts/anvil), model supplied by the site owner",
-    "destination": "assets/apps/anvil/2026-11-23/windows-light.png",
-    "sha256": "3907b043872452a50000901355a3571a26910e9bc0189e75934d5a6cdbc21a35",
-    "provided": true
-  },
-  {
     "source": "SlotForge Anvil v1.0.1 src/assets/anvil-light.svg",
     "destination": "assets/apps/anvil/wordmark-light.svg",
     "provided": true
@@ -855,114 +615,6 @@
   {
     "source": "SlotForge Anvil v1.0.1 src/assets/anvil-dark.svg",
     "destination": "assets/apps/anvil/wordmark-dark.svg",
-    "provided": true
-  },
-  {
-    "source": "Captured from SlotForge Foundry 1.3.0 (local build, .cache/shot-scripts/foundry)",
-    "destination": "assets/apps/foundry/2026-11-23/flowing-curve-dark.png",
-    "sha256": "fe0db52c4ef0b6a561616689c1357f755d84843c465aa11cf4406f47576f0a9a",
-    "provided": true
-  },
-  {
-    "source": "Captured from SlotForge Foundry 1.3.0 (local build, .cache/shot-scripts/foundry)",
-    "destination": "assets/apps/foundry/2026-11-23/flowing-curve-light.png",
-    "sha256": "058602a9e4bbdddd0625fe640e8ebdbc301398ac37007b18aea8ec74ee83948d",
-    "provided": true
-  },
-  {
-    "source": "Captured from SlotForge Foundry 1.3.0 (local build, .cache/shot-scripts/foundry)",
-    "destination": "assets/apps/foundry/2026-11-23/home-dark.png",
-    "sha256": "254d197abecde95c28ce9f9ac6ea88745fcdf1b1a931449ed7dd0b8230fc80ef",
-    "provided": true
-  },
-  {
-    "source": "Captured from SlotForge Foundry 1.3.0 (local build, .cache/shot-scripts/foundry)",
-    "destination": "assets/apps/foundry/2026-11-23/home-light.png",
-    "sha256": "5fcce52d9886741182286c0a58191c38affc68c76002fd394c72c670a9c0a493",
-    "provided": true
-  },
-  {
-    "source": "Captured from SlotForge Foundry 1.3.0 (local build, .cache/shot-scripts/foundry)",
-    "destination": "assets/apps/foundry/2026-11-23/planner-3d-dark.png",
-    "sha256": "5adc4ae35e18dc1fe392fef6c436553639139dc67733a6419caff691152797e4",
-    "provided": true
-  },
-  {
-    "source": "Captured from SlotForge Foundry 1.3.0 (local build, .cache/shot-scripts/foundry)",
-    "destination": "assets/apps/foundry/2026-11-23/planner-3d-light.png",
-    "sha256": "c00f11e637794f03585924566a3f9c11db209e7884a33001e9c29feef15e54c2",
-    "provided": true
-  },
-  {
-    "source": "Captured from SlotForge Foundry 1.3.0 (local build, .cache/shot-scripts/foundry)",
-    "destination": "assets/apps/foundry/2026-11-23/planner-dark.png",
-    "sha256": "a9fa5ed4730ec26d41516ae3dfc37d9b00d9eeeeed34d5b4b05d29396fb4580a",
-    "provided": true
-  },
-  {
-    "source": "Captured from SlotForge Foundry 1.3.0 (local build, .cache/shot-scripts/foundry)",
-    "destination": "assets/apps/foundry/2026-11-23/planner-light.png",
-    "sha256": "32cec1f4b9727130d3d222b5b81ce72a198c4de8033f7f92c683ce65d7579b73",
-    "provided": true
-  },
-  {
-    "source": "Captured from SlotForge Foundry 1.3.0 (local build, .cache/shot-scripts/foundry)",
-    "destination": "assets/apps/foundry/2026-11-23/settings-dark.png",
-    "sha256": "e0d5e954456cf5dc274bd43868009dfce427ac094a411df298d535078fe34ec0",
-    "provided": true
-  },
-  {
-    "source": "Captured from SlotForge Foundry 1.3.0 (local build, .cache/shot-scripts/foundry)",
-    "destination": "assets/apps/foundry/2026-11-23/settings-light.png",
-    "sha256": "c55dffb6703fdf0501e4be5673b82123fc1cedc44f4287ad3a2e88028c00581e",
-    "provided": true
-  },
-  {
-    "source": "Captured from SlotForge Foundry 1.3.0 (local build, .cache/shot-scripts/foundry)",
-    "destination": "assets/apps/foundry/2026-11-23/special-hairpin-dark.png",
-    "sha256": "2079ff7cc8002f13c2a0046dc30c66fd3567ba8981cfd77be21d4941a8669eba",
-    "provided": true
-  },
-  {
-    "source": "Captured from SlotForge Foundry 1.3.0 (local build, .cache/shot-scripts/foundry)",
-    "destination": "assets/apps/foundry/2026-11-23/special-hairpin-light.png",
-    "sha256": "9e5938dd9789560a1017a5411cfc1102380aa44331309d3b649e7cac9df99c25",
-    "provided": true
-  },
-  {
-    "source": "Captured from SlotForge Foundry 1.3.0 (local build, .cache/shot-scripts/foundry)",
-    "destination": "assets/apps/foundry/2026-11-23/special-pit-dark.png",
-    "sha256": "f0cc9e6b983c23067f1c1e8e4d7ea5cc2af011ddb0b5f9e62883f49aa3bd38d4",
-    "provided": true
-  },
-  {
-    "source": "Captured from SlotForge Foundry 1.3.0 (local build, .cache/shot-scripts/foundry)",
-    "destination": "assets/apps/foundry/2026-11-23/special-pit-light.png",
-    "sha256": "12479f15cce60d1ee22aaed730e51c302e0996345cdc5c1569154fb83b6ae8ae",
-    "provided": true
-  },
-  {
-    "source": "Captured from SlotForge Foundry 1.3.0 (local build, .cache/shot-scripts/foundry)",
-    "destination": "assets/apps/foundry/2026-11-23/stl-editor-dark.png",
-    "sha256": "efb27ab9568cc20982bc423f7fabefb57ca8905f5c1127ad7db345f04475c9ea",
-    "provided": true
-  },
-  {
-    "source": "Captured from SlotForge Foundry 1.3.0 (local build, .cache/shot-scripts/foundry)",
-    "destination": "assets/apps/foundry/2026-11-23/stl-editor-light.png",
-    "sha256": "5037035983fcf5de25cd3ef9bf4f9c521868d6a7d7f90dbcac6533e24dea0abb",
-    "provided": true
-  },
-  {
-    "source": "Captured from SlotForge Foundry 1.3.0 (local build, .cache/shot-scripts/foundry)",
-    "destination": "assets/apps/foundry/2026-11-23/track-set-dark.png",
-    "sha256": "4fc6894276103016bc0d092721e4a5dd7a3c6352f94e1b173c27f6e162ebbd49",
-    "provided": true
-  },
-  {
-    "source": "Captured from SlotForge Foundry 1.3.0 (local build, .cache/shot-scripts/foundry)",
-    "destination": "assets/apps/foundry/2026-11-23/track-set-light.png",
-    "sha256": "12e50a75c5e8e707c7c43422cff83ec78e071457d1dd9f4f4d7d855e44d763d5",
     "provided": true
   },
   {
@@ -976,99 +628,471 @@
     "provided": true
   },
   {
-    "source": "Captured from SlotForge Frame 0.1.0 (local build, .cache/shot-scripts/frame), body model supplied by the site owner",
-    "destination": "assets/apps/frame/2026-11-25/drivetrain-dark.png",
-    "sha256": "659ac00c13be6a9e2ed628679164c33a1f8f41c1d933ce4e84fa56e686c17349",
+    "source": "Captured from SlotForge Circuit 0.6.0 (local build, .cache/shot-scripts/circuit-2026-11-27)",
+    "destination": "assets/apps/circuit/2026-11-27/power-taps-dark.png",
+    "sha256": "23693d75448ef569cab93599757fa77e2ff023cb73a6c3248567281b11713c81",
     "provided": true
   },
   {
-    "source": "Captured from SlotForge Frame 0.1.0 (local build, .cache/shot-scripts/frame), body model supplied by the site owner",
-    "destination": "assets/apps/frame/2026-11-25/drivetrain-light.png",
-    "sha256": "3f4cb389bec4d5de8e15b924743e3d516fdd1a52b28c2b31a3d95a3df658e6c5",
+    "source": "Captured from SlotForge Circuit 0.6.0 (local build, .cache/shot-scripts/circuit-2026-11-27)",
+    "destination": "assets/apps/circuit/2026-11-27/power-taps-light.png",
+    "sha256": "14a406e0fbab1a9083828110a1029ea74a60c178d19089229461108da1d9a885",
     "provided": true
   },
   {
-    "source": "Captured from SlotForge Frame 0.1.0 (local build, .cache/shot-scripts/frame), body model supplied by the site owner",
-    "destination": "assets/apps/frame/2026-11-25/features-dark.png",
-    "sha256": "cc0c5c70ea4566ae07e4a822f756821e64e440ca575dc8ed642659f363503056",
+    "source": "Captured from SlotForge Circuit 0.6.0 (local build, .cache/shot-scripts/circuit-2026-11-27)",
+    "destination": "assets/apps/circuit/2026-11-27/power-test-dark.png",
+    "sha256": "94abba5490c112081e262b736bf075441789788e8a79511d42f449c61a07d6cc",
     "provided": true
   },
   {
-    "source": "Captured from SlotForge Frame 0.1.0 (local build, .cache/shot-scripts/frame), body model supplied by the site owner",
-    "destination": "assets/apps/frame/2026-11-25/features-light.png",
-    "sha256": "9a7426df94669ecc1bafecc6789e06b4e6f61a8f22294d3800e804d3fbe105df",
+    "source": "Captured from SlotForge Circuit 0.6.0 (local build, .cache/shot-scripts/circuit-2026-11-27)",
+    "destination": "assets/apps/circuit/2026-11-27/power-test-light.png",
+    "sha256": "11bc571868cb941363ef58e93e2aefb8535675bc7715f263947e2735e2c5ad5c",
     "provided": true
   },
   {
-    "source": "Captured from SlotForge Frame 0.1.0 (local build, .cache/shot-scripts/frame), body model supplied by the site owner",
-    "destination": "assets/apps/frame/2026-11-25/final-check-dark.png",
-    "sha256": "4b15fdabc94dc0d0f8d57b34f725b8874840f02224669ab822a21223961b3d22",
+    "source": "Captured from SlotForge Circuit 0.6.0 (local build, .cache/shot-scripts/circuit-2026-11-27)",
+    "destination": "assets/apps/circuit/2026-11-27/track-builder-dark.png",
+    "sha256": "6df340f17e001c471a085685a7c4db096110b50d8ddb2a1b21bc1a5e1dbf55e8",
     "provided": true
   },
   {
-    "source": "Captured from SlotForge Frame 0.1.0 (local build, .cache/shot-scripts/frame), body model supplied by the site owner",
-    "destination": "assets/apps/frame/2026-11-25/final-check-light.png",
-    "sha256": "58c372cf96fcd36ee308087757a4fe8b327f1fd028be8b715c417fa13a3d4db7",
+    "source": "Captured from SlotForge Circuit 0.6.0 (local build, .cache/shot-scripts/circuit-2026-11-27)",
+    "destination": "assets/apps/circuit/2026-11-27/track-builder-light.png",
+    "sha256": "81cf13f0fa430798068b0a27abb759c5b56f0141f31a12a2e6ada69ffd2c58d1",
     "provided": true
   },
   {
-    "source": "Captured from SlotForge Frame 0.1.0 (local build, .cache/shot-scripts/frame), body model supplied by the site owner",
-    "destination": "assets/apps/frame/2026-11-25/from-body-dark.png",
-    "sha256": "f652e8d6debf940b9f0d49e94e13b0103f680273b56a586b970f89cba81fff5a",
+    "source": "Captured from SlotForge Anvil 1.1.6 (local build, .cache/shot-scripts/anvil-2026-11-27), model supplied by the site owner",
+    "destination": "assets/apps/anvil/2026-11-27/chassis-dark.png",
+    "sha256": "c17cbcba1023f9d9e6544decefc2a377ed678a81fb348bd85af83fab81d029a3",
     "provided": true
   },
   {
-    "source": "Captured from SlotForge Frame 0.1.0 (local build, .cache/shot-scripts/frame), body model supplied by the site owner",
-    "destination": "assets/apps/frame/2026-11-25/from-body-light.png",
-    "sha256": "3a8f7b18a3aa5d7f15e623ec8969bdf08cc041dcded74cf0411584e2052058ef",
+    "source": "Captured from SlotForge Anvil 1.1.6 (local build, .cache/shot-scripts/anvil-2026-11-27), model supplied by the site owner",
+    "destination": "assets/apps/anvil/2026-11-27/chassis-light.png",
+    "sha256": "ff15f5754162b0cfd3b72b0a2c7254d87b986708ed7916689720d48ceb46d640",
     "provided": true
   },
   {
-    "source": "Captured from SlotForge Frame 0.1.0 (local build, .cache/shot-scripts/frame), body model supplied by the site owner",
-    "destination": "assets/apps/frame/2026-11-25/library-dark.png",
-    "sha256": "b1ffbc68c6badec08d05f06f6adcd05ecb52fe01f5c8d2b3f903c6bbb6b03e2a",
+    "source": "Captured from SlotForge Anvil 1.1.6 (local build, .cache/shot-scripts/anvil-2026-11-27), model supplied by the site owner",
+    "destination": "assets/apps/anvil/2026-11-27/clearance-dark.png",
+    "sha256": "a7ac6f5bcf8361aecbffc86912d582268ad3b573bb6eeb635055eb808e6deb53",
     "provided": true
   },
   {
-    "source": "Captured from SlotForge Frame 0.1.0 (local build, .cache/shot-scripts/frame), body model supplied by the site owner",
-    "destination": "assets/apps/frame/2026-11-25/library-light.png",
-    "sha256": "842a529b5e31126fd1534491b2fd99c16123756e1edf8e2000dfd884b69a4d7b",
+    "source": "Captured from SlotForge Anvil 1.1.6 (local build, .cache/shot-scripts/anvil-2026-11-27), model supplied by the site owner",
+    "destination": "assets/apps/anvil/2026-11-27/clearance-light.png",
+    "sha256": "1e071eada12f24e3da00903c2868b9b0c44f8de0141c933fcb4dc50f9b859369",
     "provided": true
   },
   {
-    "source": "Captured from SlotForge Frame 0.1.0 (local build, .cache/shot-scripts/frame), body model supplied by the site owner",
-    "destination": "assets/apps/frame/2026-11-25/outline-dark.png",
-    "sha256": "2bb91be58c8e3f044b0ee18deef1feb8e7fbae3fb1192e1d9ae6936fbae847e9",
+    "source": "Captured from SlotForge Anvil 1.1.6 (local build, .cache/shot-scripts/anvil-2026-11-27), model supplied by the site owner",
+    "destination": "assets/apps/anvil/2026-11-27/final-check-dark.png",
+    "sha256": "7461d4b32e1b6e7398d9c92514d5e9c7d72ad04545792e47b6a7072228eac7e5",
     "provided": true
   },
   {
-    "source": "Captured from SlotForge Frame 0.1.0 (local build, .cache/shot-scripts/frame), body model supplied by the site owner",
-    "destination": "assets/apps/frame/2026-11-25/outline-light.png",
-    "sha256": "cda780d38e9012a388c0f46c7cc25ab4d1cefc5efefbdee34d1ca4a725c77890",
+    "source": "Captured from SlotForge Anvil 1.1.6 (local build, .cache/shot-scripts/anvil-2026-11-27), model supplied by the site owner",
+    "destination": "assets/apps/anvil/2026-11-27/final-check-light.png",
+    "sha256": "8f5a2c32b614bed41c95d62f70d0b0241c73d4f48f237fbc7684c54e7201778b",
     "provided": true
   },
   {
-    "source": "Captured from SlotForge Frame 0.1.0 (local build, .cache/shot-scripts/frame), body model supplied by the site owner",
-    "destination": "assets/apps/frame/2026-11-25/rail-frame-dark.png",
-    "sha256": "e23d6df3b684458f20603f659f8bdc0674910665c537a4e715d539844ffd4a7a",
+    "source": "Captured from SlotForge Anvil 1.1.6 (local build, .cache/shot-scripts/anvil-2026-11-27), model supplied by the site owner",
+    "destination": "assets/apps/anvil/2026-11-27/glue-tabs-dark.png",
+    "sha256": "f337f5b35a23ac652e9a705206f10d1315eb1d5ba65213eac5843c69578af30b",
     "provided": true
   },
   {
-    "source": "Captured from SlotForge Frame 0.1.0 (local build, .cache/shot-scripts/frame), body model supplied by the site owner",
-    "destination": "assets/apps/frame/2026-11-25/rail-frame-light.png",
-    "sha256": "21e052bdd30c646ead2cac8370a7cd05c5ba830e0b73275f79364d7f9d4279d5",
+    "source": "Captured from SlotForge Anvil 1.1.6 (local build, .cache/shot-scripts/anvil-2026-11-27), model supplied by the site owner",
+    "destination": "assets/apps/anvil/2026-11-27/glue-tabs-light.png",
+    "sha256": "7e4d0ce88b33da392e7c0d787286ce2bf9198f8acb974228cb3b928bcda90f8c",
     "provided": true
   },
   {
-    "source": "Captured from SlotForge Frame 0.1.0 (local build, .cache/shot-scripts/frame), body model supplied by the site owner",
-    "destination": "assets/apps/frame/2026-11-25/view-3d-dark.png",
-    "sha256": "ddaa6b605b8ef93076163cddd2d61583d91e4c3dcc9d8c7bfacb9e51ad90d702",
+    "source": "Captured from SlotForge Anvil 1.1.6 (local build, .cache/shot-scripts/anvil-2026-11-27), model supplied by the site owner",
+    "destination": "assets/apps/anvil/2026-11-27/hollow-dark.png",
+    "sha256": "7b9846197f14e82234fb91d4aed7f79e6918d128784772f2662cb5bc20061cf8",
     "provided": true
   },
   {
-    "source": "Captured from SlotForge Frame 0.1.0 (local build, .cache/shot-scripts/frame), body model supplied by the site owner",
-    "destination": "assets/apps/frame/2026-11-25/view-3d-light.png",
-    "sha256": "40cd7124ecaeaaf546615eae7e5f474f42583b0a5103168a00bc1db33013324b",
+    "source": "Captured from SlotForge Anvil 1.1.6 (local build, .cache/shot-scripts/anvil-2026-11-27), model supplied by the site owner",
+    "destination": "assets/apps/anvil/2026-11-27/hollow-light.png",
+    "sha256": "c89184ca7066213607035e6b0911ed1e8173ec71617b3f323258c84328617a8a",
+    "provided": true
+  },
+  {
+    "source": "Captured from SlotForge Anvil 1.1.6 (local build, .cache/shot-scripts/anvil-2026-11-27), model supplied by the site owner",
+    "destination": "assets/apps/anvil/2026-11-27/interior-dark.png",
+    "sha256": "efa9e9a8f06f603f1078b89ad0ddcc014c3f44bf824ded50d92803544f799986",
+    "provided": true
+  },
+  {
+    "source": "Captured from SlotForge Anvil 1.1.6 (local build, .cache/shot-scripts/anvil-2026-11-27), model supplied by the site owner",
+    "destination": "assets/apps/anvil/2026-11-27/interior-light.png",
+    "sha256": "44e4c2311169a285ea3da2b535f363d16aec74a7f098538e4678a7aea64c7a70",
+    "provided": true
+  },
+  {
+    "source": "Captured from SlotForge Anvil 1.1.6 (local build, .cache/shot-scripts/anvil-2026-11-27), model supplied by the site owner",
+    "destination": "assets/apps/anvil/2026-11-27/posts-tabs-dark.png",
+    "sha256": "3fff18cd37d60a9cef27126ce11b07c3deecab9cc91428506466b6aab7ad5b25",
+    "provided": true
+  },
+  {
+    "source": "Captured from SlotForge Anvil 1.1.6 (local build, .cache/shot-scripts/anvil-2026-11-27), model supplied by the site owner",
+    "destination": "assets/apps/anvil/2026-11-27/posts-tabs-light.png",
+    "sha256": "4280c75373b8145bda07c85657ef1bda33d3c8f8592b4ff8e66675533f072be7",
+    "provided": true
+  },
+  {
+    "source": "Captured from SlotForge Anvil 1.1.6 (local build, .cache/shot-scripts/anvil-2026-11-27), model supplied by the site owner",
+    "destination": "assets/apps/anvil/2026-11-27/repair-check-dark.png",
+    "sha256": "4694e396eda85e3dd9711dd6c68b64ec8ba2ad443734c4ea4299474ea04856b1",
+    "provided": true
+  },
+  {
+    "source": "Captured from SlotForge Anvil 1.1.6 (local build, .cache/shot-scripts/anvil-2026-11-27), model supplied by the site owner",
+    "destination": "assets/apps/anvil/2026-11-27/repair-check-light.png",
+    "sha256": "cd9d04683da72ba2c8b382d40931738007277109116c4738282e8871dfaa8309",
+    "provided": true
+  },
+  {
+    "source": "Captured from SlotForge Anvil 1.1.6 (local build, .cache/shot-scripts/anvil-2026-11-27), model supplied by the site owner",
+    "destination": "assets/apps/anvil/2026-11-27/text-dark.png",
+    "sha256": "4ff32e7df3596ed46964c8c47a0e194ea775ae26735e54986df8f2314d22fb22",
+    "provided": true
+  },
+  {
+    "source": "Captured from SlotForge Anvil 1.1.6 (local build, .cache/shot-scripts/anvil-2026-11-27), model supplied by the site owner",
+    "destination": "assets/apps/anvil/2026-11-27/text-light.png",
+    "sha256": "c93fec4ead8b75bc2ccf78816ec14efc0735ef16c537cd8adae7cbbcd6cb1b44",
+    "provided": true
+  },
+  {
+    "source": "Captured from SlotForge Frame 0.7.1 (local build, .cache/shot-scripts/frame), body model supplied by the site owner",
+    "destination": "assets/apps/frame/2026-11-27/arrange-dark.png",
+    "sha256": "8c857b353c8b7f5d0ddf9129c2e51820140904541c8812c93808ac2a03ea8690",
+    "provided": true
+  },
+  {
+    "source": "Captured from SlotForge Frame 0.7.1 (local build, .cache/shot-scripts/frame), body model supplied by the site owner",
+    "destination": "assets/apps/frame/2026-11-27/arrange-light.png",
+    "sha256": "239a82ecfb31e52420bb6364eea2140fbd0b4acb6ec42f6808a1f70fe8c32635",
+    "provided": true
+  },
+  {
+    "source": "Captured from SlotForge Frame 0.7.1 (local build, .cache/shot-scripts/frame), body model supplied by the site owner",
+    "destination": "assets/apps/frame/2026-11-27/bearings-dark.png",
+    "sha256": "b779e21ee0c5ac3fb5edc1afa8717d6de3f5193558fc836fc4b8e8d34f057db1",
+    "provided": true
+  },
+  {
+    "source": "Captured from SlotForge Frame 0.7.1 (local build, .cache/shot-scripts/frame), body model supplied by the site owner",
+    "destination": "assets/apps/frame/2026-11-27/bearings-light.png",
+    "sha256": "7f8011c280dff30dbe71e0870b5968376f141a5a073b1bfed995291733fc84f4",
+    "provided": true
+  },
+  {
+    "source": "Captured from SlotForge Frame 0.7.1 (local build, .cache/shot-scripts/frame), body model supplied by the site owner",
+    "destination": "assets/apps/frame/2026-11-27/clearance-dark.png",
+    "sha256": "c0c9891bed579f5b4c97addd3481108885e87191fdc48494fd488147ae6efff4",
+    "provided": true
+  },
+  {
+    "source": "Captured from SlotForge Frame 0.7.1 (local build, .cache/shot-scripts/frame), body model supplied by the site owner",
+    "destination": "assets/apps/frame/2026-11-27/clearance-light.png",
+    "sha256": "8b70429049852cc311b63e69a4c5ed21351ab5f417bc81a3c1e8df5183d743de",
+    "provided": true
+  },
+  {
+    "source": "Captured from SlotForge Frame 0.7.1 (local build, .cache/shot-scripts/frame), body model supplied by the site owner",
+    "destination": "assets/apps/frame/2026-11-27/edit-3d-dark.png",
+    "sha256": "0b92050987a9f8a44c3ee612fd9fe5f4065caf1f5066512aa1f70189b089d28f",
+    "provided": true
+  },
+  {
+    "source": "Captured from SlotForge Frame 0.7.1 (local build, .cache/shot-scripts/frame), body model supplied by the site owner",
+    "destination": "assets/apps/frame/2026-11-27/edit-3d-light.png",
+    "sha256": "fcfcbf4263cc819f28466449cd9aea4f45beb869d5eabaf81e5a129a4bddee1f",
+    "provided": true
+  },
+  {
+    "source": "Captured from SlotForge Frame 0.7.1 (local build, .cache/shot-scripts/frame), body model supplied by the site owner",
+    "destination": "assets/apps/frame/2026-11-27/final-check-dark.png",
+    "sha256": "7e6891ceaefd4feecc11cceb03ed6975fad2bd1c9621f0bf1e2eb0bdd115da88",
+    "provided": true
+  },
+  {
+    "source": "Captured from SlotForge Frame 0.7.1 (local build, .cache/shot-scripts/frame), body model supplied by the site owner",
+    "destination": "assets/apps/frame/2026-11-27/final-check-light.png",
+    "sha256": "1688d16acd6d4583d6453089db08652225fe57f4fb810d129d363579829f386e",
+    "provided": true
+  },
+  {
+    "source": "Captured from SlotForge Frame 0.7.1 (local build, .cache/shot-scripts/frame), body model supplied by the site owner",
+    "destination": "assets/apps/frame/2026-11-27/inserts-dark.png",
+    "sha256": "fc9b55e7c7bf46627792ee722d00cd1fd539ab25382aecac4ad4dade82471c66",
+    "provided": true
+  },
+  {
+    "source": "Captured from SlotForge Frame 0.7.1 (local build, .cache/shot-scripts/frame), body model supplied by the site owner",
+    "destination": "assets/apps/frame/2026-11-27/inserts-light.png",
+    "sha256": "e607b5f7910a8c68aa900cfd6acabb7e48f10aefbe2f53875969bb9325ea44c0",
+    "provided": true
+  },
+  {
+    "source": "Captured from SlotForge Frame 0.7.1 (local build, .cache/shot-scripts/frame), body model supplied by the site owner",
+    "destination": "assets/apps/frame/2026-11-27/on-the-car-dark.png",
+    "sha256": "b83aeb00aac20694530a820f7f79d5f1803ab62c78a9206cf4172c27f646f0a0",
+    "provided": true
+  },
+  {
+    "source": "Captured from SlotForge Frame 0.7.1 (local build, .cache/shot-scripts/frame), body model supplied by the site owner",
+    "destination": "assets/apps/frame/2026-11-27/on-the-car-light.png",
+    "sha256": "62faf2500de0c511b53001b4b979d94770d8c019c70d9274378b782147ab00a0",
+    "provided": true
+  },
+  {
+    "source": "Captured from SlotForge Frame 0.7.1 (local build, .cache/shot-scripts/frame), body model supplied by the site owner",
+    "destination": "assets/apps/frame/2026-11-27/one-piece-dark.png",
+    "sha256": "3898e65b2982fc3d68f15cb0a2457cb25ec6b37478f64f22893de139d2ad9376",
+    "provided": true
+  },
+  {
+    "source": "Captured from SlotForge Frame 0.7.1 (local build, .cache/shot-scripts/frame), body model supplied by the site owner",
+    "destination": "assets/apps/frame/2026-11-27/one-piece-light.png",
+    "sha256": "fd6575fd02d935e0698a18c7b820d9be5ab18540edffc42444a12e97527033d6",
+    "provided": true
+  },
+  {
+    "source": "Captured from SlotForge Frame 0.7.1 (local build, .cache/shot-scripts/frame), body model supplied by the site owner",
+    "destination": "assets/apps/frame/2026-11-27/wings-dark.png",
+    "sha256": "084f17b72352cfb6f64e61e94464832857fea37c31acfcfcc9c25edceb0ef7d3",
+    "provided": true
+  },
+  {
+    "source": "Captured from SlotForge Frame 0.7.1 (local build, .cache/shot-scripts/frame), body model supplied by the site owner",
+    "destination": "assets/apps/frame/2026-11-27/wings-light.png",
+    "sha256": "b8f86fbb6c81ba4dbd33903e2ba68de075a96e328cce9499f8563cac27988d75",
+    "provided": true
+  },
+  {
+    "source": "Captured from SlotForge Foundry 1.7.1 (local build, .cache/shot-scripts/foundry-2026-11-27)",
+    "destination": "assets/apps/foundry/2026-11-27/building-light.png",
+    "sha256": "189f8977a4afef2990790574c00a40615033fca9425df677b18461d8a1d38a87",
+    "provided": true
+  },
+  {
+    "source": "Captured from SlotForge Foundry 1.7.1 (local build, .cache/shot-scripts/foundry-2026-11-27)",
+    "destination": "assets/apps/foundry/2026-11-27/building-dark.png",
+    "sha256": "8f07960d89c44554d4b2ee9d5364758e9902e24ab5c856aac94280f6e510db50",
+    "provided": true
+  },
+  {
+    "source": "Captured from SlotForge Foundry 1.7.1 (local build, .cache/shot-scripts/foundry-2026-11-27)",
+    "destination": "assets/apps/foundry/2026-11-27/layout-3d-light.png",
+    "sha256": "87f8580512b15a46754e46e4f6c3e17ee932ee3f38274333b71c84e1fa7ca0aa",
+    "provided": true
+  },
+  {
+    "source": "Captured from SlotForge Foundry 1.7.1 (local build, .cache/shot-scripts/foundry-2026-11-27)",
+    "destination": "assets/apps/foundry/2026-11-27/layout-3d-dark.png",
+    "sha256": "41a470f6557b93f6e31cd622f1276ded6d24bc531155f411f833b028f555ec47",
+    "provided": true
+  },
+  {
+    "source": "Captured from SlotForge Foundry 1.7.1 (local build, .cache/shot-scripts/foundry-2026-11-27)",
+    "destination": "assets/apps/foundry/2026-11-27/trackside-light.png",
+    "sha256": "40730c423a7e6ef53b9f32b87fe51d1fd17d19eb00f73147ca0e234f50cdc187",
+    "provided": true
+  },
+  {
+    "source": "Captured from SlotForge Foundry 1.7.1 (local build, .cache/shot-scripts/foundry-2026-11-27)",
+    "destination": "assets/apps/foundry/2026-11-27/trackside-dark.png",
+    "sha256": "9bd4f9e82e5bb34ce999fd50480c8e9f3f297c89e552c078f7a356004ff5b846",
+    "provided": true
+  },
+  {
+    "source": "Captured from SlotForge Foundry 1.7.1 (local build, .cache/shot-scripts/foundry-2026-11-27)",
+    "destination": "assets/apps/foundry/2026-11-27/building-draw-light.png",
+    "sha256": "cab88afbb51273a83e46356cae8d8e6ae1b56bbc946c5838909bea8674647318",
+    "provided": true
+  },
+  {
+    "source": "Captured from SlotForge Foundry 1.7.1 (local build, .cache/shot-scripts/foundry-2026-11-27)",
+    "destination": "assets/apps/foundry/2026-11-27/building-draw-dark.png",
+    "sha256": "4177bd12275949662728a03605cac6ced9898d8c98fa58f6ab18747fbe79511e",
+    "provided": true
+  },
+  {
+    "source": "Captured from SlotForge Foundry 1.7.1 (local build, .cache/shot-scripts/foundry-2026-11-27)",
+    "destination": "assets/apps/foundry/2026-11-27/building-lettering-light.png",
+    "sha256": "1914b9192bb6e08b92af7c518553818d83d4b078cbb617836dc9260cbb7118e5",
+    "provided": true
+  },
+  {
+    "source": "Captured from SlotForge Foundry 1.7.1 (local build, .cache/shot-scripts/foundry-2026-11-27)",
+    "destination": "assets/apps/foundry/2026-11-27/building-lettering-dark.png",
+    "sha256": "0d759127a3007c1bb73dcb5f3450b073d495e16664e8feeba5849d57e35d54aa",
+    "provided": true
+  },
+  {
+    "source": "Captured from SlotForge Foundry 1.7.1 (local build, .cache/shot-scripts/foundry-2026-11-27)",
+    "destination": "assets/apps/foundry/2026-11-27/new-pack-light.png",
+    "sha256": "d430481639b6a3fdcf744c92bd2f505fd33587d77c90e2a6d8a82a3125df2e56",
+    "provided": true
+  },
+  {
+    "source": "Captured from SlotForge Foundry 1.7.1 (local build, .cache/shot-scripts/foundry-2026-11-27)",
+    "destination": "assets/apps/foundry/2026-11-27/new-pack-dark.png",
+    "sha256": "19856b5916833de6e84a3aaeac6de1b5e403357a171700df868a476d0c955295",
+    "provided": true
+  },
+  {
+    "source": "Captured from SlotForge Foundry 1.7.1 (local build, .cache/shot-scripts/foundry-2026-11-27)",
+    "destination": "assets/apps/foundry/2026-11-27/turnout-light.png",
+    "sha256": "77cceca3f1d87dd5b9ac3a22cea914f5637804776b3c7c3eefc8d775ff852861",
+    "provided": true
+  },
+  {
+    "source": "Captured from SlotForge Foundry 1.7.1 (local build, .cache/shot-scripts/foundry-2026-11-27)",
+    "destination": "assets/apps/foundry/2026-11-27/turnout-dark.png",
+    "sha256": "c4fd4f99aa8f4b135def41bc3174b42a1189649f197cec18c31cbb0cc328850c",
+    "provided": true
+  },
+  {
+    "source": "Captured from SlotForge Foundry 1.7.1 (local build, .cache/shot-scripts/foundry-2026-11-27)",
+    "destination": "assets/apps/foundry/2026-11-27/stl-editor-light.png",
+    "sha256": "42c1510dd8437af3e835a95eb6746caa0304f9cd391fa2eb4cfe8fb559e1e658",
+    "provided": true
+  },
+  {
+    "source": "Captured from SlotForge Foundry 1.7.1 (local build, .cache/shot-scripts/foundry-2026-11-27)",
+    "destination": "assets/apps/foundry/2026-11-27/stl-editor-dark.png",
+    "sha256": "783a1cd0c2e871b80c46fbc61fe87cd27082dee1ba71023aa9a17e60e88381eb",
+    "provided": true
+  },
+  {
+    "source": "Captured from SlotForge Foundry 1.7.1 (local build, .cache/shot-scripts/foundry-2026-11-27)",
+    "destination": "assets/apps/foundry/2026-11-27/home-light.png",
+    "sha256": "0ec1dbff698fb8d7f9e144fcf1d8b94af303edb0c18a19235be5d2db98428978",
+    "provided": true
+  },
+  {
+    "source": "Captured from SlotForge Foundry 1.7.1 (local build, .cache/shot-scripts/foundry-2026-11-27)",
+    "destination": "assets/apps/foundry/2026-11-27/home-dark.png",
+    "sha256": "352a14e5b8d6ad1d0db36e19cf75ee74b09d51e890371ffd761102a8399ec7d5",
+    "provided": true
+  },
+  {
+    "source": "Captured from SlotForge Timing 2.5.2 (local build, .cache/shot-scripts/timing)",
+    "destination": "assets/apps/timing/2026-11-27/live-race-dark.png",
+    "sha256": "b5fdbda9bdd46b97d288a7e2027b7c74d64946d36326a5feaffa2b40b1a0cecf",
+    "provided": true
+  },
+  {
+    "source": "Captured from SlotForge Timing 2.5.2 (local build, .cache/shot-scripts/timing)",
+    "destination": "assets/apps/timing/2026-11-27/live-race-light.png",
+    "sha256": "403e8b82ab5209590c7ca4196e13f19cfcca3080b2065b00cb3385a9f75300ef",
+    "provided": true
+  },
+  {
+    "source": "Captured from SlotForge Timing 2.5.2 (local build, .cache/shot-scripts/timing)",
+    "destination": "assets/apps/timing/2026-11-27/swap-seats-dark.png",
+    "sha256": "b704bee5e1a87d5d610cec23b774f8daf7e3ee38b46c73d0191f5cd2d5ce3dcd",
+    "provided": true
+  },
+  {
+    "source": "Captured from SlotForge Timing 2.5.2 (local build, .cache/shot-scripts/timing)",
+    "destination": "assets/apps/timing/2026-11-27/swap-seats-light.png",
+    "sha256": "c5f881285d22ed004b8dc7d022f36f12b13d61c1bff62423c0704f40d9bf0319",
+    "provided": true
+  },
+  {
+    "source": "Captured from SlotForge Timing 2.5.2 (local build, .cache/shot-scripts/timing)",
+    "destination": "assets/apps/timing/2026-11-27/second-screen-dark.png",
+    "sha256": "b3e750bb1512cb55cf7f7626363214bc1ef3b76cd3060485a69425a7d4d3ebc6",
+    "provided": true
+  },
+  {
+    "source": "Captured from SlotForge Timing 2.5.2 (local build, .cache/shot-scripts/timing)",
+    "destination": "assets/apps/timing/2026-11-27/second-screen-light.png",
+    "sha256": "e04a293d7069026c5922579dbb08d6bbb0d2e812595da882980c479f24f4bd78",
+    "provided": true
+  },
+  {
+    "source": "Captured from SlotForge Timing 2.5.2 (local build, .cache/shot-scripts/timing)",
+    "destination": "assets/apps/timing/2026-11-27/race-setup-dark.png",
+    "sha256": "0067ec7bd8a0fede47377352f515c8f8aa380e3b5ea57abab0194ac9891a0697",
+    "provided": true
+  },
+  {
+    "source": "Captured from SlotForge Timing 2.5.2 (local build, .cache/shot-scripts/timing)",
+    "destination": "assets/apps/timing/2026-11-27/race-setup-light.png",
+    "sha256": "1712d03ee0c26d871f58e922a82c5486134f3fb1eda92bb189e8dbc28d5154c6",
+    "provided": true
+  },
+  {
+    "source": "Captured from SlotForge Timing 2.5.2 (local build, .cache/shot-scripts/timing)",
+    "destination": "assets/apps/timing/2026-11-27/lane-cars-dark.png",
+    "sha256": "5e8f0d9e8a5c59c183b72353e2753840ea7772a480afa330994bf4ae49feeb19",
+    "provided": true
+  },
+  {
+    "source": "Captured from SlotForge Timing 2.5.2 (local build, .cache/shot-scripts/timing)",
+    "destination": "assets/apps/timing/2026-11-27/lane-cars-light.png",
+    "sha256": "c443028bac4f8652addef42b436ffb9a5a570612759cf25468b916c0a3ccb38e",
+    "provided": true
+  },
+  {
+    "source": "Captured from SlotForge Timing 2.5.2 (local build, .cache/shot-scripts/timing)",
+    "destination": "assets/apps/timing/2026-11-27/results-dark.png",
+    "sha256": "04f24d17de408bb3abf411d00b9a849372cf84dee045a03b1a73e2726d538ee4",
+    "provided": true
+  },
+  {
+    "source": "Captured from SlotForge Timing 2.5.2 (local build, .cache/shot-scripts/timing)",
+    "destination": "assets/apps/timing/2026-11-27/results-light.png",
+    "sha256": "bdb820bc6cef97c5f1706b849e3d4e13a4c564e54029fe4b3e464adc613028d3",
+    "provided": true
+  },
+  {
+    "source": "Captured from SlotForge Timing 2.5.2 (local build, .cache/shot-scripts/timing)",
+    "destination": "assets/apps/timing/2026-11-27/fuel-dark.png",
+    "sha256": "aaa958e2b3a740ad1110cbf4cbaaca993abf6d61b7752e973121767503bb9ab3",
+    "provided": true
+  },
+  {
+    "source": "Captured from SlotForge Timing 2.5.2 (local build, .cache/shot-scripts/timing)",
+    "destination": "assets/apps/timing/2026-11-27/fuel-light.png",
+    "sha256": "a9f3922bc413724a1c8d09edf5716ed386bfb1745bae1d479823df64174b19c9",
+    "provided": true
+  },
+  {
+    "source": "Captured from SlotForge Timing 2.5.2 (local build, .cache/shot-scripts/timing)",
+    "destination": "assets/apps/timing/2026-11-27/weather-dark.png",
+    "sha256": "17f3c6fc89774ec27b1bd4d260ac37c359837ededed3c47828bddc5004511549",
+    "provided": true
+  },
+  {
+    "source": "Captured from SlotForge Timing 2.5.2 (local build, .cache/shot-scripts/timing)",
+    "destination": "assets/apps/timing/2026-11-27/weather-light.png",
+    "sha256": "227498348fbf9d43ce0c53ddf8db43651018b01304f07ce061f9ea658d75679c",
+    "provided": true
+  },
+  {
+    "source": "Captured from SlotForge Timing 2.5.2 (local build, .cache/shot-scripts/timing)",
+    "destination": "assets/apps/timing/2026-11-27/widget-builder-dark.png",
+    "sha256": "bc44c789e4ad12360baf4e9aebf880829f678f5333336691b58fdc55f35aeab5",
+    "provided": true
+  },
+  {
+    "source": "Captured from SlotForge Timing 2.5.2 (local build, .cache/shot-scripts/timing)",
+    "destination": "assets/apps/timing/2026-11-27/widget-builder-light.png",
+    "sha256": "18d071d7c731454664ba07d8457085b436be160c9fea5c5de39c6acd74f1cd7d",
     "provided": true
   }
 ]

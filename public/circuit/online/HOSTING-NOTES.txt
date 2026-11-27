@@ -1,8 +1,8 @@
 SlotForge Circuit browser edition
-Based on official release v0.5.0:
-https://github.com/theDutchmanJames/SlotForgeCircuit/releases/tag/v0.5.0
+Based on official release v0.6.0:
+https://github.com/theDutchmanJames/SlotForgeCircuit/releases/tag/v0.6.0
 
-Website adaptation on 2026-11-22:
+Website adaptation on 2026-11-27:
 - Retained the app, designs and track-packs static directories.
 - Added host-mode.js and a guard in LocalWorkspace.init to select the existing browser mode without probing a local disk service.
 - Added a return link to the Circuit website in the status bar.

@@ -4,12 +4,12 @@
       "category": "RACE MANAGEMENT",
       "summary": "Lap timing, race management and custom race displays for your analogue slotcar track.",
       "short": "Run your races, count every lap and build your race display.",
-      "sha": "4e0ba93ea1f2b8660b4ddd7776aad4a899b9a091",
+      "sha": "49116031e7029824b12950583ce63bfa0435e344",
       "icon": "build/icon.png",
       "features": [
         [
           "Run the whole race night",
-          "Practice, qualifying, heats, championships and team endurance—with optional fuel, tyres, weather and pit strategy."
+          "Practice, Solo sessions, qualifying, heats with Swap Seats, championships and team endurance—with optional fuel, tyres, weather and pit strategy."
         ],
         [
           "Build your own race screens",
@@ -34,8 +34,8 @@
         "light": "wordmark-light.svg",
         "dark": "wordmark-dark.svg"
       },
-      "light": "2026-11-23/live-race-light.png",
-      "dark": "2026-11-23/live-race-dark.png"
+      "light": "2026-11-27/live-race-light.png",
+      "dark": "2026-11-27/live-race-dark.png"
     },
     "Paddock": {
       "category": "COLLECTION & WORKSHOP",
@@ -78,7 +78,7 @@
       "category": "TRACK DESIGN",
       "summary": "Design it. Build it. Race it. Plan your next circuit before building it for real.",
       "short": "Design your track, plan your space and export your layout.",
-      "sha": "e3676c084d08c35e17873122e8afc5b539280934",
+      "sha": "c6b4a1b0a879d58f8ec78e56a282550704a2b6e3",
       "icon": "app/icon.svg",
       "features": [
         [
@@ -87,7 +87,7 @@
         ],
         [
           "Plan the build",
-          "Check your space, compare lane lengths and count the pieces you need."
+          "Check your space, compare lane lengths, plan where the power goes in and count the pieces you need."
         ],
         [
           "Pass the layout around",
@@ -108,8 +108,8 @@
         "light": "wordmark-light.svg",
         "dark": "wordmark-dark.svg"
       },
-      "light": "2026-11-23/track-builder-light.png",
-      "dark": "2026-11-23/track-builder-dark.png"
+      "light": "2026-11-27/track-builder-light.png",
+      "dark": "2026-11-27/track-builder-dark.png"
     },
     "Telemetry": {
       "category": "SETUP & ANALYSIS",
@@ -224,59 +224,59 @@
     },
     "Foundry": {
       "category": "3D-PRINTED TRACK",
-      "summary": "Design slotcar track, plan the layout and 3D print every part, with a full STL editor built in.",
-      "short": "Design track pieces, plan a layout and print every part.",
-      "sha": "2adce01152e3452debd39bd476af2039e7851be7",
+      "summary": "Design slotcar track and trackside buildings, plan the layout and 3D print every part, with a full STL editor built in.",
+      "short": "Design track and buildings, plan a layout and print every part.",
+      "sha": "abc5d1010e1644b37c134b7209e5859f7ed93ce4",
       "icon": "assets/slotforge-foundry.png",
       "features": [
         [
           "Design every piece",
-          "Set the road, slot, borders, markings and joints, and see each change live before you apply it."
+          "Set the road, slot, borders, markings, road surface and trackside barriers, and see each change live before you apply it."
         ],
         [
-          "Plan the whole layout",
-          "Snap pieces into a layout, add bridges and check it in 3D. Every section is cut to fit your print plate."
+          "Build the trackside",
+          "Start from a pit garage, tower, grandstand or gantry, or draw your own building wall by wall, with lettering and finishes."
         ],
         [
-          "Print it. Share it.",
-          "Export a print kit with every STL, quantities and an assembly map, or send the editable design to another builder."
+          "Plan it. Print it.",
+          "Snap a layout together, stand your buildings beside the track and export a print kit with every STL, quantities and an assembly map."
         ]
       ],
       "highlightIcons": [
         "track",
-        "measure",
+        "layers",
         "print"
       ],
       "highlightLabels": [
         "TRACK SET",
-        "TRACK PLANNER",
+        "BUILDINGS",
         "PRINT KIT"
       ],
       "wordmark": {
         "light": "wordmark-light.svg",
         "dark": "wordmark-dark.svg"
       },
-      "light": "2026-11-23/special-hairpin-light.png",
-      "dark": "2026-11-23/special-hairpin-dark.png"
+      "light": "2026-11-27/building-light.png",
+      "dark": "2026-11-27/building-dark.png"
     },
     "Anvil": {
       "category": "3D-PRINTED BODIES",
       "summary": "Turn any 3D car model into a light, printable slotcar body, fitted to your own chassis.",
       "short": "Turn any car model into a body you can print and race.",
-      "sha": "01c2fb3f6d7d96f216297243e7255374123d30c4",
+      "sha": "96e7b009dfddbc4073a9b53075bfba9fcb6cc92f",
       "icon": "src/assets/slotforge-anvil.svg",
       "features": [
         [
           "Scale and repair",
-          "Open any STL car. Anvil straightens it, scales it to 1/32 or 1/24 and fixes what is broken."
+          "Open any STL car. Anvil squares it up, scales it to 1/32 or 1/24 and repairs, rebuilds or smooths what is broken."
         ],
         [
           "Hollow and fit",
-          "Hollow it to an even wall, fit your chassis, tyres and posts, and cut the windows."
+          "Hollow it to an even wall, fit your chassis and tyres, and see in red where anything comes too close."
         ],
         [
-          "Check and print",
-          "One final check before printing, then a print-ready STL for resin or FDM."
+          "Finish and print",
+          "Add posts, tabs, race numbers and an interior, then one final check and print-ready STLs for resin or FDM."
         ]
       ],
       "highlightIcons": [
@@ -293,45 +293,45 @@
         "light": "wordmark-light.svg",
         "dark": "wordmark-dark.svg"
       },
-      "light": "2026-11-23/hollow-light.png",
-      "dark": "2026-11-23/hollow-dark.png"
+      "light": "2026-11-27/clearance-light.png",
+      "dark": "2026-11-27/clearance-dark.png"
     },
     "Frame": {
       "category": "3D-PRINTED CHASSIS",
-      "summary": "Design a 3D-printable slotcar chassis and motor pod around the wheels, guide, motor and gears you race with.",
-      "short": "Design a printable chassis and motor pod for your car.",
-      "sha": "566b5b5dcab6dab877657e13cbbb935ef6d645a6",
+      "summary": "Design a 3D-printable slotcar chassis and motor pod around the wheels, guide, motor and gears you race with, with wheel inserts and a rear wing to match.",
+      "short": "Design a printable chassis, motor pod, wheel inserts and rear wing.",
+      "sha": "5f05b0852e08caa10d678a8433951328334ee332",
       "icon": "src/assets/slotforge-frame.svg",
       "features": [
         [
-          "Outline and shape",
-          "Draw the outline or trace it from an Anvil body, then add a kick-up, ribs and strakes."
+          "Chassis and pod",
+          "Draw the outline or trace it from an Anvil body, add the pod or build the motor mount in, and drag parts into place in 3D."
         ],
         [
-          "Pod and drivetrain",
-          "Inline, sidewinder or anglewinder, with gears that mesh and bearing holders sized for your printer."
+          "Inserts and wings",
+          "Wheel inserts for aluminium wheels, ten ready-made designs by Jivko Design, and printable rear wings with legs and pins."
         ],
         [
           "Check and print",
-          "One final check before printing, a calibration coupon for the holes, then STL files laid flat."
+          "Look inside with section planes, measure the gaps, run one final check, then export STL files laid flat."
         ]
       ],
       "highlightIcons": [
         "measure",
-        "gauge",
+        "tools",
         "print"
       ],
       "highlightLabels": [
-        "OUTLINE",
-        "MOTOR POD",
+        "CHASSIS",
+        "INSERTS & WINGS",
         "FINAL CHECK"
       ],
       "wordmark": {
         "light": "wordmark-light.svg",
         "dark": "wordmark-dark.svg"
       },
-      "light": "2026-11-25/view-3d-light.png",
-      "dark": "2026-11-25/view-3d-dark.png"
+      "light": "2026-11-27/edit-3d-light.png",
+      "dark": "2026-11-27/edit-3d-dark.png"
     }
   },
   "galleries": {
@@ -411,9 +411,23 @@
       {
         "label": "Track builder",
         "source": "provided",
-        "capturedAt": "2026-11-23",
-        "light": "2026-11-23/track-builder-light.png",
-        "dark": "2026-11-23/track-builder-dark.png"
+        "capturedAt": "2026-11-27",
+        "light": "2026-11-27/track-builder-light.png",
+        "dark": "2026-11-27/track-builder-dark.png"
+      },
+      {
+        "label": "Power taps",
+        "source": "provided",
+        "capturedAt": "2026-11-27",
+        "light": "2026-11-27/power-taps-light.png",
+        "dark": "2026-11-27/power-taps-dark.png"
+      },
+      {
+        "label": "Power test sheet",
+        "source": "provided",
+        "capturedAt": "2026-11-27",
+        "light": "2026-11-27/power-test-light.png",
+        "dark": "2026-11-27/power-test-dark.png"
       },
       {
         "label": "Live Preview",
@@ -451,20 +465,6 @@
         "dark": "2026-11-23/table-designer-dark.png"
       },
       {
-        "label": "Owned pieces & shopping",
-        "source": "provided",
-        "capturedAt": "2026-11-23",
-        "light": "2026-11-23/stock-list-light.png",
-        "dark": "2026-11-23/stock-list-dark.png"
-      },
-      {
-        "label": "Track packs",
-        "source": "provided",
-        "capturedAt": "2026-11-23",
-        "light": "2026-11-23/track-packs-light.png",
-        "dark": "2026-11-23/track-packs-dark.png"
-      },
-      {
         "label": "Import & export",
         "source": "provided",
         "capturedAt": "2026-11-23",
@@ -476,72 +476,65 @@
       {
         "label": "Live race",
         "source": "provided",
-        "capturedAt": "2026-11-23",
-        "light": "2026-11-23/live-race-light.png",
-        "dark": "2026-11-23/live-race-dark.png"
+        "capturedAt": "2026-11-27",
+        "light": "2026-11-27/live-race-light.png",
+        "dark": "2026-11-27/live-race-dark.png"
+      },
+      {
+        "label": "Swap Seats",
+        "source": "provided",
+        "capturedAt": "2026-11-27",
+        "light": "2026-11-27/swap-seats-light.png",
+        "dark": "2026-11-27/swap-seats-dark.png"
+      },
+      {
+        "label": "Second screen",
+        "source": "provided",
+        "capturedAt": "2026-11-27",
+        "light": "2026-11-27/second-screen-light.png",
+        "dark": "2026-11-27/second-screen-dark.png"
       },
       {
         "label": "Race setup",
         "source": "provided",
-        "capturedAt": "2026-11-23",
-        "light": "2026-11-23/race-setup-light.png",
-        "dark": "2026-11-23/race-setup-dark.png"
+        "capturedAt": "2026-11-27",
+        "light": "2026-11-27/race-setup-light.png",
+        "dark": "2026-11-27/race-setup-dark.png"
+      },
+      {
+        "label": "Lane cars",
+        "source": "provided",
+        "capturedAt": "2026-11-27",
+        "light": "2026-11-27/lane-cars-light.png",
+        "dark": "2026-11-27/lane-cars-dark.png"
       },
       {
         "label": "Results",
         "source": "provided",
-        "capturedAt": "2026-11-23",
-        "light": "2026-11-23/results-light.png",
-        "dark": "2026-11-23/results-dark.png"
+        "capturedAt": "2026-11-27",
+        "light": "2026-11-27/results-light.png",
+        "dark": "2026-11-27/results-dark.png"
       },
       {
         "label": "Fuel",
         "source": "provided",
-        "capturedAt": "2026-11-23",
-        "light": "2026-11-23/fuel-light.png",
-        "dark": "2026-11-23/fuel-dark.png"
-      },
-      {
-        "label": "Tyre wear",
-        "source": "provided",
-        "capturedAt": "2026-11-23",
-        "light": "2026-11-23/tyre-wear-light.png",
-        "dark": "2026-11-23/tyre-wear-dark.png"
+        "capturedAt": "2026-11-27",
+        "light": "2026-11-27/fuel-light.png",
+        "dark": "2026-11-27/fuel-dark.png"
       },
       {
         "label": "Weather",
         "source": "provided",
-        "capturedAt": "2026-11-23",
-        "light": "2026-11-23/weather-light.png",
-        "dark": "2026-11-23/weather-dark.png"
+        "capturedAt": "2026-11-27",
+        "light": "2026-11-27/weather-light.png",
+        "dark": "2026-11-27/weather-dark.png"
       },
       {
         "label": "Widget Builder",
         "source": "provided",
-        "capturedAt": "2026-11-23",
-        "light": "2026-11-23/widget-builder-light.png",
-        "dark": "2026-11-23/widget-builder-dark.png"
-      },
-      {
-        "label": "Audio calls",
-        "source": "provided",
-        "capturedAt": "2026-11-23",
-        "light": "2026-11-23/audio-calls-light.png",
-        "dark": "2026-11-23/audio-calls-dark.png"
-      },
-      {
-        "label": "Race Director",
-        "source": "provided",
-        "capturedAt": "2026-11-23",
-        "light": "2026-11-23/race-director-light.png",
-        "dark": "2026-11-23/race-director-dark.png"
-      },
-      {
-        "label": "Help",
-        "source": "provided",
-        "capturedAt": "2026-11-23",
-        "light": "2026-11-23/help-light.png",
-        "dark": "2026-11-23/help-dark.png"
+        "capturedAt": "2026-11-27",
+        "light": "2026-11-27/widget-builder-light.png",
+        "dark": "2026-11-27/widget-builder-dark.png"
       }
     ],
     "Telemetry": [
@@ -727,176 +720,197 @@
     ],
     "Foundry": [
       {
-        "label": "Special pieces",
+        "label": "Buildings",
         "source": "provided",
-        "capturedAt": "2026-11-23",
-        "light": "2026-11-23/special-hairpin-light.png",
-        "dark": "2026-11-23/special-hairpin-dark.png"
+        "capturedAt": "2026-11-27",
+        "light": "2026-11-27/building-light.png",
+        "dark": "2026-11-27/building-dark.png"
       },
       {
-        "label": "Track Set",
+        "label": "Layout with buildings",
         "source": "provided",
-        "capturedAt": "2026-11-23",
-        "light": "2026-11-23/track-set-light.png",
-        "dark": "2026-11-23/track-set-dark.png"
+        "capturedAt": "2026-11-27",
+        "light": "2026-11-27/layout-3d-light.png",
+        "dark": "2026-11-27/layout-3d-dark.png"
       },
       {
-        "label": "Flowing curve",
+        "label": "Trackside",
         "source": "provided",
-        "capturedAt": "2026-11-23",
-        "light": "2026-11-23/flowing-curve-light.png",
-        "dark": "2026-11-23/flowing-curve-dark.png"
+        "capturedAt": "2026-11-27",
+        "light": "2026-11-27/trackside-light.png",
+        "dark": "2026-11-27/trackside-dark.png"
       },
       {
-        "label": "Track Planner",
+        "label": "Draw a building",
         "source": "provided",
-        "capturedAt": "2026-11-23",
-        "light": "2026-11-23/planner-light.png",
-        "dark": "2026-11-23/planner-dark.png"
+        "capturedAt": "2026-11-27",
+        "light": "2026-11-27/building-draw-light.png",
+        "dark": "2026-11-27/building-draw-dark.png"
       },
       {
-        "label": "Planner in 3D",
+        "label": "Lettering and finishes",
         "source": "provided",
-        "capturedAt": "2026-11-23",
-        "light": "2026-11-23/planner-3d-light.png",
-        "dark": "2026-11-23/planner-3d-dark.png"
+        "capturedAt": "2026-11-27",
+        "light": "2026-11-27/building-lettering-light.png",
+        "dark": "2026-11-27/building-lettering-dark.png"
       },
       {
-        "label": "Single-lane pit",
+        "label": "New track pack",
         "source": "provided",
-        "capturedAt": "2026-11-23",
-        "light": "2026-11-23/special-pit-light.png",
-        "dark": "2026-11-23/special-pit-dark.png"
+        "capturedAt": "2026-11-27",
+        "light": "2026-11-27/new-pack-light.png",
+        "dark": "2026-11-27/new-pack-dark.png"
+      },
+      {
+        "label": "Turnout",
+        "source": "provided",
+        "capturedAt": "2026-11-27",
+        "light": "2026-11-27/turnout-light.png",
+        "dark": "2026-11-27/turnout-dark.png"
       },
       {
         "label": "STL Edit",
         "source": "provided",
-        "capturedAt": "2026-11-23",
-        "light": "2026-11-23/stl-editor-light.png",
-        "dark": "2026-11-23/stl-editor-dark.png"
+        "capturedAt": "2026-11-27",
+        "light": "2026-11-27/stl-editor-light.png",
+        "dark": "2026-11-27/stl-editor-dark.png"
       },
       {
         "label": "Home",
         "source": "provided",
-        "capturedAt": "2026-11-23",
-        "light": "2026-11-23/home-light.png",
-        "dark": "2026-11-23/home-dark.png"
-      },
-      {
-        "label": "Settings",
-        "source": "provided",
-        "capturedAt": "2026-11-23",
-        "light": "2026-11-23/settings-light.png",
-        "dark": "2026-11-23/settings-dark.png"
+        "capturedAt": "2026-11-27",
+        "light": "2026-11-27/home-light.png",
+        "dark": "2026-11-27/home-dark.png"
       }
     ],
     "Anvil": [
       {
-        "label": "Open and scale",
+        "label": "Clearance",
         "source": "provided",
-        "capturedAt": "2026-11-23",
-        "light": "2026-11-23/scale-light.png",
-        "dark": "2026-11-23/scale-dark.png"
-      },
-      {
-        "label": "Health check",
-        "source": "provided",
-        "capturedAt": "2026-11-23",
-        "light": "2026-11-23/repair-check-light.png",
-        "dark": "2026-11-23/repair-check-dark.png"
+        "capturedAt": "2026-11-27",
+        "light": "2026-11-27/clearance-light.png",
+        "dark": "2026-11-27/clearance-dark.png"
       },
       {
         "label": "Shell",
         "source": "provided",
-        "capturedAt": "2026-11-23",
-        "light": "2026-11-23/hollow-light.png",
-        "dark": "2026-11-23/hollow-dark.png"
+        "capturedAt": "2026-11-27",
+        "light": "2026-11-27/hollow-light.png",
+        "dark": "2026-11-27/hollow-dark.png"
+      },
+      {
+        "label": "Health check",
+        "source": "provided",
+        "capturedAt": "2026-11-27",
+        "light": "2026-11-27/repair-check-light.png",
+        "dark": "2026-11-27/repair-check-dark.png"
       },
       {
         "label": "Chassis fit",
         "source": "provided",
-        "capturedAt": "2026-11-23",
-        "light": "2026-11-23/chassis-light.png",
-        "dark": "2026-11-23/chassis-dark.png"
+        "capturedAt": "2026-11-27",
+        "light": "2026-11-27/chassis-light.png",
+        "dark": "2026-11-27/chassis-dark.png"
       },
       {
-        "label": "Posts",
+        "label": "Race numbers",
         "source": "provided",
-        "capturedAt": "2026-11-23",
-        "light": "2026-11-23/posts-light.png",
-        "dark": "2026-11-23/posts-dark.png"
+        "capturedAt": "2026-11-27",
+        "light": "2026-11-27/text-light.png",
+        "dark": "2026-11-27/text-dark.png"
       },
       {
-        "label": "Windows",
+        "label": "Glue tabs",
         "source": "provided",
-        "capturedAt": "2026-11-23",
-        "light": "2026-11-23/windows-light.png",
-        "dark": "2026-11-23/windows-dark.png"
+        "capturedAt": "2026-11-27",
+        "light": "2026-11-27/glue-tabs-light.png",
+        "dark": "2026-11-27/glue-tabs-dark.png"
+      },
+      {
+        "label": "Interior",
+        "source": "provided",
+        "capturedAt": "2026-11-27",
+        "light": "2026-11-27/interior-light.png",
+        "dark": "2026-11-27/interior-dark.png"
+      },
+      {
+        "label": "Posts and tabs",
+        "source": "provided",
+        "capturedAt": "2026-11-27",
+        "light": "2026-11-27/posts-tabs-light.png",
+        "dark": "2026-11-27/posts-tabs-dark.png"
       },
       {
         "label": "Final check",
         "source": "provided",
-        "capturedAt": "2026-11-23",
-        "light": "2026-11-23/final-check-light.png",
-        "dark": "2026-11-23/final-check-dark.png"
+        "capturedAt": "2026-11-27",
+        "light": "2026-11-27/final-check-light.png",
+        "dark": "2026-11-27/final-check-dark.png"
       }
     ],
     "Frame": [
       {
-        "label": "From body",
+        "label": "Select and drag in 3D",
         "source": "provided",
-        "capturedAt": "2026-11-25",
-        "light": "2026-11-25/from-body-light.png",
-        "dark": "2026-11-25/from-body-dark.png"
+        "capturedAt": "2026-11-27",
+        "light": "2026-11-27/edit-3d-light.png",
+        "dark": "2026-11-27/edit-3d-dark.png"
       },
       {
-        "label": "Chassis and pod in 3D",
+        "label": "Rear wings",
         "source": "provided",
-        "capturedAt": "2026-11-25",
-        "light": "2026-11-25/view-3d-light.png",
-        "dark": "2026-11-25/view-3d-dark.png"
+        "capturedAt": "2026-11-27",
+        "light": "2026-11-27/wings-light.png",
+        "dark": "2026-11-27/wings-dark.png"
       },
       {
-        "label": "Draw the outline",
+        "label": "Inserts on the car",
         "source": "provided",
-        "capturedAt": "2026-11-25",
-        "light": "2026-11-25/outline-light.png",
-        "dark": "2026-11-25/outline-dark.png"
+        "capturedAt": "2026-11-27",
+        "light": "2026-11-27/on-the-car-light.png",
+        "dark": "2026-11-27/on-the-car-dark.png"
       },
       {
-        "label": "Rail frame",
+        "label": "Clearance inspection",
         "source": "provided",
-        "capturedAt": "2026-11-25",
-        "light": "2026-11-25/rail-frame-light.png",
-        "dark": "2026-11-25/rail-frame-dark.png"
+        "capturedAt": "2026-11-27",
+        "light": "2026-11-27/clearance-light.png",
+        "dark": "2026-11-27/clearance-dark.png"
       },
       {
-        "label": "Drivetrain",
+        "label": "Arrange features",
         "source": "provided",
-        "capturedAt": "2026-11-25",
-        "light": "2026-11-25/drivetrain-light.png",
-        "dark": "2026-11-25/drivetrain-dark.png"
+        "capturedAt": "2026-11-27",
+        "light": "2026-11-27/arrange-light.png",
+        "dark": "2026-11-27/arrange-dark.png"
       },
       {
-        "label": "Guide and mounts",
+        "label": "Wheel inserts",
         "source": "provided",
-        "capturedAt": "2026-11-25",
-        "light": "2026-11-25/features-light.png",
-        "dark": "2026-11-25/features-dark.png"
+        "capturedAt": "2026-11-27",
+        "light": "2026-11-27/inserts-light.png",
+        "dark": "2026-11-27/inserts-dark.png"
+      },
+      {
+        "label": "Peter’s 1:43 Chassis",
+        "source": "provided",
+        "capturedAt": "2026-11-27",
+        "light": "2026-11-27/one-piece-light.png",
+        "dark": "2026-11-27/one-piece-dark.png"
+      },
+      {
+        "label": "Bearings and bushings",
+        "source": "provided",
+        "capturedAt": "2026-11-27",
+        "light": "2026-11-27/bearings-light.png",
+        "dark": "2026-11-27/bearings-dark.png"
       },
       {
         "label": "Final check",
         "source": "provided",
-        "capturedAt": "2026-11-25",
-        "light": "2026-11-25/final-check-light.png",
-        "dark": "2026-11-25/final-check-dark.png"
-      },
-      {
-        "label": "Library",
-        "source": "provided",
-        "capturedAt": "2026-11-25",
-        "light": "2026-11-25/library-light.png",
-        "dark": "2026-11-25/library-dark.png"
+        "capturedAt": "2026-11-27",
+        "light": "2026-11-27/final-check-light.png",
+        "dark": "2026-11-27/final-check-dark.png"
       }
     ]
   },
@@ -1174,6 +1188,31 @@
         ]
       ],
       [
+        "Power the track",
+        [
+          [
+            "Power base and taps",
+            "Right-click a piece and choose Power base here or Power tap here. B, T1, T2 and so on appear on the track."
+          ],
+          [
+            "Checked as you build",
+            "Circuit flags any stretch between two feeds that is too long: 10 m or 15 joints on plastic track, or a length that depends on braid or copper tape on routed wood."
+          ],
+          [
+            "Suggested taps",
+            "One button adds taps where they are needed, on a straight where possible. Each track can have its own limits."
+          ],
+          [
+            "Voltage test sheet",
+            "Type the voltage at the power base and at each test point. A lane more than 1 V down is marked."
+          ],
+          [
+            "Power page in the PDF report",
+            "The report lists the feeds, shows the test points on the track picture and includes the test table."
+          ]
+        ]
+      ],
+      [
         "Design your own routed track",
         [
           [
@@ -1312,16 +1351,16 @@
         "Every kind of race night",
         [
           [
-            "Practice & qualifying",
-            "Get familiar with the track, set a benchmark and prepare the grid before the race."
+            "Practice, Solo & qualifying",
+            "Warm up, set a benchmark and prepare the grid, or drive Solo: one driver and one car on any lane, with Switch lane or automatic lane following."
           ],
           [
             "Time, lap & distance races",
             "Choose the finish rule, start-light sequence and first-lap behaviour for your event."
           ],
           [
-            "Heats & lane rotations",
-            "Create reusable rotation plans, move drivers or teams through lanes and combine the results."
+            "Heats, rotations & Swap Seats",
+            "Move drivers or teams through the lanes, or give every lane its own car so everyone drives every car, then combine the results."
           ],
           [
             "Championships & points",
@@ -1391,7 +1430,7 @@
           ],
           [
             "Director review & final results",
-            "Manage track calls and red-flag restarts, then review laps, disqualifications and the classification before saving."
+            "Manage track calls, red-flag restarts and retired cars, then review laps, DNFs and disqualifications before saving. Undo DNF puts a car back."
           ]
         ]
       ],
@@ -1458,11 +1497,11 @@
         [
           [
             "Second displays & local viewing",
-            "Show live timing on a monitor or TV, or let devices on the same local network follow along in a browser."
+            "Before a race the second screen shows Home for the audience, then switches to live timing at the start. Devices on your local network can follow in a browser."
           ],
           [
             "Remote Race Director",
-            "Use password-protected director access for supported race controls, warnings and recent-event information."
+            "Use password-protected director access on a phone for race controls, warnings and retiring a car. Phones reconnect as soon as they wake up."
           ],
           [
             "Circuit layouts in Live Track",
@@ -1474,7 +1513,7 @@
           ],
           [
             "Timing hardware interfaces",
-            "Use supported Trackmate or Arduino interfaces and documented alternatives. DS-200/300 and Windows Parallel Port support have hardware-verification limits; see the guide."
+            "Connect supported timing interfaces and documented alternatives, with Reconnect in the race bar if one drops out. Some interfaces have hardware-verification limits; see the guide."
           ],
           [
             "Virtual Rivals & hardware-free trials",
@@ -2004,12 +2043,12 @@
             "SlotForge Basic has two lanes on a 200 mm road; SlotForge Basic Single Lane has one on 100 mm. Each comes with three straights, a starting grid and six nesting 30° corners."
           ],
           [
-            "Make your own pack",
-            "Set the road width, lane count, slot spacing, first corner radius and default sweep, then add matching R1–R8 curves, straights or freeform paths."
+            "A new pack in steps",
+            "Basics first: the name, road width, lanes and corners. Road, slot and braid, connections, borders, lines and kerbs, road surface and trackside are optional steps."
           ],
           [
-            "Shared print profiles",
-            "Keep the cross-section and connectors the same across every piece in a pack, so the parts always fit together."
+            "Pack rules",
+            "The same steps for the pack you have, the shared print profile included. Apply them to every piece at once, borders for the whole pack among them."
           ],
           [
             "Import from SlotForge Circuit",
@@ -2021,24 +2060,28 @@
         "Design every detail of a piece",
         [
           [
-            "Shape",
-            "Set the road path, lanes and lane spacing. Squeeze or spread the lanes mid-piece while the ends stay aligned with the rest of the pack."
+            "Shape and slopes",
+            "Set the road path, lanes and lane spacing, draw a flowing curve, or bend a straight in height to take the track up a hill and down again."
           ],
           [
             "Cross-section",
-            "Choose a solid or hollow deck with underside ribs, the guide slot, braid recesses and braid pass-throughs."
+            "Choose a solid or hollow deck with underside ribs, the guide slot, braid recesses or raised lands for copper tape, and braid pass-throughs."
           ],
           [
             "Borders",
             "Add inside and outside borders with their own widths, apex and ends: rounded, tapered or S-curve."
           ],
           [
-            "Markings",
-            "Add white lines, centre lines, kerbstones, starting grids and pit markers, with optional paint grooves cut into the print."
+            "Markings and road surface",
+            "Add white lines, kerbstones, starting grids and pit markers, and cut a pattern of cobbles into the road at the size of your scale."
+          ],
+          [
+            "Trackside accessories",
+            "Plug concrete barriers, advertising boards with catch fences, or guard rails with flat or W-beam rails into the edge of a piece."
           ],
           [
             "Joints",
-            "Use the double-dovetail draw key with quarter-turn keepers, a Carrera-style fork, or tabs and sockets. Drag each one into place."
+            "Use the double-dovetail draw key with quarter-turn keepers, a Carrera-style fork, the Kevan Sideclip, or tabs and sockets. Drag each one into place."
           ],
           [
             "Live preview and scale car",
@@ -2055,7 +2098,15 @@
           ],
           [
             "Single-lane pit",
-            "A pit entry with a printed flipper, pivot and crank, and an optional adjustable motor mount."
+            "A pit entry with a printed flipper, pivot and crank."
+          ],
+          [
+            "Turnouts",
+            "A single-lane piece with a straight road and a branch, and four inserts you can swap: Digital, Hand-set point, Analog and Closed."
+          ],
+          [
+            "A motor under the road",
+            "A slider between the two slots works the blade of a turnout or a pit flipper, with a push-pull motor stroke from 2 to 12 mm."
           ],
           [
             "Duel, chicane and timing straight",
@@ -2075,21 +2126,58 @@
             "Pick a pack and click pieces to snap them into place. Choose left or right for corners, reverse a turn, or delete and rejoin sections."
           ],
           [
-            "Cut to your print plate",
-            "Each piece is split to fit your print plate automatically, and the parts tally counts every road section, key and keeper."
+            "Pit lanes you build",
+            "Place turnouts, add a return curve or a straight that fits the gap, and let the Pit ladder lay out a row of bays with end stops in one step."
           ],
           [
-            "Bridges and figure eights",
-            "Set the lift at each end of an upper road, and Foundry adds numbered support blocks clear of the road below."
+            "Bridges and hills",
+            "Set the climb once and the next straights follow it. Choose full-width blocks or peg supports, with tops that follow the slope."
           ],
           [
-            "Check it in 3D",
-            "Switch to 3D to see the generated parts before you print, then save the layout to the Library."
+            "Trackside for a layout",
+            "Select one or more sections and give them barriers, white lines and kerbs, or a road surface texture."
+          ],
+          [
+            "Buildings beside the track",
+            "Place a building from your Library: dropped near the track, it turns to face it and stands along the border."
+          ],
+          [
+            "Cut for your printer",
+            "Segment for printing cuts every piece that is too large into the fewest equal parts that fit your print bed. Check it all in 3D."
           ]
         ]
       ],
       [
-        "Print with confidence",
+        "Trackside buildings",
+        [
+          [
+            "Standard buildings",
+            "Pit garages, pit buildings, towers, marshal huts, grandstands, gantries, kiosks and billboards, as pictures in groups, with a search."
+          ],
+          [
+            "Draw your own",
+            "Drag the walls of a building in or out, pull out a bay, cut a corner at 45°, and join halls and wings, each with its own roof."
+          ],
+          [
+            "Windows and doors",
+            "Choose several windows and mirror, space, centre or copy them. Every window can have a frame and panes."
+          ],
+          [
+            "Lettering",
+            "Put words on any wall, sign, billboard, gantry or pit fascia, raised or cut in."
+          ],
+          [
+            "Finishes",
+            "Give each wall its own texture, lay a band of brick or blocks along the foot, or turn a storey into a shipping container."
+          ],
+          [
+            "A kit to print",
+            "Export the parts laid out for your print plate, with a full-size glazing template for the windows and a joint clearance to suit your printer."
+          ]
+        ]
+      ],
+      [
+        "Print and keep your work",
         [
           [
             "Fit samples",
@@ -2101,11 +2189,19 @@
           ],
           [
             "A complete print kit",
-            "Roads and borders export driving-face down and centred on the bed, with quantities in parts.csv, a numbered assembly map and the editable project."
+            "Each STL is centred on the bed, with quantities in parts.csv, a numbered assembly map and the editable project. A shopping list estimates the filament."
           ],
           [
-            "Filament estimate",
-            "A shopping list estimates the filament your layout needs."
+            "Your Library",
+            "Track packs, layouts, buildings and STL parts are kept in a Library on your computer."
+          ],
+          [
+            "Backup and restore",
+            "Move the whole Library to another computer, or between the desktop and browser editions."
+          ],
+          [
+            "Your own colours",
+            "Choose Dark or Light, a colour theme shared with the other SlotForge apps, or your own colours. Track parts keep their print colours."
           ]
         ]
       ],
@@ -2129,23 +2225,6 @@
             "Add more models, align them, and join, subtract or intersect them. Any track part opens here with Edit as STL."
           ]
         ]
-      ],
-      [
-        "Library and look",
-        [
-          [
-            "Your Library",
-            "Track packs, layouts and STL parts are kept in a Library on your computer."
-          ],
-          [
-            "Backup and restore",
-            "Move the whole Library to another computer, or between the desktop and browser editions."
-          ],
-          [
-            "Your own colours",
-            "Choose Dark or Light, a colour theme shared with the other SlotForge apps, or your own colours. Track parts keep their print colours."
-          ]
-        ]
       ]
     ],
     "Anvil": [
@@ -2153,24 +2232,32 @@
         "Open and repair",
         [
           [
-            "Front and up, found for you",
-            "Open any STL car. Anvil finds which way is front and up, and straightens a car that sits at an angle in the file."
+            "Straight and to scale",
+            "Open any STL car. Anvil finds which way is front and up and squares up a car that lies turned, tilted or leaning. Set the turn, tilt and lean by hand, or mirror a file that came mirrored."
           ],
           [
             "Any scale",
-            "Scale it to 1/32 or 1/24, to a length you give, or by a factor. Measure a known distance on the car to set the scale from it."
+            "Make it 1/32 or 1/24, any scale you like, or a length, width or height you give. Measure a known distance on the car to set the scale from it."
           ],
           [
             "Health check",
-            "Every import gets a plain report: what kind of model it is, how thick its walls are and what is wrong with it."
+            "Every import gets a plain report: what kind of model it is, how thick its walls are and what is wrong with it. Files of up to 3 million triangles open; over a million, it suggests Reduce first."
           ],
           [
-            "Light fix",
-            "Removes specks and broken triangles, turns inside-out areas round and closes small holes, without moving the outer surface."
+            "Light fix and Rebuild",
+            "Light fix clears specks, broken triangles and small holes without moving the outside. Rebuild remakes a badly broken model as one clean, closed piece, and overlapping parts merge."
           ],
           [
-            "Loose parts, openings and triangles",
-            "Tick the loose parts to keep, close openings with a flat or smooth patch, and cut down the triangle count where the shape allows it."
+            "Symmetrize",
+            "Keep the left or right side and mirror it over, so both sides match exactly. The side that goes shows in red first."
+          ],
+          [
+            "Smooth scan",
+            "For a laser-scanned body: takes the grain out of the surface and straightens ragged rims, while creases and panel lines stay sharp and the body does not shrink."
+          ],
+          [
+            "Parts, openings and solid",
+            "Tick the loose parts to keep, close openings with a flat or smooth patch, cut down the triangles, or turn a hollow shell into a solid."
           ]
         ]
       ],
@@ -2183,7 +2270,7 @@
           ],
           [
             "Hollow",
-            "Hollow the body to an even wall built inwards, so the outside does not move. You can make the roof thinner than the sills."
+            "Hollow the body to an even wall built inwards, so the outside does not move. Lighten the top to thin the wall towards the roof."
           ],
           [
             "Paint thickness",
@@ -2192,69 +2279,93 @@
           [
             "Hammer, dolly and planish",
             "Hammer panels out or in like a real body panel, hold areas with a dolly and planish out the marks."
+          ],
+          [
+            "Interior",
+            "A cockpit tray shaped to the side walls, with a driver and steering wheel if you like. Clip it in as its own print, or join it to the body."
           ]
         ]
       ],
       [
-        "Chassis and posts",
+        "Chassis and fit",
         [
           [
             "A chassis that fits",
             "Anvil finds the wheel arches and suggests a matching chassis and tyres. Type over any number with your own chassis’s."
           ],
           [
+            "Clearance",
+            "Shows in red where the body comes too close to the tyres, the room the guide swings in, or your chassis STL with its motor, gears and magnet. Each spot has its fix: cut the arches, cut room for the guide, or thin the wall."
+          ],
+          [
             "Your own chassis",
             "Keep your chassis in the library, share one as a file, or load its STL to see the real chassis inside the body."
           ],
           [
-            "Stretch, widen and arches",
-            "Lengthen or shorten the body between the arches, or widen it. Cut the arches round the tyres, or flare them out."
+            "Stretch and arches",
+            "Lengthen, shorten or widen the body between the arches. Cut the arches round the tyres, or flare them out."
           ],
           [
-            "Posts",
-            "Place screw posts or brass-tube sockets, mirrored, running from the chassis deck into the wall. Make your own post types and print a test-fit piece first."
+            "Posts and tabs",
+            "Screw posts or brass-tube sockets from the chassis deck into the wall, and screw tabs or clip tabs on the inside of the side walls. Mirror puts one on the other side."
           ]
         ]
       ],
       [
-        "Windows and glazing",
+        "Windows and lights",
         [
           [
             "Draw each window",
             "Click points round a window and a smooth line runs through them. Side windows are mirrored."
           ],
           [
-            "Clean cuts",
-            "Open windows are cut through the wall with a clean edge; solid ones are only marked."
+            "Open, solid, closed or recessed",
+            "Cut a window through the wall, only mark it, close it with a thin pane, or sink the glass a little for a crisp painted edge."
           ],
           [
             "Cabin buck",
-            "Anvil makes one buck for the whole cabin, to vac-form a glazing insert that you glue in from the inside."
+            "One buck for the whole cabin, to vac-form a glazing insert that you glue in from the inside."
+          ],
+          [
+            "LED lights",
+            "Pockets behind the headlights and taillights with a socket for 1.8, 3 or 5 mm LEDs; open, or a thin window for clear resin."
+          ],
+          [
+            "Light lenses",
+            "Clear lenses that fit each light opening exactly: printed in clear resin, or vac-formed over a small lens buck."
           ]
         ]
       ],
       [
-        "Shape",
+        "Shape and finish",
         [
           [
-            "Delete and patch",
-            "Select with a brush, a lasso or a whole part, mirrored, then delete it and patch the hole or leave it open."
+            "Body shaping",
+            "Taper or widen a stretch of the body and raise or lower it, with smooth blends at both ends. Preview it first."
           ],
           [
-            "Smooth",
-            "Smooth with a brush or smooth a selection. Sharp edges stay sharp."
+            "Race numbers and text",
+            "Numbers and lettering in your computer’s fonts, raised or cut in, following the body’s curve. With Mirror on, it reads the right way round on both sides."
           ],
           [
-            "Slice",
-            "Slice the body in two to print it in parts, and close the cut if you like."
+            "Slice with glue tabs",
+            "Slice the body in two to print it in parts. Glue tabs inside the wall stick out past the cut so the pieces line up; they show in amber first."
           ],
           [
-            "Add parts",
-            "Add a wing, scoop, mirror or driver, and join it to the body or keep it as its own print."
+            "Split off",
+            "Keep a wing or mirror as its own print, with locating pins and matching holes so it glues back in the same place."
           ],
           [
-            "Protect outside",
-            "Once the body is hollowed, the tools only touch the inside of the wall."
+            "Panel lines",
+            "Finds shallow panel lines and makes them deep enough to survive printing."
+          ],
+          [
+            "Feature layout",
+            "Move posts, lights, windows, text or a part by an exact amount, or repeat them in a row."
+          ],
+          [
+            "Delete, smooth and add parts",
+            "Delete and patch areas, smooth with a brush while sharp edges stay, cut off mirrors or a spoiler, and add a wing, scoop or driver."
           ]
         ]
       ],
@@ -2263,11 +2374,19 @@
         [
           [
             "Everything on one list",
-            "Before printing, one list shows the wall thickness, chassis fit and ground clearance, posts, windows, weight and balance."
+            "Before printing, one list shows the wall thickness, chassis fit, clearance, ground clearance, posts, windows, weight and balance."
           ],
           [
             "Straight to the fix",
             "Each line has a button that takes you to the tool that fixes it."
+          ],
+          [
+            "Variants",
+            "Export other scales and versions with or without parts in one go. Walls, posts, pins and holes keep their real size."
+          ],
+          [
+            "Build sheet",
+            "A page to keep with the print: sizes, material, estimated weight, the chassis and every step with its settings and notes."
           ]
         ]
       ],
@@ -2276,7 +2395,7 @@
         [
           [
             "Always reversible",
-            "Every action is a step you can change or switch off, with undo and redo."
+            "Every action is a step you can change or switch off, with undo and redo. Give any step a name and notes, and search the list."
           ],
           [
             "Projects save themselves",
@@ -2298,8 +2417,8 @@
         "Start from your car",
         [
           [
-            "1/32 and 1/24",
-            "Start a new chassis in either scale, with matching starting values."
+            "1/32, 1/24 and 1/43",
+            "Start a new chassis at 1/32 or 1/24 with matching starting values, or at 1/43 from Peter’s 1:43 Chassis."
           ],
           [
             "Wheels and axles",
@@ -2310,8 +2429,12 @@
             "Enter the widest car, the longest guide lead and the least clearance your club allows. The final check compares the design with them."
           ],
           [
-            "Presets",
-            "Car presets and rule sets come from the library, and you can add your own."
+            "Car presets",
+            "48 cars at 1/32 and 1/24. Where the maker publishes them, a preset also sets the tyres and the track. Add your own presets and rule sets."
+          ],
+          [
+            "From either axle",
+            "Count positions along the car from the front or the rear axle. The design itself stays the same."
           ]
         ]
       ],
@@ -2335,25 +2458,12 @@
             "Stiffen and shape the plate with ribs and strakes, edge walls, tunnels, upright panels, levels and pockets, each placed and sized freely."
           ],
           [
+            "Closed, rail frame or lattice",
+            "A full plate with windows, an outer rail with cross rails that Frame proposes, or an open mesh with the cell size you set."
+          ],
+          [
             "Split part",
             "Print a long chassis as two parts that key into each other."
-          ]
-        ]
-      ],
-      [
-        "Closed, rail frame or lattice",
-        [
-          [
-            "Closed plate",
-            "A full plate, with windows and cut-outs where you want them."
-          ],
-          [
-            "Rail frame",
-            "An outer rail with cross and lengthwise rails and pads under every feature. Frame proposes where the rails go; move, add or remove them."
-          ],
-          [
-            "Lattice",
-            "An open mesh with the cell size you set."
           ]
         ]
       ],
@@ -2365,8 +2475,8 @@
             "For the common guides or your own sizes, anywhere ahead of the front axle."
           ],
           [
-            "Front axle brackets",
-            "Set their spread, height and wall. Give the axle travel, grub screws, or a stub axle for each wheel."
+            "Front axle",
+            "Brackets with travel, grub screws or a stub axle for each wheel, or two bearing uprights with a recess for a flanged bearing."
           ],
           [
             "Body mounts",
@@ -2390,16 +2500,66 @@
             "Pick a crown or spur gear set and the motor is placed so the gears mesh. The chassis is cut free for the gear."
           ],
           [
-            "In its opening or on top",
-            "The pod drops into its opening or sits on top of the rails, with float on its screws if you want it."
+            "Pod or built in",
+            "A separate pod that drops into its opening or sits on the rails, or a motor mount built into the chassis, so the car prints as one part."
           ],
           [
-            "Bearing holders",
-            "Closed, snap-in or clamp, with a buttress, a brace and room to oil the bearing."
+            "Bearings and bushings",
+            "Straight or spherical seats, flanged bearings with the flange sunk or standing out, eccentric bushings and axle tubes through both uprights."
           ],
           [
             "Live preview",
             "Axles, wheels, tyres, motor, pinion and gear are drawn in place in the top view and in 3D."
+          ]
+        ]
+      ],
+      [
+        "Wheel inserts and rear wings",
+        [
+          [
+            "Wheel inserts",
+            "A disc or a cup that presses into the pocket of an aluminium wheel. Its size follows the wheel, with a fit clearance you choose."
+          ],
+          [
+            "Patterns from layers",
+            "Spokes, holes, rings, bolts and shapes you draw or import as SVG, cut through, sunk or raised. Start from nine patterns."
+          ],
+          [
+            "Ready-made by Jivko Design",
+            "Ten designs, from Abstract to Star. The diameter scales the design across only, so the face keeps its detail."
+          ],
+          [
+            "See it on the car",
+            "The inserts sit in the car’s wheels in 3D, with the body from Anvil round them. Print a set of four and a calibration ring."
+          ],
+          [
+            "Rear wings",
+            "GT3 swan neck, GT3 on posts, LMP, DTM, Group C or a classic wing, with its profile, angle, Gurney flap and a second element."
+          ],
+          [
+            "Endplates, legs and print",
+            "Endplates of your own shape, legs with pins melted over inside the body, one-piece or kit printing, and a drilling template."
+          ]
+        ]
+      ],
+      [
+        "Edit in 3D",
+        [
+          [
+            "Select and drag",
+            "Click a part of the chassis or the pod in 3D to open its settings. Orange handles move it along or across the car in one undo step."
+          ],
+          [
+            "Position references",
+            "A feature can keep its place from the front axle, the rear axle or the middle of the wheelbase when the wheelbase changes."
+          ],
+          [
+            "Arrange features",
+            "Duplicate, move, mirror-copy, align and space out ribs, rails and pockets, and keep them together as named groups."
+          ],
+          [
+            "Clearance inspection",
+            "Section planes to look inside the car, a measurement between two surfaces you click, and the smallest gap between the chassis, the pod and the body."
           ]
         ]
       ],
@@ -2420,7 +2580,7 @@
           ],
           [
             "Library",
-            "Every chassis and pod you make, with motors, gear sets, bearings, guides, printers and rule sets. Share it as a .framelib file."
+            "Every chassis, pod, wheel insert and rear wing you make, with motors, gear sets, bearings, guides, printers and rule sets. Share it as a .framelib file."
           ]
         ]
       ],
@@ -2437,7 +2597,7 @@
           ],
           [
             "Weight and balance",
-            "The weight of the printed parts and where the centre of gravity lies."
+            "The weight of the printed parts and where the centre of gravity lies, for a pod, a one-piece chassis or a built-in mount."
           ],
           [
             "Export STL",
@@ -2461,7 +2621,7 @@
       "title": "From an idea to a circuit.",
       "first": "Choose a track pack, Routed Wood or FreeForm Drawing and start a layout.",
       "storage": "The desktop app saves on your computer. The online version saves in your browser. Export workspace backups to move or protect your designs.",
-      "featureNote": "Dimensions and clearances are planning aids. Live Preview illustrates motion rather than predicting lap times. Construction exports still need your own CAD/CAM and cutter setup."
+      "featureNote": "Dimensions and clearances are planning aids. Live Preview illustrates motion rather than predicting lap times. Construction exports still need your own CAD/CAM and cutter setup. Power limits are rules of thumb; the voltage test on the real track is the check that counts."
     },
     "Timing": {
       "title": "Make race day your own.",
@@ -2488,9 +2648,9 @@
     },
     "Foundry": {
       "title": "From a track idea to a print kit.",
-      "first": "Print the fit samples from Home, then pick a starter pack to design a piece or plan a layout.",
+      "first": "Print the fit samples from Home, then pick a starter pack to design a piece or plan a layout, or start a new building.",
       "storage": "Your Library is kept on your computer. The portable app keeps everything in a SlotForge Foundry Data folder beside the program. Use Library → Backup & restore to move it.",
-      "featureNote": "Fit and clearances depend on your printer, filament and settings. Print the fit samples before printing a whole track."
+      "featureNote": "Fit and clearances depend on your printer, filament and settings. Print the fit samples before printing a whole track. The buildings, lettering, road texture and sloped pieces are new: print a small test first."
     },
     "Anvil": {
       "title": "From any car model to a body you can race.",
@@ -2500,7 +2660,7 @@
     },
     "Frame": {
       "title": "Built from the ground up.",
-      "first": "Choose New and pick 1/32 or 1/24, type your car’s wheels and axles, then work through the menus from Outline to Print.",
+      "first": "Choose New and pick 1/32, 1/24 or Peter’s 1:43 Chassis, type your car’s wheels and axles, then work through the menus from Outline to Print.",
       "storage": "Your last design, the library and settings are kept on your computer. Save writes a .frame file you can keep or move, and Help → Show data folder shows where everything is.",
       "featureNote": "Sizes that no maker publishes are marked unconfirmed in the app, so you know what to measure. Print the calibration coupon before a whole chassis."
     }
@@ -2699,7 +2859,7 @@
     },
     "Foundry": {
       "title": "Pass the design to the next builder.",
-      "text": "Share an editable piece or layout, or hand over a ready-made print kit.",
+      "text": "Share an editable piece or layout, buildings included, or hand over a ready-made print kit.",
       "formats": [
         ".slotfab projects",
         ".slotplan layouts",
@@ -2708,11 +2868,11 @@
       "steps": [
         [
           "Choose your design",
-          "Open the piece in Track Set or STL Edit, or the layout in the Track Planner."
+          "Open the piece in Track Set or STL Edit, the layout in the Track Planner, or a building on the Buildings page."
         ],
         [
           "Save or export",
-          "Save downloads an editable .slotfab project or .slotplan layout. Export STLs gives the print kit with quantities and an assembly map."
+          "Save downloads an editable .slotfab project or a .slotplan layout with its buildings. Export STLs gives the print kit with quantities and an assembly map."
         ],
         [
           "Open and build on it",
@@ -2740,14 +2900,14 @@
         ],
         [
           "Export to print",
-          "Export STL writes the finished body, and the window buck as its own STL."
+          "Export STL writes the finished body, and the bucks, lenses and separate parts as their own STLs."
         ]
       ],
       "note": "The other builder opens the .anvil file in their own Anvil and can change or switch off any step."
     },
     "Frame": {
       "title": "Share the chassis, not just the photos.",
-      "text": "Share an editable design, your parts library or a chassis for Anvil.",
+      "text": "Share an editable design, your parts library with inserts and wings, or a chassis for Anvil.",
       "formats": [
         ".frame designs",
         ".framelib libraries",
@@ -2757,11 +2917,11 @@
       "steps": [
         [
           "Save your design",
-          "Save writes a .frame file with the whole design, imported parts included."
+          "Save writes a .frame file with the whole design, imported parts, groups and references included."
         ],
         [
           "Share your parts",
-          "Export a part or the whole library as a .framelib file for other Frame users."
+          "Export a chassis, pod, wheel insert, rear wing or the whole library as a .framelib file for other Frame users."
         ],
         [
           "Send it to Anvil",

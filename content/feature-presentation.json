@@ -48,6 +48,11 @@
       "intro": "Check the space, close the gaps and work out what is missing."
     },
     {
+      "label": "Power taps",
+      "icon": "gauge",
+      "intro": "Plan where the power goes in and check every lane gets enough of it."
+    },
+    {
       "label": "Routed wood",
       "icon": "tools",
       "intro": "Design the lanes, curves and construction details for a wooden track."
@@ -205,37 +210,37 @@
     {
       "label": "Track packs",
       "icon": "track",
-      "intro": "Start from a ready-made pack, make your own or bring in a Circuit layout."
+      "intro": "Start from a ready-made pack, make your own step by step or bring in a Circuit layout."
     },
     {
       "label": "Track Set",
       "icon": "tools",
-      "intro": "Shape every part of a piece and see each change live."
+      "intro": "Shape every part of a piece, from the slot to the barriers, and see each change live."
     },
     {
       "label": "Special pieces",
-      "icon": "layers",
-      "intro": "Crossings, pits and timing straights, ready with one click."
+      "icon": "gauge",
+      "intro": "Crossings, pits, turnouts and timing straights, ready with one click."
     },
     {
       "label": "Track Planner",
       "icon": "measure",
-      "intro": "Snap a whole layout together and count every part."
+      "intro": "Snap a whole layout together, pit lanes, hills and buildings included."
     },
     {
-      "label": "Printing",
+      "label": "Buildings",
+      "icon": "layers",
+      "intro": "Print the pit garages, towers and stands that go beside your track."
+    },
+    {
+      "label": "Printing & Library",
       "icon": "print",
-      "intro": "Test the fit, check the plate and export a complete print kit."
+      "intro": "Test the fit, export a complete kit and keep your work on your computer."
     },
     {
       "label": "STL Edit",
       "icon": "palette",
       "intro": "Create, edit, repair and combine any STL model."
-    },
-    {
-      "label": "Library",
-      "icon": "share",
-      "intro": "Keep your work on your computer and make Foundry your own."
     }
   ],
   "Anvil": [
@@ -250,19 +255,19 @@
       "intro": "Hollow the body to an even wall you can print."
     },
     {
-      "label": "Chassis and posts",
+      "label": "Chassis and fit",
       "icon": "measure",
-      "intro": "Fit the body to your chassis, tyres and posts."
+      "intro": "Fit the body to your chassis, tyres, posts and tabs."
     },
     {
-      "label": "Windows",
+      "label": "Windows and lights",
       "icon": "screen",
-      "intro": "Cut clean windows and make a buck for the glazing."
+      "intro": "Cut clean windows, light pockets and lenses."
     },
     {
-      "label": "Shape",
+      "label": "Shape and finish",
       "icon": "tools",
-      "intro": "Delete, smooth, slice and add parts."
+      "intro": "Shape, letter, slice and split the body."
     },
     {
       "label": "Final check",
@@ -284,12 +289,7 @@
     {
       "label": "Outline and shape",
       "icon": "measure",
-      "intro": "Draw the outline or trace it from a body, then shape the plate."
-    },
-    {
-      "label": "Fill",
-      "icon": "layers",
-      "intro": "A closed plate, a light rail frame or a lattice."
+      "intro": "Draw the outline or trace it from a body, then shape and fill the plate."
     },
     {
       "label": "Guide, axle and mounts",
@@ -299,7 +299,17 @@
     {
       "label": "The motor pod",
       "icon": "gauge",
-      "intro": "The pod is designed with the chassis, gears and all."
+      "intro": "The pod is designed with the chassis, gears, bearings and all."
+    },
+    {
+      "label": "Inserts and wings",
+      "icon": "palette",
+      "intro": "Wheel inserts and a rear wing, made to fit the car."
+    },
+    {
+      "label": "Edit in 3D",
+      "icon": "layers",
+      "intro": "Pick, move, arrange and look inside the car in 3D."
     },
     {
       "label": "Bodies and bought parts",

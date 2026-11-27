@@ -1,16 +1,15 @@
 {
   "_note": "One sentence per gallery screenshot, keyed by app and gallery label. Shown under the large screenshot on each app page.",
   "Timing": {
-    "Live race": "A race in full swing on your own race screen: race clock, laps to go, start lights, lap times, gaps, fuel and the last laps.",
-    "Race setup": "Pick a race setup, put a driver and car in every lane and start. Home also shows the weather, tyres, car mileage and the record to beat.",
+    "Live race": "A race in full swing on your own race screen: race clock, laps to go, start lights, lap times, gaps and the last laps. The race bar shows when the race was last saved.",
+    "Swap Seats": "Swap Seats: every lane keeps its own car and the drivers move from lane to lane. Between the heats, the line-up shows who gets into which car.",
+    "Second screen": "Before a race, the second screen shows Home for the audience: the next race, its line-up and your cards. Press Start race and it switches to race timing by itself.",
+    "Race setup": "Pick a race setup and put a driver and car in every lane, or let Draw lanes decide by lot. Then start the race.",
+    "Lane cars": "The results of a Swap Seats race name the car in every heat, and Lane cars shows the laps and best lap of every car, and who drove it.",
     "Results": "The Race Director’s final check: review every lap, adjust or disqualify, then finalise the result.",
     "Fuel": "Set the tank, the fuel used per lap and the refuelling speed, and see straight away how many laps a full tank lasts.",
-    "Tyre wear": "Choose compounds and wear rates, pit-stop time and what worn tyres do to the car.",
     "Weather": "Plan when the rain comes and goes, see the forecast at a glance, and set what the wrong tyres cost.",
-    "Widget Builder": "Build your own race-screen widgets from text, values and pictures, with a live preview of the race screen.",
-    "Audio calls": "Give your race a voice: 134 race calls in groups, each with its own words, switched on or off one by one.",
-    "Race Director": "Choose the penalty, damage, time and lap pads the Race Director uses, and preview them before the race.",
-    "Help": "Built-in guides, from your first race to every Race System. Available offline."
+    "Widget Builder": "Build your own race-screen widgets from text, values and pictures, with a live preview of the race screen."
   },
   "Paddock": {
     "Showroom": "Your favourite cars, presented the way they deserve.",
@@ -25,14 +24,14 @@
     "Appearance": "Make Paddock your own with a choice of colour themes."
   },
   "Circuit": {
-    "Track builder": "Lay out a multi-lane track piece by piece, with the parts list and track overview always in view.",
+    "Track builder": "Lay out a multi-lane track piece by piece, with the parts list, track overview and power marks always in view.",
+    "Power taps": "Mark the power base, let Circuit suggest extra taps and see every stretch between feeds checked as you build.",
+    "Power test sheet": "Enter the voltages you measure on the real track. A lane more than 1 V down is marked.",
     "Live Preview": "Watch cars lap your design before you build a single piece.",
     "Routed track": "Design a routed wooden track with flowing curves on a fixed table.",
     "FreeForm": "Draw one lane freely and let Circuit generate the others, with editable points.",
     "Measure & check": "Check footprint, lane lengths, gaps and curves before you build.",
     "Table Designer": "Split your table into transport panels and plan them onto sheets of wood.",
-    "Owned pieces & shopping": "Compare the layout with the track you own and get a shopping list for the rest.",
-    "Track packs": "Browse manufacturer track packs piece by piece, with every piece measured and drawn to scale.",
     "Import & export": "Export your layout as a track file, PDF report, picture, parts list or drawing."
   },
   "Telemetry": {
@@ -67,33 +66,36 @@
     "Print & white ink": "Print on clear or white decal paper, with white ink behind light colours."
   },
   "Foundry": {
-    "Special pieces": "A double-crossover hairpin from the Special pieces shelf, with its isolated braid ends marked on the model.",
-    "Track Set": "Edit the road, cross-section, borders, markings and joints of a piece, with its live dimensions.",
-    "Flowing curve": "Draw a sweeping bend or an S-bend by dragging two handles and the end, new in Foundry 1.3.",
-    "Track Planner": "Snap pieces into a layout and count every part you need to print.",
-    "Planner in 3D": "Check the generated 3D sections before you export them.",
-    "Single-lane pit": "A single-lane pit with its printed flipper and pit lane.",
+    "Buildings": "Race HQ, made from the standard Race headquarters: ready to print, or to change wall by wall. New in Foundry 1.7.",
+    "Layout with buildings": "An oval with fenced advertising boards, and two of your buildings standing beside the track.",
+    "Trackside": "A corner with cobbles cut into the road and advertising boards with catch fences plugged into its edges.",
+    "Draw a building": "Draw the footprint wall by wall: drag a wall in or out, pull out a bay or cut a corner at 45°.",
+    "Lettering and finishes": "The Container café, with a container shell and lettering on its sign.",
+    "New track pack": "Make a pack step by step. Only Basics is needed; road, borders, lines, road surface and trackside are optional.",
+    "Turnout": "A single-lane turnout with a moving blade, worked by a motor under the road.",
     "STL Edit": "Edit, cut and repair STL models, from a small tool to a fix on someone else’s part.",
-    "Home": "Pick a starter pack, open a part or start a new pack from a Circuit drawing.",
-    "Settings": "Choose your printer and plate, and make Foundry look the way you want."
+    "Home": "Start a new pack or a new building, and reopen your recent layouts and buildings."
   },
   "Anvil": {
-    "Open and scale": "Anvil guesses the file’s scale from the car’s length and resizes it to 1/32 or 1/24 in one click.",
-    "Health check": "Open any STL car and Anvil tells you what kind of model it is, how thick its walls are and what needs fixing.",
+    "Clearance": "Bigger tyres? Anvil shows in red where the body comes too close, with a button to cut the arches.",
     "Shell": "Cut the underside open at a floor line, then hollow to an even wall built inwards. The colours show the wall thickness.",
+    "Health check": "Open any STL car and Anvil tells you what kind of model it is, how thick its walls are and what needs fixing.",
     "Chassis fit": "Anvil finds the wheel arches and suggests a chassis that fits, shown with its tyres inside the body.",
-    "Posts": "Click the body to place screw posts, mirrored, reaching down to the chassis deck.",
-    "Windows": "Click points round each window and a smooth line runs through them. Side windows are mirrored.",
+    "Race numbers": "Race numbers in your own fonts, raised on both doors and following the curve of the body.",
+    "Glue tabs": "Slice the body in two to print it in parts. Glue tabs, shown in amber, help the pieces line up.",
+    "Interior": "A cockpit tray with a driver and steering wheel, shaped to the side walls and shown in amber first.",
+    "Posts and tabs": "Screw posts reach from the chassis deck into the wall; tabs on the side walls hold the body too.",
     "Final check": "One list of everything that matters before printing, each with a button to the tool that fixes it."
   },
   "Frame": {
-    "From body": "Load a body from Anvil and trace the chassis inside it, with the wheel arches left open.",
-    "Chassis and pod in 3D": "A rail-frame chassis with a raised rear and an anglewinder pod, shown with its wheels, axles and motor in place.",
-    "Draw the outline": "Shape one side as points in the top view; the other side mirrors it.",
-    "Rail frame": "A closed plate, a rail frame or a lattice. Frame proposes where the cross rails go.",
-    "Drivetrain": "Inline, sidewinder or anglewinder, with the motor placed so the gears mesh.",
-    "Guide and mounts": "Place the guide holder, front axle brackets and body mounts, each sized yourself.",
-    "Final check": "One list of everything that matters before you print, each row leading to its fix.",
-    "Library": "Your chassis and pods in one library, shareable as a .framelib file."
+    "Select and drag in 3D": "Click a part in 3D to open its settings, then move it with the orange handles. A position reference keeps it in place when the wheelbase changes.",
+    "Rear wings": "Start from a GT3 swan neck, LMP, DTM, Group C or classic wing, and see it from behind and from the side with its legs and pins.",
+    "Inserts on the car": "The wheel inserts sit in the car’s wheels in 3D, with the body from Anvil round them, while you try designs.",
+    "Clearance inspection": "A section along the car shows the chassis inside the body, and the smallest gap between them is measured on the real solids.",
+    "Arrange features": "Duplicate, move, mirror, align and space out ribs and other features, and keep them together as a named group.",
+    "Wheel inserts": "Design an insert for an aluminium wheel from layers, or pick one of ten ready-made designs by Jivko Design.",
+    "Peter’s 1:43 Chassis": "A one-piece 1/43 chassis with the motor in the chassis itself. Every size can be changed, and Back to Peter’s puts them back.",
+    "Bearings and bushings": "Flanged bearings and bushings, with the flange on the wheel side, the motor side or both, sunk into the upright or standing out.",
+    "Final check": "One list of everything that matters before you print. Here positions count from the rear axle, marked by a red 0."
   }
 }
